@@ -1,0 +1,2258 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=cyan"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\boxbgcolor #00aa7f
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size largest
+Appunti di Meccanica
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size largest
+2014/2015
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\size large
+Cinematica
+\end_layout
+
+\begin_layout Standard
+La cinematica è parte della meccanica che studia il movimento a prescindere
+ dalle cause del movimento stesso (a differenza della dinamica).
+\end_layout
+
+\begin_layout Standard
+Il 
+\series bold
+movimento
+\series default
+ è evoluzione nel tempo della posizione di un corpo o sistema di corpi.
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\size normal
+Cinematica del punto
+\end_layout
+
+\begin_layout Standard
+Per descrivere la posizione del sistema bisogna definire uno o più osservatori
+ che possano 
+\begin_inset Quotes eld
+\end_inset
+
+vederlo
+\begin_inset Quotes erd
+\end_inset
+
+ in modo diverso, ovvero bisogna definire un sistema di riferimento (sistema
+ di riferimento cartesiano).
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Rappresentazione del vettore posizione 
+\begin_inset Formula $\bar{OP}$
+\end_inset
+
+ nel piano cartesiano
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing.svg
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\series bold
+\shape default
+ Posizione di P
+\end_layout
+
+\begin_layout Standard
+La posizione di un punto P è un vettore con direzione passante per P e origine
+ O, verso da O a P e modulo 
+\begin_inset Formula $=\overline{PO}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{P}=\left(P-O\right)=x\cdot\vec{i}+y\cdot\vec{j}=x+i\cdot y=r\,e^{iθ}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Formula $x+i\cdot y$
+\end_inset
+
+
+\series default
+: corrispondenza fra punti del piano e numeri complessi;
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Formula $r\,e^{iθ}$
+\end_inset
+
+
+\series default
+: coordinate polari.
+\end_layout
+
+\begin_layout Standard
+Il movimento implica che il vettore 
+\begin_inset Formula $\vec{P}$
+\end_inset
+
+ varia nel tempo, dunque possiamo scrivere:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{P}\left(t\right)=x\left(t\right)\cdot\vec{i}+y\left(t\right)\cdot\vec{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\series bold
+\shape default
+ Legge oraria
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+Una volta fissato il sistema di riferimento (ad es.
+ cartesiano), il moto è completamente descritto dalla legge oraria, costituita
+ dall’insieme delle tre funzioni:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\begin{cases}
+x & =x\left(t\right)\\
+y & =y\left(t\right)\\
+z & =z\left(t\right)
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\series bold
+\shape default
+ Traiettoria
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+La linea nello spazio costituita dai punti via via occupati da un punto
+ materiale; si assume che sia sempre continua, perché il moto è sempre continuo
+ (in fisica classica, almeno).
+ La sua equazione si ottiene eliminando la variabile t dal sistema che descrive
+ la legge oraria.
+ In base al tipo di traiettoria si dà una prima classificazione del moto,
+ che può essere: rettilineo, circolare, ellittico, genericamente curvilineo,
+ ecc.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Curva nel piano cartesiano
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-1.svg
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se per esprimere una generica curva, come quella in figura 2, nel piano
+ usiamo:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\begin{cases}
+x & =x\left(t\right)\\
+y & =y\left(t\right)
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+l'espressione è in forma parametrica.
+\end_layout
+
+\begin_layout Standard
+Per esprimerla in forma esplicita invece usiamo:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $y=f\left(x\right)+$
+\end_inset
+
+
+\series default
+\size default
+legge di moto
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def: 
+\series bold
+\shape default
+Ascissa curvilinea
+\end_layout
+
+\begin_layout Standard
+Una volta nota la traiettoria, si può fissare su di essa un’origine ed un
+ verso, con una freccia (entrambi convenzionali, arbitrari).
+ Si dice allora 
+\shape slanted
+ascissa curvilinea
+\shape default
+ 
+\series bold
+
+\begin_inset Formula $s$
+\end_inset
+
+
+\series default
+ di un generico punto della traiettoria la distanza, misurata sulla curva
+ di traiettoria, del punto dall’origine, presa con segno positivo o negativo
+ a seconda che il punto si trovi nella zona della traiettoria verso cui
+ punta la freccia, oppure nell’altra zona.
+\end_layout
+
+\begin_layout Standard
+Ovvero, è la distanza lungo la traiettoria di P da un riferimento 
+\begin_inset Formula $P_{o}\left(t_{o}\right)$
+\end_inset
+
+
+\begin_inset Formula $\in$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ traiettoria, corrispondente ad un determinato instante di tempo.
+\end_layout
+
+\begin_layout Standard
+Allora la legge di moto è rappresentabile con:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $s=s\left(t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La posizione del punto 
+\begin_inset Formula $P$
+\end_inset
+
+ diventa:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{P}=\vec{P}\left(s\left(t\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def: 
+\series bold
+\shape default
+Velocità di un punto
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+Vettore ottenuto derivando la posizione del punto P rispetto al tempo.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{v}=\frac{d\vec{P}}{dt}=\lim_{_{\Delta t\rightarrow0}}\frac{P\left(t+\Delta t\right)-P\left(t\right)}{\Delta t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Distanza tra due punti 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-2.svg
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{v}=\frac{d\vec{P}}{ds}\cdot\frac{ds}{dt}=\frac{d\vec{P}}{ds}\cdotṡ$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\frac{d\vec{P}}{ds}=\lim_{_{\Delta s\rightarrow0}}\frac{\Delta\vec{P}}{\Delta S}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Delta\vec{P}$
+\end_inset
+
+: distanza tra due punti 
+\begin_inset Formula $P\left(t+\Delta t\right)$
+\end_inset
+
+ e 
+\begin_inset Formula $P\left(t\right)$
+\end_inset
+
+ è la corda sottesa all'arco 
+\begin_inset Formula $\Delta S$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Per 
+\begin_inset Formula $\Delta S\rightarrow0$
+\end_inset
+
+, arco e corda tendono a coincidere.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\implies\left|\frac{d\vec{P}}{ds}\right|=1$
+\end_inset
+
+ direzione e verso sempre tangente all'arco perché si tratta di una corda.
+\end_layout
+
+\begin_layout Standard
+Allora 
+\begin_inset Formula $\frac{d\vec{P}}{ds}=\vec{t}$
+\end_inset
+
+ è il versore tangente alla traiettoria nel punto P.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{v}=ṡ\cdot\vec{t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{v}=ẋ\cdot\vec{i}+ẏ\cdot\vec{j}=v_{x}\cdot\vec{i}+v_{y}\cdot\vec{j}=ẋ+\vec{i}\cdotẏ=v\,e^{i\cdotα}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $α:$
+\end_inset
+
+ angolo formato da 
+\begin_inset Formula $\vec{v}$
+\end_inset
+
+ con l'asse reale;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $v=\sqrt{ẋ^{2}+ẏ^{2}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $α=\arctan\frac{ẏ}{ẋ}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Componenti del vettore velocità 
+\begin_inset Formula $\bar{v}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-4.svg
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\implies\tanα=\frac{ẏ}{ẋ}=\frac{dy}{dt}\cdot\frac{dt}{dx}=\frac{dy}{dx}=f^{'}\left(x\right)$
+\end_inset
+
+, dove 
+\begin_inset Formula $f^{'}\left(x\right)$
+\end_inset
+
+ è la derivata prima della traiettoria rispetto a x.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def: 
+\series bold
+\shape default
+Accelerazione 
+\end_layout
+
+\begin_layout Standard
+Vettore ottenuto derivando la velocità 
+\begin_inset Formula $\vec{v}$
+\end_inset
+
+ rispetto al tempo.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{a}=\frac{d\vec{v}}{dt}=\frac{d^{2}\vec{P}}{dt}=\frac{d}{dt}\cdot\vec{v}=\frac{d}{dt}\left(\frac{d\vec{P}}{ds}\cdot\frac{ds}{dt}\right)=\frac{d\vec{P}}{ds}\cdot\frac{d}{dt}\left(\frac{ds}{dt}\right)+\frac{ds}{dt}\cdot\frac{d}{dt}\left(\frac{d\vec{P}}{dt}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $=\frac{d^{2}\vec{P}}{ds^{2}}\cdot\frac{ds}{dt}=\frac{d^{2}\vec{P}}{ds^{2}}\cdotṡ$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove si ricorda che 
+\begin_inset Formula $\vec{v}=\frac{d\vec{P}}{ds}\cdot\frac{ds}{dt}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\implies\vec{a}=\ddot{s}\cdot\vec{t}+\dot{s}^{2}\cdot\frac{d^{2}\vec{P}}{ds^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dimostriamo che 
+\begin_inset Formula $\frac{d^{2}\vec{P}}{ds^{2}}=\frac{1}{ρ}\cdot\vec{n}$
+\end_inset
+
+, con:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rho=$
+\end_inset
+
+ raggio del cerchio osculatore alla traiettoria in P (cerchio che meglio
+ approssima la traiettoria nell'intorno della posizione considerata);
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vec{n}=$
+\end_inset
+
+ versore normale alla traiettoria 
+\begin_inset Formula $\left(\vec{n}\perp\vec{t}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Allora 
+\begin_inset Formula $ds=\rho\cdot d\alpha\implies d\alpha=\frac{ds}{\rho}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Spostamento infinitesimo 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-3.svg
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Considero il vettore 
+\begin_inset Formula $d\vec{t}=\vec{t}\left(s+ds\right)-\vec{t}\left(s\right)$
+\end_inset
+
+.
+ Poiché parliamo di quantità infinitesime, 
+\begin_inset Formula $d\vec{t}\cong ds$
+\end_inset
+
+.
+ Allora 
+\begin_inset Formula $\left|d\vec{t}\right|=\rho\cdot d\alpha=1\cdot d\alpha\implies\left|d\vec{t}\right|=\frac{ds}{\rho}$
+\end_inset
+
+
+\begin_inset Formula $\implies$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\implies d\vec{t}=\frac{ds}{\rho}\cdot\vec{n}=\frac{1}{\rho}\cdot\vec{n}$
+\end_inset
+
+ c.v.d.
+\end_layout
+
+\begin_layout Standard
+Allora 
+\begin_inset Formula $\vec{a}=\ddot{s}\cdot\vec{t}+\frac{\dot{s}^{2}}{\rho}\cdot\vec{n}$
+\end_inset
+
+ è la somma di due componenti, una tangenziale 
+\begin_inset Formula $\left(\vec{t}\,\right)$
+\end_inset
+
+ e una normale 
+\begin_inset Formula $\left(\vec{n}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{a}=a_{t}\cdot\vec{t}+a_{n}\cdot\vec{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Oss: 
+\end_layout
+
+\begin_layout Itemize
+la componente normale è sempre centripeta;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\rho>0$
+\end_inset
+
+ perché raggio;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\dot{s}^{2}>0$
+\end_inset
+
+ perché al quadrato;
+\end_layout
+
+\begin_layout Itemize
+la componente tangenziale giustifica una variazione di modulo della velocità;
+\end_layout
+
+\begin_layout Itemize
+la componente normale giustifica una variazione di direzione della velocità.
+\end_layout
+
+\begin_layout Itemize
+con moto uniforme: 
+\begin_inset Formula $a_{t}=0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+con moto rettilineo: 
+\begin_inset Formula $a_{n}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{a}=\ddot{x}\cdot\vec{i}+\ddot{y}\cdot\vec{j}=a_{x}\cdot\vec{i}+a_{y}\cdot\vec{j}=\ddot{x}+i\cdot\ddot{y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Inoltre: 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{a}=\frac{d}{dt}\left(v\cdot e^{i\alpha}\right)=\dot{v}\cdot e^{i\alpha}+v\cdot i\dot{\,\alpha}\,e^{i\alpha}=\ddot{s}\cdot e^{i\alpha}+\frac{\dot{s}^{2}}{\rho}e^{i\cdot\left(\alpha+\frac{\pi}{2}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove abbiamo che:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\dot{v}\cdot e^{i\alpha}=\ddot{s}\cdot e^{i\alpha}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $v\cdot i\dot{\,\alpha}\,e^{i\alpha}=v\cdot\dot{\alpha}\cdot e^{i\frac{\pi}{2}}\cdot e^{i\alpha}=v\cdot\dot{\alpha}\cdot e^{i\cdot\left(\alpha+\frac{\pi}{2}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $e^{i\cdot\left(\alpha+\frac{\pi}{2}\right)}$
+\end_inset
+
+ indica una rotazione di 
+\begin_inset Formula $\frac{\pi}{2}$
+\end_inset
+
+, quindi risulta ortogonale alla velocità.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\dot{\alpha}=\frac{d\alpha}{dt}=\frac{1}{\rho}\cdot\frac{ds}{dt}=\frac{1}{\rho}\cdot\dot{s}$
+\end_inset
+
+ 
+\begin_inset Formula $\implies v\cdot i\dot{\,\alpha}\,e^{i\alpha}=\dot{s}\cdot\frac{1}{\rho}\cdot\dot{s}\cdot e^{i\cdot\left(\alpha+\frac{\pi}{2}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\size large
+Cinematica del Corpo Rigido 
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\series bold
+\shape default
+ Posizione del corpo
+\end_layout
+
+\begin_layout Standard
+definire la posizione di tutti i punti componenti il corpo che sono infiniti.
+\end_layout
+
+\begin_layout Standard
+N.B.: le traiettorie, velocità, accelerazioni sono parallele ad un piano chiamato
+ 
+\shape slanted
+piano direttore
+\shape default
+, che non deve essere necessariamente lo stesso per tutte e tre.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def: 
+\series bold
+\shape default
+Atto di moto di un corpo
+\end_layout
+
+\begin_layout Standard
+insieme delle velocità di tutti i punti del corpo in un preciso instante
+ di tempo.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\series bold
+\shape default
+ Spostamento infinitesimo
+\end_layout
+
+\begin_layout Standard
+le posizioni di tutti i punti del corpo variano di una differenza infinitesima.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def: 
+\series bold
+\shape default
+Spostamento rigido
+\end_layout
+
+\begin_layout Standard
+un corpo subisce uno spostamento rigido se 
+\begin_inset Quotes eld
+\end_inset
+
+a valle
+\begin_inset Quotes erd
+\end_inset
+
+ dello spostamento è possibile definire un nuovo sistema di riferimento
+ (s.d.r.) rispetto al quale la posizione del corpo risulta invariata; in pratica
+ i punti si spostano tutti nello stesso modo.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\series bold
+\shape default
+ Corpo rigido
+\end_layout
+
+\begin_layout Standard
+un corpo che può subire solo spostamenti rigidi e nessuna variazione di
+ forma o dimensione.
+ Quindi basta conoscere la posizione di un punto del corpo e la sua orientazione
+ per conoscere la sua posizione nello spazio, cioè 
+\begin_inset Formula $x$
+\end_inset
+
+, 
+\begin_inset Formula $y$
+\end_inset
+
+ e 
+\begin_inset Formula $φ$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+Proprietà del 
+\series default
+corpo
+\series bold
+ rigido
+\end_layout
+
+\begin_layout Standard
+Considerando un corpo rigido si passa da 
+\begin_inset Formula $\infty^{2}$
+\end_inset
+
+ gradi di libertà a 3 gradi di libertà, ovvero:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\size large
+\begin_inset Formula $x_{A}(t)$
+\end_inset
+
+
+\series default
+\size default
+\emph on
+;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\size large
+\begin_inset Formula $y_{A}(t)$
+\end_inset
+
+
+\series default
+\size default
+\emph on
+;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\size large
+\begin_inset Formula $φ(t)$
+\end_inset
+
+
+\series default
+\size default
+.
+\end_layout
+
+\begin_layout Standard
+Considerando il movimento 
+\begin_inset Quotes eld
+\end_inset
+
+in grande
+\begin_inset Quotes erd
+\end_inset
+
+ abbiamo tre tipi di movimento:
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+moto traslatorio:
+\shape default
+ tutti i punti hanno stessa velocità e traiettorie parallele;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Moto traslatorio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-5.svg
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+N.B.: il moto traslatorio non è un moto rettilineo, l'unica cosa che lo rende
+ tale è che l'orientazione non cambia nel tempo ma la traiettoria può non
+ essere una retta.
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+moto rotatorio: 
+\shape default
+è possibile definire un punto (interno o esterno del corpo) che non cambia
+ posizione rispetto al corpo;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Moto rotatorio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-6.svg
+	width 40line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Il corpo ha subìto una rotazione di 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+φ il cui asse passa per A ed è ortogonale al piano e:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\emph on
+\begin_inset Formula $φ=\beta^{'}-\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nel moto rotatorio tutti i punti del corpo hanno una traiettoria circolare
+ con centro nel centro di rotazione.
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+moto roto-traslatorio: 
+\shape default
+può essere visto come una composizione tra il moto traslatorio e il moto
+ rotatorio.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Moto roto-traslatorio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-7.svg
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nel piano l'
+\shape italic
+atto di moto
+\shape default
+ si riduce a:
+\end_layout
+
+\begin_layout Itemize
+rotatorio: esiste un punto appartenente al corpo o ad esso solidale che
+ ha velocità nulla, ovvero:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\emph on
+\begin_inset Formula $\vec{v_{a}}=\vec{v_{b}}=\vec{v_{c}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+traslatorio: la velocità di tutti i punti corrisponde in direzione, modulo
+ e verso, ovvero:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\exists c\,|\,\vec{v_{c}}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consideriamo ad esempio i punti 
+\begin_inset Formula $A,\,B\implies\vec{v_{a}},\,\vec{v_{b}}$
+\end_inset
+
+; possiamo analizzare tre casi:
+\end_layout
+
+\begin_layout Enumerate
+le direzioni di 
+\begin_inset Formula $\vec{v_{a}}$
+\end_inset
+
+ e 
+\begin_inset Formula $\vec{v_{b}}$
+\end_inset
+
+ diverse;
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\vec{v_{a}}$
+\end_inset
+
+ e 
+\begin_inset Formula $\vec{v_{b}}$
+\end_inset
+
+ parallele con stesso modulo e verso;
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\vec{v_{a}}$
+\end_inset
+
+ e 
+\begin_inset Formula $\vec{v_{b}}$
+\end_inset
+
+ con modulo 
+\begin_inset Formula $\neq$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Nel primo caso, schematizzato in Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:caso-1"
+
+\end_inset
+
+, abbiamo:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $r_{a}$
+\end_inset
+
+ retta ortogonale a 
+\begin_inset Formula $\vec{v_{a}}$
+\end_inset
+
+ passante per 
+\begin_inset Formula $A$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $r_{b}$
+\end_inset
+
+ retta ortogonale a 
+\begin_inset Formula $\vec{v_{b}}$
+\end_inset
+
+ passante per 
+\begin_inset Formula $B$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+tutti i punti di 
+\begin_inset Formula $r_{a}$
+\end_inset
+
+ devono avere la stessa velocità di 
+\begin_inset Formula $A$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+tutti i punti di 
+\begin_inset Formula $r_{b}$
+\end_inset
+
+ devono avere la stessa velocità di 
+\begin_inset Formula $B$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\vec{v_{c}}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Atto di moto: caso 1
+\shape default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:caso-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-8.svg
+	width 40line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nel secondo caso, schematizzato in Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:caso-2"
+
+\end_inset
+
+, il centro di instantanea rotazione è a distanza infinita.
+ Si può dimostrare che tutti i punti devono avere la stessa velocità.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Atto di moto: caso 2
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:caso-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-9.svg
+	width 40line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nel terzo caso se le due velocità 
+\begin_inset Formula $v_{a}$
+\end_inset
+
+ e 
+\begin_inset Formula $v_{b}$
+\end_inset
+
+ sono parallele ma di modulo diverso allora devono necessariamente essere
+ ortogonali alla retta che passa per i due punti altrimenti si violerebbe
+ la rigidità del corpo rigido.
+ L'unica possibilità è che le due 
+\begin_inset Formula $v$
+\end_inset
+
+ siano ortogonali ad una retta passante per due punti.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Atto di moto: caso 3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-10.svg
+	width 30line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Corpo rigido (spostamento)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-11.svg
+	width 40line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\left(B-O\right)=\left(A-O\right)+\left(B-A\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\beta-φ=cost.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{v_{B}}=\frac{d}{dt}\left(B-O\right)=\frac{d}{dt}\left(A-O\right)+\frac{d}{dt}\left(B-A\right)$
+\end_inset
+
+
+\series default
+\size default
+, con
+\series bold
+\size large
+ 
+\begin_inset Formula $\frac{d}{dt}\left(A-O\right)=\vec{v_{A}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\frac{d}{dt}\left(B-A\right)=\frac{d}{dt}\left(\bar{BA}e^{i\beta}\right)=i\dot{\beta}\bar{BA}e^{i\left(\beta+\frac{\pi}{2}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\dot{\beta}=\dot{φ}=\omega$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{\omega}=\dot{\beta}\vec{k}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Teorema di Rivals
+\end_layout
+
+\begin_layout Standard
+Per lo studio delle accelerazioni si fa uso del teorema di Rivals .
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula $\vec{v_{b}}=v_{A}+\vec{\omega}\wedge\left(B-A\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula $\vec{a_{B}}=\frac{d\vec{v_{B}}}{dt}=\frac{d\vec{v_{A}}}{dt}+\frac{d\vec{\omega}}{dt}\wedge\left(B-A\right)+\vec{\omega}\wedge\frac{d}{dt}\left(B-A\right)$
+\end_inset
+
+
+\series default
+\size default
+, con
+\series bold
+\size large
+ 
+\begin_inset Formula $\frac{d\vec{v_{a}}}{dt}=\vec{a_{a}}$
+\end_inset
+
+ 
+\series default
+\size default
+e
+\series bold
+\size large
+ 
+\begin_inset Formula $\frac{d\vec{\omega}}{dt}=\vec{\dot{\omega}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula $\vec{a_{B}}=\vec{a_{a}}+\dot{\vec{\omega}\wedge\left(B-A\right)+\vec{\omega}\wedge\left(\vec{\omega}\wedge\left(B-A\right)\right)}$
+\end_inset
+
+
+\series default
+\size default
+, con
+\series bold
+\size large
+ 
+\begin_inset Formula $\mbox{\vec{\omega}\wedge\ensuremath{\left(\vec{\omega}\wedge\left(B-A\right)\right)=-\left|\vec{\omega}\right|^{2}\left(B-A\right)} }$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Vincoli elementari
+\end_layout
+
+\begin_layout Standard
+I vincoli elementari sopprimono direttamente uno dei gradi di libertà.
+ Sono di 4 tipi:
+\end_layout
+
+\begin_layout Enumerate
+vincolo di incastro, Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vincolo-di-incastro"
+
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+vincolo di cerniera, Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vincolo-di-cerniera"
+
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+vincolo di pattino/manicotto, Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vincolo-di-pattino/manicotto"
+
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+vincolo di carrello (composizione di cerniera e di pattino), Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vincolo-di-carrello"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Vincolo di incastro
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vincolo-di-incastro"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-12.svg
+	width 30line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\lang english
+\begin_inset Formula 
+\begin{eqnarray*}
+x_{A} & = & 0\\
+y_{A} & = & 0\\
+φ & = & 0
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Vincolo di cerniera
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vincolo-di-cerniera"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-13.svg
+	width 30line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\lang english
+\begin_inset Formula 
+\begin{eqnarray*}
+x_{A} & = & 0\\
+y_{A} & = & 0\\
+φ & \neq & 0
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Vincolo di pattino/manicotto
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vincolo-di-pattino/manicotto"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-14.svg
+	width 40line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\lang english
+\begin_inset Formula 
+\begin{eqnarray*}
+x_{A} & \neq & 0\\
+y_{A} & = & 0\\
+φ & = & 0
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Vincolo di carrello
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vincolo-di-carrello"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-15.svg
+	width 25line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\lang english
+\begin_inset Formula 
+\begin{eqnarray*}
+x_{A} & \neq & 0\\
+y_{A} & = & 0\\
+φ & \neq & 0
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
