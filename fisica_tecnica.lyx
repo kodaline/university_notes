@@ -1,0 +1,5707 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language british
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=red"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\boxbgcolor #55aa00
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+Appunti di Fisica Tecnica 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+2014/2015
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\series bold
+Introduzione alla termodinamica
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Termodinamica
+\end_layout
+
+\begin_layout Standard
+La termodinamica è la scienza che studia l'energia, la materia e le leggi
+ che governano le loro interazioni.
+ È la disciplina che studia le grandezze macroscopiche che caratterizzano
+ i modi di essere dei sistemi termodinamici e le modifiche (variazioni)
+ che quelle subiscono quando intervengono scambi di massa e/o di energia
+ del sistema con l’ambiente.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Sistema termidinamico
+\end_layout
+
+\begin_layout Standard
+Si definisce sistema termodinamico una quantità di materia o porzione di
+ spazio separata dal resto dell'universo mediante un determinato 
+\shape italic
+contorno
+\shape default
+ costituito da una superficie reale o immaginaria, rigida o deformabile
+ che interagisce col 
+\begin_inset Quotes eld
+\end_inset
+
+mondo esterno
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Tutto ciò che è esterno al sistema termodinamico si definisce infatti 
+\begin_inset Quotes eld
+\end_inset
+
+mondo esterno
+\begin_inset Quotes erd
+\end_inset
+
+: quando il mondo esterno è di massa infinita viene detto 
+\begin_inset Quotes eld
+\end_inset
+
+ambiente
+\begin_inset Quotes erd
+\end_inset
+
+, quando è di massa finita prende il nome generico di 
+\begin_inset Quotes eld
+\end_inset
+
+sistema accoppiato
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Sistema chiuso
+\end_layout
+
+\begin_layout Standard
+Un sistema chiuso è un sistema che scambia con l’esterno 
+\shape italic
+energia
+\shape default
+ come lavoro (se il contorno è deformabile) e/o calore.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Sistema aperto
+\end_layout
+
+\begin_layout Standard
+Un sistema aperto è un sistema che scambia con l'esterno sia 
+\shape italic
+energia
+\shape default
+ che 
+\shape italic
+materia
+\shape default
+.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Sistema termodinamico semplice
+\end_layout
+
+\begin_layout Standard
+Per lo studio in questo corso si dovranno fare delle semplificazioni, quindi
+ verranno considerati soltanto:
+\end_layout
+
+\begin_layout Itemize
+sistemi chimicamente omogenei ed isotropi;
+\end_layout
+
+\begin_layout Itemize
+sistemi esenti da qualsiasi effetto di superficie;
+\end_layout
+
+\begin_layout Itemize
+chimicamente inerti;
+\end_layout
+
+\begin_layout Itemize
+sistemi in cui le interazioni gravitazionali saranno ridotte al minimo;
+\end_layout
+
+\begin_layout Itemize
+sistemi in cui non verranno prese in considerazione interazioni elettromagnetich
+e.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Stato di equilibrio
+\end_layout
+
+\begin_layout Standard
+Stato interno particolare cioè riproducibile e descrivibile attraverso il
+ valore assunto da poche proprietà del sistema stesso, che godono della
+ caratteristica di avere un unico ed uguale valore in ogni punto del sistema.
+\end_layout
+
+\begin_layout Standard
+Stato a cui perviene spontaneamente il sistema quando è isolato (non scambia
+ cioè né lavoro, né calore, né massa con l'ambiente esterno).
+ Nel momento in cui il sistema viene perturbato giungerà poi in un nuovo
+ stato di equilibrio.
+ Studiamo quindi successivi stati di equilibrio.
+ 
+\end_layout
+
+\begin_layout Standard
+Lo stato di equilibrio è il particolare stato cui perviene spontaneamente
+ il sistema isolato.
+ È riproducibile e descrivibile mediante un numero limitato di prorietà.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Grandezza intensiva
+\end_layout
+
+\begin_layout Standard
+Si definisce grandezza intensiva la grandezza fisica il cui valore non dipende
+ dall'estensione del sistema (come temperatura, pressione, etc.).
+ Ne consegue che lo stato interno del corpo non dipende dalla sua estensione.
+ 
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Grandezza estensiva
+\end_layout
+
+\begin_layout Standard
+Si definisce grandezza estensiva la grandezza fisica che dipende dall'estensione
+ del sistema (come massa, volume totale, etc.).
+ La grandezza estensiva è additiva e di conseguenza il suo valore riferito
+ ad un sistema risulta somma dei valori relativi ai sottoinsiemi che lo
+ compongono.
+ 
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Legge di 
+\shape smallcaps
+Duhem
+\shape default
+: 
+\series default
+nel caso di un di sistema monocomponente, il numero di parametri termodinamici
+ intensivi o estensivi specifici indipendenti atti a descrivere compiutamente
+ lo stato interno di equilibrio è due.
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Regola di 
+\shape smallcaps
+Gibbs: 
+\series default
+\shape default
+stabilisce una relazione tra il numero di componenti C, il numero di fasi
+ F, il numero di variabili intensive indipendenti V.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size larger
+\begin_inset Formula $V=C+2-F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La legge di Duhem introduce l'esistenza dell'equazione di stato che lega
+ fra loro tre variabili termodinamiche:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size larger
+\begin_inset Formula $f(P,v,T)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\series bold
+\shape default
+ Contorno
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+adiabatico:
+\shape default
+ non permette lo scambio di calore;
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+diatermano:
+\shape default
+ permette lo scambio di calore;
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+rigido:
+\shape default
+ non permette lo scambio di lavoro;
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+mobile:
+\shape default
+ permette lo scambio di lavoro;
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+impermeabile:
+\shape default
+ non permette lo scambio di massa;
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+poroso:
+\shape default
+ permette lo scambio di massa.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Calore
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lavoro
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Massa
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Adiabatico
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+no
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diatermano
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sì
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rigido
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+no
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Deformabile
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sì
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Chiuso
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+no
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aperto
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sì
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Isolato
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+no
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+no
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+no
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Tipologie di sistemi termodinamici: tipi di scambio con l'ambiente esterno
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Sistema composto
+\end_layout
+
+\begin_layout Standard
+Un sistema composto è un sistema costituito da più sistemi semplici separati
+ tra loro da pareti.
+\end_layout
+
+\begin_layout Standard
+È interessante studiare l'evoluzione del sistema quando subisce trasformazioni,
+ fino a raggiungere un nuovo stato di equilibrio.
+\end_layout
+
+\begin_layout Standard
+Se possiamo descrivere le trasformazioni come una serie ordinata di stati
+ intermedi successivi l'una all'altra, allora possiamo parlare di sistema
+ termodinamico.
+ Questo nella realtà non è quasi mai possibile del tutto.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Trasformazione
+\end_layout
+
+\begin_layout Standard
+In un sistema chiuso lo stato di equilibrio vincolato viene a cessare quando,
+ per rimozione dei vincoli al contorno, il sistema scambia con l’ambiente
+ calore e/o lavoro.
+ 
+\end_layout
+
+\begin_layout Standard
+Il sistema perverrà a una nuova situazione di equilibrio avendo attraversato
+ una serie di stati intermedi successivi detti nel loro insieme 
+\shape italic
+trasformazione
+\shape slanted
+ 
+\shape italic
+termodinamica
+\shape default
+.
+\end_layout
+
+\begin_layout Subsubsection*
+Tipi di trasformazioni:
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+quasi statica o internamente reversibile:
+\shape default
+ costituita da una successione di stati di equilibrio.
+ Può non essere reversibile;
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+reversibile:
+\shape default
+ se percorsa in senso inverso riporta sistema e ambiente nello stato iniziale;
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+irreversibile:
+\shape default
+ trasformazione in parte o per intero non reversibile.
+ Non è rappresentabile su un diagramma di stato;
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+chiusa o ciclica:
+\shape default
+ gli estremi della trasformazione coincidono;
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+elementare:
+\shape default
+ se una delle grandezze di stato si mantiene costante durante la trasformazione.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+isobare: la pressione (p) rimane costante;
+\end_layout
+
+\begin_layout Itemize
+isocore: il volume (V) rimane costante;
+\end_layout
+
+\begin_layout Itemize
+isoterme: la temperatura (T) rimane costante.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Gas Ideali
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Gas ideale
+\end_layout
+
+\begin_layout Standard
+Un gas ideale (spesso chiamato anche gas 
+\begin_inset Quotes eld
+\end_inset
+
+perfetto
+\begin_inset Quotes erd
+\end_inset
+
+) è un gas descritto dall'equazione di stato dei gas perfetti, e che quindi
+ rispetta la legge di Boyle-Mariotte
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+La legge di Boyle e Mariotte afferma che in condizioni di temperatura costante
+ la pressione di un gas perfetto è inversamente proporzionale al suo volume,
+ ovvero che il prodotto della pressione del gas per il volume da esso occupato
+ è costante:
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Formula $p\cdot V=costante$
+\end_inset
+
+ oppure 
+\begin_inset Formula $p_{1}\cdot V_{1}=p_{2}\cdot V_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, la prima legge di Gay-Lussac
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+La prima legge di Gay-Lussac afferma che in una trasformazione isobara,
+ ovvero in condizioni di pressione costante, il volume di un gas ideale
+ è direttamente proporzionale alla temperatura.
+ Indicando con V0 e con V(T) le densità alle temperature assolute rispettivament
+e T0 e T, la legge è espressa matematicamente dalla relazione:
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Formula $V\left(T\right)=V_{0}\left(1+\alpha\left(T-T_{0}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+dove il parametro α è detto coefficiente di dilatazione termica ha le dimensioni
+ dell'inverso della temperatura perché il prodotto α T deve essere adimensionale.
+ Un gas quindi va incontro a una rarefazione quando si scalda e a un addensament
+o quando si raffredda.
+\end_layout
+
+\end_inset
+
+ o legge di Charles, e la seconda legge di Gay-Lussac
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+La seconda legge di Gay-Lussac è una legge costitutiva che descrive come,
+ in una trasformazione isocora in condizioni di volume costante, la pressione
+ di un gas sia direttamente proporzionale alla sua temperatura.
+ Indicando con P0 la pressione di un gas alla temperatura di 
+\begin_inset Formula $0°C$
+\end_inset
+
+ e con 
+\begin_inset Formula $P\left(T\right)$
+\end_inset
+
+ la pressione ad una temperatura 
+\begin_inset Formula $T>0$
+\end_inset
+
+, questa legge è espressa matematicamente dalla relazione:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $p\left(t\right)=p_{0}\left(1+\alpha\cdot t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+con 
+\begin_inset Formula $t$
+\end_inset
+
+ espresso in 
+\begin_inset Formula $°C$
+\end_inset
+
+ e 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ è detto coefficiente di espansione dei gas e vale per tutti i gas circa
+ 
+\begin_inset Formula $3.663×10-3°C^{-1}$
+\end_inset
+
+, pari a circa 
+\begin_inset Formula $1/273°C^{-1}$
+\end_inset
+
+.
+ (Le dimensioni di 
+\begin_inset Formula $α$
+\end_inset
+
+ sono 
+\begin_inset Formula $°C^{-1}$
+\end_inset
+
+ perché il prodotto 
+\begin_inset Formula $αt$
+\end_inset
+
+ deve essere adimensionale).
+\end_layout
+
+\end_inset
+
+, in tutte le condizioni di temperatura, densità e pressione.
+ In questo modello le molecole del gas sono assunte puntiformi e non interagenti.
+ I gas reali si comportano in buona approssimazione come gas perfetti quando
+ la pressione è sufficientemente bassa e la temperatura sufficientemente
+ alta.
+\end_layout
+
+\begin_layout Standard
+I sistemi che verranno trattati, verranno considerato dal punto di vista
+ 
+\shape italic
+macroscopico
+\shape slanted
+: 
+\shape default
+lo stato del sistema viene definito attraverso la misura di grandezze rilevabili
+, utilizzando normali strumenti di misura (pressione, temperatura, volume),
+ che hanno in comune le seguenti caratteristiche:
+\end_layout
+
+\begin_layout Itemize
+non implicano alcuna ipotesi sulla struttura della materia;
+\end_layout
+
+\begin_layout Itemize
+sono in numero relativamente piccolo;
+\end_layout
+
+\begin_layout Itemize
+sono suggerite più o meno dai nostri sensi;
+\end_layout
+
+\begin_layout Itemize
+possono essere misurate direttamente.
+\end_layout
+
+\begin_layout Standard
+Il punto di vista macroscopico descrive il sistema, fornendo le coordinate
+ per ciascuna delle molecole che lo costituiscono.
+ 
+\end_layout
+
+\begin_layout Standard
+Con questo approccio:
+\end_layout
+
+\begin_layout Itemize
+si fanno delle ipotesi sulla struttura della materia, ad esempio che esistano
+ le molecole;
+\end_layout
+
+\begin_layout Itemize
+occorre precisare il valore di molte grandezze;
+\end_layout
+
+\begin_layout Itemize
+l’esistenza di queste grandezze non è suggerita dalle nostre percezioni
+ sensoriali;
+\end_layout
+
+\begin_layout Itemize
+queste grandezze non possono essere misurate.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Equazione di stato del gas ideale
+\end_layout
+
+\begin_layout Standard
+La teoria cinetica dei gas ci assicura che le coordinate di stato p, V e
+ T sono legate da una equazione del tipo:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+\begin_inset Formula $f(P,v,T)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Alla stessa conclusione si arriva per mezzo della legge di Duhem).
+\end_layout
+
+\begin_layout Standard
+Per un gas ideale, in particolare, l’equazione di stato è del tipo:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+\begin_inset Formula $pV=NRT$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ove P è la pressione 
+\begin_inset Formula $[Pa]$
+\end_inset
+
+
+\size large
+ 
+\size default
+termodinamica del gas, V il volume occupato dalle N moli che compongono
+ il gas stesso, T la temperatura assoluta del gas, R 
+\size large
+
+\begin_inset Formula $\left[\frac{J}{kmol\cdot K}\right]$
+\end_inset
+
+ 
+\size default
+la costante universale dei gas perfetti.
+\end_layout
+
+\begin_layout Standard
+Dividendo l'equazione per il numero di moli N, otteniamo:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+\begin_inset Formula $\frac{pV}{N}=RT$
+\end_inset
+
+
+\series bold
+\size large
+ 
+\series default
+\size default
+,
+\end_layout
+
+\begin_layout Standard
+\align center
+ovvero 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+\begin_inset Formula $p\overline{v}=RT$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove poniamo 
+\series bold
+\size larger
+
+\begin_inset Formula $\frac{V}{N}=$
+\end_inset
+
+ 
+\series default
+\size default
+
+\begin_inset Formula $\overline{v}$
+\end_inset
+
+, volume molare 
+\size large
+
+\begin_inset Formula $\left[\frac{m^{3}}{kmol}\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+Perché R è costante per tutti i gas ideali? 
+\end_layout
+
+\begin_layout Standard
+Il valore della costante R deriva dalla teoria cinetica dei gas, la quale
+ la calcola come rapporto tra il prodotto della pressione e del volume occupato
+ da una mole di gas e la sua temperatura nell'impotesi che le molecole del
+ gas non abbiano interazioni di alcun genere tra loro.
+ Il risultato che si ottiene può essere semplicemente desunto dalla legge
+ di Gay Lussac, per la quale 1 kmole di un gas ideale in condizioni normali
+ 
+\begin_inset Formula $(P=1atm$
+\end_inset
+
+ 
+\begin_inset Formula $e$
+\end_inset
+
+ 
+\begin_inset Formula $T=0\text{°}C)$
+\end_inset
+
+ occupa un volume 
+\begin_inset Formula $V=22.415m^{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Introducendo questo valore nell'equazione di stato dei gas ideali sono possibili
+ altre espressioni che si ottengono da quella proposta introducendo il legame
+ tra il numero di moli del gas 
+\begin_inset Formula $(N)$
+\end_inset
+
+ e la massa del gas 
+\begin_inset Formula $(M)$
+\end_inset
+
+.
+ Ricordando infatti che la massa di una sostanza è 
+\begin_inset Formula $M=N\cdot M_{m}$
+\end_inset
+
+, se dividiamo l'equazione iniziale di partenza dei gas perfetti per la
+ massa otteniamo:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+\begin_inset Formula $\frac{pV}{m}=\frac{NRT}{m}$
+\end_inset
+
+
+\size default
+,
+\end_layout
+
+\begin_layout Standard
+\align center
+ovvero
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $pv=\frac{RT}{M_{m}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove poniamo 
+\size larger
+
+\begin_inset Formula $v=\frac{V}{m}$
+\end_inset
+
+
+\size default
+, volume specifico, e 
+\series bold
+\size larger
+
+\begin_inset Formula $M_{m}=\frac{m}{N}$
+\end_inset
+
+
+\series default
+\size default
+, massa molare del gas.
+\end_layout
+
+\begin_layout Standard
+Ponendo poi 
+\series bold
+\size larger
+
+\begin_inset Formula $\frac{R}{M_{m}}=R^{*}$
+\end_inset
+
+
+\series default
+\size default
+otteniamo: 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $pv=R^{*}\cdot T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In questa relazione 
+\begin_inset Formula $R^{*}$
+\end_inset
+
+è la costante caratteristica del gas considerato e si definisce come il
+ rapporto tra la costante dei gas universali 
+\begin_inset Formula $R$
+\end_inset
+
+ e la massa molare del particolare gas.
+ Quest'ultima equazione fa riferimento al volume specifico e non più al
+ volume molare.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R^{*}$
+\end_inset
+
+per l'ossigeno 
+\begin_inset Formula $(O_{2})$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula $M=32\frac{kg}{kmol}$
+\end_inset
+
+
+\size default
+, quindi
+\size larger
+ 
+\begin_inset Formula $R^{*}=\frac{R}{M}=\frac{8314}{32}\frac{\frac{J}{kmol\cdot K}}{\frac{kg}{kmol}}=260\frac{J}{kg\cdot K}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R^{*}$
+\end_inset
+
+per l'azoto 
+\begin_inset Formula $(N_{2})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size larger
+\begin_inset Formula $M=28\frac{kg}{kmol}$
+\end_inset
+
+
+\series default
+\size default
+, quindi
+\series bold
+\size larger
+ 
+\begin_inset Formula $R^{*}=\frac{R}{M}=\frac{8314}{28}\frac{\frac{J}{kmol\cdot K}}{\frac{kg}{kmol}}=297\frac{J}{kg\cdot K}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nel seguito del corso l'aria verrà immaginata come un gas ideale biatomico
+ con 
+\series bold
+\size large
+
+\begin_inset Formula $M=28.8\frac{kg}{kmol}$
+\end_inset
+
+ 
+\series default
+\size default
+(composta per l'
+\begin_inset Formula $80\%$
+\end_inset
+
+ di 
+\begin_inset Formula $N_{2}$
+\end_inset
+
+ e per il 
+\begin_inset Formula $20\%$
+\end_inset
+
+ di 
+\begin_inset Formula $O_{2}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+L'equazione di stato, anche se spesso ignota, viene utile in alcuni casi.
+ 
+\end_layout
+
+\begin_layout Standard
+Nel caso di 
+\series bold
+\shape slanted
+liquidi
+\series default
+\shape default
+ e 
+\series bold
+\shape slanted
+solidi
+\series default
+\shape default
+ per esempio non esistono equazioni atte ad approssimarne il comportamento
+ termodinamico.
+ La sola consapevolezza dell’esistenza dell’equazione di stato però permette
+ utili deduzioni.
+\end_layout
+
+\begin_layout Standard
+Data la forma implicita dell'equazione 
+\begin_inset Formula $v=v\,(T,\,p)$
+\end_inset
+
+, possiamo 
+\shape slanted
+differenziarla
+\shape default
+ rispetto a pressione e temperatura ottenendo:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+\begin_inset Formula $dv=\left(\frac{\partial v}{\partial T}\right){}_{p}dT+\left(\frac{\partial v}{\partial p}\right)_{T}dp$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Introducendo poi il 
+\shape italic
+coefficiente di dilatazione isobaro
+\shape default
+ (specifica quanto si dilata a pressione costante una certa sostanza al
+ variare della temperatura):
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $β=\frac{1}{v}\left(\frac{\partial v}{\partial T}\right)_{p}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e il 
+\shape italic
+coefficiente di comprimibilità isotermo
+\shape default
+ (specifica quanto il materiale modifica il suo volume all'aumentare della
+ pressione a temperatura costante):
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $k_{T}=-\frac{1}{v}\left(\frac{\partial v}{\partial p}\right)_{T}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I due coefficienti introdotti, dipendenti debolmente da pressione e temperatura,
+ sono misurabili sperimentalmente.
+ 
+\end_layout
+
+\begin_layout Standard
+La precedente relazione differenziale risulta quindi:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $dv=βvdT-k_{T}vdp$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Considerando costanti i coefficienti per intervalli anche piuttosto ampi
+ di temperatura e pressione, si rende possibile l’integrazione della relazione
+ differenziale e il calcolo dello stato finale a partire da condizioni iniziali
+ note.
+\end_layout
+
+\begin_layout Section
+
+\series bold
+Equazioni di bilancio
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+\size large
+Primo e Secondo principio della termodinamica
+\end_layout
+
+\begin_layout Standard
+È evidente che le grandezze intensive e le grandezze estensive non sono
+ propriamente uguali tra loro, ovvero, non sono interscambiabili perché
+ nella definizione di quello che è lo stato di equilibrio termodinamico
+ si comportano diversamente e non sono sempre sovrapponibili.
+\end_layout
+
+\begin_layout Standard
+Per poter analizzare un sistema, per poterne definire la sua evoluzione,
+ cioè la sua trasformazione è necessario dotarsi anche di qualche strumento
+ in più che ci permetta di mettere in relazione fra loro gli stati di equilibrio
+ che via via il sistema assume nel corso della trasformazione.
+ In parole povere, se un sistema evolve dallo stato A ad uno stato B, per
+ definire lo stato di equilibrio B conoscendo lo stato di equilibrio di
+ partenza, si ha il bisogno di trovare delle relazioni che mettano in relazione
+ fra loro le grandezze caratteristiche dello stato di equilibrio A (quello
+ di partenza) con le medesime o con altre grandezze caratteristiche che
+ definiscono univocamente lo stato di equilibrio B del sistema.
+ 
+\end_layout
+
+\begin_layout Standard
+L'equazione di stato mette in relazione fra loro le grandezze del sistema
+ concentrandosi su un unico stato del sistema: conoscendo due proprietà,
+ attraverso l'equazione di stato (che però molto spesso non è nota) si potrebber
+o trovare le altre caratteristiche di quel preciso stato di equilibrio.
+\end_layout
+
+\begin_layout Standard
+Nel momento in cui il sistema va incontro ad una trasformazione l'equazione
+ di stato non è più sufficiente a determinarne tutte le caratteristiche
+ e proprietà.
+ Utili per questo fine sono le cosiddette 
+\shape slanted
+equazioni di bilancio.
+ 
+\end_layout
+
+\begin_layout Standard
+Le equazioni di bilancio sono tre:
+\end_layout
+
+\begin_layout Enumerate
+le 
+\shape italic
+equazioni di bilancio di massa
+\shape default
+, per i sistemi chiusi sono implicitamente verificate 
+\color red
+
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+
+\color red
+se un sistema è chiuso per definizione non scambia massa con l'esterno
+\end_layout
+
+\end_inset
+
+
+\color inherit
+ quindi per i sistemi chiusi l'equazione di bilancio di massa è di 
+\begin_inset Quotes eld
+\end_inset
+
+poca
+\begin_inset Quotes erd
+\end_inset
+
+ importanza mentre sarà importante per i sistemi aperti (che verranno trattati
+ in seguito);
+\end_layout
+
+\begin_layout Enumerate
+le 
+\shape italic
+equazioni di bilancio di energia
+\shape default
+, sono un'estensione di quelle della meccanica classica, descrivono il cosiddett
+o principio di conservazione dell'energia che va sotto il nome di Primo
+ principio della termodinamica.;
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+le equazioni di bilancio di entropia
+\shape default
+, vanno sotto il nome di Secondo principio della termodinamica.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Primo principio della termodinamica
+\end_layout
+
+\begin_layout Standard
+Per un sistema semplice all’equilibrio è definita una proprietà intrinseca
+ (funzione di stato) detta energia interna “U” la cui variazione è il risultato
+ di interazioni del sistema con l’ambiente esterno (interazioni ovviamente
+ di tipo energetico).
+ 
+\end_layout
+
+\begin_layout Standard
+Questa proprietà dipende solamente dallo stato in cui il sistema si trova
+ e non da come il sistema si è evoluto fino a quel punto:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $\Delta U=Q^{\leftarrow}-\,L^{\rightarrow}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'energia interna 
+\begin_inset Formula $U$
+\end_inset
+
+ non cambia soltanto quando il sistema scambia lavoro con l'ambiente esterno
+ ma anche quando scambia calore.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Perché la notazione 
+\begin_inset Formula $Q^{\leftarrow}$
+\end_inset
+
+e 
+\begin_inset Formula $L^{\rightarrow}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+Da un punto di vista storico, la formalizzazione della termodinamica avviene
+ storicamente dopo l'approccio tecnologico alla stessa, ovvero, la scienza
+ termodinamica arriva dopo lo sviluppo della tecnologia termodinamica.
+ Le macchine termiche difatto dovevano ricevere calore, quindi prendere
+ calore dall'esterno (positivo entrante) e, dopo aver assorbito calore,
+ rendere disponibile all'esterno del calore.
+ Il lavoro veniva intrinsecamente preso positivo uscente; in un ipotetico
+ sistema si può immaginare facilmente che, all'introduzione di calore, il
+ contenuto dell'energia interna tenderà ad aumentare, quindi la sua variazione
+ sarà positiva, allo stesso modo, se si introduce del lavoro meccanico (entrante
+) l'energia interna tenderà ad aumentare.
+ Un fisico avrebbe quindi scritto:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $\Delta U=Q^{\leftarrow}+L^{\leftarrow}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cioè, se si introduce nel sistema dell'energia (che sia calore o che sia
+ lavoro, non ha importanza, perché una delle più importanti proprietà che
+ il primo principio permette di affermare è che calore e lavoro sono entrambe
+ forme di energia equivalenti fra loro), la variazione di energia interna
+ del sistema è la somma delle energie introdotte al suo interno.
+\end_layout
+
+\begin_layout Standard
+Dal punto di vista ingegneristico però interessa la produzione di lavoro,
+ quindi il lavoro viene preso positivo uscente ed ecco il perché di tale
+ notazione.
+ Ovviamente le due notazioni sono perfettamente equivalenti tra di loro,
+ esprimono concettualmente la stessa proprietà.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Lavoro
+\end_layout
+
+\begin_layout Standard
+Il lavoro è energia fornita ad un sistema termodinamico semplice che sia
+ riconducibile alla variazione di quota di un grave.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Calore
+\series default
+\color red
+
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+
+\color red
+calore e lavoro 
+\shape smallcaps
+non
+\shape default
+ sono proprietà del sistema, sono forme di energia in transito, sono scambi/inte
+razioni di energia con l'esterno; dipendono quindi dal tipo di percorso
+ seguito per portare il sistema da uno stato ad un altro
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il calore è energia fornita ad un sistema termodinamico semplice che non
+ è riconducibile alla variazione di quota di un grave.
+ Ovvero, sono in qualche modo tutte le interazioni energetiche che non fanno
+ riferimento alla meccanica classica.
+\end_layout
+
+\begin_layout Standard
+Dal primo principio discendono alcune importanti proprietà:
+\end_layout
+
+\begin_layout Itemize
+l’energia interna totale di un sistema, cioè l’energia interna riferita
+ all’intera massa del sistema 
+\begin_inset Formula $m$
+\end_inset
+
+, è una quantità estensiva:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $U=m\cdot u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+scritto in forma differenziale il primo postulato assume la forma:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $du=\delta q^{\leftarrow}-\delta l^{\rightarrow}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il differenziale di energia interna all'unità di massa è un differenziale
+ esatto perché è una funzione di stato, viceversa, calore e lavoro sono
+ differenziali di linea perché dipendono dal percorso seguito per passare
+ da uno stato termodinamico ad un altro.
+\end_layout
+
+\begin_layout Itemize
+essendo U una quantità estensiva (additiva), se il sistema Z è composto
+ da due (o più) sottosistemi A, B, ..., l’energia interna totale è:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $U_{Z}=U_{A}+U_{B}+...$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+in un sistema isolato (semplice o composto) il bilancio energetico diviene:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $\Delta U_{Isolato}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+per un sistema che subisce una trasformazione ciclica
+\color red
+ 
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+
+\color red
+una trasformazione ciclica parte da uno stato di equilibrio e seguendo un
+ qualsiasi percorso ritorna allo stato di equilibrio di partenza
+\end_layout
+
+\end_inset
+
+
+\color inherit
+, diverso dal caso di sistema isolato poiché qui lavoro e calore possono
+ essere diversi da 0, ma sono tra di loro uguali in valore assoluto, si
+ ha:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $\Delta U_{Ciclo}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+per un sistema Z non isolato composto da due (o più) sottosistemi A, B,
+ ..., l’energia interna totale è:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $\Delta U_{Z}=\Delta U_{A}+\Delta U_{B}+...=Q_{Z}^{\leftarrow}-L_{Z}^{\rightarrow}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Formulazione classica del primo 1° della termodinamica:
+\series default
+ l’energia che è immagazzinata in un sistema e non va a cambiare né l’energia
+ cinetica del centro di massa, né quella potenziale (e neanche l’energia
+ elastica, chimica o elettrica) è chiamata 
+\shape italic
+energia interna
+\shape default
+.
+\end_layout
+
+\begin_layout Standard
+Dall'ultima equazione, che afferma che la variazione di energia interna
+ di un sistema composto è esprimibile come la differenza tra il calore entrante
+ attraverso il contorno del sistema e il lavoro uscente attraverso di esso,
+ deriva un'importante notazione: dato un sistema Z composto da diversi sottosist
+emi che fra di loro scambiano lavoro e calore, nel bilancio complessivo
+ del sistema Z questi scambi interni non vengono considerati poiché, tanto
+ quanto un sottosistema A cede calore ad un sottosistema B, tanto quest'ultimo
+ riceve calore dal sistema A, quindi effettuando tutti i bilanci sui singoli
+ sottosistemi queste interazioni si annullano a vicenda poiché entrano in
+ due equazioni di bilancio diverse con segno opposto.
+ 
+\end_layout
+
+\begin_layout Standard
+Quindi 
+\begin_inset Formula $Q_{Z}^{\leftarrow}$
+\end_inset
+
+e 
+\begin_inset Formula $L_{Z}^{\rightarrow}$
+\end_inset
+
+sono gli scambi di calore e lavoro che il sistema composto Z scambia con
+ l'ambiente esterno.
+ 
+\end_layout
+
+\begin_layout Standard
+La formulazione dell'energia interna è dovuta alla cosiddetta 
+\series bold
+\shape italic
+esperienza di Joule
+\series default
+\shape default
+.
+\end_layout
+
+\begin_layout Standard
+Tale esperienza può essere così riassunta: in un contenitore rigido e perfettame
+nte isolato termicamente è posta una massa di acqua inizialmente a riposo:
+ nell'acqua è immerso un mulinello collegato ad un contrappeso.
+ Lasciando scendere il contrappeso, questo compirà sul sistema, costituito
+ dall'acqua, un lavoro che in parte si trasforma in energia cinetica posseduta
+ dall'acqua in movimento ed in parte è dissipato per attriti viscosi.
+ 
+\end_layout
+
+\begin_layout Standard
+Dopo qualche istante l'acqua ritorna in condizioni di riposo e si può concludere
+ che il sistema costituito dall'acqua non ha modificato né la sua energia
+ cinetica, né la sua energia potenziale.
+ Se ne deve dedurre che il principio di conservazione dell'energia, da un
+ punto di vista meccanico, è falso, oppure che l'energia sia stata immagazzinata
+ nel sistema sotto qualche altra forma.
+ Se, infatti, si dispone di un termometro nell'acqua si osserva che la sua
+ temperatura è aumentata ovvero che il suo stato termodinamico è mutato.
+\end_layout
+
+\begin_layout Standard
+Per i sistemi conservativi si ha:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $\delta L=dE_{K}+dE_{P}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il lavoro introdotto nel sistema non varia l’energia cinetica e l’energia
+ potenziale del sistema, in quanto l’acqua, dopo l’agitazione iniziale torna
+ in quiete.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $dE_{K}+dE_{P}-\delta L\neq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il sistema ha però aumentato la temperatura.
+ E’ un fenomeno senz’altro correlato alla variazione di un'energia immagazzinata
+ che viene chiamata energia interna.
+\end_layout
+
+\begin_layout Standard
+Altra storica esperienza di Joule è quella diretta a determinare l'equivalente
+ meccanico della caloria.
+ Essa ha permesso di evidenziare il carattere di funzione di stato dell'energia
+ interna.
+ Questa esperienza può essere così schematizzata:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Schematizzazione dell'esperienza di Joule
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Schematizzazione-dell'esperienza"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/2015-03-13-200544_409x251_scrot.svg
+	width 60line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si considerino le due trasformazioni cicliche 
+\shape slanted
+ac
+\shape default
+ e 
+\shape slanted
+bc
+\shape default
+ rappresentate in Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Schematizzazione-dell'esperienza"
+
+\end_inset
+
+ e si assuma come vero il fatto sperimentale, ripetutamente osservato da
+ Joule, che il rapporto tra calore e lavoro scambiato in una definita trasformaz
+ione ciclica è costante e dipendente unicamente dalle unità di misura adottate
+ per la misura del calore e del lavoro.
+\end_layout
+
+\begin_layout Standard
+Nel caso esemplificato, adottando le stesse unità di misura per 
+\begin_inset Formula $Q$
+\end_inset
+
+ e 
+\begin_inset Formula $L$
+\end_inset
+
+, il rapporto diventa unitario.
+ Si scriverà quindi, considerando i due cicli
+\shape italic
+ ac
+\shape default
+ e
+\shape italic
+ bc
+\shape default
+:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $Q_{ac}=L_{ac}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $Q_{bc}=L_{bc}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In particolare si potrà scrivere:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $Q_{a}+Q_{c}=L_{a}+L_{c}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $Q_{b}+Q_{c}=L_{b}+L_{c}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e quindi in definitiva, sottraendo membro a membro, si ottiene:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $Q_{a}-Q_{b}=L_{a}-L_{b}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $Q_{a}-L_{a}=Q_{b}-L_{b}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $\Delta U_{12_{a}}=\Delta U_{12_{b}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Secondo principio della termodinamica
+\end_layout
+
+\begin_layout Standard
+In un sistema termodinamico all'equilibrio esiste una funzione intrinseca
+ dello stato del sistema (funzione di stato) detta entropia 
+\begin_inset Formula $"S"$
+\end_inset
+
+ la cui variazione per una trasformazione reversibile è data da:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $\Delta S=\int\frac{\delta Q_{rev}^{\leftarrow}}{T}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dal secondo principio discendono alcune importanti proprietà:
+\end_layout
+
+\begin_layout Itemize
+l’entropia totale di un sistema, cioè l’entropia riferita all’intera massa
+ del sistema m, è una quantità estensiva:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $S=m\cdot s$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+la variazione di entropia totale di un sistema isolato sede di trasformazioni
+ termodinamiche è sempre maggiore di zero e tende a zero con il tendere
+ dei processi alla reversibilità:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $\Delta S_{Isolato}\geq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Essendo S una quantità estensiva (additiva), se il sistema Z è composto
+ da due (o più) sottosistemi A, B, ..., l’entropia totale è:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $S_{Z}=S_{A}+S_{B}+...$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $\Delta S_{Z}=\Delta S_{A}+\Delta S_{B}+...$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In un sistema chiuso sede di trasformazioni termodinamiche il bilancio entropico
+ può essere scritto come:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $\Delta S=S_{Q}^{\leftarrow}+S_{Irr}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+in cui il termine 
+\begin_inset Formula $S_{Q}^{\leftarrow}$
+\end_inset
+
+ rappresenta la entropia entrante attraverso i confini del sistema come
+ conseguenza dello scambio di calore Q (primo assioma), mentre 
+\begin_inset Formula $S_{Irr}$
+\end_inset
+
+ (sempre maggiore di zero, in base al terzo assioma) è il termine di generazione
+ entropica per irreversibilità.
+ Il primo termine dovuto agli scambi di calore è teoricamente calcolabile,
+ anche se è molto difficile determinare la variazione di calore al variare
+ della temperatura perché non è affatto semplice fare un integrale di un
+ differenziale di linea, mentre il secondo termine rimane quasi sempre un'incogn
+ita.
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Calcolo delle grandezze termodinamiche
+\end_layout
+
+\begin_layout Standard
+Si può dimostrare che, in alcuni casi semplici, è possibile il calcolo dei
+ diversi termini che compaiono nel primo e nel secondo principio della termodina
+mica 
+\begin_inset Formula $(∆U,Q,L,∆S)$
+\end_inset
+
+ in funzione delle grandezze direttamente misurabili quali pressione 
+\begin_inset Formula $(P)$
+\end_inset
+
+, temperatura 
+\begin_inset Formula $(T)$
+\end_inset
+
+ e volume 
+\begin_inset Formula $(V)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+Il lavoro termodinamico
+\end_layout
+
+\begin_layout Standard
+La capacità di compiere lavoro non è altro che la combinazione di una forza
+ per uno spostamento.
+ Come si riconduce però il lavoro alla pressione e al volume?
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Il lavoro termodinamico
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:il-lavoro-termodinamico"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/2015-03-14-152507_455x398_scrot.svg
+	width 60line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da un punto di vista meccanico il differenziale del lavoro è: 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $\delta L=F\cdot s_{spostamento}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In termodinamica il sistema classico che si può trovare è il sistema cilindro-pi
+stone che permette di esprimere il lavoro come:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $\delta l^{\rightarrow}=P\,dV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e quindi:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset Formula $l^{\rightarrow}=\int_{i}^{f}P\,dV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Cilindro-pistone
+\end_layout
+
+\begin_layout Standard
+In un dispositivo cilindro-pistone, uno squilibrio di forze infinitesimo
+ tra forze esterne e forza interna 
+\begin_inset Formula $\left(P*A\right)$
+\end_inset
+
+ provoca uno spostamento infinitesimo del pistone a cui corrisponde un lavoro.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\delta\vec{L}=P\,A\,ds=P\,dv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si è considerato il sistema composto dal solo fluido comprimibile e la trasforma
+zione quasi statica.
+ Quando il sistema evolve da uno stato iniziale 
+\begin_inset Formula $i$
+\end_inset
+
+ a uno stato finale 
+\begin_inset Formula $f$
+\end_inset
+
+ attraverso una successione di stati di equilibrio sarà possibile esprimere
+ una legge detta equazione di trasformazione tra le variabili di stato 
+\begin_inset Formula $P$
+\end_inset
+
+ e 
+\begin_inset Formula $v$
+\end_inset
+
+ e la sua integrazione rappresenterà il lavoro scambiato durante la trasformazio
+ne.
+\end_layout
+
+\begin_layout Standard
+Riferendoci alla Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:il-lavoro-termodinamico"
+
+\end_inset
+
+, possiamo scrivere:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\delta\vec{l}=P\,dv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{l}=\int_{i}^{f}\,P\,dv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il calcolo dell'integrale al secondo membro richiede la conoscenza della
+ funzione 
+\begin_inset Formula $P=P\left(v\right)$
+\end_inset
+
+ detta 
+\shape italic
+equazione della trasformazione.
+\end_layout
+
+\begin_layout Subsubsection
+Espansione isoterma reversibile
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Espansione isoterma reversibile
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:espansione-isoterma-reversibile"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-16.svg
+	width 60line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consideriamo ora un'espansione isoterma reversibile, come quella in Figura
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:espansione-isoterma-reversibile"
+
+\end_inset
+
+, da 
+\begin_inset Formula $V_{i}$
+\end_inset
+
+a 
+\begin_inset Formula $V_{f}$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $l=R^{*}\int_{v_{i}}^{vf}\frac{T}{v}dv=R^{*}T\ln\left(\frac{v_{f}}{v_{i}}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se espandiamo il gas in modo irreversibile, il lavoro compiuto è pari a:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $l=p_{ex}\Delta V$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il lavoro reversibile (in verde in figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:espansione-isoterma-reversibile"
+
+\end_inset
+
+) è maggiore del lavoro irreversibile (in arancio in figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:espansione-isoterma-reversibile"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Immaginando un cilindro-pistone contenente al suo interno un gas ad una
+ certa pressione con dei pesi di varia massa appoggiati sul pistone, eliminando
+ le masse il sistema evolverà fino a portarsi in una situazione finale diversa,
+ si espande e al termine dell'espansione avrà una pressione inferiore a
+ quella di partenza.
+ In questo caso si estrae una quantità di lavoro irreversibile inferiore
+ rispetto a quella che si potrebbe estrarre idealmente.
+\end_layout
+
+\begin_layout Subsubsection
+Lavoro e funzione di stato
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def: 
+\series bold
+\shape default
+Funzione di stato
+\end_layout
+
+\begin_layout Standard
+Una funzione di stato è una proprietà del sistema che dipende solamente
+ dallo stato in considerazione, e non dalla natura del processo (cammino)
+ attraverso il quale il sistema è arrivato allo stato attuale.
+ Un banale esempio di funzione di stato è l'altezza.
+\end_layout
+
+\begin_layout Standard
+Invece:
+\end_layout
+
+\begin_layout Itemize
+Il Lavoro 
+\shape smallcaps
+NON
+\shape default
+ è una funzione di stato;
+\end_layout
+
+\begin_layout Itemize
+Il Lavoro compiuto 
+\shape smallcaps
+DIPENDE
+\shape default
+ dal cammino;
+\end_layout
+
+\begin_layout Itemize
+L'altezza finale 
+\shape smallcaps
+NON
+\shape default
+ 
+\shape smallcaps
+DIPENDE
+\shape default
+ dal cammino;
+\end_layout
+
+\begin_layout Itemize
+Il tempo trascorso 
+\shape smallcaps
+DIPENDE
+\shape default
+ dal cammino.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta l$
+\end_inset
+
+ non è un differenziale esatto e il lavoro 
+\begin_inset Formula $L$
+\end_inset
+
+ non è una funzione di stato in quanto l’area sottesa dipende dall’equazione
+ di trasformazione e il lavoro può essere 
+\begin_inset Formula $>0$
+\end_inset
+
+ nel caso di macchine a ciclo diretto (motrici), oppure 
+\begin_inset Formula $<0$
+\end_inset
+
+ nel caso di macchine a ciclo inverso (operatrici).
+\end_layout
+
+\begin_layout Section
+Calore e Temperatura
+\end_layout
+
+\begin_layout Standard
+Per lungo tempo Calore e Temperatura furono confusi...
+\end_layout
+
+\begin_layout Standard
+Ora noi sappiamo che il calore è una forma di energia, dovuta all’incessante
+ movimento degli atomi e delle molecole di cui sono composti i vari oggetti.
+ Essendo una particolare forma di energia, non ci deve sorprendere che non
+ si conservi, così come non si conservano altre forme di energia.
+\end_layout
+
+\begin_layout Subsubsection
+La teoria del Calorico
+\end_layout
+
+\begin_layout Standard
+L’opinione prevalente (Lavoisier, Fourier, Laplace e Poisson), era che il
+ calore fosse una sorta di fluido misterioso, il calorico, che fluiva in
+ ogni sostanza e spontaneamente passava da un corpo caldo ad un corpo freddo.
+ 
+\end_layout
+
+\begin_layout Standard
+La teoria del calorico assegnava a questo fluido strane proprietà.
+ Prima di tutto non aveva peso: scaldare un etto di ferro non portava ad
+ un aumento del suo peso; però occupava spazio.
+ 
+\end_layout
+
+\begin_layout Standard
+I corpi, infatti, aumentavano di volume se riscaldati.
+ Nonostante i numerosi tentativi, il calorico sfuggiva ad ogni sforzo per
+ essere isolato e investigato direttamente.
+ Pian piano aumentava l’evidenza sperimentale e teorica che la teoria del
+ calorico fosse errata.
+\end_layout
+
+\begin_layout Standard
+I corpi caldi contengono piu’ calorico del corpi freddi.
+ Mettendo a contatto un corpo caldo con un corpo freddo, il calorico fluisce
+ dal corpo caldo a quello freddo.
+\end_layout
+
+\begin_layout Standard
+Benjamin Thompson, Conte Rumford, supervisionava la fabbricazione di cannoni.
+ 
+\end_layout
+
+\begin_layout Standard
+Il corpo di un cannone veniva fabbricato a partire da un cilindro di metallo,
+ in cui veniva prodotto meccanicamente un foro del diametro desiderato.
+ L’attrito meccanico generava moltissimo calore.
+\end_layout
+
+\begin_layout Standard
+La teoria del calorico sosteneva che la polvere di metallo poteva “contenere”
+ meno calorico del blocco di metallo originale.
+ Durante la lavorazione del cannone, il calorico non poteva più essere immagazzi
+nato nella Polvere metallica, e veniva disperso sotto forma di calore.
+ 
+\end_layout
+
+\begin_layout Standard
+Thompson immerse un blocco metallico in acqua, e dimostrò che era necessaria
+ la stessa quantità di calore per innalzare di un grado la polvere metallica
+ generata, oppure un blocco di metallo dello stesso peso.
+ La polvere metallica non era meno capace di immagazzinare calore rispetto
+ al pezzo di metallo non polverizzato.
+ Il calore prodotto proveniva semplicemente dal lavoro meccanico compiuto
+ per forare il cannone.
+\end_layout
+
+\begin_layout Standard
+Il calore quindi non era una sostanza.
+ Le idee sbagliate però sono dure a morire, e la teoria del calorico sopravvisse
+ ancora un poco.
+ 
+\end_layout
+
+\begin_layout Standard
+Ancora oggi, nel linguaggio comune, sono presenti dei “resti linguistici”
+ di quella teoria.
+ Parliamo infatti di calore che “entra” ed “esce” dai corpi, o dalle finestre
+ aperte.
+ L’uso della 
+\shape italic
+caloria (cal)
+\shape default
+ come unità di energia è una vestigia di quel passato.
+\end_layout
+
+\begin_layout Subsubsection
+James Prescott Joule e la conservazione dell'energia
+\end_layout
+
+\begin_layout Standard
+Il riconoscimento e l’enunciazione del principio universale della conservazione
+ dell’energia è dovuto principalmente a James Prescott Joules (1818-1889),
+ birraio e appassionato di scienza.
+ 
+\end_layout
+
+\begin_layout Standard
+In suo onore oggi usiamo il joule come unità di misura del lavoro e dell’energia
+ del Sistema Internazionale (SI).
+ Tuttavia in alcuni campi sono ancora utilizzate le calorie, ad esempio
+ nelle etichette dei cibi, (in realtà Kilocalorie).
+\end_layout
+
+\begin_layout Standard
+Joule provò l’equivalenza tra calore e lavoro meccanico: il lavoro eseguito
+ per far ruotare le pale, causa un aumento della temperatura dell’acqua
+ Joules mostrò anche che la quantità di calore prodotto era proporzionale
+ alla quantità di lavoro.
+\end_layout
+
+\begin_layout Standard
+“I fenomeni della natura, siano essi meccanici, chimici o vitali (biologici),
+ consistono quasi interamente nella continua conversione di attrazione nello
+ spazio (energia potenziale), forza vitale (energia cinetica) e calore,
+ uno nell’altro.
+ 
+\end_layout
+
+\begin_layout Standard
+Questo è il modo in cui l’ordine viene mantenuto nell’universo: nulla è
+ sbilanciato, nulla viene perso, ma l’intero meccanismo, per quanto complicato,
+ lavora incessantemente e armoniosamente.
+ E sebbene, come nella terribile profezia di Ezechiele, “ruote potranno
+ incastrarsi in altre ruote”, e ogni cosa possa apparire complicata e implicato
+ nell’apparente confusione e nella varietà quasi senza fine di cause, effetti,
+ conversioni e arrangiamenti, tuttavia la più perfetta regolarità viene
+ preservata.
+ Il tutto governato dal volere superiore di Dio”.
+\end_layout
+
+\begin_layout Subsubsection
+Robert von Mayer
+\end_layout
+
+\begin_layout Standard
+Julius Robert von Mayer fu il primo a enunciare esplicitamente il principio
+ di conservazione dell’energia.
+\end_layout
+
+\begin_layout Standard
+Le varie forme di energia (Chimica, Elettrica, Magnetica, Meccanica, Calore)
+ si possono trasformare una nell’altra, ma l’energia totale rimane costante.
+\end_layout
+
+\begin_layout Subsection
+Il Calore
+\end_layout
+
+\begin_layout Subsubsection
+Capacità termica
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Capacità termica
+\end_layout
+
+\begin_layout Standard
+Rapporto tra il calore fornito al sistema e la variazione di temperatura
+ del sistema stesso.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $C_{x}=\left(\frac{\delta Q^{\leftarrow}}{dT}\right)_{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Calore specifico
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def: 
+\series bold
+\shape default
+Calore specifico
+\end_layout
+
+\begin_layout Standard
+Rapporto tra la capacità termica del sistema e la sua massa.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $c_{x}=\frac{1}{m}\left(\frac{\delta Q^{\leftarrow}}{dT}\right)_{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Calore specifico a volume costante
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def: 
+\series bold
+\shape default
+Calore specifico a volume costante
+\end_layout
+
+\begin_layout Standard
+Rapporto tra la derivata parziale dell'energia interna e la temperatura
+ a volume costante.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $c_{v}=\left(\frac{\partial u}{\partial T}\right)_{v}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset Formula $c_{v}=c_{v}\left(T,P\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape smallcaps
+Dimostrazione:
+\end_layout
+
+\begin_layout Standard
+Poiché 
+\begin_inset Formula $u$
+\end_inset
+
+ è proprietà del sistema, per la legge di Duhem la si può riferire a due
+ variabili a scelta, per esempio temperatura e volume:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $u=u\left(T,v\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per il primo principio si può scrivere che:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $du=\delta q^{\leftarrow}-\delta l^{\rightarrow}=\delta q^{\leftarrow}-Pdv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\delta q^{\leftarrow}=du+Pdv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\delta q^{\leftarrow}=\left(\frac{\partial u}{\partial T}\right)_{v}dT+\left(\frac{\partial u}{\partial v}\right)_{T}+Pdv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula $dv=0$
+\end_inset
+
+
+\series default
+\size default
+ poiché il volume è costante, ipotizzando una trasformazione isocora, quindi:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\delta q^{\leftarrow}=\left(\frac{\partial u}{\partial T}\right)_{v}dT$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Dunque:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\left(\frac{\delta q^{\leftarrow}}{dT}\right)_{v}=\left(\frac{\partial u}{\partial v}\right)_{v}=c_{v}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Calore specifico a pressione costante
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def:
+\shape default
+ 
+\series bold
+Calore specifico a pressione costante
+\end_layout
+
+\begin_layout Standard
+Per definire il calore specifico a pressione costante bisogna introdurre
+ prima una nuova funzione di stato, ovvero 
+\shape italic
+l'entalpia
+\shape default
+, poiché la sua variazione può essere ricondotta proprio al calore specifico
+ a pressione costante.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def: 
+\series bold
+\shape default
+Entalpia
+\end_layout
+
+\begin_layout Standard
+L'entalpia è una funzione di stato che esprime la quantità di energia che
+ un sistema termodinamico può scambiare con l'ambiente.
+ L'entalpia è definita dalla somma dell'energia interna e del prodotto tra
+ volume e pressione di un sistema.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $h=u+Pv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def: 
+\series bold
+\shape default
+Calore specifico a pressione costante
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $c_{p}=\left(\frac{\partial h}{\partial T}\right)_{P}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $c_{p}=c_{p}\left(T,P\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per le trasformazioni che avvengono a pressione costante la variazione di
+ entalpia è uguale al calore scambiato dal sistema con l'ambiente esterno.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape smallcaps
+Dimostrazione:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $h=u+Pv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $dh=du+Pdv+vdP$
+\end_inset
+
+
+\series default
+\size default
+, dove 
+\series bold
+\size large
+
+\begin_inset Formula $du+Pdv=\delta q^{\leftarrow}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Poiché l'entalpia è una funzione di stato, per la legge di Duhem la si può
+ riferire a due variabili a scelta, per esempio temperatura e pressione:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $h=h\left(T,P\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Possiamo scrivere:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\delta q^{\leftarrow}=dh-vdP$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\delta q^{\leftarrow}=\left(\frac{\partial h}{\partial T}\right)_{P}dT+\left(\frac{\partial h}{\partial P}\right)_{T}dP-vdP$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula $dP=0$
+\end_inset
+
+
+\series default
+\size default
+ poiché la pressione è costante considerando una trasformazione isobara
+\end_layout
+
+\begin_layout Standard
+Quindi:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\delta q^{\leftarrow}=\left(\frac{\partial h}{\partial T}\right)_{P}dT$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+E infine:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\left(\frac{\delta q^{\leftarrow}}{dT}\right)_{P}=\left(\frac{\partial h}{\partial T}\right)_{P}=c_{P}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Espansione libera di un gas ideale
+\end_layout
+
+\begin_layout Standard
+Si considerino due recipienti isolati termostaticamente, cioè indipendenti
+ dagli scambi di calore con l'esterno, separati da una valvola, uno contenente
+ un gas ideale e l'altro vuoto.
+ All'apertura della valvola di intercettazione, mettendo così in comunicazione
+ i due recipienti, si osserva che, dopo un periodo di instabilità, la temperatur
+a ritorna al suo valore iniziale, mentre la pressione si stabilizza su un
+ valore tale per cui 
+\begin_inset Formula $P_{f}<P_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Essendo il sistema isolato, il primo principio della termodinamica consente
+ di affermare che l'energia interna del sistema rimane costante.
+ 
+\end_layout
+
+\begin_layout Standard
+Poiché il sistema è costituito da un gas ideale che subisce una trasformazione
+ durante la quale varia sia la pressione, sia il volume mentre può essere
+ perciò funzione della sola temperatura (rimasta costante) e non della pressione
+ (che è variata).
+ In definitiva, per un gas ideale, si ha:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $u=u\left(T\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dunque possiamo ricondurre anche il calore specifico a pressione e a volume
+ costante alla sola temperatura per il gas ideale:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $c_{v}=c_{v}\left(T\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $c_{P}=c_{P}\left(T\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+infatti:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $c_{v}=\left(\frac{\partial u}{\partial T}\right)_{v}=\left(\frac{du}{dT}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quindi il calore specifico a volume costante cessa di essere riferito solo
+ alle trasformazioni isocore ma permette di risalire all'energia interna
+ del sistema.
+\end_layout
+
+\begin_layout Standard
+Ma anche per l'entalpia si ha:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $h=h\left(T\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+poiché:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $h=u+Pv$
+\end_inset
+
+
+\series default
+\size default
+, ma 
+\series bold
+\size large
+
+\begin_inset Formula $u=u\left(T\right)$
+\end_inset
+
+
+\series default
+\size default
+ e 
+\series bold
+\size large
+
+\begin_inset Formula $Pv=R^{*}T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+quindi si ha anche che:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $c_{p}=\left(\frac{\partial h}{\partial T}\right)_{P}=\left(\frac{dh}{dT}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Inolte se 
+\begin_inset Formula $c_{v}=cost.$
+\end_inset
+
+ abbiamo che 
+\begin_inset Formula $\Delta u=c_{v}\Delta T$
+\end_inset
+
+; se 
+\begin_inset Formula $c_{p}=cost.$
+\end_inset
+
+ abbiamo che 
+\begin_inset Formula $\Delta h=c_{p}\Delta T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Relazione di Mayer
+\end_layout
+
+\begin_layout Standard
+La relazione di Mayer afferma che il calore specifico a pressione costante
+ è pari alla somma del calore specifico a volume costante e la costante
+ caratteristica del gas considerato:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $c_{p}=c_{v}+R^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape smallcaps
+Dimostrazione:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $c_{P}=\left(\frac{\partial h}{\partial T}\right)_{P}=\left(\frac{dh}{dT}\right)=\left(\frac{du+d\left(Pv\right)}{dT}\right)=\left(\frac{du+d\left(R^{*}T\right)}{dT}\right)=\left(\frac{du}{dT}\right)+R^{*}=c_{v}+R^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Gas ideali con 
+\begin_inset Formula $c_{P}$
+\end_inset
+
+ e 
+\begin_inset Formula $c_{v}$
+\end_inset
+
+ costanti
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Gas ideali con 
+\begin_inset Formula $c_{v}$
+\end_inset
+
+ e 
+\begin_inset Formula $c_{P}$
+\end_inset
+
+ costanti
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="50mm">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{v}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{P}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gas 
+\end_layout
+
+\begin_layout Plain Layout
+Monoatomico
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{3}{2}R^{*}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{5}{2}R^{*}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gas Biatomico o Poliatomico lineare
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{5}{2}R^{*}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{7}{2}R^{*}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gas Poliatomico 
+\end_layout
+
+\begin_layout Plain Layout
+non lineare
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{6}{2}R^{*}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{8}{2}R^{*}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Il calore specifico del liquido incomprimibile ideale
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $c_{v}=c_{P}=c\left(T\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Trasformazioni politropiche
+\end_layout
+
+\begin_layout Subsubsection
+Indice 
+\begin_inset Formula $n$
+\end_inset
+
+ della politropica
+\end_layout
+
+\begin_layout Description
+Def: 
+\series bold
+Politropica
+\end_layout
+
+\begin_layout Standard
+Una trasformazione politropica è una trasformazione di un gas ideale per
+ la quale si può supporre che:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $c_{x}=\frac{\delta q}{\delta T}=costante$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Rappresentazione nel piano 
+\begin_inset Formula $P-V$
+\end_inset
+
+ dei vari tipi di trasformazioni termodinamiche
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-29.svg
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In figura 4 sono rappresentati i tipi di trasformazioni termodinamiche nel
+ piano 
+\begin_inset Formula $P-V$
+\end_inset
+
+.
+ Da notare che isoterma e adiabatica sono entrambe rami di iperbole ma l'isoterm
+a ha una chiusura maggiore di quella dell'adiabatica.
+\end_layout
+
+\begin_layout Standard
+Si consideri una generica trasformazione quasi-statica per un sistema costituito
+ da un gas perfetto:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula 
+\begin{equation}
+\delta q^{\leftarrow}=c_{x}dT
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ricordiamo che:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\delta q^{\leftarrow}=du+Pdv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ma anche:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\delta q^{\leftarrow}=dh-vdP$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dunque, ricordando che 
+\begin_inset Formula $du=c_{v}dT$
+\end_inset
+
+ e che 
+\begin_inset Formula $dh=c_{P}dT$
+\end_inset
+
+, abbiamo:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula 
+\begin{equation}
+\delta q^{\leftarrow}=c_{v}dT+Pdv
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula 
+\begin{equation}
+\delta q^{\leftarrow}=c_{P}dT-vdP
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Uguagliando la 
+\begin_inset Formula $\left(1\right)$
+\end_inset
+
+ alla 
+\begin_inset Formula $\left(3\right)$
+\end_inset
+
+ e la 
+\begin_inset Formula $\left(1\right)$
+\end_inset
+
+ alla 
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+ otteniamo:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\left(c_{x}-c_{P}\right)dT=-vdP$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\left(c_{x}-c_{v}\right)dT=Pdv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il rapporto:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $n=\frac{c_{x}-c_{P}}{c_{x}-c_{v}}=-\frac{vdP}{Pdv}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+viene definito 
+\begin_inset Formula $n$
+\end_inset
+
+, indice della politropica.
+\end_layout
+
+\begin_layout Standard
+Separando le variabili e integrando:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $n\frac{dv}{v}=-\frac{dP}{P}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $n\ln v=-\ln P$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $Pv^{n}=cost$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un modo analogo di esprimere l'equazione precedente è:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $Pvv^{n-1}=cost$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e ancora:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $Tv^{n-1}=cost^{'}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $T\left(\frac{R^{*}T}{P}\right)^{n-1}=cost^{'}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+infine anche:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\frac{T^{n}}{P^{n-1}}=cost^{''}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $PT^{\frac{n}{1-n}}=cost^{''}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Trasformazioni: valori di 
+\begin_inset Formula $c_{x}$
+\end_inset
+
+, 
+\begin_inset Formula $c_{P}$
+\end_inset
+
+ e 
+\begin_inset Formula $c_{v}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="50mm">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tipo di
+\end_layout
+
+\begin_layout Plain Layout
+Trasformazione
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{x}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n=\frac{c_{x}-c_{P}}{c_{x}-c_{v}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Isoterma
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $T=costante$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pm\infty$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Isocora
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $v=costante$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{v}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+\begin_inset Formula $\pm\infty$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Isobara
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $P=costante$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{P}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Adiabatica
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $q=costante$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $k=\frac{c_{P}}{c_{v}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Osserviamo che 
+\begin_inset Formula $\frac{c_{P}}{c_{v}}=\gamma>1$
+\end_inset
+
+ per la legge di Mayer.
+\end_layout
+
+\begin_layout Standard
+Per 
+\begin_inset Formula $n\neq1$
+\end_inset
+
+ l'integrale del lavoro diventa:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $l^{\rightarrow}=\int_{1}^{2}Pdv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $l^{\rightarrow}=\frac{P_{1}v_{1}}{n-1}\left[1-\left(\frac{v_{1}}{v_{2}}\right)^{n-1}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $l^{\rightarrow}=\frac{P_{1}v_{1}}{n-1}\left[1-\left(\frac{P_{2}}{P_{1}}\right)^{\frac{n-1}{n}}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape smallcaps
+Dimostrazione:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $Pv^{n}=P_{1}v_{1}^{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $l=\int_{v_{1}}^{v_{2}}Pdv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $P=P_{1}v_{1}^{n}v^{-n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $l=\int_{v_{1}}^{v_{2}}P_{1}v_{1}^{n}\frac{dv}{v^{n}}=P_{1}v_{1}^{n}\cdot\left[\frac{v^{-n+1}}{-n+1}\right]_{1}^{2}=\frac{P_{1}v_{1}^{n}}{1-n}\left[v_{2}^{1-n}-v_{1}^{1-n}\right]=\frac{P_{1}v_{1}}{n-1}\left[1-\left(\frac{v_{1}}{v_{2}}\right)^{n-1}\right]=\frac{P_{1}v_{1}}{n-1}\left[1-\left(\frac{P_{2}}{P_{1}}\right)^{\frac{n-1}{n}}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per 
+\begin_inset Formula $n=1$
+\end_inset
+
+ (trasformazione isoterma) l'integrale del lavoro diventa:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $l=P_{1}v_{1}\ln\frac{v_{2}}{v_{1}}=P_{1}v_{1}\ln\frac{P_{1}}{P_{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape smallcaps
+Dimostrazione:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape smallcaps
+\size large
+\begin_inset Formula $Pv=P_{1}v_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape smallcaps
+\size large
+\begin_inset Formula $l=\int_{v_{1}}^{v_{2}}Pdv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape smallcaps
+\size large
+\begin_inset Formula $P=P_{1}\frac{v_{1}}{v}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape smallcaps
+\size large
+\lang english
+\begin_inset Formula $l=\int_{v_{1}}^{v_{2}}P_{1}v_{1}\frac{dv}{v}=P_{1}v_{1}\left[\ln v\right]_{1}^{2}=P_{1}v_{1}\left[\ln v_{2}-\ln v_{1}\right]=P_{1}v_{1}\ln\frac{v_{2}}{v_{1}}=P_{1}v_{1}\ln\frac{P_{1}}{P_{2}}$
+\end_inset
+
+
+\lang british
+ 
+\end_layout
+
+\begin_layout Subsection
+Diagramma 
+\begin_inset Formula $T-S$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Gli stati termodinamici e le trasformazioni termodinamiche possono essere
+ rappresentati in un diagramma 
+\begin_inset Formula $T-S$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+(aggiungere grafico)
+\end_layout
+
+\begin_layout Standard
+In un diagramma T-S, l’area sottesa dalla curva rappresentativa di una trasforma
+zione reversibile è uguale al calore scambiato dal sistema nella trasformazione:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\int_{i}^{f}T\left(S\right)dS=\int_{i}^{f}\delta Q=Q$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per una trasformazione ciclica reversibile, le aree incluse nelle curve
+ chiuse rappresentative del ciclo nei diagrammi 
+\begin_inset Formula $p-V$
+\end_inset
+
+ e 
+\begin_inset Formula $T-S$
+\end_inset
+
+ sono uguali, essendo, per il 1° Principio: 
+\begin_inset Formula $L=Q$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(aggiungere grafico)
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $Tds=c_{x}dT$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Separando le variabili e integrando si ottiene l'equazione della politropica
+ nel piano 
+\begin_inset Formula $T-s$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\frac{dT}{T}=\frac{ds}{c_{x}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\int_{T_{0}}^{T}\frac{dT}{T}=\int_{S_{0}}^{S}\frac{ds}{c_{x}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\ln\frac{T}{T_{0}}=\frac{s-s_{0}}{c_{x}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $T=T_{0}\cdot e^{\frac{s-s_{0}}{c_{x}}}$
+\end_inset
+
+
+\series default
+\size default
+, al variare di 
+\series bold
+\size large
+
+\begin_inset Formula $c_{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nel piano 
+\begin_inset Formula $T-s$
+\end_inset
+
+ tutte le politropiche sono rappresentate da esponenziali.
+ In particolare le isoterme avendo 
+\begin_inset Formula $c_{x}=\infty$
+\end_inset
+
+ sono rette orizzontali e così, per il gas ideale, anche le isentalpiche
+ dato che 
+\begin_inset Formula $h=h\left(T\right)$
+\end_inset
+
+.
+ Le isentropiche invece sono rette verticali visto che 
+\begin_inset Formula $c_{x}=0$
+\end_inset
+
+.
+ Le isocore essendo 
+\begin_inset Formula $c_{v}=c_{P}$
+\end_inset
+
+ sono più ripide delle isobare.
+\end_layout
+
+\begin_layout Section
+Entropia
+\end_layout
+
+\begin_layout Standard
+In un processo reversibile si ha:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $du=Tds-Pdv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ovvero:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $ds=\frac{du}{T}+\frac{P}{T}dv$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Gas perfetti
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $du=c_{v}dT$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $PV=R^{*}T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $ds=c_{v}\frac{dT}{T}+R^{*}\frac{dv}{v}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+oppure:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $ds=c_{P}\frac{dT}{T}-R^{*}\frac{dP}{P}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $ds=c_{P}\frac{dv}{v}+c_{v}\frac{dP}{P}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Infatti, in un processo reversibile si ha:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $dh=Tds+vdP$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ovvero:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $ds=\frac{dh}{T}-\frac{v}{T}dP$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $dh=c_{P}dT$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+per i gas perfetti:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $PV=R^{*}T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $ds=c_{P}\frac{dT}{T}-R^{*}\frac{dP}{P}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $ds=c_{v}\frac{dT}{T}+R^{*}\frac{dv}{v}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $PV=R^{*}T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $Pdv+vdP=R^{*}dT$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $ds=c_{v}\left(\frac{P}{R^{*}T}dv+\frac{v}{R^{*}T}dP\right)+R^{*}\frac{dv}{v}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $ds=c_{v}\frac{dv}{v}+c_{v}\frac{dP}{P}+R^{*}\frac{dv}{v}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $ds=c_{p}\frac{dv}{v}+c_{v}\frac{dP}{P}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Integrando:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $s=s_{0}+c_{v}\ln\frac{T}{T_{0}}+R^{*}\ln\frac{v}{v_{0}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $s=s_{0}+c_{P}\ln\frac{T}{T_{0}}-R^{*}\ln\frac{P}{P_{0}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $s=s_{0}+c_{P}\ln\frac{v}{v_{0}}+c_{v}\ln\frac{P}{P_{0}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La variazione di entropia (funzione di stato) è indipendente dal cammino
+ che porta il sistema tra lo stato iniziale e lo stato finale.
+ 
+\end_layout
+
+\begin_layout Subsection
+Liquido incomprimibile perfetto
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $du=cdT$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $v=cost$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $ds=c\cdot\frac{dT}{T_{0}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $s=s_{0}+c\cdot\ln\frac{T}{T_{0}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Tabella riassuntiva trasformazioni politropiche 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $l=\int pdv$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $q=\int dq$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta u$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta h$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta s$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P=cost$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p\Delta v$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{P}\Delta T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{v}\Delta T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{p}\Delta T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{P}\ln\frac{T_{2}}{T_{1}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V=cost$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{v}\Delta T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{v}\Delta T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{P}\Delta T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{v}\ln\frac{T_{2}}{T_{1}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $T=cost$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $R^{*}T\ln\frac{v_{2}}{v_{1}}-R^{*}T\ln\frac{P_{2}}{P_{1}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $R^{*}T\ln\frac{v_{2}}{v_{1}}-R^{*}T\ln\frac{P_{2}}{P_{1}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $R^{*}T\ln\frac{v_{2}}{v_{1}}-R^{*}T\ln\frac{P_{2}}{P_{1}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $dQ=0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-c_{v}\Delta T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{v}\Delta T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{P}\Delta T$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{x}=cost$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(c_{x}-c_{v}\right)\Delta T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{x}\Delta T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{v}\Delta T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{P}\Delta T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $c_{P}\ln\frac{T_{2}}{T_{1}}-R^{*}\ln\frac{P_{2}}{P_{1}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $c_{v}\ln\frac{T_{2}}{T_{1}}-R^{*}\ln\frac{v_{2}}{v_{1}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
