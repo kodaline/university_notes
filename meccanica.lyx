@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language italian
+\language british
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -68,7 +68,7 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -182,7 +182,7 @@ vederlo
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -191,7 +191,7 @@ status collapsed
 
 \shape italic
 Rappresentazione del vettore posizione 
-\begin_inset Formula $\bar{OP}$
+\begin_inset Formula $\overline{OP}$
 \end_inset
 
  nel piano cartesiano
@@ -288,6 +288,10 @@ Il movimento implica che il vettore
 
 \end_layout
 
+\begin_layout Subsubsection
+Legge oraria
+\end_layout
+
 \begin_layout Description
 
 \shape smallcaps
@@ -318,6 +322,10 @@ z & =z\left(t\right)
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Traiettoria
 \end_layout
 
 \begin_layout Description
@@ -421,6 +429,10 @@ Per esprimerla in forma esplicita invece usiamo:
 legge di moto
 \end_layout
 
+\begin_layout Subsubsection
+Ascissa curvilinea
+\end_layout
+
 \begin_layout Description
 
 \shape smallcaps
@@ -509,6 +521,10 @@ La posizione del punto
 
 \end_layout
 
+\begin_layout Subsubsection
+Velocità
+\end_layout
+
 \begin_layout Description
 
 \shape smallcaps
@@ -541,7 +557,7 @@ Vettore ottenuto derivando la posizione del punto P rispetto al tempo.
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -699,7 +715,7 @@ dove:
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -736,10 +752,6 @@ Componenti del vettore velocità
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula $\implies\tanα=\frac{ẏ}{ẋ}=\frac{dy}{dt}\cdot\frac{dt}{dx}=\frac{dy}{dx}=f^{'}\left(x\right)$
 \end_inset
 
@@ -748,6 +760,10 @@ Componenti del vettore velocità
 \end_inset
 
  è la derivata prima della traiettoria rispetto a x.
+\end_layout
+
+\begin_layout Subsubsection
+Accelerazione
 \end_layout
 
 \begin_layout Description
@@ -849,7 +865,7 @@ Allora
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1266,7 +1282,7 @@ moto traslatorio:
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1347,6 +1363,10 @@ Moto rotatorio
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 Il corpo ha subìto una rotazione di 
 \family roman
 \series medium
@@ -1385,11 +1405,14 @@ moto roto-traslatorio:
 \shape default
 può essere visto come una composizione tra il moto traslatorio e il moto
  rotatorio.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1585,7 +1608,7 @@ tutti i punti di
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1614,7 +1637,7 @@ name "fig:caso-1"
 \align center
 \begin_inset Graphics
 	filename /home/aline/Graphics/drawing-8.svg
-	width 40line%
+	width 50line%
 
 \end_inset
 
@@ -1642,7 +1665,7 @@ reference "fig:caso-2"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1669,7 +1692,7 @@ name "fig:caso-2"
 \align center
 \begin_inset Graphics
 	filename /home/aline/Graphics/drawing-9.svg
-	width 40line%
+	width 50line%
 
 \end_inset
 
@@ -1709,7 +1732,7 @@ Nel terzo caso se le due velocità
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1729,7 +1752,7 @@ Atto di moto: caso 3
 \align center
 \begin_inset Graphics
 	filename /home/aline/Graphics/drawing-10.svg
-	width 30line%
+	width 40line%
 
 \end_inset
 
@@ -1749,7 +1772,7 @@ Atto di moto: caso 3
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1863,6 +1886,13 @@ Corpo rigido (spostamento)
 
 \begin_layout Subsection
 Teorema di Rivals
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Teorema-di-Rivals"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1913,10 +1943,10 @@ e
 
 \series bold
 \size large
-\begin_inset Formula $\vec{a_{B}}=\vec{a_{a}}+\dot{\vec{\omega}\wedge\left(B-A\right)+\vec{\omega}\wedge\left(\vec{\omega}\wedge\left(B-A\right)\right)}$
+\begin_inset Formula $\vec{a_{B}}=\vec{a_{a}}+\vec{\omega}\wedge\left(B-A\right)+\dot{\vec{\omega}}\wedge\left(\vec{\omega}\wedge\left(B-A\right)\right)$
 \end_inset
 
-
+ 
 \series default
 \size default
 , con
@@ -1927,6 +1957,10 @@ e
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Vincoli elementari
 \end_layout
 
 \begin_layout Description
@@ -1940,7 +1974,9 @@ Vincoli elementari
 \end_layout
 
 \begin_layout Standard
-I vincoli elementari sopprimono direttamente uno dei gradi di libertà.
+I vincoli elementari sopprimono direttamente uno o più gradi di libertà
+ del corpo rigido: può essere soppresso rispetto alla terra o rispetto ad
+ un secondo corpo.
  Sono di 4 tipi:
 \end_layout
 
@@ -1992,7 +2028,7 @@ reference "fig:vincolo-di-carrello"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -2040,14 +2076,11 @@ name "fig:vincolo-di-incastro"
 
 \series bold
 \size large
-\lang english
-\begin_inset Formula 
-\begin{eqnarray*}
-x_{A} & = & 0\\
-y_{A} & = & 0\\
-φ & = & 0
-\end{eqnarray*}
-
+\begin_inset Formula $\begin{cases}
+x_{A} & =0\\
+y_{A} & =0\\
+φ & =0
+\end{cases}$
 \end_inset
 
 
@@ -2057,7 +2090,7 @@ y_{A} & = & 0\\
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -2105,14 +2138,11 @@ name "fig:vincolo-di-cerniera"
 
 \series bold
 \size large
-\lang english
-\begin_inset Formula 
-\begin{eqnarray*}
-x_{A} & = & 0\\
-y_{A} & = & 0\\
-φ & \neq & 0
-\end{eqnarray*}
-
+\begin_inset Formula $\begin{cases}
+x_{A} & =0\\
+y_{A} & =0\\
+φ & \neq0
+\end{cases}$
 \end_inset
 
 
@@ -2124,7 +2154,7 @@ y_{A} & = & 0\\
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -2170,14 +2200,11 @@ name "fig:vincolo-di-pattino/manicotto"
 
 \series bold
 \size large
-\lang english
-\begin_inset Formula 
-\begin{eqnarray*}
-x_{A} & \neq & 0\\
-y_{A} & = & 0\\
-φ & = & 0
-\end{eqnarray*}
-
+\begin_inset Formula $\begin{cases}
+x_{A} & \neq0\\
+y_{A} & =0\\
+φ & =0
+\end{cases}$
 \end_inset
 
 
@@ -2189,7 +2216,7 @@ y_{A} & = & 0\\
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -2241,17 +2268,2499 @@ name "fig:vincolo-di-carrello"
 
 \series bold
 \size large
-\lang english
-\begin_inset Formula 
-\begin{eqnarray*}
-x_{A} & \neq & 0\\
-y_{A} & = & 0\\
-φ & \neq & 0
-\end{eqnarray*}
+\begin_inset Formula $\begin{cases}
+x_{A} & \neq0\\
+y_{A} & =0\\
+φ & \neq0
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Puro rotolamento di un disco
+\end_layout
+
+\begin_layout Standard
+Il vincolo di puro rotolamento di un disco su una guida non è un vincolo
+ elementare.
+ Per introdurre tale vincolo si consideri il semplice vincolo di contatto
+ e analizzando il caso più semplice con una guida orizzontale rettilinea
+ e un disco a contatto con questa guida.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Vincolo di puro rotolamento di un disco
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Vincolo-di-puro"
 
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-17.svg
+	width 60line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Facendo riferimento alla Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Vincolo-di-puro"
+
+\end_inset
+
+ si ha che:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $O$
+\end_inset
+
+ è l'origine del disco;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $C$
+\end_inset
+
+ è il punto di contatto del disco con la guida;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $R$
+\end_inset
+
+ è il raggio del disco;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\left(x,y\right)$
+\end_inset
+
+ è il sistema di riferimento assoluto.
+\end_layout
+
+\begin_layout Standard
+Il vincolo di contatto tra il disco e la guida introduce due aspetti:
+\end_layout
+
+\begin_layout Enumerate
+Il disco è considerato un corpo rigido e la stessa cosa per la guida; ci
+ deve essere assenza di compenetrazione tra i due corpi;
+\end_layout
+
+\begin_layout Enumerate
+Si ipotizzi che non ci sia distacco tra il disco e la guida.
+\end_layout
+
+\begin_layout Standard
+Poste queste due condizioni risulta che la velocità lungo l'asse 
+\begin_inset Formula $y$
+\end_inset
+
+, ovvero quella ortogonale al contatto deve essere nulla: 
+\begin_inset Formula $v_{c_{y}}=0$
+\end_inset
+
+, altrimenti non verrebbe rispettata la condizione 2.
+ Anche il centro del disco 
+\begin_inset Formula $O$
+\end_inset
+
+ avrà velocità lungo 
+\begin_inset Formula $y$
+\end_inset
+
+ nulla: 
+\begin_inset Formula $v_{O_{y}}=0$
+\end_inset
+
+.
+ Il punto 
+\begin_inset Formula $O$
+\end_inset
+
+ compie una traiettoria rettilinea orizzontale parallela all'asse 
+\begin_inset Formula $x$
+\end_inset
+
+ e quindi alla guida, e perpendicolare al raggio 
+\begin_inset Formula $R$
+\end_inset
+
+ del disco con distanza dalla guida pari proprio ad 
+\begin_inset Formula $R$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In generale, nel momento in cui si ha un semplice vincolo di contatto, la
+ velocità lungo l'asse 
+\begin_inset Formula $x$
+\end_inset
+
+ è diversa da zero: 
+\begin_inset Formula $v_{C_{x}}\neq0$
+\end_inset
+
+.
+ Tale velocità viene detta 
+\shape italic
+velocità di strisciamento
+\shape default
+.
+ Se invece anche 
+\begin_inset Formula $v_{C_{x}}=0$
+\end_inset
+
+ si è nella condizione di vincolo di puro rotolamento o altrimenti detto
+ rotolamento senza strisciamento.
+ In questa condizione risulta che: 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\begin{cases}
+v_{C_{y}} & =0\\
+v_{C_{x}} & =0
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e quindi la velocità complessiva del punto 
+\begin_inset Formula $C$
+\end_inset
+
+ è nulla: 
+\begin_inset Formula $\vec{v}_{C}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C$
+\end_inset
+
+ risulta essere il centro di istantanea rotazione del disco, ovvero quel
+ punto che ad un istante fissato risulta avere velocità nulla.
+\end_layout
+
+\begin_layout Standard
+Il vincolo di contatto introduce un grado di vincolo (elimina un grado di
+ libertà del sistema) poiché impone che 
+\begin_inset Formula $O$
+\end_inset
+
+ non subisca nessuno spostamento ortogonale, ma soltanto a compiere una
+ traiettoria rettilinea ortogonale alla guida.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape smallcaps
+Dimostrazione:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Dimostrazione: vincolo di puro rotolamento con un singolo grado di libertà
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Dimostrazione:-vincolo-di"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-18.svg
+	width 60line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si consideri la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Dimostrazione:-vincolo-di"
+
+\end_inset
+
+ che rappresenta un disco in due istanti successivi.
+ L'istante iniziale è 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+, quello successivo è 
+\begin_inset Formula $t$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A_{D}$
+\end_inset
+
+: punto di contatto 
+\begin_inset Formula $\in$
+\end_inset
+
+ al disco all'istante iniziale 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A_{G}$
+\end_inset
+
+: punto di contatto 
+\begin_inset Formula $\in$
+\end_inset
+
+ alla guida all'istante iniziale 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+Ad un generico istante 
+\begin_inset Formula $t$
+\end_inset
+
+ il disco sarà avanzato e si avrà:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $B_{D}$
+\end_inset
+
+: punto generico
+\begin_inset Formula $\in$
+\end_inset
+
+ al disco che si troverà sulla guida ad un certo istante di tempo;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A_{D}^{'}$
+\end_inset
+
+: il punto 
+\begin_inset Formula $B_{D}\in$
+\end_inset
+
+ al disco al generico istante 
+\begin_inset Formula $t$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $B_{G}$
+\end_inset
+
+: punto di contatto 
+\begin_inset Formula $\in$
+\end_inset
+
+ alla guida all'istante generico 
+\begin_inset Formula $t$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $B_{D}^{'}$
+\end_inset
+
+: punto di contatto 
+\begin_inset Formula $\in$
+\end_inset
+
+ al disco all'istante generico 
+\begin_inset Formula $t$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\theta$
+\end_inset
+
+: rappresenta la rotazione che il disco compie per passare dalla condizione
+ iniziale 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+ alla condizione all'istante 
+\begin_inset Formula $t$
+\end_inset
+
+; rimane invariato.
+\end_layout
+
+\begin_layout Standard
+\align center
+La condizione di puro rotolamento impone che 
+\begin_inset Formula $A_{G}$
+\end_inset
+
+, 
+\begin_inset Formula $B_{G}$
+\end_inset
+
+ e l'arco di circonferenza compreso tra 
+\begin_inset Formula $A_{D}$
+\end_inset
+
+ e 
+\begin_inset Formula $B_{D}$
+\end_inset
+
+ abbiano la stessa lunghezza: 
+\begin_inset Formula $\overline{A_{G}B_{G}}=A_{D}^{\;\,^{\frown}}B_{D}$
+\end_inset
+
+.
+ In altre parole impone che l'ente cinematico che rappresenta il punto di
+ contatto appartenente al disco e quello appartenente alla guida durante
+ il moto compiano sostanzialmente lo stesso percorso lungo le due superfici
+ dei due corpi a contatto.
+ Questo risultato consente di introdurre un legame tra la rotazione del
+ disco e la posizione del suo centro 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ Infatti 
+\begin_inset Formula $A_{G}B_{G}$
+\end_inset
+
+ rappresenta l'ascissa curvilinea di 
+\begin_inset Formula $O$
+\end_inset
+
+ che individua dove è posizionato lungo la traiettoria rettilinea.
+ Risulta che: 
+\series bold
+\size large
+
+\begin_inset Formula $\overline{O^{'}O}=\overline{A_{G}B_{G}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $s=R\cdot\theta$
+\end_inset
+
+
+\series default
+\size default
+, dove 
+\begin_inset Formula $s$
+\end_inset
+
+ rappresenta l'arco di circonferenza 
+\series bold
+\size large
+\lang english
+
+\begin_inset Formula $A_{D}^{\;\,^{\frown}}B_{D}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Posizione del punto 
+\begin_inset Formula $O$
+\end_inset
+
+ del disco
+\end_layout
+
+\begin_layout Standard
+La posizione del punto 
+\begin_inset Formula $O$
+\end_inset
+
+ è esprimibile:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $x_{o}\left(t\right)=x_{o}\left(t_{0}\right)+s\left(t\right)=x_{o}\left(t_{0}\right)+R\cdot\theta\left(t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La condizione di rotolamento senza strisciamento impone un vincolo ulteriore
+ sottoforma di legame tra la posizione del centro 
+\begin_inset Formula $C$
+\end_inset
+
+ del disco lungo 
+\begin_inset Formula $x$
+\end_inset
+
+ e la rotazione del disco stesso, ovvero la sua orientazione.
+ Il disco possiede quindi un singolo grado di libertà residuo poiché si
+ può indifferentemente descrivere completamente la sua posizione definendo:
+\end_layout
+
+\begin_layout Itemize
+la posizione di 
+\begin_inset Formula $O$
+\end_inset
+
+ per risalire poi al valore di 
+\begin_inset Formula $\theta$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+oppure: 
+\end_layout
+
+\begin_layout Itemize
+la posizione di 
+\begin_inset Formula $\theta$
+\end_inset
+
+ per ricostruire la posizione del centro del disco.
+\end_layout
+
+\begin_layout Subsubsection
+Velocità del centro 
+\begin_inset Formula $O$
+\end_inset
+
+ del disco
+\end_layout
+
+\begin_layout Standard
+La velocità è parallela e tangente a 
+\begin_inset Formula $\overline{OO^{'}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+L'unica velocità è quella lungo 
+\begin_inset Formula $x$
+\end_inset
+
+ pari a: 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $v_{O}\left(t\right)=\dot{s}=R\cdot\dot{\theta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Esprimendola sotto forma di vettori si ha:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{v_{O}}=v_{O}\cdot\vec{i}=R\cdot\dot{\theta}\cdot\vec{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Accelerazione del centro 
+\begin_inset Formula $O$
+\end_inset
+
+ del disco
+\end_layout
+
+\begin_layout Standard
+L'accelerazione è parallela e tangente a 
+\begin_inset Formula $\overline{OO^{'}}$
+\end_inset
+
+ ed è pari a:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $a_{O}\left(t\right)=\dot{v_{O}}\left(t\right)=\ddot{s}\left(t\right)=R\cdot\ddot{\theta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Esprimendola sotto forma di vettori si ha:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{a_{O}}=a_{O}\cdot\vec{i}=R\cdot\ddot{\theta}\cdot\vec{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per esprimere la velocità e l'accelerazione angolari di un punto qualsiasi
+ del disco diverso dal centro 
+\begin_inset Formula $O$
+\end_inset
+
+ si può ricorrere al teorema di Rivals (Sezione 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Teorema-di-Rivals"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsubsection
+Velocità angolare del disco
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{\omega}=-\dot{\theta}\left(\vec{k}\right)$
+\end_inset
+
+
+\series default
+\size default
+, dove 
+\begin_inset Formula $\vec{k}$
+\end_inset
+
+ è il versore uscente dal piano, indica rotazioni in generale positive se
+ compiute in senso antiorario, mentre nel caso considerato 
+\begin_inset Formula $\theta$
+\end_inset
+
+ è positiva se la rotazione è compiuta in senso orario (ecco il perché del
+ 
+\begin_inset Formula $-$
+\end_inset
+
+ nella formula)
+\end_layout
+
+\begin_layout Subsubsection
+Accelerazione angolare del disco
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\dot{\vec{\omega}}=-\ddot{\theta}\left(\vec{k}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Velocità del punto 
+\begin_inset Formula $P$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Velocità del punto 
+\begin_inset Formula $P$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Velocità-del-punto"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-19.svg
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La velocità del punto 
+\begin_inset Formula $P$
+\end_inset
+
+ per il teorema di Rivals è pari a: 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\vec{v_{P}}=\vec{\omega}\wedge\left(P-C\right)+\vec{v_{C}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ma poiché 
+\begin_inset Formula $C$
+\end_inset
+
+ è centro di istantanea rotazione si ha che 
+\begin_inset Formula $\vec{v_{C}}=0$
+\end_inset
+
+, e quindi: 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\vec{v_{P}}=\vec{\omega}\wedge\left(P-C\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il vettore 
+\begin_inset Formula $\vec{v_{P}}$
+\end_inset
+
+ è appartenente al piano (ovvero ortogonale alla velocità angolare) e ortogonale
+ a 
+\begin_inset Formula $\left(P-C\right)$
+\end_inset
+
+ (vedi Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Velocità-del-punto"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsubsection
+Modulo della velocità del punto 
+\begin_inset Formula $P$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Modulo della velocità di 
+\begin_inset Formula $P$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Modulo-della-velocità"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-20.svg
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\left|\vec{v_{P}}\right|=\left|\vec{\omega}\right|\cdot\overline{PC}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le velocità del centro del disco, per il teorema di Rivals, sono pari a:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{v_{O}}=\vec{\omega}\wedge\left(O-C\right)=-\dot{\theta}\vec{k}\wedge R\vec{j}=\dot{\theta}R\cdot\vec{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+con 
+\begin_inset Formula $\vec{\omega}=-\dot{\theta}\vec{k}$
+\end_inset
+
+ e 
+\begin_inset Formula $\left(O-C\right)=R\vec{j}$
+\end_inset
+
+.
+ Inoltre 
+\begin_inset Formula $-\vec{i}=\vec{k}\wedge\vec{j}$
+\end_inset
+
+ poiché opposto seguendo la regola della mano destra.
+\end_layout
+
+\begin_layout Standard
+La velocità di un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ opposto al centro di istantanea rotazione 
+\begin_inset Formula $C$
+\end_inset
+
+ del disco è pari a, per il teorema di Rivals:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{v_{P}}=\vec{\omega}\wedge\left(P-C\right)=2\dot{\theta}R\vec{i}=2\vec{v_{O}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+con 
+\begin_inset Formula $\vec{\omega}=-\dot{\theta}\vec{k}$
+\end_inset
+
+ e 
+\begin_inset Formula $\left(P-C\right)=2R\vec{j}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Come si può osservare in Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Modulo-della-velocità"
+
+\end_inset
+
+, la distribuzione della velocità è triangolare.
+ 
+\begin_inset Formula $P$
+\end_inset
+
+ si trova a distanza doppia rispetto a 
+\begin_inset Formula $C$
+\end_inset
+
+ e quindi ha velocità doppia rispetto ad 
+\begin_inset Formula $O$
+\end_inset
+
+.
+ Tutti i punti intermedi hanno velocità distribuita triangolarmente compresa
+ tra 
+\begin_inset Formula $v_{O}$
+\end_inset
+
+ e 
+\begin_inset Formula $v_{P}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Accelerazione di 
+\begin_inset Formula $P$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Poiché il centro di istantanea rotazione ha velocità nulla ma in generale
+ ha accelerazione diversa da 
+\begin_inset Formula $0$
+\end_inset
+
+, applicando Rivals rispetto al punto 
+\begin_inset Formula $O$
+\end_inset
+
+ di cui si conosce l'accelerazione, si può determinare l'accelerazione di
+ 
+\begin_inset Formula $C$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{a_{C}}=\vec{a_{O}}+\dot{\vec{\omega}}\wedge\left(C-O\right)-\omega^{2}\left(C-O\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ma 
+\begin_inset Formula $\dot{\vec{\omega}}=-\ddot{\theta}\vec{k}$
+\end_inset
+
+, 
+\begin_inset Formula $\left(C-O\right)=-R\vec{j}$
+\end_inset
+
+ e 
+\begin_inset Formula $\vec{a_{O}}=R\cdot\ddot{\theta}\cdot\vec{i}$
+\end_inset
+
+ si può scrivere:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{a_{C}}=R\theta^{2}\vec{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Accelerazione del centro di istantanea rotazione 
+\begin_inset Formula $C$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-21.svg
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Cicloide: traiettoria di un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ del disco lungo il perimetro esterno 
+\end_layout
+
+\begin_layout Standard
+Considerando la traiettoria di un punto generico lungo il perimetro esterno
+ del nostro disco, essa prende il nome di 
+\shape italic
+cicloide.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Cicloide
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-22.svg
+	width 60line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nel momento in cui il punto 
+\begin_inset Formula $P$
+\end_inset
+
+ arriva a contatto con la guida e diventa quindi centro di istantanea rotazione
+ del disco, presenta un punto angoloso (cuspide), ovvero la tangente al
+ CIR (centro di istantanea rotazione) è verticale e infatti la velocità
+ in quel punto si annulla.
+\end_layout
+
+\begin_layout Standard
+Se la 
+\begin_inset Formula $\vec{a_{C}}$
+\end_inset
+
+ fosse anche essa nulla, 
+\begin_inset Formula $C$
+\end_inset
+
+ non sarebbe soltanto CIR ma anche centro di rotazione del disco.
+\end_layout
+
+\begin_layout Section
+Moti relativi
+\end_layout
+
+\begin_layout Standard
+L'utilizzo di diversi sistemi di riferimento in generale consente di scomporre
+ il moto complesso di un corpo in moti più semplici da analizzare.
+ Ovviamente perché questo avvenga i sistemi di riferimento devono essere
+ scelti in maniera opportuna considerando i vincoli applicati al sistema
+ e tale scelta deve basarsi sulla possibilità, una volta utilizzati i diversi
+ sdr, di descrivere il moto del punto preso in interesse come un moto che
+ avviene lungo una traiettoria semplice.
+\end_layout
+
+\begin_layout Subsection
+Alcuni esempi 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Moti relativi: esempio 1
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Moti-relativi:-esempio1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-23.svg
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Moti-relativi:-esempio1"
+
+\end_inset
+
+ si descrive un'asta (corpo rigido) vincolata ad un carrello che si muove
+ lungo una guida orizzontale.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $x,O,y$
+\end_inset
+
+: sistema di riferimento assoluto.
+\end_layout
+
+\begin_layout Standard
+Tenendo conto del vincolo di carrello si può introdurre:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $x^{'},O^{'},y^{'}$
+\end_inset
+
+: sistema di riferimento mobile (o anche detto relativo), rispetto al quale
+ il punto 
+\begin_inset Formula $P$
+\end_inset
+
+ compie una traiettoria circolare ed è quindi relativamente semplice descrivere
+ il suo moto relativo rispetto al sdr relativo.
+ 
+\begin_inset Formula $O^{'}$
+\end_inset
+
+ compie un moto orizzontale poiché è fissato nel centro del carrello.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Moti relativi: esempio 2
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Moti-relativi:-esempio-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-24.svg
+	width 30line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Moti-relativi:-esempio-2"
+
+\end_inset
+
+ si osserva un'asta incernierata a terra ed una seconda vincolata alla prima
+ attraverso un vincolo di pattino.
+\end_layout
+
+\begin_layout Standard
+La seconda asta non può avere una rotazione rispetto alla prima.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $O^{'}$
+\end_inset
+
+: origine del sdr relativo posta nella cerniera a terra;
+\end_layout
+
+\begin_layout Itemize
+il sdr mobile ruota solidalmente con l'asta incernierata a terra;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P$
+\end_inset
+
+ compie una traiettoria rettilinea parallela all'asse 
+\begin_inset Formula $x^{'}$
+\end_inset
+
+ (
+\begin_inset Formula $\sslash$
+\end_inset
+
+ all'asse a terra).
+\end_layout
+
+\begin_layout Standard
+La scelta del sdr relativo non è univoca e in base alla scelta si possono
+ avere diversi casi come quelli in Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sottocasi-dell'esempio-2"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Sottocasi dell'esempio 2
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sottocasi-dell'esempio-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-25.svg
+	width 40line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+l'angolo 
+\begin_inset Formula $\theta$
+\end_inset
+
+ è asssoluto
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-26.svg
+	width 30line%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+l'angolo 
+\begin_inset Formula $\theta$
+\end_inset
+
+ è relativo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nel caso 
+\begin_inset Formula $\left(a\right)$
+\end_inset
+
+ il sdr relativo ha origine 
+\begin_inset Formula $O^{'}$
+\end_inset
+
+ nel punto di collegamento delle due aste, e assi 
+\begin_inset Formula $x^{'}$
+\end_inset
+
+ e 
+\begin_inset Formula $y^{'}$
+\end_inset
+
+ paralleli durante tutto il moto agli assi 
+\begin_inset Formula $x$
+\end_inset
+
+ e 
+\begin_inset Formula $y$
+\end_inset
+
+ del sdr assoluto.
+ Quindi il moto è puramente traslatorio senza cambio di orientazione (
+\begin_inset Formula $\theta$
+\end_inset
+
+ è assoluto).
+\end_layout
+
+\begin_layout Standard
+Nel caso 
+\begin_inset Formula $\left(b\right)$
+\end_inset
+
+ il sdr relativo ha origine 
+\begin_inset Formula $O^{'}$
+\end_inset
+
+ nel punto di collegamento delle due aste, e assi 
+\begin_inset Formula $x^{'}$
+\end_inset
+
+ e 
+\begin_inset Formula $y^{'}$
+\end_inset
+
+ che ruotano solidalmente insieme alla prima asta, con 
+\begin_inset Formula $x^{'}$
+\end_inset
+
+ diretto come la prima asta e 
+\begin_inset Formula $y^{'}$
+\end_inset
+
+ ortogonale ad essa.
+ In questo caso l'angolo 
+\begin_inset Formula $\theta$
+\end_inset
+
+ non è più riferito al sdr assoluto ma è un angolo relativo.
+\end_layout
+
+\begin_layout Standard
+Sia nel caso 
+\begin_inset Formula $\left(a\right)$
+\end_inset
+
+ che nel caso 
+\begin_inset Formula $\left(b\right)$
+\end_inset
+
+ il punto 
+\begin_inset Formula $P$
+\end_inset
+
+ compie una traiettoria circolare.
+\end_layout
+
+\begin_layout Subsection
+Posizione di 
+\begin_inset Formula $P$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+L'obiettivo è mettere in relazione i due differenti osservatori che descrivono
+ il moto del punto 
+\begin_inset Formula $P$
+\end_inset
+
+ in termini di velocità e accelerazione noto il movimento del sdr mobile
+ rispetto al sdr assoluto.
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+Def: 
+\series bold
+\shape default
+Posizione di 
+\begin_inset Formula $P$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Moti relativi: posizione di 
+\begin_inset Formula $P$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Moti-relativi:-posizione"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-27.svg
+	width 40line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Moti-relativi:-posizione"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\overline{OO^{'}}$
+\end_inset
+
+: posizione del sdr mobile rispetto al sdr assoluto;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\overline{PO^{'}}$
+\end_inset
+
+: posizione di 
+\begin_inset Formula $P$
+\end_inset
+
+ rispetto al sdr mobile.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape smallcaps
+\size large
+\begin_inset Formula $\left(P-O\right)=\left(O^{'}-O\right)+\left(P-O^{'}\right)=x_{O^{'}}\cdot\vec{i}+y_{O^{'}}\cdot\vec{j}+x_{P}^{'}\cdot\vec{i^{'}}+y_{P}^{'}\cdot\vec{j^{'}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove: 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\vec{i}$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{j}$
+\end_inset
+
+ sono i versori che indicano direzione e verso del sdr assoluto;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\vec{i^{'}}$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{j^{'}}$
+\end_inset
+
+ sono i versori che indicano direzione e verso del sdr mobile.
+\end_layout
+
+\begin_layout Standard
+Variano sia 
+\begin_inset Formula $x_{P}^{'}$
+\end_inset
+
+ che 
+\begin_inset Formula $y_{P}^{'}$
+\end_inset
+
+ che i versori, che hanno modulo inalterato ma orientamento variabile poiché
+ il sdr mobile può compiere rotazioni rispetto al sdr assoluto.
+ 
+\end_layout
+
+\begin_layout Subsection
+Velocità assoluta di 
+\begin_inset Formula $P$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{v_{P}}=\dot{x}_{O^{'}}\vec{i}+\dot{y}_{O^{'}}\vec{j}+\dot{x}_{P}^{'}\vec{i^{'}}+x_{P}^{'}\frac{d\vec{i^{'}}}{dt}+\dot{y}_{P}^{'}\vec{j^{'}}+\dot{y}_{P}^{'}\frac{d\vec{j^{'}}}{dt}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+raccogliendo: 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\vec{v_{P}}=\vec{v_{O^{'}}}+\vec{v_{rel_{P}}}+x_{P}^{'}\frac{d\vec{i^{'}}}{dt}+\dot{y}_{P}^{'}\frac{d\vec{j^{'}}}{dt}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove: 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\vec{v_{O^{'}}}=\dot{x}_{O^{'}}\vec{i}+\dot{y}_{O^{'}}\vec{j}$
+\end_inset
+
+, la velocità di 
+\begin_inset Formula $O^{'}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\vec{v_{rel_{P}}}=\dot{x}_{P}^{'}\vec{i^{'}}+\dot{y}_{P}^{'}\vec{j^{'}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Per i termini 
+\begin_inset Formula $x_{P}^{'}\frac{d\vec{i^{'}}}{dt}$
+\end_inset
+
+ e 
+\begin_inset Formula $\dot{y}_{P}^{'}\frac{d\vec{j^{'}}}{dt}$
+\end_inset
+
+ variano sia 
+\begin_inset Formula $x_{P}^{'}$
+\end_inset
+
+ , 
+\begin_inset Formula $y_{P}^{'}$
+\end_inset
+
+ che 
+\begin_inset Formula $\vec{i^{'}}$
+\end_inset
+
+ , 
+\begin_inset Formula $\vec{j^{'}}$
+\end_inset
+
+ (poiché sono versori che mantengono inalterato il modulo ma, poiché in
+ generale il sdr mobile può compiere delle rotazioni rispetto al sdr assoluto,
+ la direzione dei versori può variare nel tempo).
+ 
+\end_layout
+
+\begin_layout Standard
+Per valutare che contributi danno nella velocità questi due termini, è necessari
+o introdurre:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A_{1}$
+\end_inset
+
+: versore vincolato al sdr mobile e parallelo a 
+\begin_inset Formula $x^{'}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A_{2}$
+\end_inset
+
+: versore vincolato al sdr mobile e ortogonale a 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Contributi di 
+\begin_inset Formula $x_{P}^{'}\frac{d\vec{i^{'}}}{dt}$
+\end_inset
+
+ e 
+\begin_inset Formula $\dot{y}_{P}^{'}\frac{d\vec{j^{'}}}{dt}$
+\end_inset
+
+ nella velocità di 
+\begin_inset Formula $P$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/drawing-28.svg
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A questo punto possiamo scrivere i due versori 
+\begin_inset Formula $\vec{i^{'}}$
+\end_inset
+
+ e 
+\begin_inset Formula $\vec{j^{'}}$
+\end_inset
+
+ in funzione di 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ e 
+\begin_inset Formula $A_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{i^{'}}=A_{1}-O^{'}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\vec{j^{'}}=A_{2}-O^{'}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si ipotizzi che il sdr mobile abbia rispetto al sdr assoluto velocità angolare
+ pari a 
+\begin_inset Formula $\vec{\omega}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{i^{'}}=\left(A_{1}-O^{'}\right)=\left(A_{1}-O\right)-\left(O^{'}-O\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{j^{'}}=\left(A_{2}-O^{'}\right)=\left(A_{2}-O\right)-\left(O^{'}-O\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si è arrivati a considerare 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $A_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $O^{'}$
+\end_inset
+
+ del sdr mobile come 
+\begin_inset Formula $\in$
+\end_inset
+
+ un corpo rigido.
+\end_layout
+
+\begin_layout Standard
+Derivando rispetto al tempo i due versori si ottiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{d\vec{i^{'}}}{dt}=\vec{v_{A_{1}}}-\vec{v_{O^{'}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+applicando Rivals: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{v_{A_{1}}}=\vec{v_{O^{'}}}+\vec{\omega}\wedge\left(A_{1}-O^{'}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e poiché: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{1}-O^{'}=\vec{i^{'}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+si ottiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{d\vec{i^{'}}}{dt}=\vec{\omega}\wedge\vec{i^{'}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In maniera del tutto analoga si arriva ad ottenere il seguente risultato
+ per quanto riguarda la derivata rispetto al tempo di 
+\begin_inset Formula $\vec{j^{'}}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{d\vec{j^{'}}}{dt}=\vec{\omega}\wedge\vec{j^{'}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset Formula $\left(1\right)$
+\end_inset
+
+ e 
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+ sono chiamate formule di Poisson.
+ Tali equazioni indicano che la derivata rispetto al tempo dei versori nel
+ sdr relativo è pari al prodotto vettore tra la velocità angolare nel sdr
+ mobile e il versore stesso.
+\end_layout
+
+\begin_layout Standard
+Se 
+\begin_inset Formula $\vec{\omega}=\dot{φ}\vec{k}$
+\end_inset
+
+ si può scrivere che:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{d\vec{i^{'}}}{dt}=\vec{\omega}\wedge\vec{i^{'}}=\dot{\varphi}\vec{j}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{d\vec{j^{'}}}{dt}=\vec{\omega}\wedge\vec{j^{'}}=-\dot{\varphi}\vec{i}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset Formula $\left(3\right)$
+\end_inset
+
+ e 
+\begin_inset Formula $\left(4\right)$
+\end_inset
+
+ possono essere espresse anche tramite numeri complessi introducendo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{i^{'}}=e^{iφ}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{j^{'}}=e^{i\left(φ+\frac{\pi}{2}\right)}=i\cdot e^{iφ}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+quindi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{d\vec{i^{'}}}{dt}=i\dot{φ}e^{iφ}=\dot{φ}\vec{j^{'}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{d\vec{j^{'}}}{dt}=-\dot{φ}e^{iφ}=-\dot{φ}\vec{i^{'}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ritornando alla definizione della velocità di 
+\begin_inset Formula $P$
+\end_inset
+
+ si ottiene quindi che:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{v_{P}}=\vec{v_{O^{'}}}+\vec{\omega}\wedge\left(P-O^{'}\right)+\vec{v_{rel_{P}}}
+\]
+
+\end_inset
+
+
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+
+\size normal
+\color cyan
+Teorema dei moti relativi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ponendo poi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{v_{tr_{P}}}=\vec{v_{O^{'}}}+\vec{\omega}\wedge\left(P-O^{'}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+si ottiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{v_{P}}=\vec{v_{tr_{P}}}+\vec{v_{rel_{P}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+
+\size normal
+\color cyan
+La velocità di trascinamento di 
+\begin_inset Formula $P$
+\end_inset
+
+ è quella velocità che il punto 
+\begin_inset Formula $P$
+\end_inset
+
+ avrebbe se fosse rigidamente vincolato al sdr mobile 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nella definizione di 
+\begin_inset Formula $\vec{v_{tr_{P}}}$
+\end_inset
+
+ si può riconoscere l'espressione del teorema di Rivals per sistemi rigidi,
+ dove la velocità di 
+\begin_inset Formula $P$
+\end_inset
+
+ è espressa partendo dalla definizione di 
+\begin_inset Formula $\vec{v_{O^{'}}}$
+\end_inset
+
+, in particolare 
+\begin_inset Formula $\frac{d}{dt}\left(P-O^{'}\right)=\vec{v_{rel_{P}}}+\vec{\omega}\wedge\left(P-O^{'}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Accelerazione assoluta di 
+\begin_inset Formula $P$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{a_{P}}=\frac{d}{dt}\vec{v_{O^{'}}}+\frac{d}{dt}\vec{\omega}\wedge\left(P-O^{'}\right)+\vec{\omega}\wedge\frac{d}{dt}\left(P-O^{'}\right)+\frac{d}{dt}\vec{v_{rel_{P}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+quindi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{a_{P}}=\vec{a_{O^{'}}}+\vec{\dot{\omega}}\wedge\left(P-O^{'}\right)+\vec{\omega}\wedge\vec{v_{rel_{P}}}+\vec{\omega}\wedge\left(\vec{\omega}\wedge\left(P-O^{'}\right)\right)+\frac{d}{dt}\vec{v_{rel_{P}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ma: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{v_{rel_{P}}}=\dot{x_{P}^{'}\vec{i^{'}}+\dot{y}_{P}^{'}\vec{j^{'}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+derivando:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{d}{dt}\vec{v_{rel_{P}}}=\ddot{x}_{P}^{'}\vec{i^{'}}+\dot{x}_{P}^{'}\vec{\omega}\wedge\vec{i^{'}}+\ddot{y}_{P}^{'}\vec{j^{'}}+\dot{y}_{P}^{'}\vec{\omega}\wedge\vec{j^{'}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove 
+\begin_inset Formula $\ddot{x}_{P}^{'}\vec{i^{'}}+\ddot{y}_{P}^{'}\vec{j^{'}}=\vec{a_{rel_{P}}}$
+\end_inset
+
+ ovvero l'accelerazione relativa di 
+\begin_inset Formula $P$
+\end_inset
+
+ rispetto al sdr relativo.
+ Il termine in più è dovuto alla variazione di orientazione degli assi del
+ sdr mobile.
+\end_layout
+
+\begin_layout Standard
+Quindi la 
+\begin_inset Formula $\left(5\right)$
+\end_inset
+
+ si può esprimere nel seguente modo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{d}{dt}\vec{v_{rel_{P}}}=\vec{a_{rel_{P}}}+\vec{\omega}\wedge\left(\dot{x}_{P}^{'}\vec{i^{'}}+\dot{y}_{P}^{'}\vec{j^{'}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quindi si ottiene per l'accelerazione la seguente espressione:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{a_{p}}=\vec{a_{O^{'}}}+\vec{\omega}\wedge\left(P-O^{'}\right)+\vec{\omega}\wedge\left(\vec{\omega}\wedge\left(P-O^{'}\right)\right)+\vec{a_{rel_{P}}}+2\vec{\omega}\wedge\vec{v_{rel_{P}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{a_{tr_{P}}}=\vec{a_{O^{'}}}+\vec{\dot{\omega}}\wedge\left(P-O^{'}\right)+\vec{\omega}\wedge\left(\vec{\omega}\wedge\left(P-O^{'}\right)\right)
+\]
+
+\end_inset
+
+corrisponde all'accelerazione che il punto 
+\begin_inset Formula $P$
+\end_inset
+
+ avrebbe se fosse rigidamente vincolato al sdr mobile;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{a_{Coriolis_{P}}}=2\vec{\omega}\wedge\vec{v_{rel_{P}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Trattando di moti relativi non è possibile quindi ricostruire l'accelerazione
+ assoluta come semplice composizione tra l'accelerazione di trascinamento
+ e l'accelerazione relativa poiché si viene ad aggiungere un termine in
+ più che è appunto l'accelerazione di Coriolis (tale risultato è noto come
+ teorema di Coriolis).
+\end_layout
+
+\begin_layout Standard
+Si ottiene infine quindi che:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{a_{P}}=\vec{a_{tr_{P}}}+\vec{a_{rel_{P}}}+\vec{a_{Coriolis_{P}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ci sono una serie di casi particolari in cui l'accelerazione di Coriolis
+ non esiste individuabili direttamente dall'equazione che la rappresenta:
+ ad esempio se il sdr mobile compie moto puramente traslatorio (velocità
+ angolare nulla) oppure se non esiste una velocità relativa tra il punto
+ 
+\begin_inset Formula $P$
+\end_inset
+
+ ed il sdr mobile.
+ 
 \end_layout
 
 \end_body
