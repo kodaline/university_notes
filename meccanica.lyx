@@ -173,13 +173,19 @@ vederlo
 \end_inset
 
  in modo diverso, ovvero bisogna definire un sistema di riferimento (sistema
- di riferimento cartesiano).
+ di riferimento cartesiano, Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Rappresentazione-del-vettore"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
@@ -195,6 +201,13 @@ Rappresentazione del vettore posizione
 \end_inset
 
  nel piano cartesiano
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Rappresentazione-del-vettore"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -341,8 +354,15 @@ Def:
 
 \begin_layout Standard
 La linea nello spazio costituita dai punti via via occupati da un punto
- materiale; si assume che sia sempre continua, perché il moto è sempre continuo
- (in fisica classica, almeno).
+ materiale (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Traiettoria:-curva-nel"
+
+\end_inset
+
+); si assume che sia sempre continua, perché il moto è sempre continuo (in
+ fisica classica, almeno).
  La sua equazione si ottiene eliminando la variabile t dal sistema che descrive
  la legge oraria.
  In base al tipo di traiettoria si dà una prima classificazione del moto,
@@ -353,10 +373,9 @@ La linea nello spazio costituita dai punti via via occupati da un punto
 \begin_layout Standard
 \align center
 \begin_inset Float figure
-placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -364,7 +383,14 @@ status collapsed
 \begin_layout Plain Layout
 
 \shape italic
-Curva nel piano cartesiano
+Traiettoria: curva nel piano cartesiano
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Traiettoria:-curva-nel"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -427,6 +453,13 @@ Per esprimerla in forma esplicita invece usiamo:
 \series default
 \size default
 legge di moto
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -537,7 +570,15 @@ Velocità di un punto
 \end_layout
 
 \begin_layout Standard
-Vettore ottenuto derivando la posizione del punto P rispetto al tempo.
+Vettore ottenuto derivando la posizione del punto P rispetto al tempo (Figura
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Componenti-del-vettore"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -554,7 +595,6 @@ Vettore ottenuto derivando la posizione del punto P rispetto al tempo.
 \begin_layout Standard
 \align center
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
@@ -566,6 +606,13 @@ status open
 
 \shape italic
 Distanza tra due punti 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Distanza-tra-due"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -631,7 +678,14 @@ Distanza tra due punti
 \begin_inset Formula $\Delta S$
 \end_inset
 
-.
+ (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Distanza-tra-due"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -712,7 +766,6 @@ dove:
 \begin_layout Standard
 \align center
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
@@ -725,6 +778,13 @@ status open
 \shape italic
 Componenti del vettore velocità 
 \begin_inset Formula $\bar{v}$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Componenti-del-vettore"
+
 \end_inset
 
 
@@ -787,7 +847,6 @@ Vettore ottenuto derivando la velocità
 \align center
 
 \series bold
-\size large
 \begin_inset Formula $\vec{a}=\frac{d\vec{v}}{dt}=\frac{d^{2}\vec{P}}{dt}=\frac{d}{dt}\cdot\vec{v}=\frac{d}{dt}\left(\frac{d\vec{P}}{ds}\cdot\frac{ds}{dt}\right)=\frac{d\vec{P}}{ds}\cdot\frac{d}{dt}\left(\frac{ds}{dt}\right)+\frac{ds}{dt}\cdot\frac{d}{dt}\left(\frac{d\vec{P}}{dt}\right)=$
 \end_inset
 
@@ -798,7 +857,6 @@ Vettore ottenuto derivando la velocità
 \align center
 
 \series bold
-\size large
 \begin_inset Formula $=\frac{d^{2}\vec{P}}{ds^{2}}\cdot\frac{ds}{dt}=\frac{d^{2}\vec{P}}{ds^{2}}\cdotṡ$
 \end_inset
 
@@ -818,7 +876,7 @@ dove si ricorda che
 
 \series bold
 \size large
-\begin_inset Formula $\implies\vec{a}=\ddot{s}\cdot\vec{t}+\dot{s}^{2}\cdot\frac{d^{2}\vec{P}}{ds^{2}}$
+\begin_inset Formula $\vec{a}=\ddot{s}\cdot\vec{t}+\dot{s}^{2}\cdot\frac{d^{2}\vec{P}}{ds^{2}}$
 \end_inset
 
 
@@ -832,7 +890,7 @@ Dimostriamo che
 , con:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \begin_inset Formula $\rho=$
 \end_inset
 
@@ -840,7 +898,7 @@ Dimostriamo che
  approssima la traiettoria nell'intorno della posizione considerata);
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \begin_inset Formula $\vec{n}=$
 \end_inset
 
@@ -852,17 +910,23 @@ Dimostriamo che
 \end_layout
 
 \begin_layout Standard
-Allora 
-\begin_inset Formula $ds=\rho\cdot d\alpha\implies d\alpha=\frac{ds}{\rho}$
+Allora:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+ds=\rho\cdot d\alpha\implies d\alpha=\frac{ds}{\rho}
+\]
+
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
@@ -873,7 +937,14 @@ status open
 \begin_layout Plain Layout
 
 \shape italic
-Spostamento infinitesimo 
+Spostamento infinitesimo
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Spostamento-infinitesimo"
+
+\end_inset
+
+ 
 \end_layout
 
 \end_inset
@@ -903,28 +974,56 @@ Considero il vettore
 \end_inset
 
 .
- Poiché parliamo di quantità infinitesime, 
+ Poiché parliamo di quantità infinitesime (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Spostamento-infinitesimo"
+
+\end_inset
+
+), 
 \begin_inset Formula $d\vec{t}\cong ds$
 \end_inset
 
 .
- Allora 
-\begin_inset Formula $\left|d\vec{t}\right|=\rho\cdot d\alpha=1\cdot d\alpha\implies\left|d\vec{t}\right|=\frac{ds}{\rho}$
+ Allora:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|d\vec{t}\right|=\rho\cdot d\alpha=1\cdot d\alpha
+\]
+
 \end_inset
 
 
-\begin_inset Formula $\implies$
+\end_layout
+
+\begin_layout Standard
+implica: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|d\vec{t}\right|=\frac{ds}{\rho}
+\]
+
 \end_inset
 
+ che a sua volta implica: 
+\end_layout
 
-\begin_inset Newline newline
+\begin_layout Standard
+\begin_inset Formula 
+\[
+d\vec{t}=\frac{ds}{\rho}\cdot\vec{n}=\frac{1}{\rho}\cdot\vec{n}
+\]
+
 \end_inset
 
-
-\begin_inset Formula $\implies d\vec{t}=\frac{ds}{\rho}\cdot\vec{n}=\frac{1}{\rho}\cdot\vec{n}$
-\end_inset
-
- c.v.d.
+ come volevasi dimostrare.
 \end_layout
 
 \begin_layout Standard
@@ -955,7 +1054,7 @@ Allora
 \end_layout
 
 \begin_layout Standard
-Oss: 
+Osservazioni: 
 \end_layout
 
 \begin_layout Itemize
@@ -1147,6 +1246,13 @@ Def:
 le posizioni di tutti i punti del corpo variano di una differenza infinitesima.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Description
 
 \shape smallcaps
@@ -1217,43 +1323,27 @@ Considerando un corpo rigido si passa da
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
-\size large
 \begin_inset Formula $x_{A}(t)$
 \end_inset
 
 
-\series default
-\size default
 \emph on
 ;
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
-\size large
 \begin_inset Formula $y_{A}(t)$
 \end_inset
 
 
-\series default
-\size default
 \emph on
 ;
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
-\size large
 \begin_inset Formula $φ(t)$
 \end_inset
 
-
-\series default
-\size default
 .
 \end_layout
 
@@ -1272,14 +1362,20 @@ in grande
 \begin_layout Itemize
 
 \shape italic
-moto traslatorio:
+moto traslatorio (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Moto-traslatorio"
+
+\end_inset
+
+):
 \shape default
  tutti i punti hanno stessa velocità e traiettorie parallele;
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
@@ -1291,6 +1387,13 @@ status open
 
 \shape italic
 Moto traslatorio
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Moto-traslatorio"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1323,7 +1426,14 @@ N.B.: il moto traslatorio non è un moto rettilineo, l'unica cosa che lo rende
 \begin_layout Itemize
 
 \shape italic
-moto rotatorio: 
+moto rotatorio (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Moto-rotatorio"
+
+\end_inset
+
+): 
 \shape default
 è possibile definire un punto (interno o esterno del corpo) che non cambia
  posizione rispetto al corpo;
@@ -1331,10 +1441,9 @@ moto rotatorio:
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1343,6 +1452,13 @@ status collapsed
 
 \shape italic
 Moto rotatorio
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Moto-rotatorio"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1401,7 +1517,14 @@ Nel moto rotatorio tutti i punti del corpo hanno una traiettoria circolare
 \begin_layout Itemize
 
 \shape italic
-moto roto-traslatorio: 
+moto roto-traslatorio (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Moto-roto-traslatorio"
+
+\end_inset
+
+): 
 \shape default
 può essere visto come una composizione tra il moto traslatorio e il moto
  rotatorio.
@@ -1409,7 +1532,6 @@ può essere visto come una composizione tra il moto traslatorio e il moto
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
@@ -1421,6 +1543,13 @@ status open
 
 \shape italic
 Moto roto-traslatorio
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Moto-roto-traslatorio"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1605,7 +1734,6 @@ tutti i punti di
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
@@ -1709,7 +1837,14 @@ name "fig:caso-2"
 \end_layout
 
 \begin_layout Standard
-Nel terzo caso se le due velocità 
+Nel terzo caso (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Atto-di-moto:cas 3"
+
+\end_inset
+
+), se le due velocità 
 \begin_inset Formula $v_{a}$
 \end_inset
 
@@ -1741,6 +1876,13 @@ status open
 
 \shape italic
 Atto di moto: caso 3
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Atto-di-moto:cas 3"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1781,6 +1923,13 @@ status open
 
 \shape italic
 Corpo rigido (spostamento)
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Corpo-rigido-(spostamento)"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1806,6 +1955,17 @@ Corpo rigido (spostamento)
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Facendo riferimento alla Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Corpo-rigido-(spostamento)"
+
+\end_inset
+
+, si può scrivere:
 \end_layout
 
 \begin_layout Standard
@@ -1845,6 +2005,9 @@ Corpo rigido (spostamento)
 \series bold
 \size large
  
+\series default
+\size default
+
 \begin_inset Formula $\frac{d}{dt}\left(A-O\right)=\vec{v_{A}}$
 \end_inset
 
@@ -1853,9 +2016,6 @@ Corpo rigido (spostamento)
 
 \begin_layout Standard
 \align center
-
-\series bold
-\size large
 \begin_inset Formula $\frac{d}{dt}\left(B-A\right)=\frac{d}{dt}\left(\bar{BA}e^{i\beta}\right)=i\dot{\beta}\bar{BA}e^{i\left(\beta+\frac{\pi}{2}\right)}$
 \end_inset
 
@@ -1903,29 +2063,33 @@ Per lo studio delle accelerazioni si fa uso del teorema di Rivals .
 
 \series bold
 \size large
-\begin_inset Formula $\vec{v_{b}}=v_{A}+\vec{\omega}\wedge\left(B-A\right)$
+\begin_inset Formula 
+\[
+\vec{v_{b}}=v_{A}+\vec{\omega}\wedge\left(B-A\right)
+\]
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-
-\series bold
-\size large
 \begin_inset Formula $\vec{a_{B}}=\frac{d\vec{v_{B}}}{dt}=\frac{d\vec{v_{A}}}{dt}+\frac{d\vec{\omega}}{dt}\wedge\left(B-A\right)+\vec{\omega}\wedge\frac{d}{dt}\left(B-A\right)$
 \end_inset
 
-
-\series default
-\size default
 , con
 \series bold
 \size large
  
+\series default
+\size default
+
 \begin_inset Formula $\frac{d\vec{v_{a}}}{dt}=\vec{a_{a}}$
 \end_inset
 
+
+\series bold
+\size large
  
 \series default
 \size default
@@ -1933,6 +2097,9 @@ e
 \series bold
 \size large
  
+\series default
+\size default
+
 \begin_inset Formula $\frac{d\vec{\omega}}{dt}=\vec{\dot{\omega}}$
 \end_inset
 
@@ -1941,22 +2108,29 @@ e
 
 \begin_layout Standard
 
-\series bold
 \size large
-\begin_inset Formula $\vec{a_{B}}=\vec{a_{a}}+\vec{\omega}\wedge\left(B-A\right)+\dot{\vec{\omega}}\wedge\left(\vec{\omega}\wedge\left(B-A\right)\right)$
+\begin_inset Formula 
+\[
+\vec{a_{B}}=\vec{a_{a}}+\vec{\omega}\wedge\left(B-A\right)+\dot{\vec{\omega}}\wedge\left(\vec{\omega}\wedge\left(B-A\right)\right)
+\]
+
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+con
+\series bold
+\size large
  
 \series default
 \size default
-, con
-\series bold
-\size large
- 
-\begin_inset Formula $\mbox{\vec{\omega}\wedge\ensuremath{\left(\vec{\omega}\wedge\left(B-A\right)\right)=-\left|\vec{\omega}\right|^{2}\left(B-A\right)} }$
+
+\begin_inset Formula $\mbox{\ensuremath{\vec{\omega}\wedge}\ensuremath{\ensuremath{\left(\vec{\omega}\wedge\left(B-A\right)\right)}=-\ensuremath{\left|\vec{\omega}\right|^{2}\left(B-A\right)}}}$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Subsection
@@ -2073,9 +2247,6 @@ name "fig:vincolo-di-incastro"
 
 \begin_layout Standard
 \align center
-
-\series bold
-\size large
 \begin_inset Formula $\begin{cases}
 x_{A} & =0\\
 y_{A} & =0\\
@@ -2135,9 +2306,6 @@ name "fig:vincolo-di-cerniera"
 
 \begin_layout Standard
 \align center
-
-\series bold
-\size large
 \begin_inset Formula $\begin{cases}
 x_{A} & =0\\
 y_{A} & =0\\
@@ -2197,9 +2365,6 @@ name "fig:vincolo-di-pattino/manicotto"
 
 \begin_layout Standard
 \align center
-
-\series bold
-\size large
 \begin_inset Formula $\begin{cases}
 x_{A} & \neq0\\
 y_{A} & =0\\
@@ -2265,9 +2430,6 @@ name "fig:vincolo-di-carrello"
 
 \begin_layout Standard
 \align center
-
-\series bold
-\size large
 \begin_inset Formula $\begin{cases}
 x_{A} & \neq0\\
 y_{A} & =0\\
@@ -2458,9 +2620,6 @@ velocità di strisciamento
 
 \begin_layout Standard
 \align center
-
-\series bold
-\size large
 \begin_inset Formula $\begin{cases}
 v_{C_{y}} & =0\\
 v_{C_{x}} & =0
@@ -2509,7 +2668,6 @@ Dimostrazione:
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
@@ -2870,9 +3028,6 @@ Esprimendola sotto forma di vettori si ha:
 
 \begin_layout Standard
 \align center
-
-\series bold
-\size large
 \begin_inset Formula $\vec{v_{O}}=v_{O}\cdot\vec{i}=R\cdot\dot{\theta}\cdot\vec{i}$
 \end_inset
 
@@ -2912,9 +3067,6 @@ Esprimendola sotto forma di vettori si ha:
 
 \begin_layout Standard
 \align center
-
-\series bold
-\size large
 \begin_inset Formula $\vec{a_{O}}=a_{O}\cdot\vec{i}=R\cdot\ddot{\theta}\cdot\vec{i}$
 \end_inset
 
@@ -2950,9 +3102,10 @@ Velocità angolare del disco
 \end_inset
 
 
-\series default
-\size default
-, dove 
+\end_layout
+
+\begin_layout Standard
+dove 
 \begin_inset Formula $\vec{k}$
 \end_inset
 
@@ -2966,7 +3119,7 @@ Velocità angolare del disco
 \begin_inset Formula $-$
 \end_inset
 
- nella formula)
+ nella formula).
 \end_layout
 
 \begin_layout Subsubsection
@@ -2994,7 +3147,6 @@ Velocità del punto
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
@@ -3074,6 +3226,8 @@ ma poiché
 
 \begin_layout Standard
 \align center
+
+\size large
 \begin_inset Formula $\vec{v_{P}}=\vec{\omega}\wedge\left(P-C\right)$
 \end_inset
 
@@ -3172,9 +3326,6 @@ Le velocità del centro del disco, per il teorema di Rivals, sono pari a:
 
 \begin_layout Standard
 \align center
-
-\series bold
-\size large
 \begin_inset Formula $\vec{v_{O}}=\vec{\omega}\wedge\left(O-C\right)=-\dot{\theta}\vec{k}\wedge R\vec{j}=\dot{\theta}R\cdot\vec{i}$
 \end_inset
 
@@ -3212,9 +3363,6 @@ La velocità di un punto
 
 \begin_layout Standard
 \align center
-
-\series bold
-\size large
 \begin_inset Formula $\vec{v_{P}}=\vec{\omega}\wedge\left(P-C\right)=2\dot{\theta}R\vec{i}=2\vec{v_{O}}$
 \end_inset
 
@@ -3230,7 +3378,7 @@ con
 \begin_inset Formula $\left(P-C\right)=2R\vec{j}$
 \end_inset
 
- 
+ .
 \end_layout
 
 \begin_layout Standard
@@ -3291,14 +3439,18 @@ Poiché il centro di istantanea rotazione ha velocità nulla ma in generale
 \begin_inset Formula $C$
 \end_inset
 
-:
+ (vedi Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Accelerazione-del-centro"
+
+\end_inset
+
+):
 \end_layout
 
 \begin_layout Standard
 \align center
-
-\series bold
-\size large
 \begin_inset Formula $\vec{a_{C}}=\vec{a_{O}}+\dot{\vec{\omega}}\wedge\left(C-O\right)-\omega^{2}\left(C-O\right)$
 \end_inset
 
@@ -3334,7 +3486,6 @@ ma
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
@@ -3348,6 +3499,13 @@ status open
 \shape italic
 Accelerazione del centro di istantanea rotazione 
 \begin_inset Formula $C$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Accelerazione-del-centro"
+
 \end_inset
 
 
@@ -3386,12 +3544,18 @@ Cicloide: traiettoria di un punto
 Considerando la traiettoria di un punto generico lungo il perimetro esterno
  del nostro disco, essa prende il nome di 
 \shape italic
-cicloide.
+cicloide (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Cicloide"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
@@ -3403,6 +3567,13 @@ status open
 
 \shape italic
 Cicloide
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Cicloide"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3561,7 +3732,6 @@ Tenendo conto del vincolo di carrello si può introdurre:
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
@@ -3667,7 +3837,6 @@ reference "fig:Sottocasi-dell'esempio-2"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
@@ -3894,7 +4063,6 @@ Posizione di
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
@@ -3975,10 +4143,6 @@ reference "fig:Moti-relativi:-posizione"
 
 \begin_layout Standard
 \align center
-
-\series bold
-\shape smallcaps
-\size large
 \begin_inset Formula $\left(P-O\right)=\left(O^{'}-O\right)+\left(P-O^{'}\right)=x_{O^{'}}\cdot\vec{i}+y_{O^{'}}\cdot\vec{j}+x_{P}^{'}\cdot\vec{i^{'}}+y_{P}^{'}\cdot\vec{j^{'}}$
 \end_inset
 
@@ -4035,9 +4199,6 @@ Velocità assoluta di
 
 \begin_layout Standard
 \align center
-
-\series bold
-\size large
 \begin_inset Formula $\vec{v_{P}}=\dot{x}_{O^{'}}\vec{i}+\dot{y}_{O^{'}}\vec{j}+\dot{x}_{P}^{'}\vec{i^{'}}+x_{P}^{'}\frac{d\vec{i^{'}}}{dt}+\dot{y}_{P}^{'}\vec{j^{'}}+\dot{y}_{P}^{'}\frac{d\vec{j^{'}}}{dt}$
 \end_inset
 
@@ -4114,7 +4275,14 @@ Per i termini
 
 \begin_layout Standard
 Per valutare che contributi danno nella velocità questi due termini, è necessari
-o introdurre:
+o introdurre (vedi Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Contributi-di-"
+
+\end_inset
+
+):
 \end_layout
 
 \begin_layout Itemize
@@ -4168,6 +4336,13 @@ Contributi di
 \end_inset
 
  
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Contributi-di-"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4530,6 +4705,8 @@ si ottiene:
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 \vec{v_{P}}=\vec{v_{tr_{P}}}+\vec{v_{rel_{P}}}
@@ -4702,6 +4879,8 @@ dove:
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 \vec{a_{tr_{P}}}=\vec{a_{O^{'}}}+\vec{\dot{\omega}}\wedge\left(P-O^{'}\right)+\vec{\omega}\wedge\left(\vec{\omega}\wedge\left(P-O^{'}\right)\right)
@@ -4709,6 +4888,8 @@ dove:
 
 \end_inset
 
+
+\size default
 corrisponde all'accelerazione che il punto 
 \begin_inset Formula $P$
 \end_inset
@@ -4717,6 +4898,8 @@ corrisponde all'accelerazione che il punto
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 \vec{a_{Coriolis_{P}}}=2\vec{\omega}\wedge\vec{v_{rel_{P}}}
@@ -4740,6 +4923,8 @@ Si ottiene infine quindi che:
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 \vec{a_{P}}=\vec{a_{tr_{P}}}+\vec{a_{rel_{P}}}+\vec{a_{Coriolis_{P}}}
