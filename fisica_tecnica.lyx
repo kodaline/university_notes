@@ -399,8 +399,9 @@ stabilisce una relazione tra il numero di componenti C, il numero di fasi
 \begin_layout Standard
 \align center
 
+\series bold
 \shape smallcaps
-\size larger
+\size large
 \begin_inset Formula $V=C+2-F$
 \end_inset
 
@@ -416,7 +417,7 @@ La legge di Duhem introduce l'esistenza dell'equazione di stato che lega
 \align center
 
 \shape smallcaps
-\size larger
+\size large
 \begin_inset Formula $f(P,v,T)=0$
 \end_inset
 
@@ -1173,7 +1174,7 @@ La teoria cinetica dei gas ci assicura che le coordinate di stato p, V e
 \begin_layout Standard
 \align center
 
-\size larger
+\size large
 \begin_inset Formula $f(P,v,T)=0$
 \end_inset
 
@@ -1191,7 +1192,8 @@ Per un gas ideale, in particolare, l’equazione di stato è del tipo:
 \begin_layout Standard
 \align center
 
-\size larger
+\series bold
+\size large
 \begin_inset Formula $pV=NRT$
 \end_inset
 
@@ -1226,15 +1228,11 @@ Dividendo l'equazione per il numero di moli N, otteniamo:
 \begin_layout Standard
 \align center
 
-\size larger
+\size large
 \begin_inset Formula $\frac{pV}{N}=RT$
 \end_inset
 
-
-\series bold
-\size large
  
-\series default
 \size default
 ,
 \end_layout
@@ -1247,7 +1245,8 @@ ovvero
 \begin_layout Standard
 \align center
 
-\size larger
+\series bold
+\size large
 \begin_inset Formula $p\overline{v}=RT$
 \end_inset
 
@@ -1333,7 +1332,7 @@ Introducendo questo valore nell'equazione di stato dei gas ideali sono possibili
 \begin_layout Standard
 \align center
 
-\size larger
+\size large
 \begin_inset Formula $\frac{pV}{m}=\frac{NRT}{m}$
 \end_inset
 
@@ -1350,8 +1349,7 @@ ovvero
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $pv=\frac{RT}{M_{m}}$
 \end_inset
 
@@ -1360,7 +1358,7 @@ ovvero
 
 \begin_layout Standard
 dove poniamo 
-\size larger
+\size large
 
 \begin_inset Formula $v=\frac{V}{m}$
 \end_inset
@@ -1368,37 +1366,33 @@ dove poniamo
 
 \size default
 , volume specifico, e 
-\series bold
-\size larger
+\size large
 
 \begin_inset Formula $M_{m}=\frac{m}{N}$
 \end_inset
 
 
-\series default
 \size default
 , massa molare del gas.
 \end_layout
 
 \begin_layout Standard
 Ponendo poi 
-\series bold
-\size larger
+\size large
 
 \begin_inset Formula $\frac{R}{M_{m}}=R^{*}$
 \end_inset
 
 
-\series default
 \size default
-otteniamo: 
+ otteniamo: 
 \end_layout
 
 \begin_layout Standard
 \align center
 
 \series bold
-\size larger
+\size large
 \begin_inset Formula $pv=R^{*}\cdot T$
 \end_inset
 
@@ -1433,7 +1427,7 @@ per l'ossigeno
 
 \begin_layout Standard
 
-\size larger
+\size large
 \begin_inset Formula $M=32\frac{kg}{kmol}$
 \end_inset
 
@@ -1442,6 +1436,8 @@ per l'ossigeno
 , quindi
 \size larger
  
+\size large
+
 \begin_inset Formula $R^{*}=\frac{R}{M}=\frac{8314}{32}\frac{\frac{J}{kmol\cdot K}}{\frac{kg}{kmol}}=260\frac{J}{kg\cdot K}$
 \end_inset
 
@@ -1461,18 +1457,19 @@ per l'azoto
 
 \begin_layout Standard
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $M=28\frac{kg}{kmol}$
 \end_inset
 
 
-\series default
 \size default
 , quindi
 \series bold
 \size larger
  
+\series default
+\size large
+
 \begin_inset Formula $R^{*}=\frac{R}{M}=\frac{8314}{28}\frac{\frac{J}{kmol\cdot K}}{\frac{kg}{kmol}}=297\frac{J}{kg\cdot K}$
 \end_inset
 
@@ -1482,14 +1479,12 @@ per l'azoto
 \begin_layout Standard
 Nel seguito del corso l'aria verrà immaginata come un gas ideale biatomico
  con 
-\series bold
 \size large
 
 \begin_inset Formula $M=28.8\frac{kg}{kmol}$
 \end_inset
 
  
-\series default
 \size default
 (composta per l'
 \begin_inset Formula $80\%$
@@ -1549,7 +1544,7 @@ differenziarla
 \begin_layout Standard
 \align center
 
-\size larger
+\size large
 \begin_inset Formula $dv=\left(\frac{\partial v}{\partial T}\right){}_{p}dT+\left(\frac{\partial v}{\partial p}\right)_{T}dp$
 \end_inset
 
@@ -1569,7 +1564,7 @@ coefficiente di dilatazione isobaro
 \align center
 
 \series bold
-\size larger
+\size large
 \begin_inset Formula $β=\frac{1}{v}\left(\frac{\partial v}{\partial T}\right)_{p}$
 \end_inset
 
@@ -1589,7 +1584,7 @@ coefficiente di comprimibilità isotermo
 \align center
 
 \series bold
-\size larger
+\size large
 \begin_inset Formula $k_{T}=-\frac{1}{v}\left(\frac{\partial v}{\partial p}\right)_{T}$
 \end_inset
 
@@ -1610,7 +1605,7 @@ La precedente relazione differenziale risulta quindi:
 \align center
 
 \series bold
-\size larger
+\size large
 \begin_inset Formula $dv=βvdT-k_{T}vdp$
 \end_inset
 
@@ -1753,7 +1748,7 @@ Questa proprietà dipende solamente dallo stato in cui il sistema si trova
 \align center
 
 \series bold
-\size larger
+\size large
 \begin_inset Formula $\Delta U=Q^{\leftarrow}-\,L^{\rightarrow}$
 \end_inset
 
@@ -1802,7 +1797,7 @@ Da un punto di vista storico, la formalizzazione della termodinamica avviene
 \align center
 
 \series bold
-\size larger
+\size large
 \begin_inset Formula $\Delta U=Q^{\leftarrow}+L^{\leftarrow}$
 \end_inset
 
@@ -1838,6 +1833,13 @@ Lavoro
 \begin_layout Standard
 Il lavoro è energia fornita ad un sistema termodinamico semplice che sia
  riconducibile alla variazione di quota di un grave.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -1894,8 +1896,7 @@ l’energia interna totale di un sistema, cioè l’energia interna riferita
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $U=m\cdot u$
 \end_inset
 
@@ -1909,8 +1910,7 @@ scritto in forma differenziale il primo postulato assume la forma:
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $du=\delta q^{\leftarrow}-\delta l^{\rightarrow}$
 \end_inset
 
@@ -1932,8 +1932,7 @@ essendo U una quantità estensiva (additiva), se il sistema Z è composto
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $U_{Z}=U_{A}+U_{B}+...$
 \end_inset
 
@@ -1948,7 +1947,7 @@ in un sistema isolato (semplice o composto) il bilancio energetico diviene:
 \align center
 
 \series bold
-\size larger
+\size large
 \begin_inset Formula $\Delta U_{Isolato}=0$
 \end_inset
 
@@ -1982,7 +1981,7 @@ una trasformazione ciclica parte da uno stato di equilibrio e seguendo un
 \align center
 
 \series bold
-\size larger
+\size large
 \begin_inset Formula $\Delta U_{Ciclo}=0$
 \end_inset
 
@@ -1997,8 +1996,7 @@ per un sistema Z non isolato composto da due (o più) sottosistemi A, B,
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $\Delta U_{Z}=\Delta U_{A}+\Delta U_{B}+...=Q_{Z}^{\leftarrow}-L_{Z}^{\rightarrow}$
 \end_inset
 
@@ -2086,7 +2084,7 @@ Per i sistemi conservativi si ha:
 \align center
 
 \series bold
-\size larger
+\size large
 \begin_inset Formula $\delta L=dE_{K}+dE_{P}$
 \end_inset
 
@@ -2102,8 +2100,7 @@ Il lavoro introdotto nel sistema non varia l’energia cinetica e l’energia
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $dE_{K}+dE_{P}-\delta L\neq0$
 \end_inset
 
@@ -2222,8 +2219,7 @@ Nel caso esemplificato, adottando le stesse unità di misura per
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $Q_{ac}=L_{ac}$
 \end_inset
 
@@ -2233,8 +2229,7 @@ Nel caso esemplificato, adottando le stesse unità di misura per
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $Q_{bc}=L_{bc}$
 \end_inset
 
@@ -2248,8 +2243,7 @@ In particolare si potrà scrivere:
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $Q_{a}+Q_{c}=L_{a}+L_{c}$
 \end_inset
 
@@ -2259,8 +2253,7 @@ In particolare si potrà scrivere:
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $Q_{b}+Q_{c}=L_{b}+L_{c}$
 \end_inset
 
@@ -2274,8 +2267,7 @@ e quindi in definitiva, sottraendo membro a membro, si ottiene:
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $Q_{a}-Q_{b}=L_{a}-L_{b}$
 \end_inset
 
@@ -2285,8 +2277,7 @@ e quindi in definitiva, sottraendo membro a membro, si ottiene:
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $Q_{a}-L_{a}=Q_{b}-L_{b}$
 \end_inset
 
@@ -2296,8 +2287,7 @@ e quindi in definitiva, sottraendo membro a membro, si ottiene:
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $\Delta U_{12_{a}}=\Delta U_{12_{b}}$
 \end_inset
 
@@ -2323,7 +2313,7 @@ In un sistema termodinamico all'equilibrio esiste una funzione intrinseca
 \align center
 
 \series bold
-\size larger
+\size large
 \begin_inset Formula $\Delta S=\int\frac{\delta Q_{rev}^{\leftarrow}}{T}$
 \end_inset
 
@@ -2342,8 +2332,7 @@ l’entropia totale di un sistema, cioè l’entropia riferita all’intera mass
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $S=m\cdot s$
 \end_inset
 
@@ -2360,7 +2349,7 @@ la variazione di entropia totale di un sistema isolato sede di trasformazioni
 \align center
 
 \series bold
-\size larger
+\size large
 \begin_inset Formula $\Delta S_{Isolato}\geq0$
 \end_inset
 
@@ -2375,8 +2364,7 @@ Essendo S una quantità estensiva (additiva), se il sistema Z è composto
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $S_{Z}=S_{A}+S_{B}+...$
 \end_inset
 
@@ -2386,8 +2374,7 @@ Essendo S una quantità estensiva (additiva), se il sistema Z è composto
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $\Delta S_{Z}=\Delta S_{A}+\Delta S_{B}+...$
 \end_inset
 
@@ -2403,7 +2390,7 @@ In un sistema chiuso sede di trasformazioni termodinamiche il bilancio entropico
 \align center
 
 \series bold
-\size larger
+\size large
 \begin_inset Formula $\Delta S=S_{Q}^{\leftarrow}+S_{Irr}$
 \end_inset
 
@@ -2525,7 +2512,7 @@ Da un punto di vista meccanico il differenziale del lavoro è:
 \align center
 
 \series bold
-\size larger
+\size large
 \begin_inset Formula $\delta L=F\cdot s_{spostamento}$
 \end_inset
 
@@ -2540,8 +2527,7 @@ stone che permette di esprimere il lavoro come:
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $\delta l^{\rightarrow}=P\,dV$
 \end_inset
 
@@ -2555,8 +2541,7 @@ e quindi:
 \begin_layout Standard
 \align center
 
-\series bold
-\size larger
+\size large
 \begin_inset Formula $l^{\rightarrow}=\int_{i}^{f}P\,dV$
 \end_inset
 
@@ -2579,7 +2564,6 @@ In un dispositivo cilindro-pistone, uno squilibrio di forze infinitesimo
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\delta\vec{L}=P\,A\,ds=P\,dv$
 \end_inset
@@ -2625,7 +2609,6 @@ reference "fig:il-lavoro-termodinamico"
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\delta\vec{l}=P\,dv$
 \end_inset
@@ -3097,7 +3080,6 @@ Rapporto tra la derivata parziale dell'energia interna e la temperatura
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $c_{v}=\left(\frac{\partial u}{\partial T}\right)_{v}$
 \end_inset
@@ -3134,7 +3116,6 @@ Poiché
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $u=u\left(T,v\right)$
 \end_inset
@@ -3149,7 +3130,6 @@ Per il primo principio si può scrivere che:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $du=\delta q^{\leftarrow}-\delta l^{\rightarrow}=\delta q^{\leftarrow}-Pdv$
 \end_inset
@@ -3160,7 +3140,6 @@ Per il primo principio si può scrivere che:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\delta q^{\leftarrow}=du+Pdv$
 \end_inset
@@ -3171,7 +3150,6 @@ Per il primo principio si può scrivere che:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\delta q^{\leftarrow}=\left(\frac{\partial u}{\partial T}\right)_{v}dT+\left(\frac{\partial u}{\partial v}\right)_{T}+Pdv$
 \end_inset
@@ -3195,7 +3173,6 @@ Per il primo principio si può scrivere che:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\delta q^{\leftarrow}=\left(\frac{\partial u}{\partial T}\right)_{v}dT$
 \end_inset
@@ -3281,7 +3258,6 @@ Calore specifico a pressione costante
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $c_{p}=\left(\frac{\partial h}{\partial T}\right)_{P}$
 \end_inset
@@ -3292,7 +3268,6 @@ Calore specifico a pressione costante
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $c_{p}=c_{p}\left(T,P\right)$
 \end_inset
@@ -3315,7 +3290,6 @@ Dimostrazione:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $h=u+Pv$
 \end_inset
@@ -3326,18 +3300,15 @@ Dimostrazione:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $dh=du+Pdv+vdP$
 \end_inset
 
 
-\series default
 \size default
-, dove 
-\series bold
+, dove
 \size large
-
+ 
 \begin_inset Formula $du+Pdv=\delta q^{\leftarrow}$
 \end_inset
 
@@ -3352,7 +3323,6 @@ Poiché l'entalpia è una funzione di stato, per la legge di Duhem la si può
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $h=h\left(T,P\right)$
 \end_inset
@@ -3367,7 +3337,6 @@ Possiamo scrivere:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\delta q^{\leftarrow}=dh-vdP$
 \end_inset
@@ -3378,7 +3347,6 @@ Possiamo scrivere:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\delta q^{\leftarrow}=\left(\frac{\partial h}{\partial T}\right)_{P}dT+\left(\frac{\partial h}{\partial P}\right)_{T}dP-vdP$
 \end_inset
@@ -3406,7 +3374,6 @@ Quindi:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\delta q^{\leftarrow}=\left(\frac{\partial h}{\partial T}\right)_{P}dT$
 \end_inset
@@ -3480,7 +3447,6 @@ Dunque possiamo ricondurre anche il calore specifico a pressione e a volume
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $c_{v}=c_{v}\left(T\right)$
 \end_inset
@@ -3491,7 +3457,6 @@ Dunque possiamo ricondurre anche il calore specifico a pressione e a volume
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $c_{P}=c_{P}\left(T\right)$
 \end_inset
@@ -3542,28 +3507,23 @@ poiché:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $h=u+Pv$
 \end_inset
 
 
-\series default
 \size default
 , ma 
-\series bold
 \size large
 
 \begin_inset Formula $u=u\left(T\right)$
 \end_inset
 
 
-\series default
 \size default
- e 
-\series bold
+ e
 \size large
-
+ 
 \begin_inset Formula $Pv=R^{*}T$
 \end_inset
 
@@ -3636,7 +3596,6 @@ Dimostrazione:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $c_{P}=\left(\frac{\partial h}{\partial T}\right)_{P}=\left(\frac{dh}{dT}\right)=\left(\frac{du+d\left(Pv\right)}{dT}\right)=\left(\frac{du+d\left(R^{*}T\right)}{dT}\right)=\left(\frac{du}{dT}\right)+R^{*}=c_{v}+R^{*}$
 \end_inset
@@ -3970,7 +3929,6 @@ Si consideri una generica trasformazione quasi-statica per un sistema costituito
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula 
 \begin{equation}
@@ -3989,7 +3947,6 @@ ricordiamo che:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\delta q^{\leftarrow}=du+Pdv$
 \end_inset
@@ -4004,7 +3961,6 @@ ma anche:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\delta q^{\leftarrow}=dh-vdP$
 \end_inset
@@ -4027,7 +3983,6 @@ dunque, ricordando che
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula 
 \begin{equation}
@@ -4042,7 +3997,6 @@ dunque, ricordando che
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula 
 \begin{equation}
@@ -4077,7 +4031,6 @@ Uguagliando la
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\left(c_{x}-c_{P}\right)dT=-vdP$
 \end_inset
@@ -4088,7 +4041,6 @@ Uguagliando la
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\left(c_{x}-c_{v}\right)dT=Pdv$
 \end_inset
@@ -4126,7 +4078,6 @@ Separando le variabili e integrando:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $n\frac{dv}{v}=-\frac{dP}{P}$
 \end_inset
@@ -4137,7 +4088,6 @@ Separando le variabili e integrando:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $n\ln v=-\ln P$
 \end_inset
@@ -4163,7 +4113,6 @@ Un modo analogo di esprimere l'equazione precedente è:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $Pvv^{n-1}=cost$
 \end_inset
@@ -4519,7 +4468,6 @@ Per
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $l^{\rightarrow}=\int_{1}^{2}Pdv$
 \end_inset
@@ -4530,7 +4478,6 @@ Per
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $l^{\rightarrow}=\frac{P_{1}v_{1}}{n-1}\left[1-\left(\frac{v_{1}}{v_{2}}\right)^{n-1}\right]$
 \end_inset
@@ -4541,7 +4488,6 @@ Per
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $l^{\rightarrow}=\frac{P_{1}v_{1}}{n-1}\left[1-\left(\frac{P_{2}}{P_{1}}\right)^{\frac{n-1}{n}}\right]$
 \end_inset
@@ -4570,7 +4516,6 @@ Dimostrazione:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $l=\int_{v_{1}}^{v_{2}}Pdv$
 \end_inset
@@ -4581,7 +4526,6 @@ Dimostrazione:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $P=P_{1}v_{1}^{n}v^{-n}$
 \end_inset
@@ -4592,7 +4536,6 @@ Dimostrazione:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $l=\int_{v_{1}}^{v_{2}}P_{1}v_{1}^{n}\frac{dv}{v^{n}}=P_{1}v_{1}^{n}\cdot\left[\frac{v^{-n+1}}{-n+1}\right]_{1}^{2}=\frac{P_{1}v_{1}^{n}}{1-n}\left[v_{2}^{1-n}-v_{1}^{1-n}\right]=\frac{P_{1}v_{1}}{n-1}\left[1-\left(\frac{v_{1}}{v_{2}}\right)^{n-1}\right]=\frac{P_{1}v_{1}}{n-1}\left[1-\left(\frac{P_{2}}{P_{1}}\right)^{\frac{n-1}{n}}\right]$
 \end_inset
@@ -4611,7 +4554,6 @@ Per
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $l=P_{1}v_{1}\ln\frac{v_{2}}{v_{1}}=P_{1}v_{1}\ln\frac{P_{1}}{P_{2}}$
 \end_inset
@@ -4641,7 +4583,6 @@ Dimostrazione:
 \begin_layout Standard
 \align center
 
-\series bold
 \shape smallcaps
 \size large
 \begin_inset Formula $l=\int_{v_{1}}^{v_{2}}Pdv$
@@ -4653,7 +4594,6 @@ Dimostrazione:
 \begin_layout Standard
 \align center
 
-\series bold
 \shape smallcaps
 \size large
 \begin_inset Formula $P=P_{1}\frac{v_{1}}{v}$
@@ -4665,7 +4605,6 @@ Dimostrazione:
 \begin_layout Standard
 \align center
 
-\series bold
 \shape smallcaps
 \size large
 \lang english
@@ -4706,7 +4645,6 @@ zione reversibile è uguale al calore scambiato dal sistema nella trasformazione
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\int_{i}^{f}T\left(S\right)dS=\int_{i}^{f}\delta Q=Q$
 \end_inset
@@ -4758,7 +4696,6 @@ Separando le variabili e integrando si ottiene l'equazione della politropica
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\frac{dT}{T}=\frac{ds}{c_{x}}$
 \end_inset
@@ -4769,7 +4706,6 @@ Separando le variabili e integrando si ottiene l'equazione della politropica
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\int_{T_{0}}^{T}\frac{dT}{T}=\int_{S_{0}}^{S}\frac{ds}{c_{x}}$
 \end_inset
@@ -4780,7 +4716,6 @@ Separando le variabili e integrando si ottiene l'equazione della politropica
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $\ln\frac{T}{T_{0}}=\frac{s-s_{0}}{c_{x}}$
 \end_inset
@@ -4848,7 +4783,6 @@ In un processo reversibile si ha:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $du=Tds-Pdv$
 \end_inset
@@ -4863,7 +4797,6 @@ ovvero:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $ds=\frac{du}{T}+\frac{P}{T}dv$
 \end_inset
@@ -4878,7 +4811,6 @@ Gas perfetti
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $du=c_{v}dT$
 \end_inset
@@ -4889,7 +4821,6 @@ Gas perfetti
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $PV=R^{*}T$
 \end_inset
@@ -4900,7 +4831,6 @@ Gas perfetti
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $ds=c_{v}\frac{dT}{T}+R^{*}\frac{dv}{v}$
 \end_inset
@@ -4915,7 +4845,6 @@ oppure:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $ds=c_{P}\frac{dT}{T}-R^{*}\frac{dP}{P}$
 \end_inset
@@ -4926,7 +4855,6 @@ oppure:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $ds=c_{P}\frac{dv}{v}+c_{v}\frac{dP}{P}$
 \end_inset
@@ -4941,7 +4869,6 @@ Infatti, in un processo reversibile si ha:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $dh=Tds+vdP$
 \end_inset
@@ -4956,7 +4883,6 @@ ovvero:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $ds=\frac{dh}{T}-\frac{v}{T}dP$
 \end_inset
@@ -4967,7 +4893,6 @@ ovvero:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $dh=c_{P}dT$
 \end_inset
@@ -4982,7 +4907,6 @@ per i gas perfetti:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $PV=R^{*}T$
 \end_inset
@@ -4993,7 +4917,6 @@ per i gas perfetti:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $ds=c_{P}\frac{dT}{T}-R^{*}\frac{dP}{P}$
 \end_inset
@@ -5004,7 +4927,6 @@ per i gas perfetti:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $ds=c_{v}\frac{dT}{T}+R^{*}\frac{dv}{v}$
 \end_inset
@@ -5015,7 +4937,6 @@ per i gas perfetti:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $PV=R^{*}T$
 \end_inset
@@ -5026,7 +4947,6 @@ per i gas perfetti:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $Pdv+vdP=R^{*}dT$
 \end_inset
@@ -5037,7 +4957,6 @@ per i gas perfetti:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $ds=c_{v}\left(\frac{P}{R^{*}T}dv+\frac{v}{R^{*}T}dP\right)+R^{*}\frac{dv}{v}$
 \end_inset
@@ -5048,7 +4967,6 @@ per i gas perfetti:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $ds=c_{v}\frac{dv}{v}+c_{v}\frac{dP}{P}+R^{*}\frac{dv}{v}$
 \end_inset
@@ -5059,7 +4977,6 @@ per i gas perfetti:
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $ds=c_{p}\frac{dv}{v}+c_{v}\frac{dP}{P}$
 \end_inset
@@ -5117,7 +5034,6 @@ Liquido incomprimibile perfetto
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $du=cdT$
 \end_inset
@@ -5128,7 +5044,6 @@ Liquido incomprimibile perfetto
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $v=cost$
 \end_inset
@@ -5139,7 +5054,6 @@ Liquido incomprimibile perfetto
 \begin_layout Standard
 \align center
 
-\series bold
 \size large
 \begin_inset Formula $ds=c\cdot\frac{dT}{T_{0}}$
 \end_inset
@@ -5692,6 +5606,10 @@ Tabella riassuntiva trasformazioni politropiche
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
