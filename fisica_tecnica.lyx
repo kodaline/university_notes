@@ -3,6 +3,9 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language british
@@ -4634,7 +4637,51 @@ Gli stati termodinamici e le trasformazioni termodinamiche possono essere
 \end_layout
 
 \begin_layout Standard
-(aggiungere grafico)
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Diagramma 
+\begin_inset Formula $T-S$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/entropy2.png
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4670,7 +4717,47 @@ Per una trasformazione ciclica reversibile, le aree incluse nelle curve
 \end_layout
 
 \begin_layout Standard
-(aggiungere grafico)
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Trasformazione ciclica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Graphics/entropy3.png
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5023,8 +5110,117 @@ Integrando:
 
 \begin_layout Standard
 La variazione di entropia (funzione di stato) è indipendente dal cammino
- che porta il sistema tra lo stato iniziale e lo stato finale.
+ che porta il sistema dallo stato iniziale allo stato finale.
  
+\end_layout
+
+\begin_layout Standard
+Entrando più nel dettaglio abbiamo che:
+\end_layout
+
+\begin_layout Subsubsection*
+Per 
+\series bold
+una trasformazione reversibile
+\end_layout
+
+\begin_layout Standard
+Una prima possibilità è:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+du=\delta q-Pdv
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+poiché 
+\begin_inset Formula $\delta q=Tds$
+\end_inset
+
+ si può scrivere:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+du=Tds-Pdv
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ricavando 
+\begin_inset Formula $ds$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+ds=\frac{du}{T}+\frac{P}{T}dv=\frac{c_{v}dT}{T}+\frac{R^{*}}{v}dv
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove si è posto 
+\begin_inset Formula $\frac{c_{v}dT}{T}=du$
+\end_inset
+
+ e 
+\begin_inset Formula $\frac{R^{*}}{v}dv$
+\end_inset
+
+ è ottenuta da 
+\begin_inset Formula $Pv=R^{*}T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Integrando si ottiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s-s_{0}=c_{v}\ln\frac{T}{T_{0}}+R^{*}\ln\frac{v}{v_{0}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una seconda possibilità, utilizzando la definizione di entalpia è:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+dh=\delta q-vdP
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -5099,16 +5295,16 @@ Tabella riassuntiva trasformazioni politropiche
 \end_layout
 
 \begin_layout Plain Layout
-\align left
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="6">
-<features rotate="0" tabularvalignment="middle">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -5254,7 +5450,7 @@ Tabella riassuntiva trasformazioni politropiche
 \end_inset
 </cell>
 </row>
-<row>
+<row topspace="default" bottomspace="default">
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -5315,7 +5511,7 @@ Tabella riassuntiva trasformazioni politropiche
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5600,16 +5796,8 @@ Tabella riassuntiva trasformazioni politropiche
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
