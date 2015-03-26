@@ -233,16 +233,19 @@ name "fig:Rappresentazione-del-vettore"
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
 \series bold
-\shape default
- Posizione di P
-\end_layout
+Posizione
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-La posizione di un punto P è un vettore con direzione passante per P e origine
- O, verso da O a P e modulo 
+di
+\begin_inset space ~
+\end_inset
+
+P
+\series default
+ La posizione di un punto P è un vettore con direzione passante per P e
+ origine O, verso da O a P e modulo 
 \begin_inset Formula $=\overline{PO}$
 \end_inset
 
@@ -307,17 +310,14 @@ Legge oraria
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
 \series bold
-\shape default
- Legge oraria
-\series default
- 
-\end_layout
+Legge
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-Una volta fissato il sistema di riferimento (ad es.
+oraria
+\series default
+ Una volta fissato il sistema di riferimento (ad es.
  cartesiano), il moto è completamente descritto dalla legge oraria, costituita
  dall’insieme delle tre funzioni:
 \end_layout
@@ -343,17 +343,10 @@ Traiettoria
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
 \series bold
-\shape default
- Traiettoria
+Traiettoria
 \series default
- 
-\end_layout
-
-\begin_layout Standard
-La linea nello spazio costituita dai punti via via occupati da un punto
+ La linea nello spazio costituita dai punti via via occupati da un punto
  materiale (Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -468,16 +461,15 @@ Ascissa curvilinea
 
 \begin_layout Description
 
-\shape smallcaps
-Def: 
 \series bold
-\shape default
-Ascissa curvilinea
-\end_layout
+Ascissa
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-Una volta nota la traiettoria, si può fissare su di essa un’origine ed un
- verso, con una freccia (entrambi convenzionali, arbitrari).
+curvilinea
+\series default
+ Una volta nota la traiettoria, si può fissare su di essa un’origine ed
+ un verso, con una freccia (entrambi convenzionali, arbitrari).
  Si dice allora 
 \shape slanted
 ascissa curvilinea
@@ -560,17 +552,22 @@ Velocità
 
 \begin_layout Description
 
-\shape smallcaps
-Def: 
 \series bold
-\shape default
-Velocità di un punto
-\series default
- 
-\end_layout
+Velocità
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-Vettore ottenuto derivando la posizione del punto P rispetto al tempo (Figura
+di
+\begin_inset space ~
+\end_inset
+
+un
+\begin_inset space ~
+\end_inset
+
+punto
+\series default
+ Vettore ottenuto derivando la posizione del punto P rispetto al tempo (Figura
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -828,14 +825,9 @@ Accelerazione
 
 \begin_layout Description
 
-\shape smallcaps
-Def: 
 \series bold
-\shape default
 Accelerazione 
-\end_layout
-
-\begin_layout Standard
+\series default
 Vettore ottenuto derivando la velocità 
 \begin_inset Formula $\vec{v}$
 \end_inset
@@ -1199,51 +1191,77 @@ Cinematica del Corpo Rigido
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
 \series bold
-\shape default
- Posizione del corpo
-\end_layout
+Posizione
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-definire la posizione di tutti i punti componenti il corpo che sono infiniti.
-\end_layout
+del
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
+corpo
+\series default
+ Definire la posizione di tutti i punti componenti il corpo che sono infiniti.
+ 
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+
+\color cyan
 N.B.: le traiettorie, velocità, accelerazioni sono parallele ad un piano chiamato
  
 \shape slanted
 piano direttore
 \shape default
-, che non deve essere necessariamente lo stesso per tutte e tre.
+, che non deve essere necessariamente lo stesso per tutte e tre
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
 
-\shape smallcaps
-Def: 
 \series bold
-\shape default
-Atto di moto di un corpo
-\end_layout
+Atto
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-insieme delle velocità di tutti i punti del corpo in un preciso instante
+di
+\begin_inset space ~
+\end_inset
+
+moto
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+un
+\begin_inset space ~
+\end_inset
+
+corpo
+\series default
+ Insieme delle velocità di tutti i punti del corpo in un preciso instante
  di tempo.
 \end_layout
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
 \series bold
-\shape default
- Spostamento infinitesimo
-\end_layout
+Spostamento
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-le posizioni di tutti i punti del corpo variano di una differenza infinitesima.
+infinitesimo
+\series default
+ Le posizioni di tutti i punti del corpo variano di una differenza infinitesima.
 \end_layout
 
 \begin_layout Standard
@@ -1255,15 +1273,14 @@ le posizioni di tutti i punti del corpo variano di una differenza infinitesima.
 
 \begin_layout Description
 
-\shape smallcaps
-Def: 
 \series bold
-\shape default
-Spostamento rigido
-\end_layout
+Spostamento
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-un corpo subisce uno spostamento rigido se 
+rigido
+\series default
+ Un corpo subisce uno spostamento rigido se 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1278,15 +1295,14 @@ a valle
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
 \series bold
-\shape default
- Corpo rigido
-\end_layout
+Corpo
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-un corpo che può subire solo spostamenti rigidi e nessuna variazione di
+rigido
+\series default
+ Un corpo che può subire solo spostamenti rigidi e nessuna variazione di
  forma o dimensione.
  Quindi basta conoscere la posizione di un punto del corpo e la sua orientazione
  per conoscere la sua posizione nello spazio, cioè 
@@ -2139,16 +2155,14 @@ Vincoli elementari
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
-\shape default
- 
 \series bold
-Vincoli elementari
-\end_layout
+Vincoli
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-I vincoli elementari sopprimono direttamente uno o più gradi di libertà
+elementari
+\series default
+ I vincoli elementari sopprimono direttamente uno o più gradi di libertà
  del corpo rigido: può essere soppresso rispetto alla terra o rispetto ad
  un secondo corpo.
  Sono di 4 tipi:
@@ -2659,7 +2673,7 @@ Il vincolo di contatto introduce un grado di vincolo (elimina un grado di
  traiettoria rettilinea ortogonale alla guida.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 
 \series bold
 \shape smallcaps
@@ -4050,11 +4064,16 @@ L'obiettivo è mettere in relazione i due differenti osservatori che descrivono
 
 \begin_layout Description
 
-\shape smallcaps
-Def: 
 \series bold
-\shape default
-Posizione di 
+Posizione
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Formula $P$
 \end_inset
 

@@ -160,16 +160,10 @@ Introduzione alla termodinamica
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
-\shape default
- 
 \series bold
 Termodinamica
-\end_layout
-
-\begin_layout Standard
-La termodinamica è la scienza che studia l'energia, la materia e le leggi
+\series default
+ La termodinamica è la scienza che studia l'energia, la materia e le leggi
  che governano le loro interazioni.
  È la disciplina che studia le grandezze macroscopiche che caratterizzano
  i modi di essere dei sistemi termodinamici e le modifiche (variazioni)
@@ -179,17 +173,16 @@ La termodinamica è la scienza che studia l'energia, la materia e le leggi
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
-\shape default
- 
 \series bold
-Sistema termidinamico
-\end_layout
+Sistema
+\series default
 
-\begin_layout Standard
-Si definisce sistema termodinamico una quantità di materia o porzione di
- spazio separata dal resto dell'universo mediante un determinato 
+\begin_inset space ~
+\end_inset
+
+termidinamico Si definisce sistema termodinamico una quantità di materia
+ o porzione di spazio separata dal resto dell'universo mediante un determinato
+ 
 \shape italic
 contorno
 \shape default
@@ -232,16 +225,14 @@ sistema accoppiato
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
-\shape default
- 
 \series bold
-Sistema chiuso
-\end_layout
+Sistema
+\series default
 
-\begin_layout Standard
-Un sistema chiuso è un sistema che scambia con l’esterno 
+\begin_inset space ~
+\end_inset
+
+chiuso Un sistema chiuso è un sistema che scambia con l’esterno 
 \shape italic
 energia
 \shape default
@@ -250,16 +241,14 @@ energia
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
-\shape default
- 
 \series bold
-Sistema aperto
-\end_layout
+Sistema
+\series default
 
-\begin_layout Standard
-Un sistema aperto è un sistema che scambia con l'esterno sia 
+\begin_inset space ~
+\end_inset
+
+aperto Un sistema aperto è un sistema che scambia con l'esterno sia 
 \shape italic
 energia
 \shape default
@@ -271,18 +260,16 @@ materia
 \end_layout
 
 \begin_layout Description
+Sistema
+\begin_inset space ~
+\end_inset
 
-\shape smallcaps
-Def:
-\shape default
- 
-\series bold
-Sistema termodinamico semplice
-\end_layout
+termodinamico
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-Per lo studio in questo corso si dovranno fare delle semplificazioni, quindi
- verranno considerati soltanto:
+semplice Per lo studio in questo corso si dovranno fare delle semplificazioni,
+ quindi verranno considerati soltanto:
 \end_layout
 
 \begin_layout Itemize
@@ -308,17 +295,19 @@ e.
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
-\shape default
- 
 \series bold
-Stato di equilibrio
-\end_layout
+Stato
+\series default
 
-\begin_layout Standard
-Stato interno particolare cioè riproducibile e descrivibile attraverso il
- valore assunto da poche proprietà del sistema stesso, che godono della
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+equilibrio Stato interno particolare cioè riproducibile e descrivibile attravers
+o il valore assunto da poche proprietà del sistema stesso, che godono della
  caratteristica di avere un unico ed uguale valore in ogni punto del sistema.
 \end_layout
 
@@ -339,34 +328,30 @@ Lo stato di equilibrio è il particolare stato cui perviene spontaneamente
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
-\shape default
- 
 \series bold
-Grandezza intensiva
-\end_layout
+Grandezza
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-Si definisce grandezza intensiva la grandezza fisica il cui valore non dipende
- dall'estensione del sistema (come temperatura, pressione, etc.).
+intensiva
+\series default
+ Si definisce grandezza intensiva la grandezza fisica il cui valore non
+ dipende dall'estensione del sistema (come temperatura, pressione, etc.).
  Ne consegue che lo stato interno del corpo non dipende dalla sua estensione.
  
 \end_layout
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
-\shape default
- 
 \series bold
-Grandezza estensiva
-\end_layout
+Grandezza
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-Si definisce grandezza estensiva la grandezza fisica che dipende dall'estensione
- del sistema (come massa, volume totale, etc.).
+estensiva
+\series default
+ Si definisce grandezza estensiva la grandezza fisica che dipende dall'estension
+e del sistema (come massa, volume totale, etc.).
  La grandezza estensiva è additiva e di conseguenza il suo valore riferito
  ad un sistema risulta somma dei valori relativi ai sottoinsiemi che lo
  compongono.
@@ -380,9 +365,9 @@ Legge di
 \shape smallcaps
 Duhem
 \shape default
-: 
+ 
 \series default
-nel caso di un di sistema monocomponente, il numero di parametri termodinamici
+Nel caso di un di sistema monocomponente, il numero di parametri termodinamici
  intensivi o estensivi specifici indipendenti atti a descrivere compiutamente
  lo stato interno di equilibrio è due.
 \end_layout
@@ -392,10 +377,10 @@ nel caso di un di sistema monocomponente, il numero di parametri termodinamici
 \series bold
 Regola di 
 \shape smallcaps
-Gibbs: 
+Gibbs 
 \series default
 \shape default
-stabilisce una relazione tra il numero di componenti C, il numero di fasi
+Stabilisce una relazione tra il numero di componenti C, il numero di fasi
  F, il numero di variabili intensive indipendenti V.
 \end_layout
 
@@ -429,11 +414,8 @@ La legge di Duhem introduce l'esistenza dell'equazione di stato che lega
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
 \series bold
-\shape default
- Contorno
+Contorno
 \end_layout
 
 \begin_layout Itemize
@@ -492,14 +474,28 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Tipologie di sistemi termodinamici: tipi di scambio con l'ambiente esterno
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="8" columns="4">
-<features rotate="0" tabularvalignment="middle">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -652,7 +648,7 @@ no
 \end_inset
 </cell>
 </row>
-<row>
+<row topspace="default" bottomspace="default">
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -680,7 +676,7 @@ sì
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -811,20 +807,6 @@ no
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\shape italic
-Tipologie di sistemi termodinamici: tipi di scambio con l'ambiente esterno
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_inset
 
 
@@ -832,16 +814,14 @@ Tipologie di sistemi termodinamici: tipi di scambio con l'ambiente esterno
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
-\shape default
- 
 \series bold
-Sistema composto
-\end_layout
+Sistema
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-Un sistema composto è un sistema costituito da più sistemi semplici separati
+composto
+\series default
+ Un sistema composto è un sistema costituito da più sistemi semplici separati
  tra loro da pareti.
 \end_layout
 
@@ -859,16 +839,10 @@ Se possiamo descrivere le trasformazioni come una serie ordinata di stati
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
-\shape default
- 
 \series bold
 Trasformazione
-\end_layout
-
-\begin_layout Standard
-In un sistema chiuso lo stato di equilibrio vincolato viene a cessare quando,
+\series default
+ In un sistema chiuso lo stato di equilibrio vincolato viene a cessare quando,
  per rimozione dei vincoli al contorno, il sistema scambia con l’ambiente
  calore e/o lavoro.
  
@@ -887,8 +861,16 @@ termodinamica
 .
 \end_layout
 
-\begin_layout Subsubsection*
-Tipi di trasformazioni:
+\begin_layout Description
+Tipi
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+trasformazioni
 \end_layout
 
 \begin_layout Itemize
@@ -957,16 +939,14 @@ Gas Ideali
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
-\shape default
- 
 \series bold
-Gas ideale
-\end_layout
+Gas
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-Un gas ideale (spesso chiamato anche gas 
+ideale
+\series default
+ Un gas ideale (spesso chiamato anche gas 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1280,7 +1260,7 @@ dove poniamo
 .
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Quote
 
 \series bold
 Perché R è costante per tutti i gas ideali? 
@@ -1767,7 +1747,7 @@ L'energia interna
  ma anche quando scambia calore.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 
 \series bold
 Perché la notazione 
@@ -1825,39 +1805,22 @@ Dal punto di vista ingegneristico però interessa la produzione di lavoro,
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
-\shape default
- 
 \series bold
 Lavoro
-\end_layout
-
-\begin_layout Standard
-Il lavoro è energia fornita ad un sistema termodinamico semplice che sia
+\series default
+ Il lavoro è energia fornita ad un sistema termodinamico semplice che sia
  riconducibile alla variazione di quota di un grave.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
-\shape default
- 
 \series bold
 Calore
 \series default
 \color red
-
+ 
 \begin_inset Marginal
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1874,9 +1837,7 @@ razioni di energia con l'esterno; dipendono quindi dal tipo di percorso
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
+\color inherit
 Il calore è energia fornita ad un sistema termodinamico semplice che non
  è riconducibile alla variazione di quota di un grave.
  Ovvero, sono in qualche modo tutte le interazioni energetiche che non fanno
@@ -2006,7 +1967,7 @@ per un sistema Z non isolato composto da due (o più) sottosistemi A, B,
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Verse
 
 \series bold
 Formulazione classica del primo 1° della termodinamica:
@@ -2055,7 +2016,14 @@ La formulazione dell'energia interna è dovuta alla cosiddetta
 esperienza di Joule
 \series default
 \shape default
-.
+ (vedi Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Schematizzazione-dell'esperienza"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -2419,7 +2387,7 @@ in cui il termine
 ita.
 \end_layout
 
-\begin_layout Description
+\begin_layout Quote
 
 \series bold
 Calcolo delle grandezze termodinamiche
@@ -2462,6 +2430,7 @@ La capacità di compiere lavoro non è altro che la combinazione di una forza
 \begin_layout Standard
 \align center
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -2647,6 +2616,7 @@ Espansione isoterma reversibile
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -2772,15 +2742,18 @@ Lavoro e funzione di stato
 
 \begin_layout Description
 
-\shape smallcaps
-Def: 
 \series bold
-\shape default
-Funzione di stato
-\end_layout
+Funzione
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-Una funzione di stato è una proprietà del sistema che dipende solamente
+di
+\begin_inset space ~
+\end_inset
+
+stato
+\series default
+ Una funzione di stato è una proprietà del sistema che dipende solamente
  dallo stato in considerazione, e non dalla natura del processo (cammino)
  attraverso il quale il sistema è arrivato allo stato attuale.
  Un banale esempio di funzione di stato è l'altezza.
@@ -3009,17 +2982,11 @@ Capacità termica
 \end_layout
 
 \begin_layout Description
+Capacità
+\begin_inset space ~
+\end_inset
 
-\shape smallcaps
-Def:
-\shape default
- 
-\series bold
-Capacità termica
-\end_layout
-
-\begin_layout Standard
-Rapporto tra il calore fornito al sistema e la variazione di temperatura
+termica Rapporto tra il calore fornito al sistema e la variazione di temperatura
  del sistema stesso.
 \end_layout
 
@@ -3034,21 +3001,12 @@ Rapporto tra il calore fornito al sistema e la variazione di temperatura
 
 \end_layout
 
-\begin_layout Subsubsection
-Calore specifico
-\end_layout
-
 \begin_layout Description
+Calore
+\begin_inset space ~
+\end_inset
 
-\shape smallcaps
-Def: 
-\series bold
-\shape default
-Calore specifico
-\end_layout
-
-\begin_layout Standard
-Rapporto tra la capacità termica del sistema e la sua massa.
+specifico Rapporto tra la capacità termica del sistema e la sua massa.
 \end_layout
 
 \begin_layout Standard
@@ -3062,21 +3020,24 @@ Rapporto tra la capacità termica del sistema e la sua massa.
 
 \end_layout
 
-\begin_layout Subsubsection
-Calore specifico a volume costante
-\end_layout
-
 \begin_layout Description
+Calore
+\begin_inset space ~
+\end_inset
 
-\shape smallcaps
-Def: 
-\series bold
-\shape default
-Calore specifico a volume costante
-\end_layout
+specifico
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-Rapporto tra la derivata parziale dell'energia interna e la temperatura
+a
+\begin_inset space ~
+\end_inset
+
+volume
+\begin_inset space ~
+\end_inset
+
+costante Rapporto tra la derivata parziale dell'energia interna e la temperatura
  a volume costante.
 \end_layout
 
@@ -3100,11 +3061,11 @@ Rapporto tra la derivata parziale dell'energia interna e la temperatura
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 
 \series bold
 \shape smallcaps
-Dimostrazione:
+Dimostrazione
 \end_layout
 
 \begin_layout Standard
@@ -3204,16 +3165,26 @@ Calore specifico a pressione costante
 
 \begin_layout Description
 
-\shape smallcaps
-Def:
-\shape default
- 
 \series bold
-Calore specifico a pressione costante
-\end_layout
+Calore
+\begin_inset space ~
+\end_inset
 
-\begin_layout Standard
-Per definire il calore specifico a pressione costante bisogna introdurre
+specifico
+\begin_inset space ~
+\end_inset
+
+a
+\begin_inset space ~
+\end_inset
+
+pressione
+\begin_inset space ~
+\end_inset
+
+costante
+\series default
+ Per definire il calore specifico a pressione costante bisogna introdurre
  prima una nuova funzione di stato, ovvero 
 \shape italic
 l'entalpia
@@ -3224,15 +3195,10 @@ l'entalpia
 
 \begin_layout Description
 
-\shape smallcaps
-Def: 
 \series bold
-\shape default
 Entalpia
-\end_layout
-
-\begin_layout Standard
-L'entalpia è una funzione di stato che esprime la quantità di energia che
+\series default
+ L'entalpia è una funzione di stato che esprime la quantità di energia che
  un sistema termodinamico può scambiare con l'ambiente.
  L'entalpia è definita dalla somma dell'energia interna e del prodotto tra
  volume e pressione di un sistema.
@@ -3251,11 +3217,24 @@ L'entalpia è una funzione di stato che esprime la quantità di energia che
 
 \begin_layout Description
 
-\shape smallcaps
-Def: 
 \series bold
-\shape default
-Calore specifico a pressione costante
+Calore
+\begin_inset space ~
+\end_inset
+
+specifico
+\begin_inset space ~
+\end_inset
+
+a
+\begin_inset space ~
+\end_inset
+
+pressione
+\begin_inset space ~
+\end_inset
+
+costante
 \end_layout
 
 \begin_layout Standard
@@ -3283,11 +3262,11 @@ Per le trasformazioni che avvengono a pressione costante la variazione di
  entalpia è uguale al calore scambiato dal sistema con l'ambiente esterno.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 
 \series bold
 \shape smallcaps
-Dimostrazione:
+Dimostrazione
 \end_layout
 
 \begin_layout Standard
@@ -3589,11 +3568,11 @@ La relazione di Mayer afferma che il calore specifico a pressione costante
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 
 \series bold
 \shape smallcaps
-Dimostrazione:
+Dimostrazione
 \end_layout
 
 \begin_layout Standard
@@ -3651,7 +3630,7 @@ Gas ideali con
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="3">
-<features rotate="0" tabularvalignment="middle">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
 <column alignment="center" valignment="middle" width="50mm">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -3690,8 +3669,8 @@ Gas ideali con
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row topspace="default" bottomspace="default">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3834,6 +3813,13 @@ Il calore specifico del liquido incomprimibile ideale
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Trasformazioni politropiche
 \end_layout
@@ -3847,13 +3833,11 @@ Indice
 \end_layout
 
 \begin_layout Description
-Def: 
+
 \series bold
 Politropica
-\end_layout
-
-\begin_layout Standard
-Una trasformazione politropica è una trasformazione di un gas ideale per
+\series default
+ Una trasformazione politropica è una trasformazione di un gas ideale per
  la quale si può supporre che:
 \end_layout
 
@@ -3890,6 +3874,13 @@ Rappresentazione nel piano
 \end_inset
 
  dei vari tipi di trasformazioni termodinamiche
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Rappresentazione-nel-piano"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3914,8 +3905,14 @@ Rappresentazione nel piano
 \end_layout
 
 \begin_layout Standard
-In figura 4 sono rappresentati i tipi di trasformazioni termodinamiche nel
- piano 
+In Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Rappresentazione-nel-piano"
+
+\end_inset
+
+ sono rappresentati i tipi di trasformazioni termodinamiche nel piano 
 \begin_inset Formula $P-V$
 \end_inset
 
@@ -4212,10 +4209,10 @@ Trasformazioni: valori di
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="3">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="middle" width="50mm">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="50mm">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -4255,8 +4252,8 @@ Trasformazione
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row topspace="default" bottomspace="default">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4272,7 +4269,7 @@ Isoterma
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4498,11 +4495,11 @@ Per
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 
 \series bold
 \shape smallcaps
-Dimostrazione:
+Dimostrazione
 \end_layout
 
 \begin_layout Standard
@@ -4547,6 +4544,7 @@ Dimostrazione:
 \end_layout
 
 \begin_layout Standard
+\align center
 Per 
 \begin_inset Formula $n=1$
 \end_inset
@@ -4564,11 +4562,11 @@ Per
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 
 \series bold
 \shape smallcaps
-Dimostrazione:
+Dimostrazione
 \end_layout
 
 \begin_layout Standard
@@ -4638,6 +4636,7 @@ Gli stati termodinamici e le trasformazioni termodinamiche possono essere
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -4718,6 +4717,7 @@ Per una trasformazione ciclica reversibile, le aree incluse nelle curve
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -5118,13 +5118,17 @@ La variazione di entropia (funzione di stato) è indipendente dal cammino
 Entrando più nel dettaglio abbiamo che:
 \end_layout
 
-\begin_layout Subsubsection*
-Per 
+\begin_layout Quote
+
 \series bold
+Per
+\begin_inset space ~
+\end_inset
+
 una trasformazione reversibile
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Una prima possibilità è:
 \end_layout
 
@@ -5168,9 +5172,9 @@ ricavando
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
+\begin{equation}
 ds=\frac{du}{T}+\frac{P}{T}dv=\frac{c_{v}dT}{T}+\frac{R^{*}}{v}dv
-\]
+\end{equation}
 
 \end_inset
 
@@ -5194,7 +5198,11 @@ dove si è posto
 \end_layout
 
 \begin_layout Standard
-Integrando si ottiene:
+Integrando la 
+\begin_inset Formula $\left(4\right)$
+\end_inset
+
+ si ottiene:
 \end_layout
 
 \begin_layout Standard
@@ -5208,7 +5216,7 @@ s-s_{0}=c_{v}\ln\frac{T}{T_{0}}+R^{*}\ln\frac{v}{v_{0}}
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Una seconda possibilità, utilizzando la definizione di entalpia è:
 \end_layout
 
@@ -5216,6 +5224,176 @@ Una seconda possibilità, utilizzando la definizione di entalpia è:
 \begin_inset Formula 
 \[
 dh=\delta q-vdP
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+poiché 
+\begin_inset Formula $\delta q=Tds$
+\end_inset
+
+ si può scrivere:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+dh=Tds-vdP
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ricavando 
+\begin_inset Formula $ds$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+ds=\frac{dh}{T}-\frac{v}{T}dP=\frac{c_{p}dT}{T}-\frac{R^{*}dP}{P}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove si è posto 
+\begin_inset Formula $dh=c_{p}dT$
+\end_inset
+
+ e 
+\begin_inset Formula $\frac{v}{T}=\frac{R^{*}}{P}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Integrando la 
+\begin_inset Formula $\left(5\right)$
+\end_inset
+
+ si ottiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s-s_{0}=c_{v}\ln\frac{T}{T_{0}}-R^{*}\ln\frac{P}{P_{0}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Una terza possibilità è:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+ds=c_{v}\frac{dT}{T}+R^{*}\frac{dv}{v}
+\end{equation}
+
+\end_inset
+
+ ricordando che:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+PV=R^{*}T
+\]
+
+\end_inset
+
+ si può scrivere:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Pdv+vdP=R^{*}dT
+\end{equation}
+
+\end_inset
+
+sostituendo la 
+\begin_inset Formula $\left(7\right)$
+\end_inset
+
+ nella 
+\begin_inset Formula $\left(6\right)$
+\end_inset
+
+ si ottiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+ds=c_{v}\left(\frac{P}{R^{*}T}dv+\frac{v}{R^{*}T}dP\right)+R^{*}\frac{dv}{v}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+ds=c_{v}\frac{dv}{v}+c_{v}\frac{dP}{P}+R^{*}\frac{dv}{v}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ricordando che 
+\begin_inset Formula $c_{P}=c_{v}+R^{*}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+ds=c_{P}\frac{dv}{v}+c_{v}\frac{dP}{P}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+integrando: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s-s_{0}=c_{P}\ln\frac{v}{v_{0}}+c_{v}\ln\frac{P}{P_{0}}
 \]
 
 \end_inset
@@ -5274,10 +5452,6 @@ placement H
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align left
@@ -5801,12 +5975,894 @@ Tabella riassuntiva trasformazioni politropiche
 
 \end_layout
 
+\begin_layout Subsection
+Il bilancio entropico
+\end_layout
+
 \begin_layout Standard
+o
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Trasferimento di calore: bilancio entropico
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/entropy1.png
+	width 40line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Serbatoio sistema termidinamico che scambia calore reversibilmente senza
+ modificare la sua temperatura (
+\begin_inset Formula $T=cost$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subparagraph
+Bilancio di energia e di entropia per il sistema 
+\begin_inset Formula $Z$
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta S_{Z}=S_{q}+S_{irr}
+\]
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+poiché si tratta di un sistema isolato, si ha 
+\begin_inset Formula $\Delta S_{Z}=0$
+\end_inset
+
+, quindi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta S_{Z}=S_{irr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ma la variazione di entropia del sistema 
+\begin_inset Formula $Z$
+\end_inset
+
+ si può esprimere anche come somma della variazione di entropia dei sottosistemi
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta S_{Z}=\Delta S_{1}+\Delta S_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Inoltre, la variazione di energia interna del sistema 
+\begin_inset Formula $Z$
+\end_inset
+
+ è nulla:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta U_{Z}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+quindi si ha che 
+\begin_inset Formula $\Delta U_{1}+\Delta U_{2}=0$
+\end_inset
+
+ e 
+\begin_inset Formula $Q_{1}^{\rightarrow}+Q_{2}^{\rightarrow}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Si può scrivere per i singoli serbatoi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta S_{1}=S_{Q_{1}}+S_{irr_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta S_{2}=S_{Q_{2}}+S_{irr_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ma poiché lo scambio di calore avviene reversibilmente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta S_{1}=S_{Q_{1}}=\int\frac{\delta Q_{1}}{T_{1}}=\frac{1}{T_{1}}\int\delta Q_{1}=\frac{Q^{\leftarrow}}{T_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta S_{2}=S_{Q_{2}}=\int\frac{\delta Q_{2}}{T_{2}}=\frac{1}{T_{2}}\int\delta Q_{2}=\frac{Q_{2}^{\leftarrow}}{T_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e si è potuta portare fuori dal simbolo di integrale la temperatura poiché
+ 
+\begin_inset Formula $T_{1}=cost$
+\end_inset
+
+ e 
+\begin_inset Formula $T_{2}=cost$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Si ricava quindi che:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{irr}=\frac{Q_{1}^{\leftarrow}}{T_{1}}+\frac{Q_{2}^{\leftarrow}}{T_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{irr}=-\frac{Q_{1}}{T_{1}}+\frac{Q_{2}}{T_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quindi per il sistema 
+\begin_inset Formula $Z$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta S_{Z}=\frac{Q_{1}^{\leftarrow}}{T_{1}}+\frac{Q_{2}^{\leftarrow}}{T_{2}}+S_{irr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Poiché si ha che 
+\begin_inset Formula $Q_{1}^{\leftarrow}=-Q$
+\end_inset
+
+ e 
+\begin_inset Formula $Q_{2}^{\leftarrow}=+Q$
+\end_inset
+
+, si può scrivere:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-\frac{Q_{1}}{T_{1}}+\frac{Q_{2}}{T_{2}}=S_{irr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ma 
+\begin_inset Formula $S_{irr}\geq0$
+\end_inset
+
+, quindi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-\frac{Q}{T_{1}}+\frac{Q}{T_{2}}\geq0
+\]
+
+\end_inset
+
+ si può affermare che 
+\begin_inset Formula $T_{1}>T_{2}$
+\end_inset
+
+, altrimenti non si rispetterebbe 
+\begin_inset Formula $S_{irr}\geq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Dato che due corpi alla medesima temperatura non scambiano tra loro calore
+ se 
+\begin_inset Formula $\Delta T$
+\end_inset
+
+ è infinitesimo allora 
+\begin_inset Formula $S_{irr}=0$
+\end_inset
+
+.
+ Quindi è la relazione stessa tra i due corpi a generare in qualche modo
+ irreversibilità.
+\end_layout
+
+\begin_layout Subsubsection
+Il bilancio entropico: secondo Lord Kelvin
+\end_layout
+
+\begin_layout Standard
+È impossibile realizzare una macchina termica che funzionando ciclicamente
+ possa trasformare in lavoro il calore assorbito da una sorgente a temperatura
+ uniforme.
+\end_layout
+
+\begin_layout Standard
+Oppure: è impossibile realizzare una trasformazione il cui unico risultato
+ sia quello di trasformare completamente il calore assorbito in lavoro.
+\end_layout
+
+\begin_layout Subsubsection
+Il bilancio entropico: secondo Clausius
+\end_layout
+
+\begin_layout Standard
+È impossibile il passaggio spontaneo (senza lavoro) di calore da un corpo
+ freddo ad uno più caldo per differenza finita di temperatura.
+\end_layout
+
+\begin_layout Paragraph
+Dimostrazione dell'equivalenza dei due enunciati
+\end_layout
+
+\begin_layout Standard
+L'equivalenza dell'enunciato di Kelvin e di quello di Clausius si può mostrare
+ tramite il seguente ragionamento per assurdo.
+\end_layout
+
+\begin_layout Subparagraph
+Kelvin implica Clausius
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Schematizzazione di una macchina termica basata su una macchina che viola
+ l'enunciato di Kelvin
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Schematizzazione-di-una"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/2015-03-25_263x218.png
+	width 40line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Facendo riferimento alla Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Schematizzazione-di-una"
+
+\end_inset
+
+, si supponga per assurdo che l'enunciato di Clausius sia falso, ossia che
+ esista una macchina frigorifera ciclica in grado di trasferire calore da
+ una sorgente fredda ad una calda, senza apporto di lavoro esterno.
+\end_layout
+
+\begin_layout Standard
+Sia 
+\begin_inset Formula $Q$
+\end_inset
+
+ la quantità trasferita per ogni ciclo della macchina dalla sorgente fredda
+ a quella calda.
+\end_layout
+
+\begin_layout Standard
+Si può allora far lavorare una macchina termica tra le due sorgenti, in
+ modo tale che essa sottragga ad ogni ciclo una quantità di calore 
+\begin_inset Formula $Q'$
+\end_inset
+
+ dalla sorgente calda, trasferendo a quella fredda una quantità 
+\begin_inset Formula $Q$
+\end_inset
+
+ (uguale a quella precedentemente sottratta) e convertendo la differenza
+ 
+\begin_inset Formula $Q'-Q$
+\end_inset
+
+ in lavoro.
+\end_layout
+
+\begin_layout Standard
+La sorgente fredda allora non subisce alcun trasferimento netto di calore
+ e pertanto il sistema di macchine termiche sta estraendo calore, globalmente,
+ dalla sola sorgente calda, producendo esclusivamente lavoro, in violazione
+ della formulazione di Kelvin-Planck del secondo principio.
+\end_layout
+
+\begin_layout Subparagraph
+Clausius implica Kelvin
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Schematizzazione di una macchina termica basata su una macchina che viola
+ l'enunciato di Clausius
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Schematizzazione-di-una-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/2015-03-25_260x216.png
+	width 40line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ora, facendo riferimento alla Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Schematizzazione-di-una-1"
+
+\end_inset
+
+, si supponga ora di poter convertire integralmente il calore in lavoro,
+ estratto per mezzo di una macchina ciclica da una sola sorgente 
+\begin_inset Formula $S$
+\end_inset
+
+ a temperatura costante.
+\end_layout
+
+\begin_layout Standard
+Sia 
+\begin_inset Formula $L$
+\end_inset
+
+ tale lavoro estratto in un ciclo.
+\end_layout
+
+\begin_layout Standard
+Allora si può prendere una seconda sorgente 
+\begin_inset Formula $S'$
+\end_inset
+
+ a temperatura più alta e far funzionare una macchina frigorifera tra le
+ due sorgenti, che assorba ad ogni ciclo il lavoro 
+\begin_inset Formula $L$
+\end_inset
+
+ prodotto dall'altra macchina.
+\end_layout
+
+\begin_layout Standard
+Si ha così un trasferimento netto di calore dalla sorgente fredda 
+\begin_inset Formula $S$
+\end_inset
+
+ alla sorgente calda 
+\begin_inset Formula $S'$
+\end_inset
+
+, in violazione dell'enunciato di Clausius.
+\end_layout
+
+\begin_layout Subparagraph
+Formulazione matematica
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+dS=\frac{dQ_{rev}}{T}>\frac{dQ_{irr}}{T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ovvero:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+dS=\frac{dQ_{rev}}{T}\ge\frac{dQ}{T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se il sistema è isolato termicamente e quindi non scambia calore, cioè 
+\begin_inset Formula $dQ=0$
+\end_inset
+
+, si ha:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+dS\ge0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Dimostrazione ulteriore dell'affermazione di Lord Kelvin
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Macchina ciclica
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Macchina-ciclica"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/2015-03-26_782x260.png
+	width 80line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta S_{Z}=S_{irr}+S_{Q}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+poiché il sistema è isolato 
+\begin_inset Formula $S_{Q}=0$
+\end_inset
+
+, quindi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta S_{Z}=S_{irr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Poiché, come mostra la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Macchina-ciclica"
+
+\end_inset
+
+, il sistema è composto da una macchina ciclica e due serbatoi, si può esprimere
+ la variazione di entropia del sistema 
+\begin_inset Formula $Z$
+\end_inset
+
+ come:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta S_{Z}=\Delta S_{SC}+\Delta S_{M}+\Delta S_{SL}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Poiché la macchina è ciclica e l'entropia è funzione di stato 
+\begin_inset Formula $\Delta S_{M}=0$
+\end_inset
+
+; inolre il serbatoio di lavoro ha 
+\begin_inset Formula $Q=0$
+\end_inset
+
+, ovvero è una trasformazione reversibile adiabatica, e quindi anche 
+\begin_inset Formula $\Delta S_{SL}=0$
+\end_inset
+
+.
+ Quindi si ottiene che: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta S_{Z}=\Delta S_{SC}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dato che la temperatura è costante (
+\begin_inset Formula $T=cost$
+\end_inset
+
+) la variazione di entropia del serbatoio di calore è pari a :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta S_{SC}=\frac{Q^{\leftarrow}}{T}=S_{irr}\ge0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quindi si ha che 
+\begin_inset Formula $\frac{Q}{T}\ge0$
+\end_inset
+
+ e quindi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q\ge0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La temperatura è assoluta e quindi intrinsecamente positiva.
+ Il calore 
+\begin_inset Formula $Q$
+\end_inset
+
+ è entrante altrimenti l'energia sarebbe 
+\begin_inset Formula $<0$
+\end_inset
+
+.
+ Ciò significa che la situazione descritta in figura viola il secondo principio
+ della termodinamica e che quindi tale macchina sia incapace di produrre
+ lavoro.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Interpretazione fisica del concetto di Entropia
+\end_layout
+
+\begin_layout Standard
+E’ evidente ai nostri sensi che l’energia di un sistema termodinamico isolato
+ può essere espressa come somma di due termini: l’energia disponibile ad
+ essere convertita in lavoro (
+\begin_inset Formula $E_{disp}$
+\end_inset
+
+) e energia che non è possibile convertire in lavoro (
+\begin_inset Formula $E_{nondisp}$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E=E_{disp}+E_{nondisp}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Definiamo l'entropia come proprietà di un sistema termodinamico la cui variazion
+e 
+\begin_inset Formula $dS$
+\end_inset
+
+ a seguito di una trasformazione sia proporzionale alla differenza fra la
+ variazione di energia totale 
+\begin_inset Formula $dE$
+\end_inset
+
+ e la variazione dell'energia disponibile per produrre lavoro 
+\begin_inset Formula $dE_{disp}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+dS=C\left(dE-dE_{disp}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per un sistema isolato che evolva verso una diversa situazione di equilibrio
+ a seguito della rimozione di vincoli il principio di conservazione dell’energia
+ consente di affermare che 
+\begin_inset Formula $dE=0$
+\end_inset
+
+ mentre il principio di degradazione dell’energia consente di affermare
+ che 
+\begin_inset Formula $dE_{disp}<0$
+\end_inset
+
+ e quindi che 
+\begin_inset Formula $dS_{is}>=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Secondo questa interpretazione l’entropia risulta essere una misura dell’energia
+ non disponibile.
 \end_layout
 
 \end_body

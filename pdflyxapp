@@ -1,6 +1,0 @@
-#!/bin/sh
-
-lyx -batch --export pdf2  /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/fisica_tecnica.lyx 
-lyx -batch --export pdf2  /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/meccanica.lyx 
-
-
