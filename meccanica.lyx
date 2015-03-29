@@ -1189,23 +1189,9 @@ dove
 Cinematica del Corpo Rigido 
 \end_layout
 
-\begin_layout Description
-
-\series bold
-Posizione
-\begin_inset space ~
-\end_inset
-
-del
-\begin_inset space ~
-\end_inset
-
-corpo
-\series default
- Definire la posizione di tutti i punti componenti il corpo che sono infiniti.
- 
+\begin_layout Standard
 \begin_inset Marginal
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1221,6 +1207,23 @@ piano direttore
 \end_inset
 
 
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Posizione
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+corpo
+\series default
+ Definire la posizione di tutti i punti componenti il corpo che sono infiniti.
+ 
 \end_layout
 
 \begin_layout Description
@@ -4678,19 +4681,15 @@ Ritornando alla definizione della velocità di
 \end_inset
 
  si ottiene quindi che:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\vec{v_{P}}=\vec{v_{O^{'}}}+\vec{\omega}\wedge\left(P-O^{'}\right)+\vec{v_{rel_{P}}}
-\]
-
+\begin_inset Newline newline
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Marginal
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -4705,7 +4704,46 @@ Teorema dei moti relativi
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{v_{P}}=\vec{v_{O^{'}}}+\vec{\omega}\wedge\left(P-O^{'}\right)+\vec{v_{rel_{P}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 ponendo poi:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+
+\size normal
+\color cyan
+La velocità di trascinamento di 
+\begin_inset Formula $P$
+\end_inset
+
+ è quella velocità che il punto 
+\begin_inset Formula $P$
+\end_inset
+
+ avrebbe se fosse rigidamente vincolato al sdr mobile 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4730,30 +4768,6 @@ si ottiene:
 \[
 \vec{v_{P}}=\vec{v_{tr_{P}}}+\vec{v_{rel_{P}}}
 \]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-
-\size normal
-\color cyan
-La velocità di trascinamento di 
-\begin_inset Formula $P$
-\end_inset
-
- è quella velocità che il punto 
-\begin_inset Formula $P$
-\end_inset
-
- avrebbe se fosse rigidamente vincolato al sdr mobile 
-\end_layout
 
 \end_inset
 
