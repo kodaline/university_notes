@@ -4503,6 +4503,14 @@ Dimostrazione
 \end_layout
 
 \begin_layout Standard
+Per una politropica generica si ha che 
+\begin_inset Formula $Pv^{n}=cost$
+\end_inset
+
+ e quindi si può scrivere anche:
+\end_layout
+
+\begin_layout Standard
 \align center
 
 \series bold
@@ -4567,6 +4575,14 @@ Per
 \series bold
 \shape smallcaps
 Dimostrazione
+\end_layout
+
+\begin_layout Standard
+Per una trasformazione isoterma si ha che 
+\begin_inset Formula $Pv=cost$
+\end_inset
+
+ e quindi si può scrivere anche:
 \end_layout
 
 \begin_layout Standard
@@ -5121,11 +5137,11 @@ Entrando più nel dettaglio abbiamo che:
 \begin_layout Quote
 
 \series bold
-Per
+per
 \begin_inset space ~
 \end_inset
 
-una trasformazione reversibile
+una trasformazione reversibile:
 \end_layout
 
 \begin_layout Itemize
@@ -6043,6 +6059,9 @@ Bilancio di energia e di entropia per il sistema
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \Delta S_{Z}=S_{q}+S_{irr}
@@ -6082,6 +6101,8 @@ Ma la variazione di entropia del sistema
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 \Delta S_{Z}=\Delta S_{1}+\Delta S_{2}
@@ -6542,6 +6563,8 @@ Formulazione matematica
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 dS=\frac{dQ_{rev}}{T}>\frac{dQ_{irr}}{T}
@@ -6557,6 +6580,8 @@ ovvero:
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 dS=\frac{dQ_{rev}}{T}\ge\frac{dQ}{T}
@@ -6576,6 +6601,8 @@ Se il sistema è isolato termicamente e quindi non scambia calore, cioè
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 dS\ge0
@@ -6643,6 +6670,8 @@ name "fig:Macchina-ciclica"
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 \Delta S_{Z}=S_{irr}+S_{Q}
@@ -6662,6 +6691,8 @@ poiché il sistema è isolato
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 \Delta S_{Z}=S_{irr}
@@ -6689,6 +6720,8 @@ reference "fig:Macchina-ciclica"
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 \Delta S_{Z}=\Delta S_{SC}+\Delta S_{M}+\Delta S_{SL}
@@ -6717,6 +6750,8 @@ Poiché la macchina è ciclica e l'entropia è funzione di stato
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 \Delta S_{Z}=\Delta S_{SC}
@@ -6736,6 +6771,8 @@ Dato che la temperatura è costante (
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 \Delta S_{SC}=\frac{Q^{\leftarrow}}{T}=S_{irr}\ge0
@@ -6755,6 +6792,8 @@ Quindi si ha che
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 Q\ge0
@@ -6802,6 +6841,8 @@ E’ evidente ai nostri sensi che l’energia di un sistema termodinamico isolat
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 E=E_{disp}+E_{nondisp}
@@ -6831,6 +6872,8 @@ e
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Formula 
 \[
 dS=C\left(dE-dE_{disp}\right)
@@ -6863,6 +6906,1083 @@ Per un sistema isolato che evolva verso una diversa situazione di equilibrio
 \begin_layout Standard
 Secondo questa interpretazione l’entropia risulta essere una misura dell’energia
  non disponibile.
+\end_layout
+
+\begin_layout Section
+Macchine termodinamiche
+\end_layout
+
+\begin_layout Description
+Macchina
+\begin_inset space ~
+\end_inset
+
+termodinamica Sistema termodinamico composto ed isolato che, nella sua forma
+ più semplice, è realizzato da:
+\end_layout
+
+\begin_layout Itemize
+due serbatoi di calore;
+\end_layout
+
+\begin_layout Itemize
+un serbatoio di lavoro;
+\end_layout
+
+\begin_layout Itemize
+una macchina ciclica
+\end_layout
+
+\begin_layout Standard
+che è in grado di produrre od assorbire con continuità lavoro interagendo
+ con il serbatoio di lavoro ed i serbatoi di calore (vedi Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Macchina-termodinamica"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Macchina termodinamica
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Macchina-termodinamica"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/macchina_termodinamica.png
+	width 30page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Serbatoio di Lavoro
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Serbatoio di Lavoro
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/serbatoio_di_lavoro.png
+	width 30page%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Serbatoio
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+lavoro sistema termodinamico che scambia solo lavoro con l’esterno senza
+ alterare il suo stato termodinamico; gli scambi avvengono con trasformazioni
+ quasi-statiche (internamente reversibili).
+\end_layout
+
+\begin_layout Subsection
+Serbatoio di Calore
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Serbatoio di Calore
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/serbatoio_di_calore.png
+	width 30page%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Serbatoio
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+Calore Sistema termodinamico che scambia solo calore con l’esterno senza
+ alterare il suo stato termodinamico; gli scambi avvengono con trasformazioni
+ quasi-statiche (internamente reversibili).
+\end_layout
+
+\begin_layout Subsection
+Macchine Motrici
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Macchina motrice
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/macchina_motrice.png
+	width 30page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dalle equazioni di bilancio:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta U_{Z}=0\\
+\Delta S_{Z}=S_{irr}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula $\begin{cases}
+\Delta U_{C}+\Delta U_{M}+\Delta U_{SL}+\Delta U_{F}=0\\
+\Delta S_{C}+\Delta S_{M}+\Delta S_{SL}+\Delta S_{F}=0
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ma essendo:
+\end_layout
+
+\begin_layout Itemize
+per il serbatoio di calore caldo
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta U_{C}=Q_{C}^{\leftarrow}\\
+\Delta S_{C}=\frac{Q_{C}^{\leftarrow}}{T_{C}}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+per la macchina ciclica
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta U_{M}=0\\
+\Delta S_{M}=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+per il sebatoio di lavoro
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta U_{SL}=-L_{SL}^{\rightarrow}\\
+\Delta S_{SL}=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+per il serbatoio di calore freddo 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta U_{F}=Q_{F}^{\leftarrow}\\
+\Delta S_{F}=\frac{Q_{F}^{\leftarrow}}{T_{F}}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ne deriva che:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{cases}
+Q_{C}^{\leftarrow}+Q_{F}^{\leftarrow}-L_{SL}^{\rightarrow}=0\\
+\frac{Q_{C}^{\leftarrow}}{T_{C}}+\frac{Q_{F}^{\leftarrow}}{T_{F}}=S_{irr}
+\end{cases}$
+\end_inset
+
+, quindi 
+\begin_inset Formula $\begin{cases}
+-Q_{C}+Q_{F}+L_{SL}=0\\
+-\frac{Q_{C}}{T_{C}}+\frac{Q_{F}}{T_{F}}=S_{irr}
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e infine: 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+Q_{F}=Q_{C}-L\\
+L=Q_{C}\left(1-\frac{T_{F}}{T_{C}}\right)-T_{F}\,S_{irr}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Essendo 
+\begin_inset Formula $T_{C}>T_{F}$
+\end_inset
+
+ e 
+\begin_inset Formula $L>0$
+\end_inset
+
+, il lavoro è massimo quando il processo è reversibile.
+\end_layout
+
+\begin_layout Description
+Rendimento Rapporto tra il risultato energetico che la macchina fornisce
+ e la spesa energetica per raggiungere l'obiettivo.
+\end_layout
+
+\begin_layout Standard
+In generale si ha:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\eta=\frac{L}{Q_{C}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+sostituendo:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset Formula $\eta=\frac{L}{Q_{C}}=1-\frac{T_{F}}{T_{C}}-\frac{T_{F}}{Q_{C}}\,S_{irr}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+poiché il lavoro è massimo se il sistema è reversibile, si ottiene che:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\eta=1-\frac{T_{F}}{T_{C}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ciò che si è ottenuto è l'espressione del rendimento termodinamico di una
+ macchina motrice che opera reversibilmente con serbatoi di calore a temperatura
+ costante considerati di massa infinita.
+\end_layout
+
+\begin_layout Subsubsection
+Esempio: macchina motrice con serbatoio caldo a massa finita
+\end_layout
+
+\begin_layout Standard
+Si consideri una macchina motrice con serbatoio caldo di massa finita contenente
+ un liquido ideale.
+ Dalle equazioni di bilancio si ottiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{cases}
+\Delta U_{Z}=0\\
+\Delta S_{Z}=S_{irr}
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula $\begin{cases}
+\Delta U_{C}+\Delta U_{M}+\Delta U_{SL}+\Delta U_{F}=0\\
+\Delta S_{C}+\Delta S_{M}+\Delta S_{SL}+\Delta S_{F}=S_{irr}
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Poiché il serbatoio di calore caldo a massa finita ha 
+\begin_inset Formula $T_{1}>T_{2}$
+\end_inset
+
+ per esso si ha:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta U_{C}=mc\left(T_{2}-T_{1}\right)\\
+\Delta S_{C}=mc\ln\left(\frac{T_{2}}{T_{1}}\right)
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+per la macchina ciclica:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta U_{M}=0\\
+\Delta S_{M}=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+per il serbatoio di lavoro:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta U_{SL}=-L_{SL}^{\rightarrow}\\
+\Delta S_{SL}=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+per il serbatoio di calore freddo:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta U_{F}=Q_{F}^{\leftarrow}\\
+\Delta S_{F}=\frac{Q_{F}^{\leftarrow}}{T_{F}}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ne deriva che:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+mc\left(T_{2}-T_{1}\right)+Q_{F}^{\leftarrow}-L_{SL}^{\rightarrow}=0\\
+mc\ln\left(\frac{T_{2}}{T_{1}}\right)+\frac{Q_{F}^{\leftarrow}}{T_{F}}=S_{irr}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+mc\left(T_{2}-T_{1}\right)+Q_{F}+L=0\\
+mc\ln\frac{T_{2}}{T_{1}}+\frac{Q_{F}}{T_{F}}=S_{irr}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Poiché il sistema considerato è reversibile, 
+\begin_inset Formula $S_{irr}=0$
+\end_inset
+
+, quindi:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Q_{C}^{\leftarrow}=mc\left(T_{2}-T_{1}\right)$
+\end_inset
+
+ negativo uscente
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Q_{C}=mc\left(T_{1}-T_{2}\right)$
+\end_inset
+
+ valore assoluto
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Q_{F}^{\leftarrow}=-mcT_{F}\ln\frac{T_{2}}{T_{1}}=mcT_{F}\ln\frac{T_{1}}{T_{2}}$
+\end_inset
+
+ positivo
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Q_{F}=mcT_{F}\ln\frac{T_{1}}{T_{2}}$
+\end_inset
+
+ in valore assoluto
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $L^{\rightarrow}=Q_{C}^{\leftarrow}+Q_{F}^{\leftarrow}=mc\left(T_{2}-T_{1}\right)+mcT_{F}\ln\frac{T_{1}}{T_{2}}$
+\end_inset
+
+ negativo entrante
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $L=Q_{C}-Q_{F}=mc\left(T_{1}-T_{2}\right)-mcT_{F}\ln\frac{T_{1}}{T_{2}}$
+\end_inset
+
+ in valore assoluto 
+\end_layout
+
+\begin_layout Standard
+Quindi si ottiene il seguente sistema:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+Q_{C}=Mc\left(T_{1}-T_{2}\right)\\
+Q_{F}=McT_{F}\ln\frac{T_{1}}{T_{2}}\\
+L=Mc\left(T_{1}-T_{2}\right)-McT_{F}\ln\frac{T_{1}}{T_{2}}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quindi, poiché il rendimento è pari a 
+\begin_inset Formula $\eta=\frac{L}{Q_{C}}$
+\end_inset
+
+ (rapporto tra il risultato energetico che la macchina fornisce e la spesa
+ energetica per raggiungere l'obiettivo), si ottiene un rendimento reversibile
+ pari a:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\eta_{rev}=\frac{L}{Q_{C}}=\frac{\left(T_{1}-T_{2}\right)-T_{F}\ln\frac{T_{1}}{T_{2}}}{T_{1}-T_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tale espressione è il rendimento termodinamico di una macchina motrice che
+ opera reversibilmente con il serbatoio superiore a massa finita.
+\end_layout
+
+\begin_layout Subsection
+Macchine Operatrici
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Macchina Operatrice
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/macchina_operatrice.png
+	width 30page%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dalle equazioni di bilancio:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta U_{Z}=0\\
+\Delta S_{Z}=S_{irr}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula $\begin{cases}
+\Delta U_{C}+\Delta U_{M}+\Delta U_{SL}+\Delta U_{F}=0\\
+\Delta S_{C}+\Delta S_{M}+\Delta S_{SL}+\Delta S_{F}=0
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ma essendo:
+\end_layout
+
+\begin_layout Itemize
+per il serbatoio di calore caldo
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta U_{C}=Q_{C}^{\leftarrow}\\
+\Delta S_{C}=\frac{Q_{C}^{\leftarrow}}{T_{C}}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+per la macchina ciclica
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta U_{M}=0\\
+\Delta S_{M}=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+per il sebatoio di lavoro
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta U_{SL}=-L_{SL}^{\rightarrow}\\
+\Delta S_{SL}=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+per il serbatoio di calore freddo 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta U_{F}=Q_{F}^{\leftarrow}\\
+\Delta S_{F}=\frac{Q_{F}^{\leftarrow}}{T_{F}}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ne deriva che:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{cases}
+Q_{C}^{\leftarrow}+Q_{F}^{\leftarrow}-L_{SL}^{\rightarrow}=0\\
+\frac{Q_{C}^{\leftarrow}}{T_{C}}+\frac{Q_{F}^{\leftarrow}}{T_{F}}=S_{irr}
+\end{cases}$
+\end_inset
+
+, e quindi considerando i flussi di calore e lavoro si ottiene:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+-Q_{C}+Q_{F}+L_{SL}=0\\
+-\frac{Q_{C}}{T_{C}}+\frac{Q_{F}}{T_{F}}=S_{irr}
+\end{cases}
+\]
+
+\end_inset
+
+
+\size default
+ ricavando che 
+\begin_inset Formula $Q_{F}=Q_{C}-L$
+\end_inset
+
+ e sostituendo:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+L=Q_{C}\left(1-\frac{T_{F}}{T_{C}}\right)-T_{F}\,S_{irr}
+\]
+
+\end_inset
+
+
+\size default
+ poiché il lavoro massimo si ottiene se il processo è reversibile (quindi
+ 
+\begin_inset Formula $S_{irr}=0$
+\end_inset
+
+), e 
+\begin_inset Formula $T_{C}>T_{F}$
+\end_inset
+
+ e 
+\begin_inset Formula $L>0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+Efficienza
+\begin_inset space ~
+\end_inset
+
+o
+\begin_inset space ~
+\end_inset
+
+C.O.P.
+ Rapporto tra il risultato energetico che la macchina fornisce e la spesa
+ energetica per raggiungere l'obiettivo.
+\end_layout
+
+\begin_layout Standard
+Per una macchina frigorifera si ha:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\epsilon_{f}=\frac{Q_{F}}{L}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\epsilon_{f}=\frac{Q_{F}}{L}=\frac{T_{F}}{T_{C}-T_{F}+\frac{T_{C}\,T_{F}\,S_{irr}}{Q_{F}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+se la macchina frigorifera opera reversibilmente con serbatoi di calore
+ a temperatura costante si ottiene:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\epsilon_{f_{rev}}=\frac{T_{F}}{T_{C}-T_{F}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per una pompa di calore si ha:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\epsilon_{p}=\frac{Q_{C}}{L}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\epsilon_{pdc}=\frac{Q_{C}}{L}=\frac{T_{C}}{T_{C}-T_{F}+\frac{T_{C}\,T_{F}\,S_{irr}}{Q_{C}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+se la pompa di calore opera reversibilmente con serbatoi di calore a temperatura
+ costante si ottiene:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\epsilon_{pdc_{rev}}=\frac{T_{C}}{T_{C}-T_{F}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le due espressioni rappresentano l'efficienza termodinamica di una macchina
+ operatrice che opera reversibilmente con serbatoi di calore a temperatura
+ costante e considerati di massa infinita.
+\end_layout
+
+\begin_layout Standard
+Il legame tra l'efficienza per una macchina frigorifera e quella per una
+ pompa di calore è:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\epsilon_{pdc}=\frac{Q_{C}}{L}=\frac{Q_{F}+L}{L}=\epsilon_{f}+1
+\]
+
+\end_inset
+
+
 \end_layout
 
 \end_body
