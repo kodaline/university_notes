@@ -7173,7 +7173,7 @@ Dalle equazioni di bilancio:
 \size large
 \begin_inset Formula $\begin{cases}
 \Delta U_{C}+\Delta U_{M}+\Delta U_{SL}+\Delta U_{F}=0\\
-\Delta S_{C}+\Delta S_{M}+\Delta S_{SL}+\Delta S_{F}=0
+\Delta S_{C}+\Delta S_{M}+\Delta S_{SL}+\Delta S_{F}=S_{irr}
 \end{cases}$
 \end_inset
 
