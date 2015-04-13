@@ -7591,9 +7591,9 @@ Quindi si ottiene il seguente sistema:
 \begin_inset Formula 
 \[
 \begin{cases}
-Q_{C}=Mc\left(T_{1}-T_{2}\right)\\
-Q_{F}=McT_{F}\ln\frac{T_{1}}{T_{2}}\\
-L=Mc\left(T_{1}-T_{2}\right)-McT_{F}\ln\frac{T_{1}}{T_{2}}
+Q_{C}=mc\left(T_{1}-T_{2}\right)\\
+Q_{F}=mcT_{F}\ln\frac{T_{1}}{T_{2}}\\
+L=mc\left(T_{1}-T_{2}\right)-mcT_{F}\ln\frac{T_{1}}{T_{2}}
 \end{cases}
 \]
 
@@ -7807,8 +7807,8 @@ Q_{C}^{\leftarrow}+Q_{F}^{\leftarrow}-L_{SL}^{\rightarrow}=0\\
 \begin_inset Formula 
 \[
 \begin{cases}
--Q_{C}+Q_{F}+L_{SL}=0\\
--\frac{Q_{C}}{T_{C}}+\frac{Q_{F}}{T_{F}}=S_{irr}
+Q_{C}-Q_{F}-L_{SL}=0\\
+\frac{Q_{C}}{T_{C}}-\frac{Q_{F}}{T_{F}}=S_{irr}
 \end{cases}
 \]
 
@@ -7828,7 +7828,7 @@ Q_{C}^{\leftarrow}+Q_{F}^{\leftarrow}-L_{SL}^{\rightarrow}=0\\
 \size large
 \begin_inset Formula 
 \[
-L=Q_{C}\left(1-\frac{T_{F}}{T_{C}}\right)-T_{F}\,S_{irr}
+L=Q_{C}\left(1-\frac{T_{F}}{T_{C}}\right)+T_{F}\,S_{irr}
 \]
 
 \end_inset
