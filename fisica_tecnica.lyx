@@ -27,6 +27,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement H
 \paperfontsize default
 \spacing single
 \use_hyperref true
@@ -150,6 +151,10 @@ LatexCommand tableofcontents
 \end_inset
 
 
+\end_layout
+
+\begin_layout Part
+Sistemi Chiusi
 \end_layout
 
 \begin_layout Section
@@ -2127,7 +2132,8 @@ name "fig:Schematizzazione-dell'esperienza"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/2015-03-13-200544_409x251_scrot.svg
+	filename ../Notes/Graphics/2015-03-13-200544_409x251_scrot.svg
+	lyxscale 30
 	width 60line%
 
 \end_inset
@@ -2459,7 +2465,8 @@ name "fig:il-lavoro-termodinamico"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/2015-03-14-152507_455x398_scrot.svg
+	filename ../Notes/Graphics/2015-03-14-152507_455x398_scrot.svg
+	lyxscale 30
 	width 60line%
 
 \end_inset
@@ -2645,7 +2652,7 @@ name "fig:espansione-isoterma-reversibile"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-16.svg
+	filename ../Notes/Graphics/drawing-16.svg
 	width 60line%
 
 \end_inset
@@ -3891,7 +3898,7 @@ name "fig:Rappresentazione-nel-piano"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-29.svg
+	filename ../Notes/Graphics/drawing-29.svg
 	width 50line%
 
 \end_inset
@@ -4682,7 +4689,8 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/entropy2.png
+	filename ../Notes/Graphics/entropy2.png
+	lyxscale 30
 	width 50line%
 
 \end_inset
@@ -4759,7 +4767,8 @@ Trasformazione ciclica
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/entropy3.png
+	filename ../Notes/Graphics/entropy3.png
+	lyxscale 30
 	width 50line%
 
 \end_inset
@@ -6024,7 +6033,8 @@ Trasferimento di calore: bilancio entropico
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/entropy1.png
+	filename ../Notes/Graphics/entropy1.png
+	lyxscale 30
 	width 40line%
 
 \end_inset
@@ -6392,7 +6402,8 @@ name "fig:Schematizzazione-di-una"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/2015-03-25_263x218.png
+	filename ../Notes/Graphics/2015-03-25_263x218.png
+	lyxscale 30
 	width 40line%
 
 \end_inset
@@ -6492,7 +6503,8 @@ name "fig:Schematizzazione-di-una-1"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/2015-03-25_260x216.png
+	filename ../Notes/Graphics/2015-03-25_260x216.png
+	lyxscale 30
 	width 40line%
 
 \end_inset
@@ -6652,7 +6664,8 @@ name "fig:Macchina-ciclica"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/2015-03-26_782x260.png
+	filename ../Notes/Graphics/2015-03-26_782x260.png
+	lyxscale 30
 	width 80line%
 
 \end_inset
@@ -6976,7 +6989,8 @@ name "fig:Macchina-termodinamica"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/macchina_termodinamica.png
+	filename ../Notes/Graphics/macchina_termodinamica.png
+	lyxscale 30
 	width 30page%
 
 \end_inset
@@ -7131,7 +7145,8 @@ Macchina motrice
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/macchina_motrice.png
+	filename ../Notes/Graphics/macchina_motrice.png
+	lyxscale 30
 	width 30page%
 
 \end_inset
@@ -7658,7 +7673,8 @@ Macchina Operatrice
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/macchina_operatrice.png
+	filename ../Notes/Graphics/macchina_operatrice.png
+	lyxscale 30
 	width 30page%
 
 \end_inset
@@ -7980,6 +7996,1423 @@ Il legame tra l'efficienza per una macchina frigorifera e quella per una
 \epsilon_{pdc}=\frac{Q_{C}}{L}=\frac{Q_{F}+L}{L}=\epsilon_{f}+1
 \]
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Sistemi Aperti
+\end_layout
+
+\begin_layout Section
+Sistema aperto
+\end_layout
+
+\begin_layout Description
+Sistema
+\begin_inset space ~
+\end_inset
+
+aperto È delimitato da una superficie di controllo chiamata volume di controllo
+ (sezione delimitata di spazio): ttraverso di essa viene scambiato calore
+ e lavoro; attraverso ben delimitate sezioni invece si ipotizzerà che può
+ fluire anche massa (solo attraverso le sezioni di ingresso e di uscita,
+ lungo tutto il resto invece calore e/o lavoro).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Sistema aperto
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/sistema-aperto.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In realtà si parla di potenza termica e di potenza lavoro riferite all'unità
+ di tempo (sono dimensionalmente potenze); si ha infatti massa in movimento
+ e quindi si fa riferimento alla portata massica riferita all'unità di tempo.
+\end_layout
+
+\begin_layout Standard
+Per i sistemi aperti si fa riferimento alle equazioni di bilancio di massa,
+ a differenze dei sistemi chiusi, per i quali non si considera perché mantengono
+ la massa costante.
+\end_layout
+
+\begin_layout Section
+Equazioni di bilancio
+\end_layout
+
+\begin_layout Subsection
+Bilancio di Massa
+\end_layout
+
+\begin_layout Standard
+La massa che si accumula all'interno del volume di controllo è pari a: 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{dm}{dt}=\sum_{i}\dot{m}_{i}^{\leftarrow}
+\]
+
+\end_inset
+
+
+\series default
+\size default
+non è altro che la differenza tra 
+\begin_inset Quotes eld
+\end_inset
+
+ciò che entra
+\begin_inset Quotes erd
+\end_inset
+
+ nel volume di controllo e 
+\begin_inset Quotes eld
+\end_inset
+
+ciò che esce
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Equazione di continuità
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{m}=\rho w\Omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\rho$
+\end_inset
+
+ = massa volumica 
+\begin_inset Formula $=\frac{1}{v}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $w$
+\end_inset
+
+ = velocità della sezione
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Omega$
+\end_inset
+
+ = area della sezione
+\end_layout
+
+\begin_layout Subsection
+Bilancio di Energia 1/2
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{dE}{dt}=\sum_{i}\dot{E}_{i}^{\leftarrow}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E^{\leftarrow}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+energia associata al trasporto di massa
+\end_layout
+
+\begin_layout Itemize
+calore scambiato
+\end_layout
+
+\begin_layout Itemize
+lavoro scambiato
+\end_layout
+
+\begin_layout Itemize
+energia dovuta ad una sorgente
+\end_layout
+
+\begin_layout Standard
+Bisogna considerare quindi anche un altro tipo di energia: il lavoro necessario
+ da compiere per inserire la massa nel volume di controllo.
+ Per far entrare la massa all'interno del volume di controllo va speso lavoro,
+ ma va speso anche quando la massa va estratta dal volume di controllo.
+\end_layout
+
+\begin_layout Standard
+Si consideri un sistema 
+\begin_inset Formula $V+V_{m}$
+\end_inset
+
+ occupato dalla massa 
+\begin_inset Formula $m_{i}$
+\end_inset
+
+.
+ Se si immette 
+\begin_inset Formula $m_{i}$
+\end_inset
+
+ in 
+\begin_inset Formula $V$
+\end_inset
+
+, il volume varia mantenendo costante la massa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/volume_control.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se si ipotizza che la massa è molto più piccola del volume allora il suo
+ inserimento non causa variazioni sensibili della pressione.
+\end_layout
+
+\begin_layout Standard
+Il sistema è un sistema chiuso che scambia un lavoro 
+\begin_inset Formula $L_{p}$
+\end_inset
+
+ con l'esterno:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+L_{p}^{\leftarrow}=-\int_{V+V_{m}}^{V}P\,dV=PV-PV+PV_{m}=PV_{m}=m_{i}Pv_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+questo termine di lavoro compare per ogni sezione di ingresso e di uscita
+ della massa.
+\end_layout
+
+\begin_layout Subsubsection
+Energia associata al trasporto di massa
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+E_{m}=\sum_{i}m_{i}^{\leftarrow}\left(u+gz+\frac{w^{2}}{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Calore scambiato
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $Q^{\leftarrow}$
+\end_inset
+
+: calore estratto dal sistema per renderlo disponibile all'esterno; viene
+ assorbito dall'esterno per far evolvere il sistema nella direzione che
+ vogliamo.
+ Viene prelevato dall'esterno se la macchina è operatrice.
+\end_layout
+
+\begin_layout Subsubsection
+Lavoro scambiato
+\end_layout
+
+\begin_layout Standard
+Il lavoro scambiato non viene visto in relazione con l'esterno; ha a che
+ fare con il sistema aperto.
+ Entra in gioco nell'evoluzione che il fluido compirà all'interno del sistema.
+\end_layout
+
+\begin_layout Itemize
+Lavoro d'
+\series bold
+elica
+\series default
+ 
+\series bold
+\size large
+
+\begin_inset Formula $L_{e}^{\rightarrow}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Lavoro di 
+\series bold
+pulsione 
+\size large
+
+\begin_inset Formula $L_{P}^{\leftarrow}=\sum_{i}m_{i}\,P_{i}\,v_{i}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Quest'ultimo, il lavoro di pulsione, è l'energia associata ad un termine
+ di sorgente (effetto Joule, reazioni chimiche, reazioni nucleari, etc.).
+\end_layout
+
+\begin_layout Subsection
+Bilancio di Energia 2/2
+\end_layout
+
+\begin_layout Standard
+Nella sezione 8.2 si è detto che:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{dE}{dt}=\sum_{i}\dot{E}_{i}^{\leftarrow}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ovvero:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\frac{dE}{dt}=m_{i}\left(u+gz+\frac{w^{2}}{2}\right)_{i}+\dot{Q}^{\leftarrow}-m_{u}\left(u+gz+\frac{w^{2}}{2}\right)_{u}-\dot{L}_{e}^{\rightarrow}+\dot{m}_{i}\left(Pv\right)_{i}-\dot{m}_{u}\left(Pv\right)_{u}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dE}{dt}=\dot{m}_{i}\left(h+gz+\frac{w^{2}}{2}\right)_{i}+\dot{Q}^{\leftarrow}-\dot{m}_{u}\left(h+gz+\frac{w^{2}}{2}\right)_{u}-\dot{L}_{e}^{\rightarrow}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dE}{dt}=\sum_{i}\dot{m}_{i}^{\leftarrow}\left(h+gz+\frac{w^{2}}{2}\right)_{i}+\dot{Q}^{\leftarrow}-\dot{L}_{e}^{\rightarrow}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'entalpia tiene conto sia dell'energia interna sia del lavoro specifico
+ introdotto per inserire il fluido all'interno del volume di controllo.
+\end_layout
+
+\begin_layout Subsection
+Bilancio di Entropia
+\end_layout
+
+\begin_layout Standard
+L'entropia del volume di controllo dipende da quella associata al trasporto
+ di massa, dalla potenza entropica legata agli scambi di calore, e quello
+ dovuto all'irreversibilità.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{dS}{dt}=\sum_{i}\dot{m}_{i}^{\leftarrow}s_{i}+\dot{S}_{Q^{\leftarrow}}+\dot{S}_{irr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Regime stazionario
+\end_layout
+
+\begin_layout Standard
+Per poter utilizzare in modo più semplificato le equazioni di bilancio per
+ sistemi aperti, bisogna fare qualche semplificazione legata al regime stazionar
+io.
+\end_layout
+
+\begin_layout Subsubsection
+Equazioni di bilancio: Massa
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{dm}{dt}=\sum_{i}\dot{m}_{i}^{\leftarrow}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+quindi:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{m}_{i}^{\leftarrow}=-\dot{m}_{u}^{\leftarrow}=\dot{m}^{\leftarrow}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Equazioni di bilancio: Energia
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{dE}{dt}=\sum_{i}\dot{E}_{i}^{\leftarrow}=0
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ quindi: 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{m}^{\leftarrow}\left[\left(h_{i}-h_{u}\right)+g\left(z_{i}-z_{u}\right)+\frac{\left(w_{i}^{2}-w_{u}^{2}\right)}{2}\right]+\dot{Q}^{\leftarrow}-\dot{L}_{e}^{\rightarrow}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+in questo caso si è potuto raccogliere perché le masse sono uguali.
+\end_layout
+
+\begin_layout Subsubsection
+Equazioni di bilancio: Entropia
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{dS}{dt}=\sum_{i}\dot{S}_{i}^{\leftarrow}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+quindi:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{m}^{\leftarrow}\left(s_{i}-s_{u}\right)+\dot{S}_{Q^{\leftarrow}}+\dot{S}_{irr}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Questa equazione viene utilizzata per il calcolo di scambi energetici per
+ sistemi aperti.
+\end_layout
+
+\begin_layout Subsection
+Macchina aperta
+\end_layout
+
+\begin_layout Description
+Macchina
+\begin_inset space ~
+\end_inset
+
+aperta dispositivo stazionario adiabatico atto a scambiare lavoro per il
+ quale si ipotizzano trascurabili le variazioni di energia potenziale e
+ cinetica tra le sezioni di ingresso e di uscita.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Macchina aperta
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/macchina-aperta.png
+	lyxscale 30
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Turbina agisce su qualunque fluido gas, vapore, bifase.
+\end_layout
+
+\begin_layout Description
+Compressore agisce solo su gas.
+\end_layout
+
+\begin_layout Description
+Pompa agisce solo su fluidi; alza la pressione senza ridurre il volume.
+\end_layout
+
+\begin_layout Subsubsection
+Bilancio di Energia
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{m}^{\leftarrow}\left(h_{i}-h_{u}\right)-\dot{L}_{e}^{\rightarrow}=0
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Bilancio di Entropia
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{m}^{\leftarrow}\left(s_{i}-s_{u}\right)+\dot{S}_{irr}=0
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\begin_layout Subsection
+Dispositivi schematizzabili come sistemi aperti
+\end_layout
+
+\begin_layout Standard
+I dispositivi schematizzabili come sistemi aperti presentano un flusso costante
+ di fluido e una distribuzione di temperatura a regime costante e sono ipotizzab
+ili trascurabili le variazioni di energia potenziale e/o cinetica.
+\end_layout
+
+\begin_layout Subsubsection
+Scambiatore di calore
+\end_layout
+
+\begin_layout Standard
+Grazie al calore che viene scambiato, uno scambiatore di calore fa compiere
+ un salto di entalpia al sistema; provvede invece una diminuzione di entalpia
+ quando il calore viene fatto uscire dal sistema stesso.
+ 
+\end_layout
+
+\begin_layout Description
+Scambiatore
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+calore sistema aperto stazionario che opera senza scambio di lavoro per
+ il quale si ipotizzano trascurabili le variazioni di energia potenziale
+ e cinetica tra le sezioni di ingresso e di uscita.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{m}^{\leftarrow}\left(h_{i}-h_{u}\right)+\dot{Q}^{\leftarrow}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{m}^{\leftarrow}\left(s_{i}-s_{u}\right)+\dot{S}_{Q^{\leftarrow}}+\dot{S}_{irr}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Diffusore 
+\begin_inset Formula $\left(w\downarrow\right)$
+\end_inset
+
+ e ugello 
+\begin_inset Formula $\left(w\uparrow\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I diffusori e gli ugelli sono sistemi aperti stazionari che operano senza
+ scambio di lavoro e di calore per i quali si ipotizzano trascurabili la
+ variazione di energia potenziale tra le sezioni di ingresso e di uscita
+ ma non quelle di energia cinetica.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{m}\cdot\left[\left(h_{i}-h_{u}\right)+\frac{\left(w_{i}^{2}-w_{u}^{2}\right)}{2}\right]=0
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\series bold
+\size large
+
+\begin_inset Formula 
+\[
+\dot{m}^{\leftarrow}\left(s_{i}-s_{u}\right)+\dot{S}_{irr}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Valvola di laminazione
+\end_layout
+
+\begin_layout Standard
+Le valvole di laminazione sono sistemi aperti stazionari (detti anche dispositiv
+i isentalpici) per i quali si ipotizzano trascurabili le variazioni di energia
+ potenziale e cinetica tra le sezioni di ingresso e di uscita.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\left(h_{i}-h_{u}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{m}^{\leftarrow}\left(s_{i}-s_{u}\right)+\dot{S}_{irr}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Turbina
+\end_layout
+
+\begin_layout Description
+Rendimento
+\begin_inset space ~
+\end_inset
+
+isentropico
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+una
+\begin_inset space ~
+\end_inset
+
+macchina
+\begin_inset space ~
+\end_inset
+
+aperta Si chiama rendimento isentropico di una macchina motrice aperta (turbina)
+ il rapporto fra la potenza realmente ottenuta e la potenza massima ottenibile
+ in condizioni ideali (trasformazione isentropica del fluido e quindi adiabatica
+ reversibile) a parità di condizioni di ingresso e a parità di pressione
+ di fine espansione.
+\end_layout
+
+\begin_layout Description
+Rendimento
+\begin_inset space ~
+\end_inset
+
+espansione
+\begin_inset space ~
+\end_inset
+
+turbina 
+\series bold
+\size large
+
+\begin_inset Formula $\eta_{isT}=\frac{\dot{L}_{reale}^{\rightarrow}}{\dot{L}_{ideale}^{\rightarrow}}=\frac{\left(h_{1}-h_{2^{'}}\right)}{\left(h_{1}-h_{2}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Andamento rendimento turbina
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/turbina.png
+	lyxscale 30
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Compressore
+\end_layout
+
+\begin_layout Description
+Rendimento
+\begin_inset space ~
+\end_inset
+
+isentropico
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+una
+\begin_inset space ~
+\end_inset
+
+macchina
+\begin_inset space ~
+\end_inset
+
+aperta Si chiama rendimento isentropico di una macchina operatrice aperta
+ (compressore e pompa) il rapporto tra la potenza minima spesa in condizioni
+ ideali (trasformazione del fluido isentropica e quindi adiabatica reversibile)
+ e la potenza realmente spesa a parità di condizioni di ingreso e a parità
+ di pressione di fine compressione.
+\end_layout
+
+\begin_layout Description
+Rendimento
+\begin_inset space ~
+\end_inset
+
+isentropico
+\begin_inset space ~
+\end_inset
+
+compressore
+\series bold
+\size large
+ 
+\begin_inset Formula $\eta_{isC}=\frac{\dot{L}_{ideale}^{\rightarrow}}{\dot{L}_{reale}^{\rightarrow}}=\frac{\left(h_{1}-h_{2}\right)}{\left(h_{1}-h_{2^{'}}\right)}=\frac{h_{2}-h_{1}}{h_{2^{'}}-h_{1}}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Compressore
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/compressore.png
+	lyxscale 30
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Compressore Alternativo Ideale
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Compressore alternativo ideale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/compressore-alternativo.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Nella fase 
+\begin_inset Formula $1$
+\end_inset
+
+ il volume è idealmente nullo
+\end_layout
+
+\begin_layout Itemize
+Quando si inizia a far entrare volume (fase 
+\begin_inset Formula $2$
+\end_inset
+
+) si ha lavoro positivo
+\end_layout
+
+\begin_layout Itemize
+Nella fase 
+\begin_inset Formula $3$
+\end_inset
+
+ la valvola si comprime, il volume decresce e si ha quindi lavoro negativo
+\end_layout
+
+\begin_layout Itemize
+Nella 
+\begin_inset Formula $4^{a}$
+\end_inset
+
+ fase la valvola si comprime completamente e si torna quindi a volume nullo
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Diagramma del compressore ideale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/diagram-compressore-alternativo.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Compressione adiabatica 
+\begin_inset Formula $\left(2-3\right)$
+\end_inset
+
+ o isoterma
+\begin_inset Formula $\left(2-3^{'}\right)$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Compressione-adiabatica-o"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/compre.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Come si vede in Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Compressione-adiabatica-o"
+
+\end_inset
+
+, sarebbe meglio avere una trasformazione isoterma che permette di avere
+ area sottesa maggiore.
+\end_layout
+
+\begin_layout Subsubsection
+Pompa ideale
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Diagramma pompa ideale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/pompa-ideale.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il lavoro di una pompa ideale è negativo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+l^{\leftarrow}=v\left(P_{4}-P_{1}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Lavoro specifico per unità di massa fluente 
+\end_layout
+
+\begin_layout Standard
+Con opportuni passaggi, sotto l'ipotesi di regime stazionario, trascurando
+ le variazioni di energia cinetica e potenziale, per un tratto infinitesimo
+ di lunghezza dx le equazioni di bilancio energetico ed entropico espresse
+ per unità di massa sono:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-dh+\delta q^{\leftarrow}-\delta l_{e}^{\rightarrow}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-ds+ds_{Q}+ds_{irr}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si ipotizzi che le irreversibilità siano associate al solo moto del fluido
+ e non agli scambi di calore con il serbatoio esterno.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-dh+\delta q_{rev}^{\leftarrow}-dl_{e}^{\rightarrow}=0
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+-ds+\frac{\delta q_{rev}^{\leftarrow}}{T}+ds_{irr}=0
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+e quindi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Tds=\delta q_{rev}+Tds_{irr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ricordando che: 
+\begin_inset Formula $dh=Tds+vdP$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si ottiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+dh=\delta q_{rev}^{\leftarrow}+Tds_{irr}+vdP
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+dh=\delta q_{rev}^{\leftarrow}-\delta l_{e}^{\rightarrow}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+E quindi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-\delta l_{e}^{\rightarrow}=vdP+Tds_{irr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Integrando fra la sezione di ingresso e quella di uscita, ipotizzando di
+ non avere irreversibilità:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+l_{e}=-\int_{i}^{u}v\,dP\,-\,\int_{i}^{u}T\,ds_{irr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove: 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\int_{i}^{u}v\,dP=l_{rev}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\int_{i}^{u}T\,ds_{irr}=Energia\,dissipata\,per\,irreversibilità\,interna$
 \end_inset
 
 
