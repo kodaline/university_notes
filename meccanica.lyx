@@ -3,6 +3,9 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+\usepackage[T1]{fontenc} 
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language british
@@ -218,8 +221,9 @@ name "fig:Rappresentazione-del-vettore"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing.svg
-	width 50line%
+	filename ../Notes/Graphics/drawing.svg
+	lyxscale 30
+	scale 50
 
 \end_inset
 
@@ -394,7 +398,8 @@ name "fig:Traiettoria:-curva-nel"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-1.svg
+	filename ../Notes/Graphics/drawing-1.svg
+	lyxscale 30
 	width 50line%
 
 \end_inset
@@ -620,7 +625,8 @@ name "fig:Distanza-tra-due"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-2.svg
+	filename ../Notes/Graphics/drawing-2.svg
+	lyxscale 30
 	width 50line%
 
 \end_inset
@@ -795,7 +801,8 @@ name "fig:Componenti-del-vettore"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-4.svg
+	filename ../Notes/Graphics/drawing-4.svg
+	lyxscale 30
 	width 50line%
 
 \end_inset
@@ -947,7 +954,8 @@ name "fig:Spostamento-infinitesimo"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-3.svg
+	filename ../Notes/Graphics/drawing-3.svg
+	lyxscale 30
 	width 50line%
 
 \end_inset
@@ -1423,7 +1431,8 @@ name "fig:Moto-traslatorio"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-5.svg
+	filename ../Notes/Graphics/drawing-5.svg
+	lyxscale 30
 	width 50line%
 
 \end_inset
@@ -1488,7 +1497,8 @@ name "fig:Moto-rotatorio"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-6.svg
+	filename ../Notes/Graphics/drawing-6.svg
+	lyxscale 30
 	width 40line%
 
 \end_inset
@@ -1579,7 +1589,8 @@ name "fig:Moto-roto-traslatorio"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-7.svg
+	filename ../Notes/Graphics/drawing-7.svg
+	lyxscale 30
 	width 50line%
 
 \end_inset
@@ -1783,7 +1794,8 @@ name "fig:caso-1"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-8.svg
+	filename ../Notes/Graphics/drawing-8.svg
+	lyxscale 30
 	width 50line%
 
 \end_inset
@@ -1838,7 +1850,8 @@ name "fig:caso-2"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-9.svg
+	filename ../Notes/Graphics/drawing-9.svg
+	lyxscale 30
 	width 50line%
 
 \end_inset
@@ -1912,7 +1925,8 @@ name "fig:Atto-di-moto:cas 3"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-10.svg
+	filename ../Notes/Graphics/drawing-10.svg
+	lyxscale 30
 	width 40line%
 
 \end_inset
@@ -1959,7 +1973,8 @@ name "fig:Corpo-rigido-(spostamento)"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-11.svg
+	filename ../Notes/Graphics/drawing-11.svg
+	lyxscale 30
 	width 40line%
 
 \end_inset
@@ -2245,7 +2260,8 @@ name "fig:vincolo-di-incastro"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-12.svg
+	filename ../Notes/Graphics/drawing-12.svg
+	lyxscale 30
 	width 30line%
 
 \end_inset
@@ -2304,7 +2320,8 @@ name "fig:vincolo-di-cerniera"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-13.svg
+	filename ../Notes/Graphics/drawing-13.svg
+	lyxscale 30
 	width 30line%
 
 \end_inset
@@ -2367,7 +2384,8 @@ name "fig:vincolo-di-pattino/manicotto"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-14.svg
+	filename ../Notes/Graphics/drawing-14.svg
+	lyxscale 30
 	width 40line%
 
 \end_inset
@@ -2428,7 +2446,8 @@ name "fig:vincolo-di-carrello"
 
 \lang english
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-15.svg
+	filename ../Notes/Graphics/drawing-15.svg
+	lyxscale 30
 	width 25line%
 
 \end_inset
@@ -2499,7 +2518,8 @@ name "fig:Vincolo-di-puro"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-17.svg
+	filename ../Notes/Graphics/drawing-17.svg
+	lyxscale 30
 	width 60line%
 
 \end_inset
@@ -2713,7 +2733,7 @@ name "fig:Dimostrazione:-vincolo-di"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-18.svg
+	filename ../Notes/Graphics/drawing-18.svg
 	width 60line%
 
 \end_inset
@@ -3196,7 +3216,7 @@ name "fig:Velocità-del-punto"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-19.svg
+	filename ../Notes/Graphics/drawing-19.svg
 	width 50line%
 
 \end_inset
@@ -3313,7 +3333,7 @@ name "fig:Modulo-della-velocità"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-20.svg
+	filename ../Notes/Graphics/drawing-20.svg
 	width 50line%
 
 \end_inset
@@ -3532,7 +3552,7 @@ name "fig:Accelerazione-del-centro"
 
  
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-21.svg
+	filename ../Notes/Graphics/drawing-21.svg
 	width 50line%
 
 \end_inset
@@ -3601,7 +3621,7 @@ name "fig:Cicloide"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-22.svg
+	filename ../Notes/Graphics/drawing-22.svg
 	width 60line%
 
 \end_inset
@@ -3689,7 +3709,7 @@ name "fig:Moti-relativi:-esempio1"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-23.svg
+	filename ../Notes/Graphics/drawing-23.svg
 	width 50line%
 
 \end_inset
@@ -3781,7 +3801,7 @@ name "fig:Moti-relativi:-esempio-2"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-24.svg
+	filename ../Notes/Graphics/drawing-24.svg
 	width 30line%
 
 \end_inset
@@ -3884,11 +3904,11 @@ name "fig:Sottocasi-dell'esempio-2"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-25.svg
+	filename ../Notes/Graphics/drawing-25.svg
 	width 40line%
 
 \end_inset
@@ -3924,11 +3944,11 @@ l'angolo
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-26.svg
+	filename ../Notes/Graphics/drawing-26.svg
 	width 30line%
 
 \end_inset
@@ -4117,7 +4137,7 @@ name "fig:Moti-relativi:-posizione"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-27.svg
+	filename ../Notes/Graphics/drawing-27.svg
 	width 40line%
 
 \end_inset
@@ -4375,7 +4395,7 @@ name "fig:Contributi-di-"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Graphics/drawing-28.svg
+	filename ../Notes/Graphics/drawing-28.svg
 	width 50line%
 
 \end_inset
@@ -4979,6 +4999,39 @@ Ci sono una serie di casi particolari in cui l'accelerazione di Coriolis
 
  ed il sdr mobile.
  
+\end_layout
+
+\begin_layout Section
+Cinematica di sistemi di corpi rigidi
+\end_layout
+
+\begin_layout Standard
+Il sistema è costituito da corpi rigidi interconnessi tra di loro attraverso
+ opportuni vincoli.
+\end_layout
+
+\begin_layout Standard
+Il primo problema da porsi quando si trattano sistemi di questo tipo è il
+ computo dei gradi di libertà, cioè stabilire quanti ed eventualmente quali
+ sono i gradi di libertà del sistema, in altre parole, quante variabili
+ sono necessarie per descrivere univocamente la configurazione del sistema.
+\end_layout
+
+\begin_layout Standard
+Nel piano, in assenza di vincoli o riferimenti particolari, un punto ha
+ due gradi di libertà (che sono le sue possibilità di muoversi nelle due
+ direzioni del piano), mentre un corpo rigido ha tre gradi di libertà che
+ rappresentano la posizione di un suo punto nel piano e la sua orientazione.
+\end_layout
+
+\begin_layout Standard
+In generale quindi un corpo rigido ha tre gradi di libertà; se si considera
+ un sistema formato da due corpi rigidi, in assenza di vincoli si avranno
+ sei gradi di libertà.
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body
