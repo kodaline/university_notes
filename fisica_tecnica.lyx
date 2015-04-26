@@ -9253,6 +9253,9 @@ Il lavoro di una pompa ideale è negativo:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 l^{\leftarrow}=v\left(P_{4}-P_{1}\right)
@@ -9275,6 +9278,9 @@ Con opportuni passaggi, sotto l'ipotesi di regime stazionario, trascurando
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 -dh+\delta q^{\leftarrow}-\delta l_{e}^{\rightarrow}=0
@@ -9286,6 +9292,9 @@ Con opportuni passaggi, sotto l'ipotesi di regime stazionario, trascurando
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 -ds+ds_{Q}+ds_{irr}=0
@@ -9302,6 +9311,9 @@ Si ipotizzi che le irreversibilità siano associate al solo moto del fluido
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 -dh+\delta q_{rev}^{\leftarrow}-dl_{e}^{\rightarrow}=0
@@ -9309,7 +9321,13 @@ Si ipotizzi che le irreversibilità siano associate al solo moto del fluido
 
 \end_inset
 
+
+\series default
+\size default
  
+\series bold
+\size large
+
 \begin_inset Formula 
 \[
 -ds+\frac{\delta q_{rev}^{\leftarrow}}{T}+ds_{irr}=0
@@ -9317,6 +9335,9 @@ Si ipotizzi che le irreversibilità siano associate al solo moto del fluido
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -9325,6 +9346,9 @@ e quindi:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 Tds=\delta q_{rev}+Tds_{irr}
@@ -9348,6 +9372,9 @@ Si ottiene:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 dh=\delta q_{rev}^{\leftarrow}+Tds_{irr}+vdP
@@ -9359,6 +9386,9 @@ dh=\delta q_{rev}^{\leftarrow}+Tds_{irr}+vdP
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 dh=\delta q_{rev}^{\leftarrow}-\delta l_{e}^{\rightarrow}
@@ -9370,10 +9400,16 @@ dh=\delta q_{rev}^{\leftarrow}-\delta l_{e}^{\rightarrow}
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 E quindi:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 -\delta l_{e}^{\rightarrow}=vdP+Tds_{irr}
@@ -9390,6 +9426,9 @@ Integrando fra la sezione di ingresso e quella di uscita, ipotizzando di
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 l_{e}=-\int_{i}^{u}v\,dP\,-\,\int_{i}^{u}T\,ds_{irr}
@@ -9412,7 +9451,2166 @@ dove:
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $\int_{i}^{u}T\,ds_{irr}=Energia\,dissipata\,per\,irreversibilità\,interna$
+\begin_inset Formula $\int_{i}^{u}T\,ds_{irr}=$
+\end_inset
+
+ Energia dissipata per irreversibilità interna
+\end_layout
+
+\begin_layout Part
+Sistemi bifase
+\end_layout
+
+\begin_layout Section
+Sistema eterogeneo
+\end_layout
+
+\begin_layout Description
+Sistema
+\begin_inset space ~
+\end_inset
+
+omogeneo Un sistema è omogeneo se ogni sua parte ha le medesime proprietà
+ fisiche, indipendentemente dalla posizione.
+\end_layout
+
+\begin_layout Description
+Sistema
+\begin_inset space ~
+\end_inset
+
+eterogeneo Un sistema è eterogeneo se al suo interno si presenta in due
+ stati diversi, ovvero al suo interno evolvono due sostanze diverse.
+\end_layout
+
+\begin_layout Standard
+I sistemi si dividono poi anche in sistemi monocomponente o multicomponente.
+\end_layout
+
+\begin_layout Description
+Sistema
+\begin_inset space ~
+\end_inset
+
+monocomponente Il sistema monocomponente è un sistema al cui interno è presente
+ una sola sostanza.
+\end_layout
+
+\begin_layout Description
+Sistema
+\begin_inset space ~
+\end_inset
+
+multicomponente Il sistema multicomponente è un sistema al cui interno sono
+ presenti più sostanze.
+\end_layout
+
+\begin_layout Subsection
+Grandezze estensive
+\end_layout
+
+\begin_layout Standard
+Dato un sistema eterogeneo costituito da due stati (o fasi) 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ e 
+\begin_inset Formula $\beta$
+\end_inset
+
+, le grandezze estensive specifiche risultano dalla media pesata sulle masse
+ dei valori delle grandezze estensive specifiche delle singole fasi.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+m=m_{\alpha}+m_{\beta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+E=E_{\alpha}+E_{\beta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{E}{m}=e=\cfrac[l]{m_{\alpha}}{m}e_{\alpha}+\frac{m_{\beta}}{m}e_{\beta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove, 
+\begin_inset Formula $e$
+\end_inset
+
+, 
+\begin_inset Formula $e_{\alpha}$
+\end_inset
+
+, 
+\begin_inset Formula $e_{\beta}$
+\end_inset
+
+ sono grandezze estensive riferite all'unità di massa specifica.
+\end_layout
+
+\begin_layout Subsubsection
+Frazione massica
+\end_layout
+
+\begin_layout Standard
+Data 
+\begin_inset Formula $m=m_{\alpha}+m_{\beta}$
+\end_inset
+
+, si definisce la frazione massica per i due stati 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ e 
+\begin_inset Formula $\beta$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+x_{\alpha}=\cfrac[l]{m_{\alpha}}{m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+x_{\beta}=\frac{m_{\beta}}{m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+e=x_{\alpha}e_{\alpha}+x_{\beta}e_{\beta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+x_{\alpha}+x_{\beta}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+quindi:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+e=\left(1-x_{\beta}\right)e_{\alpha}+x_{\beta}e_{\beta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Regola di Gibbs per i sistemi bifase
+\end_layout
+
+\begin_layout Standard
+Ricordando la regola di Gibbs 
+\begin_inset Formula $V=C+2-F$
+\end_inset
+
+, dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $V=$
+\end_inset
+
+ n° di variabili 
+\series bold
+intensive 
+\series default
+atte a descrivere il sistema 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $C=$
+\end_inset
+
+ n° di componenti
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $F=$
+\end_inset
+
+ n° di fasi
+\end_layout
+
+\begin_layout Standard
+Per il sistema monocomponente bifase si ha che 
+\begin_inset Formula $V=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Pressione e temperatura non sono variabili indipendenti durante una transizione
+ di fase.
+\end_layout
+
+\begin_layout Description
+Transizione
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+fase passaggio da uno stato di aggregazione a un altro 
+\begin_inset Formula $dh=\delta q+vdP$
+\end_inset
+
+.
+ La transizione di fase avviene a 
+\begin_inset Formula $P$
+\end_inset
+
+ costante, quindi: 
+\begin_inset Formula $dh=\delta q$
+\end_inset
+
+, dove 
+\begin_inset Formula $\delta q$
+\end_inset
+
+ è il calore latente di ebollizione.
+\end_layout
+
+\begin_layout Subsection
+Sistema eterogeneo monocomponente
+\end_layout
+
+\begin_layout Subsubsection
+Stati monofasi
+\end_layout
+
+\begin_layout Itemize
+Solido 
+\end_layout
+
+\begin_layout Itemize
+Liquido
+\end_layout
+
+\begin_layout Itemize
+Aeriforme (Gas) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Vapore (è quasi sempre impossibile trattarlo come gas perfetto)
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Stati bifasi
+\end_layout
+
+\begin_layout Itemize
+Coesistenza di solido e liquido
+\end_layout
+
+\begin_layout Itemize
+Coesistenza di solido e aeriforme (vapore)
+\end_layout
+
+\begin_layout Itemize
+Coesistenza di liquido e aeriforme (vapore)
+\end_layout
+
+\begin_layout Subsubsection
+Stati tripli
+\end_layout
+
+\begin_layout Itemize
+Coesistenza di solido, liquido e aeriforme (vapore)
+\end_layout
+
+\begin_layout Subsubsection
+Tipi di sistemi eterogenei monocomponente
+\end_layout
+
+\begin_layout Description
+Liquido
+\begin_inset space ~
+\end_inset
+
+sottoraffreddato Liquido non in procinto di evaporare.
+\end_layout
+
+\begin_layout Description
+Liquido
+\begin_inset space ~
+\end_inset
+
+saturo Liquido in procinto di evaporare.
+\end_layout
+
+\begin_layout Description
+Miscela
+\begin_inset space ~
+\end_inset
+
+satura
+\begin_inset space ~
+\end_inset
+
+liquido-vapore Contemporanea presenza di liquido e vapore.
+\end_layout
+
+\begin_layout Description
+Vapore
+\begin_inset space ~
+\end_inset
+
+saturo Vapore in condizioni di incipiente condensazione.
+\end_layout
+
+\begin_layout Description
+Vapore
+\begin_inset space ~
+\end_inset
+
+surriscaldato Vapore non in procinto di condensare (si trova a temperatura
+ superiore a quella di ebollizione).
+\end_layout
+
+\begin_layout Description
+Temperatura
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+saturazione Temperatura alla quale una sostanza pura comincia ad evaporare,
+ fissata la pressione.
+\end_layout
+
+\begin_layout Subsubsection
+Diagrammi 
+\begin_inset Formula $P,\,v,\,T$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Diagramma 
+\begin_inset Formula $P,\,v,\,T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/pvt-1.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Punto critico
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/pvt2-punto-critico.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Curva di saturazione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/pvt3-curvasat.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Aumento di volume 
+\begin_inset Formula $\left(H_{2}O\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/pvt4-h2o.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Diagrammi 
+\begin_inset Formula $P,\,T$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Aumento di volume per sostanze che solidificano
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/pt.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Passaggi di stato
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/pt2.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Entalpia (calore) di transizione di fase
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+h_{solido}<h_{liquido}<h_{vapore}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="30text%">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+fase
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+formula
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+entalpia di liquefazione
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h_{liquido}-h_{solido}>0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+entalpia di solidificazione
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h_{solido}-h_{liquido}<0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+entalpia di evaporazione
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h_{vapore}-h_{liquido}>0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+entalpia di condensazione
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h_{liquido}-h_{vapore}<0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+entalpia di sublimazione
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h_{vapore}-h_{solido}>0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+entalpia di brinamento
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h_{solido}-h_{vapore}<0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Proprietà termodinamiche dei sistemi bifase
+\end_layout
+
+\begin_layout Paragraph
+Liquido-Vapore
+\end_layout
+
+\begin_layout Description
+Titolo
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+vapore 
+\series bold
+\size large
+
+\begin_inset Formula $x=x_{v}=\frac{m_{v}}{m}$
+\end_inset
+
+
+\series default
+\size default
+; il titolo di vapore è detto anche fase massica in vapore.
+\end_layout
+
+\begin_layout Description
+Titolo
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+liquido 
+\series bold
+\size large
+
+\begin_inset Formula $x_{l}=\frac{m_{l}}{m}=1-x$
+\end_inset
+
+
+\series default
+\size default
+; il titolo di liquido è detto anche fase massica in liquido.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+x_{v}+x_{l}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Volume specifico
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v=\left(1-x\right)v_{l}+xv_{v}=v_{l}+xv_{lv}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Energia interna
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u=\left(1-x\right)u_{l}+xu_{v}=u_{l}+xu_{lv}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Entropia
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s=\left(1-x\right)s_{l}+xs_{v}=s_{l}+xs_{lv}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Entalpia
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+h=\left(1-x\right)h_{l}+xh_{v}=h_{l}+xh_{lv}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Diagramma 
+\begin_inset Formula $P,\,v$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Diagramma 
+\begin_inset Formula $P,\,v$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/PV.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Diagramma 
+\begin_inset Formula $T,\,v$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Diagramma 
+\begin_inset Formula $T,\,v$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/Tv.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Diagramma 
+\begin_inset Formula $h,\,s$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Diagramma 
+\begin_inset Formula $h,\,s$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/hs.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Diagramma 
+\begin_inset Formula $T,\,s$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Diagramma 
+\begin_inset Formula $T,\,s$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/Ts.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Diagramma 
+\begin_inset Formula $P,\,h$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Diagramma 
+\begin_inset Formula $P,\,h$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/Ph.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Tabella di saturazione dell'Acqua
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Saturazione dell'acqua
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/saturazioneacqua.png
+	lyxscale 50
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Tabella del vapore surriscaldato dell'acqua
+\end_layout
+
+\begin_layout Subsection
+Interpolazione dei dati tabulati
+\end_layout
+
+\begin_layout Subsubsection
+Interpolazione lineare
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{X-X_{1}}{X_{2}-X_{1}}=\frac{T-T_{1}}{T_{2}-T_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{X-X_{1}}{X_{2}-X_{1}}=\frac{P-P_{1}}{P_{2}-P_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Entralpia ed Entropia specifica
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Espressioni approssimate per il calcolo di Entropia ed Entalpia specifica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/entropia-entalpia-specifica.png
+	lyxscale 50
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Espressioni approssimate per il calcolo di Entalpia ed Entropia specifica
+ per l'acqua
+\end_layout
+
+\begin_layout Paragraph
+Stato solido 
+\begin_inset Formula $\left(1\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+h=h_{0}+h_{l_{st}}+c_{s}\left(T-T_{0}\right)+v\left(P-P_{0}\right)
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+s=s_{0}+s_{l_{st}}+c_{s}\ln\frac{T}{T_{0}}=s_{0}+\frac{h_{l_{st}}}{T_{0}}+c_{s}\ln\frac{T}{T_{0}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Stato liquido 
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+h=h_{0}+c_{l}\left(T-T_{0}\right)+v\left(P-P_{0}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+s=s_{0}+c_{l}\ln\frac{T}{T_{0}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Proprietà termodinamiche dell'acqua
+\end_layout
+
+\begin_layout Itemize
+Stato triplo
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T_{t}=273,16K
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+P_{t}=611,2Pa
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Stato critico
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T_{cr}=647,29K
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+P_{cr}=220,9Pa
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\series bold
+Calore
+\begin_inset space ~
+\end_inset
+
+specifico
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+ghiaccio
+\series default
+ 
+\series bold
+\size large
+
+\begin_inset Formula $c_{s}=2093\frac{J}{kg\cdot K}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\series bold
+Calore
+\begin_inset space ~
+\end_inset
+
+specifico
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+liquido
+\series default
+ 
+\series bold
+\size large
+
+\begin_inset Formula $c_{l}=4186\frac{J}{kg\cdot K}$
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\series bold
+Calore
+\begin_inset space ~
+\end_inset
+
+specifico
+\begin_inset space ~
+\end_inset
+
+medio
+\begin_inset space ~
+\end_inset
+
+a
+\begin_inset space ~
+\end_inset
+
+pressione
+\begin_inset space ~
+\end_inset
+
+costante
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+vapore
+\series default
+ 
+\series bold
+\size large
+
+\begin_inset Formula $c_{P_{v}}=2009\frac{J}{kg\cdot K}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\series bold
+Entalpia
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+solidificazione
+\begin_inset space ~
+\end_inset
+
+allo
+\begin_inset space ~
+\end_inset
+
+stato
+\begin_inset space ~
+\end_inset
+
+triplo
+\series default
+ 
+\series bold
+\size large
+
+\begin_inset Formula $h_{l_{st}}=-333\frac{kJ}{kg\cdot K}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\series bold
+Entalpia
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+evaporazione
+\begin_inset space ~
+\end_inset
+
+allo
+\begin_inset space ~
+\end_inset
+
+stato
+\begin_inset space ~
+\end_inset
+
+triplo
+\series default
+ 
+\series bold
+\size large
+
+\begin_inset Formula $h_{l_{vt}}=2501,6\frac{kJ}{kg\cdot K}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Miscele di gas ideali
+\end_layout
+
+\begin_layout Standard
+Per determinare le proprietà di una miscela è necessario conoscere la natura
+ dei suoi componenti.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Esempi di miscele di gas ideali
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Notes/Graphics/miscela-ideale.png
+	lyxscale 50
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+m_{m}=\sum_{i=1}^{k}m_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+N_{m}=\sum_{i=1}^{k}N_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Frazione in massa
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+mf_{i}=\frac{m_{i}}{m_{m}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Frazione molare
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+y_{i}=\frac{N_{i}}{N_{m}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Massa molare apparente di una miscela
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+M_{m}=\frac{m_{m}}{N_{m}}=\frac{\sum_{i=1}^{k}m_{i}}{N_{m}}=\frac{\sum_{i=1}^{k}N_{i}M_{i}}{N_{m}}=\sum_{i=1}^{k}y_{i}M_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La somma delle frazioni in massa e delle frazioni molari di una miscela
+ è pari a 1:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\sum_{i=1}^{k}mf_{i}=1$
+\end_inset
+
+
+\series default
+\size default
+ e 
+\series bold
+\size large
+
+\begin_inset Formula $\sum_{i=1}^{k}y_{i}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ricordando che: 
+\begin_inset Formula $R^{*}=\frac{R}{M}$
+\end_inset
+
+ e ponendo 
+\begin_inset Formula $m=NM$
+\end_inset
+
+ costante apparente del gas, si ha:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+M_{m}=\frac{m_{m}}{N_{m}}=\frac{m_{m}}{\sum_{i=1}^{k}\frac{m_{i}}{M_{i}}}=\frac{1}{\sum_{i=1}^{k}\frac{m_{i}}{m_{mM_{i}}}}=\frac{1}{\sum_{i=1}^{k}\frac{mf_{i}}{M_{i}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Frazione in massa e frazione molare di una miscela sono in relazione fra
+ loro:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+mf_{i}=\frac{m_{i}}{m_{m}}=\frac{N_{i}M_{i}}{N_{m}M_{m}}=y_{i}\frac{M_{i}}{M_{m}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Frazione molare di idrogeno e ossigeno
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/massa-molare-apparente.png
+	lyxscale 50
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Comportamento 
+\begin_inset Formula $P,\,v,\,T$
+\end_inset
+
+ di una miscela di gas
+\end_layout
+
+\begin_layout Description
+Legge
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+Dalton La pressione di una miscela di gas è uguale alla somma delle pressioni
+ che ognuno dei gas avrebbe se fosse da solo nelle stesse condizioni di
+ temperatura e volume della miscela.
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula 
+\[
+P_{m}=\sum_{i=1}^{k}P_{i}\left(T_{m},V_{m}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Legge
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+Amagat Il volume di una miscela di gas è uguale alla somma dei volumi che
+ ognuno dei gas occuperebbe se fosse da solo nelle stesse condizioni di
+ temperatura e pressione della miscela.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{m}=\sum_{i=1}^{k}V_{i}\left(T_{m},P_{m}\right)
+\]
+
+\end_inset
+
+ Le leggi di Dalton e Amagat sono esatte per i gas ideali, approssimate
+ per i gas reali.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Comportamento 
+\begin_inset Formula $P,\,v,\,T$
+\end_inset
+
+ di una miscela di gas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/comportamento-pvt.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
