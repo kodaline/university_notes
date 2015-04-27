@@ -1855,11 +1855,11 @@ Dal primo principio discendono alcune importanti proprietà:
 
 \begin_layout Itemize
 l’energia interna totale di un sistema, cioè l’energia interna riferita
- all’intera massa del sistema 
+ all’intera massa 
 \begin_inset Formula $m$
 \end_inset
 
-, è una quantità estensiva:
+ del sistema, è una quantità estensiva:
 \end_layout
 
 \begin_layout Standard
@@ -2303,7 +2303,11 @@ Dal secondo principio discendono alcune importanti proprietà:
 
 \begin_layout Itemize
 l’entropia totale di un sistema, cioè l’entropia riferita all’intera massa
- del sistema m, è una quantità estensiva:
+ 
+\begin_inset Formula $m$
+\end_inset
+
+ del sistema, è una quantità estensiva:
 \end_layout
 
 \begin_layout Standard
@@ -2379,8 +2383,8 @@ in cui il termine
 \begin_inset Formula $S_{Q}^{\leftarrow}$
 \end_inset
 
- rappresenta la entropia entrante attraverso i confini del sistema come
- conseguenza dello scambio di calore Q (primo assioma), mentre 
+ rappresenta l'entropia entrante attraverso i confini del sistema come conseguen
+za dello scambio di calore Q (primo assioma), mentre 
 \begin_inset Formula $S_{Irr}$
 \end_inset
 
@@ -4431,7 +4435,7 @@ Adiabatica
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $k=\frac{c_{P}}{c_{v}}$
+\begin_inset Formula $\gamma=\frac{c_{P}}{c_{v}}$
 \end_inset
 
 
@@ -4720,6 +4724,30 @@ zione reversibile è uguale al calore scambiato dal sistema nella trasformazione
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+In un diagramma 
+\begin_inset Formula $T-S$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+Le curve isoterme sono linee orizzontali
+\end_layout
+
+\begin_layout Itemize
+Le curve isoentropiche sono linee verticali
+\end_layout
+
+\begin_layout Itemize
+Le isobare del gas ideale sono linee inclinate a pendenza crescente
+\end_layout
+
+\begin_layout Itemize
+Le isocore hanno pendenza ancor maggiore rispetto alle isobare.
 \end_layout
 
 \begin_layout Standard
@@ -10836,6 +10864,10 @@ Saturazione dell'acqua
 Tabella del vapore surriscaldato dell'acqua
 \end_layout
 
+\begin_layout Standard
+(da inserire)
+\end_layout
+
 \begin_layout Subsection
 Interpolazione dei dati tabulati
 \end_layout
@@ -11527,7 +11559,7 @@ Dalton La pressione di una miscela di gas è uguale alla somma delle pressioni
  temperatura e volume della miscela.
 \end_layout
 
-\begin_layout Description
+\begin_layout Standard
 \begin_inset Formula 
 \[
 P_{m}=\sum_{i=1}^{k}P_{i}\left(T_{m},V_{m}\right)
