@@ -7136,7 +7136,7 @@ Serbatoio di Lavoro
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/serbatoio_di_lavoro.png
+	filename ../notes/Graphics/serbatoio_di_lavoro.png
 	width 30page%
 
 \end_inset
@@ -7191,7 +7191,7 @@ Serbatoio di Calore
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/serbatoio_di_calore.png
+	filename ../notes/Graphics/serbatoio_di_calore.png
 	width 30page%
 
 \end_inset
@@ -12778,7 +12778,6 @@ Nella figura sottostante si può osservare il ciclo di Joule-Brayton che
 \end_layout
 
 \begin_layout Standard
-u
 \begin_inset Float figure
 wide false
 sideways false
@@ -12871,7 +12870,7 @@ simmetrico) Il rendimento di JB è inferiore del rendimento di Carnot.
  Il calore addotto, considerando una trasformazione isobara, vale:
 \end_layout
 
-\begin_layout Description
+\begin_layout Standard
 
 \size large
 \begin_inset Formula 
@@ -12963,7 +12962,7 @@ ciclo
 (inserendo il bilancio di entropia fra 1 e 2 per i gas perfetti)
 \end_layout
 
-\begin_layout Description
+\begin_layout Standard
 
 \size large
 \begin_inset Formula 
@@ -12976,7 +12975,7 @@ ciclo
  
 \end_layout
 
-\begin_layout Description
+\begin_layout Standard
 
 \size large
 \begin_inset Formula 
@@ -12989,7 +12988,7 @@ ciclo
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Standard
 
 \size large
 \begin_inset Formula 
@@ -13028,20 +13027,912 @@ Il rendimento si può esprimere quindi come:
 
 \end_layout
 
+\begin_layout Standard
+Il rendimento del ciclo di Joule-Brayton è funzione del solo rapporto di
+ compressione e presenta un minimo quando la pressione 
+\begin_inset Formula $P_{2}$
+\end_inset
+
+ tende alla pressione 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{Pmin}=1
+\]
+
+\end_inset
+
+ E un valore massimo quando 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ tende a 
+\begin_inset Formula $T_{3}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{Pmax}=\left(\frac{T_{3}}{T_{1}}\right)^{\frac{k}{k-1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Anche il lavoro netto prodotto dal ciclo JB ideale è funzione del solo rapporto
+ di compressione:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+l & = & l_{T}-l_{C}=c_{P}\left(T_{3}-T_{4}\right)-c_{P}\left(T_{2}-T_{1}\right)=c_{P}T_{3}\left(1-\frac{T_{4}}{T_{3}}\right)-c_{P}T_{1}\left(\frac{T_{2}}{T_{1}}-1\right)=\\
+ & = & c_{P}T_{3}\left(1-\frac{1}{r_{P}^{\frac{k-1}{k}}}\right)-c_{P}T_{1}\left(r_{P}^{\frac{k-1}{k}}-1\right)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si ha il massimo lavoro in corrispondenza del rapporto di compressione:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{Popt}=\left(\frac{T_{3}}{T_{1}}\right)^{\frac{k}{2\left(k-1\right)}}=\sqrt{r_{Pmax}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ricordando poi che in una turbina isoentropica si ha:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{T_{3}}{T_{4}}=\left(\frac{P_{3}}{P_{4}}\right)^{\frac{R}{c_{P}}}=\left(\frac{P_{3}}{P_{4}}\right)^{\frac{k-1}{k}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+E inserendo in questa espressione al posto di 
+\begin_inset Formula $\frac{P_{3}}{P_{4}}$
+\end_inset
+
+ (pari a 
+\begin_inset Formula $\frac{P_{2}}{P_{1}}$
+\end_inset
+
+) il valore di 
+\begin_inset Formula $r_{Popt}$
+\end_inset
+
+ e sfruttando le proprietà dei cicli simmetrici si ottiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T_{4}=T_{2}=\sqrt{T_{1}T_{3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cioè il lavoro specifico è massimo nel ciclo in cui la temperatura di fine
+ espansione coincide con quella di fine compressione.
+\end_layout
+
+\begin_layout Subsection
+Ciclo Joule-Brayton con Rigenerazione
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+JB con Rigenerazione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/jbr.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Rendimento
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+ciclo
+\begin_inset space ~
+\end_inset
+
+rigenerato (
+\begin_inset Formula $T_{2^{'}}=T_{4}$
+\end_inset
+
+,
+\begin_inset space ~
+\end_inset
+
+gas
+\begin_inset space ~
+\end_inset
+
+perfetti
+\begin_inset space ~
+\end_inset
+
+e
+\begin_inset space ~
+\end_inset
+
+ciclo
+\begin_inset space ~
+\end_inset
+
+ideale
+\begin_inset space ~
+\end_inset
+
+simmetrico) 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\eta_{rig}=1-\frac{\dot{L}}{\dot{Q}}=\frac{\dot{L}_{t}-\dot{L}_{c}}{\dot{Q}}=\frac{\left(T_{3}-T_{4}\right)-\left(T_{2}-T_{1}\right)}{\left(T_{3}-T_{4}\right)}1-\frac{T_{2}-T_{1}}{T_{3}-T_{4}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\eta_{rig}=1-\frac{T_{2}}{T_{3}}=1-\frac{T_{2}T_{1}}{T_{3}T_{1}}=1-\frac{T_{1}}{T_{3}}r_{P}^{\frac{k-1}{k}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Rendimento JB
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/rendimentojbr.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Ciclo Joule-Brayton inverso
+\end_layout
+
+\begin_layout Standard
+Il ciclo Joule-Brayton inverso è un ciclo frigorifero costituito da due
+ isoentropiche e due isobare.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Joule-Brayton inverso
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/jbi.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Coefficiente
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+effetto
+\begin_inset space ~
+\end_inset
+
+utile solo per cicli simmetrici
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\epsilon=\frac{\dot{Q}_{F}}{\dot{Q}_{C}-\dot{Q}_{F}}=\left(\frac{T_{2}-T_{1}}{\left(T_{3}-T_{4}\right)-\left(T_{2}-T_{1}\right)}\right)=\frac{T_{2}}{T_{3}-T_{2}}=\frac{T_{1}}{T_{4}-T_{1}}=\left(\frac{1}{r^{\frac{k-1}{k}}-1}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Ciclo Otto
+\end_layout
+
+\begin_layout Standard
+Il ciclo Otto è un ciclo simmetrico costituito da due isoentropiche e due
+ isocore.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Ciclo Otto
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/ciclo-otto.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il ciclo Otto ideale è costituito da quattro trasformazioni interamente
+ reversibili:
+\end_layout
+
+\begin_layout Enumerate
+compressione isoentropica
+\end_layout
+
+\begin_layout Enumerate
+adduzione di calore a volume costante
+\end_layout
+
+\begin_layout Enumerate
+espansione isoentropica
+\end_layout
+
+\begin_layout Enumerate
+sottrazione di calore a volume costante.
+\end_layout
+
+\begin_layout Description
+Rendimento
+\begin_inset space ~
+\end_inset
+
+termodinamico
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+ciclo
+\begin_inset space ~
+\end_inset
+
+Otto
+\begin_inset space ~
+\end_inset
+
+(gas
+\begin_inset space ~
+\end_inset
+
+perfetti,
+\begin_inset space ~
+\end_inset
+
+ciclo
+\begin_inset space ~
+\end_inset
+
+ideale
+\begin_inset space ~
+\end_inset
+
+simmetrico)
+\end_layout
+
+\begin_layout Standard
+Il calore addotto, considerando una trasformazione isocora, vale:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+q_{in}=u_{3}-u_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ritenendo costante il calore specifico nel range di temperatura ipotizzabile
+ si ha:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+q_{in}=u_{3}-u_{2}=c_{v}\left(T_{3}-T_{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Analogamente l'espressione del calore sottratto vale:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+q_{out}=u_{4}-u_{1}=c_{v}\left(T_{4}-T_{1}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il rendimento termodinamico del ciclo vale:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\eta_{th}=\frac{\left(q_{in}-q_{out}\right)}{q_{in}}=1-\frac{q_{out}}{q_{in}}=1-\frac{T_{4}-T_{1}}{T_{3}-T_{2}}=1-\frac{T_{1}\left(\frac{T_{4}}{T_{1}}-1\right)}{T_{2}\left(\frac{T_{3}}{T_{2}}-1\right)}=1-\frac{T_{1}}{T_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta s_{1-2}=c_{v}\ln\frac{T_{2}}{T_{1}}+R^{*}\ln\frac{V_{2}}{V_{1}}=0
+\]
+
+\end_inset
+
+ da cui:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\frac{T_{2}}{T_{1}}\right)^{c_{v}}=\left(\frac{V_{1}}{V_{2}}\right)^{R^{*}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\frac{T_{2}}{T_{1}}\right)=\left(\frac{V_{1}}{V_{2}}\right)^{\frac{R^{*}}{c_{v}}}=r_{vol}^{\frac{R^{*}}{c_{v}}}=r_{vol}^{k-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\eta_{otto}=1-r_{vol}^{1-k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove 
+\begin_inset Formula $r_{vol}$
+\end_inset
+
+ è il rapporto di compressione volumetrico 
+\begin_inset Formula $\left(\frac{V_{1}}{V_{2}}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ricordando che sia la compressione sia l'espansione sono assunte isoentropiche,
+ si ha:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{T_{1}}{T_{2}}=\left(\frac{v_{2}}{v_{1}}\right)^{k-1}=\left(\frac{v_{3}}{v_{4}}\right)^{k-1}=\frac{T_{4}}{T_{3}}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+quindi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{T_{4}}{T_{1}}=\frac{T_{3}}{T_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e infine: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\eta_{th}=1-r^{1-k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ricapitolando:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $r_{vol}=\frac{V_{1}}{V_{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\eta=\frac{L}{Q_{C}}=1-\frac{T_{1}}{T_{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\eta=1-\frac{1}{r_{vol}^{k-1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per quanto riguarda il lavoro specifico prodotto nel ciclo Otto si ha:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+l=c_{v}\left(T_{3}-T_{4}\right)-c_{v}\left(T_{2}-T_{1}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+l=c_{v}T_{3}\left(1-\frac{T_{4}}{T_{3}}\right)-c_{v}T_{1}\left(\frac{T_{2}}{T_{1}}-1\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+l=c_{v}T_{3}\left(1-\frac{1}{r_{v}^{k-1}}\right)-c_{v}T_{1}\left(r_{v}^{k-1}-1\right)
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
 Ciclo Diesel
 \end_layout
 
+\begin_layout Standard
+Il ciclo Diesel è difficile da trattare; non è possibile applicare alcuni
+ princìpi della simmetricità del grafico.
+ Per questo ciclo il parametro che ritorna utile è il rapporto tra volume
+ iniziale e volume finale.
+\end_layout
+
+\begin_layout Standard
+Il ciclo è costituito da due isoentropiche, una isocora e una isobara.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Ciclo Diesel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/ciclo-diesel.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Rendimento
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+ciclo
+\begin_inset space ~
+\end_inset
+
+(gas
+\begin_inset space ~
+\end_inset
+
+perfetto,
+\begin_inset space ~
+\end_inset
+
+ciclo
+\begin_inset space ~
+\end_inset
+
+ideale)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\eta_{Diesel}=\frac{L}{Q_{C}}=1-\frac{c_{v}\left(T_{4}-T_{1}\right)}{c_{P}\left(T_{3}-T_{2}\right)}=1-\frac{c_{v}T_{1}\left(\frac{T_{4}}{T_{1}}-1\right)}{c_{P}T_{2}\left(\frac{T_{\text{3}}}{T_{2}}-1\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ponendo 
+\begin_inset Formula $r=\frac{V_{1}}{V_{2}}$
+\end_inset
+
+ rapporto di compressione volumetrico, e 
+\begin_inset Formula $z=\frac{V_{3}}{V_{2}}$
+\end_inset
+
+ rapporto di combustione:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\eta_{Diesel}=1-\frac{1}{r^{k-1}}\frac{1}{k}\frac{\left(z^{k}-1\right)}{z-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Durante la trasformazione 
+\begin_inset Formula $1-2$
+\end_inset
+
+ isoentropica si ha:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{T_{1}}{T_{2}}=\left(\frac{v_{2}}{v_{1}}\right)^{k-1}=r^{k-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Durante la trasformazione 
+\begin_inset Formula $2-3$
+\end_inset
+
+ isobara si ha:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+z=\frac{V_{3}}{V_{2}}=\frac{T_{3}}{T_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|\Delta s_{2-3}\right|=\left|\Delta s_{4-1}\right|\left(\frac{T_{3}}{T_{2}}\right)^{c_{P}}=\left(\frac{T_{4}}{T_{1}}\right)^{c_{v}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{T_{4}}{T_{1}}=\left(\frac{T_{3}}{T_{2}}\right)^{\frac{c_{P}}{c_{v}}}=\left(\frac{T_{4}}{T_{1}}\right)^{c_{v}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{T_{4}}{T_{1}}=\left(\frac{T_{3}}{T_{2}}\right)^{\frac{c_{P}}{c_{v}}}=\left(\frac{V_{3}}{V_{2}}\right)^{\frac{c_{P}}{c_{v}}}=z^{k}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
 \begin_layout Section
 Ciclo Stirling
 \end_layout
 
+\begin_layout Standard
+Il ciclo Stirling è costituito da due isoterme e due isocore.
+\end_layout
+
 \begin_layout Section
 Ciclo Ericson
+\end_layout
+
+\begin_layout Standard
+Il ciclo Ericson è costituito da due isoterme e due isobare.
 \end_layout
 
 \end_body
