@@ -221,7 +221,7 @@ name "fig:Rappresentazione-del-vettore"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing.svg
+	filename ../notes/Graphics/drawing.svg
 	lyxscale 30
 	scale 50
 
@@ -398,7 +398,7 @@ name "fig:Traiettoria:-curva-nel"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-1.svg
+	filename ../notes/Graphics/drawing-1.svg
 	lyxscale 30
 	width 50line%
 
@@ -625,7 +625,7 @@ name "fig:Distanza-tra-due"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-2.svg
+	filename ../notes/Graphics/drawing-2.svg
 	lyxscale 30
 	width 50line%
 
@@ -801,7 +801,7 @@ name "fig:Componenti-del-vettore"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-4.svg
+	filename ../notes/Graphics/drawing-4.svg
 	lyxscale 30
 	width 50line%
 
@@ -954,7 +954,7 @@ name "fig:Spostamento-infinitesimo"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-3.svg
+	filename ../notes/Graphics/drawing-3.svg
 	lyxscale 30
 	width 50line%
 
@@ -1431,7 +1431,7 @@ name "fig:Moto-traslatorio"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-5.svg
+	filename ../notes/Graphics/drawing-5.svg
 	lyxscale 30
 	width 50line%
 
@@ -1497,7 +1497,7 @@ name "fig:Moto-rotatorio"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-6.svg
+	filename ../notes/Graphics/drawing-6.svg
 	lyxscale 30
 	width 40line%
 
@@ -1589,7 +1589,7 @@ name "fig:Moto-roto-traslatorio"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-7.svg
+	filename ../notes/Graphics/drawing-7.svg
 	lyxscale 30
 	width 50line%
 
@@ -1794,7 +1794,7 @@ name "fig:caso-1"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-8.svg
+	filename ../notes/Graphics/drawing-8.svg
 	lyxscale 30
 	width 50line%
 
@@ -1850,7 +1850,7 @@ name "fig:caso-2"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-9.svg
+	filename ../notes/Graphics/drawing-9.svg
 	lyxscale 30
 	width 50line%
 
@@ -1925,7 +1925,7 @@ name "fig:Atto-di-moto:cas 3"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-10.svg
+	filename ../notes/Graphics/drawing-10.svg
 	lyxscale 30
 	width 40line%
 
@@ -1973,7 +1973,7 @@ name "fig:Corpo-rigido-(spostamento)"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-11.svg
+	filename ../notes/Graphics/drawing-11.svg
 	lyxscale 30
 	width 40line%
 
@@ -2260,7 +2260,7 @@ name "fig:vincolo-di-incastro"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-12.svg
+	filename ../notes/Graphics/drawing-12.svg
 	lyxscale 30
 	width 30line%
 
@@ -2320,7 +2320,7 @@ name "fig:vincolo-di-cerniera"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-13.svg
+	filename ../notes/Graphics/drawing-13.svg
 	lyxscale 30
 	width 30line%
 
@@ -2384,7 +2384,7 @@ name "fig:vincolo-di-pattino/manicotto"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-14.svg
+	filename ../notes/Graphics/drawing-14.svg
 	lyxscale 30
 	width 40line%
 
@@ -2446,7 +2446,7 @@ name "fig:vincolo-di-carrello"
 
 \lang english
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-15.svg
+	filename ../notes/Graphics/drawing-15.svg
 	lyxscale 30
 	width 25line%
 
@@ -2518,7 +2518,7 @@ name "fig:Vincolo-di-puro"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-17.svg
+	filename ../notes/Graphics/drawing-17.svg
 	lyxscale 30
 	width 60line%
 
@@ -2733,7 +2733,7 @@ name "fig:Dimostrazione:-vincolo-di"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-18.svg
+	filename ../notes/Graphics/drawing-18.svg
 	width 60line%
 
 \end_inset
@@ -3216,7 +3216,7 @@ name "fig:Velocità-del-punto"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-19.svg
+	filename ../notes/Graphics/drawing-19.svg
 	width 50line%
 
 \end_inset
@@ -3333,7 +3333,7 @@ name "fig:Modulo-della-velocità"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-20.svg
+	filename ../notes/Graphics/drawing-20.svg
 	width 50line%
 
 \end_inset
@@ -3552,7 +3552,7 @@ name "fig:Accelerazione-del-centro"
 
  
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-21.svg
+	filename ../notes/Graphics/drawing-21.svg
 	width 50line%
 
 \end_inset
@@ -3621,7 +3621,7 @@ name "fig:Cicloide"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-22.svg
+	filename ../notes/Graphics/drawing-22.svg
 	width 60line%
 
 \end_inset
@@ -3709,7 +3709,7 @@ name "fig:Moti-relativi:-esempio1"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-23.svg
+	filename ../notes/Graphics/drawing-23.svg
 	width 50line%
 
 \end_inset
@@ -3801,7 +3801,7 @@ name "fig:Moti-relativi:-esempio-2"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-24.svg
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/drawing-24.svg
 	width 30line%
 
 \end_inset
@@ -3908,7 +3908,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-25.svg
+	filename ../notes/Graphics/drawing-25.svg
 	width 40line%
 
 \end_inset
@@ -3948,7 +3948,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-26.svg
+	filename ../notes/Graphics/drawing-26.svg
 	width 30line%
 
 \end_inset
@@ -4137,7 +4137,7 @@ name "fig:Moti-relativi:-posizione"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-27.svg
+	filename ../notes/Graphics/drawing-27.svg
 	width 40line%
 
 \end_inset
@@ -4395,7 +4395,7 @@ name "fig:Contributi-di-"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-28.svg
+	filename ../notes/Graphics/drawing-28.svg
 	width 50line%
 
 \end_inset

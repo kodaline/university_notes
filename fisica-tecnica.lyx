@@ -485,6 +485,18 @@ status open
 
 \shape italic
 Tipologie di sistemi termodinamici: tipi di scambio con l'ambiente esterno
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\shape italic
+Tipologie di sistemi termodinamici
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2132,7 +2144,7 @@ name "fig:Schematizzazione-dell'esperienza"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/2015-03-13-200544_409x251_scrot.svg
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/2015-03-13-200544_409x251_scrot.svg
 	lyxscale 30
 	width 60line%
 
@@ -2469,7 +2481,7 @@ name "fig:il-lavoro-termodinamico"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/2015-03-14-152507_455x398_scrot.svg
+	filename ../notes/Graphics/2015-03-14-152507_455x398_scrot.svg
 	lyxscale 30
 	width 60line%
 
@@ -2656,7 +2668,7 @@ name "fig:espansione-isoterma-reversibile"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-16.svg
+	filename ../notes/Graphics/drawing-16.svg
 	width 60line%
 
 \end_inset
@@ -3892,6 +3904,18 @@ name "fig:Rappresentazione-nel-piano"
 \end_inset
 
 
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\shape italic
+Trasformazioni termodinamiche
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3902,7 +3926,7 @@ name "fig:Rappresentazione-nel-piano"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/drawing-29.svg
+	filename ../notes/Graphics/drawing-29.svg
 	width 50line%
 
 \end_inset
@@ -4693,7 +4717,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/entropy2.png
+	filename ../notes/Graphics/entropy2.png
 	lyxscale 30
 	width 50line%
 
@@ -4795,7 +4819,7 @@ Trasformazione ciclica
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/entropy3.png
+	filename ../notes/Graphics/entropy3.png
 	lyxscale 30
 	width 50line%
 
@@ -5514,6 +5538,20 @@ status open
 
 \shape italic
 Tabella riassuntiva trasformazioni politropiche 
+\shape default
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\shape italic
+Trasformazioni politropiche
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -6033,7 +6071,6 @@ Il bilancio entropico
 \end_layout
 
 \begin_layout Standard
-o
 \begin_inset Float figure
 placement H
 wide false
@@ -6051,6 +6088,18 @@ status open
 
 \emph on
 Trasferimento di calore: bilancio entropico
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Trasferimento di calore
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -6061,7 +6110,7 @@ Trasferimento di calore: bilancio entropico
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/entropy1.png
+	filename ../notes/Graphics/entropy1.png
 	lyxscale 30
 	width 40line%
 
@@ -6420,6 +6469,18 @@ name "fig:Schematizzazione-di-una"
 \end_inset
 
 
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Violazione enunciato di Kelvin
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -6430,7 +6491,7 @@ name "fig:Schematizzazione-di-una"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/2015-03-25_263x218.png
+	filename ../notes/Graphics/2015-03-25_263x218.png
 	lyxscale 30
 	width 40line%
 
@@ -6521,6 +6582,18 @@ name "fig:Schematizzazione-di-una-1"
 \end_inset
 
 
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Violazione enunciato di Clausius
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -6531,7 +6604,7 @@ name "fig:Schematizzazione-di-una-1"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/2015-03-25_260x216.png
+	filename ../notes/Graphics/2015-03-25_260x216.png
 	lyxscale 30
 	width 40line%
 
@@ -6692,7 +6765,7 @@ name "fig:Macchina-ciclica"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/2015-03-26_782x260.png
+	filename ../notes/Graphics/2015-03-26_782x260.png
 	lyxscale 30
 	width 80line%
 
@@ -7017,7 +7090,7 @@ name "fig:Macchina-termodinamica"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/macchina_termodinamica.png
+	filename ../notes/Graphics/macchina_termodinamica.png
 	lyxscale 30
 	width 30page%
 
@@ -7173,7 +7246,7 @@ Macchina motrice
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/macchina_motrice.png
+	filename ../notes/Graphics/macchina_motrice.png
 	lyxscale 30
 	width 30page%
 
@@ -7701,7 +7774,7 @@ Macchina Operatrice
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/macchina_operatrice.png
+	filename ../notes/Graphics/macchina_operatrice.png
 	lyxscale 30
 	width 30page%
 
@@ -8084,7 +8157,7 @@ Sistema aperto
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/sistema-aperto.png
+	filename ../notes/Graphics/sistema-aperto.png
 	lyxscale 30
 	scale 30
 
@@ -8277,20 +8350,41 @@ Si consideri un sistema
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Volume di controllo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/volume_control.png
-	lyxscale 30
+	filename ../notes/Graphics/volume_control.png
+	lyxscale 50
 	scale 30
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -8654,7 +8748,7 @@ Macchina aperta
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/macchina-aperta.png
+	filename ../notes/Graphics/macchina-aperta.png
 	lyxscale 30
 	scale 40
 
@@ -8945,7 +9039,7 @@ Andamento rendimento turbina
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/turbina.png
+	filename ../notes/Graphics/turbina.png
 	lyxscale 30
 	scale 25
 
@@ -9038,7 +9132,7 @@ Compressore
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/compressore.png
+	filename ../notes/Graphics/compressore.png
 	lyxscale 30
 	scale 35
 
@@ -9080,7 +9174,7 @@ Compressore alternativo ideale
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/compressore-alternativo.png
+	filename ../notes/Graphics/compressore-alternativo.png
 	lyxscale 30
 	scale 30
 
@@ -9149,7 +9243,7 @@ Diagramma del compressore ideale
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/diagram-compressore-alternativo.png
+	filename ../notes/Graphics/diagram-compressore-alternativo.png
 	lyxscale 30
 	scale 30
 
@@ -9195,6 +9289,18 @@ name "fig:Compressione-adiabatica-o"
 \end_inset
 
 
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Compressione adiabatica e isoterma
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9205,7 +9311,7 @@ name "fig:Compressione-adiabatica-o"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/compre.png
+	filename ../notes/Graphics/compre.png
 	lyxscale 30
 	scale 30
 
@@ -9262,7 +9368,7 @@ Diagramma pompa ideale
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/pompa-ideale.png
+	filename ../notes/Graphics/pompa-ideale.png
 	lyxscale 30
 	scale 30
 
@@ -9935,7 +10041,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/pvt-1.png
+	filename ../notes/Graphics/pvt-1.png
 	lyxscale 30
 	scale 30
 
@@ -9983,7 +10089,7 @@ Punto critico
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/pvt2-punto-critico.png
+	filename ../notes/Graphics/pvt2-punto-critico.png
 	lyxscale 30
 	scale 30
 
@@ -10031,7 +10137,7 @@ Curva di saturazione
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/pvt3-curvasat.png
+	filename ../notes/Graphics/pvt3-curvasat.png
 	lyxscale 50
 	scale 30
 
@@ -10062,6 +10168,18 @@ Aumento di volume
 \end_inset
 
 
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Aumento di volume
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -10079,7 +10197,7 @@ Aumento di volume
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/pvt4-h2o.png
+	filename ../notes/Graphics/pvt4-h2o.png
 	lyxscale 30
 	scale 30
 
@@ -10118,6 +10236,20 @@ status open
 
 \emph on
 Aumento di volume per sostanze che solidificano
+\emph default
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Aumento di volume
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -10135,7 +10267,7 @@ Aumento di volume per sostanze che solidificano
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/pt.png
+	filename ../notes/Graphics/pt.png
 	lyxscale 50
 	scale 30
 
@@ -10183,7 +10315,7 @@ Passaggi di stato
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/pt2.png
+	filename ../notes/Graphics/pt2.png
 	lyxscale 30
 	scale 30
 
@@ -10220,6 +10352,38 @@ h_{solido}<h_{liquido}<h_{vapore}
 \end_layout
 
 \begin_layout Standard
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Entalpia: transizioni di fase
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="2">
@@ -10385,6 +10549,15 @@ entalpia di brinamento
 </cell>
 </row>
 </lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -10558,7 +10731,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/PV.png
+	filename ../notes/Graphics/PV.png
 	lyxscale 30
 	scale 30
 
@@ -10614,7 +10787,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/Tv.png
+	filename ../notes/Graphics/Tv.png
 	lyxscale 30
 	scale 30
 
@@ -10674,7 +10847,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/hs.png
+	filename ../notes/Graphics/hs.png
 	lyxscale 50
 	scale 30
 
@@ -10734,7 +10907,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/Ts.png
+	filename ../notes/Graphics/Ts.png
 	lyxscale 50
 	scale 30
 
@@ -10794,7 +10967,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/Ph.png
+	filename ../notes/Graphics/Ph.png
 	lyxscale 50
 	scale 30
 
@@ -10842,7 +11015,7 @@ Saturazione dell'acqua
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/saturazioneacqua.png
+	filename ../notes/Graphics/saturazioneacqua.png
 	lyxscale 50
 	scale 40
 
@@ -10921,6 +11094,18 @@ status open
 
 \emph on
 Espressioni approssimate per il calcolo di Entropia ed Entalpia specifica
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Espressioni approssimate
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -10938,7 +11123,7 @@ Espressioni approssimate per il calcolo di Entropia ed Entalpia specifica
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/entropia-entalpia-specifica.png
+	filename ../notes/Graphics/entropia-entalpia-specifica.png
 	lyxscale 50
 	scale 25
 
@@ -11318,7 +11503,7 @@ Esempi di miscele di gas ideali
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Notes/Graphics/miscela-ideale.png
+	filename ../notes/Graphics/miscela-ideale.png
 	lyxscale 50
 	scale 25
 
@@ -11519,7 +11704,7 @@ Frazione molare di idrogeno e ossigeno
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/massa-molare-apparente.png
+	filename ../notes/Graphics/massa-molare-apparente.png
 	lyxscale 50
 	scale 25
 
@@ -11560,6 +11745,9 @@ Dalton La pressione di una miscela di gas è uguale alla somma delle pressioni
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 P_{m}=\sum_{i=1}^{k}P_{i}\left(T_{m},V_{m}\right)
@@ -11585,6 +11773,9 @@ Amagat Il volume di una miscela di gas è uguale alla somma dei volumi che
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 V_{m}=\sum_{i=1}^{k}V_{i}\left(T_{m},P_{m}\right)
@@ -11592,8 +11783,12 @@ V_{m}=\sum_{i=1}^{k}V_{i}\left(T_{m},P_{m}\right)
 
 \end_inset
 
+
+\series default
+\size default
  Le leggi di Dalton e Amagat sono esatte per i gas ideali, approssimate
  per i gas reali.
+ Per i gas ideali le due leggi portano ai medesimi risultati.
 \end_layout
 
 \begin_layout Standard
@@ -11612,11 +11807,7 @@ status open
 \begin_layout Plain Layout
 
 \emph on
-Comportamento 
-\begin_inset Formula $P,\,v,\,T$
-\end_inset
-
- di una miscela di gas
+Gas mixture
 \end_layout
 
 \end_inset
@@ -11634,7 +11825,7 @@ Comportamento
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/Polimi_2014-2015/SecondSemester/Notes/Graphics/comportamento-pvt.png
+	filename ../notes/Graphics/gas-mixture.png
 	lyxscale 50
 	scale 30
 
@@ -11646,6 +11837,1211 @@ Comportamento
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Gas mixture example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/gas-mixture-example.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Indicando con:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P_{i}$
+\end_inset
+
+ pressione parziale
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{P_{i}}{P_{m}}$
+\end_inset
+
+ rapporto in pressione 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $V_{i}$
+\end_inset
+
+ volume parziale
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{V_{i}}{V_{m}}$
+\end_inset
+
+ rapporto in volume
+\end_layout
+
+\begin_layout Standard
+Si può scrivere:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{P_{i}\left(T_{m},\,V_{m}\right)}{P_{m}}=\frac{\frac{N_{i}R_{u}T_{m}}{V_{m}}}{\frac{N_{m}R_{m}T_{m}}{V_{m}}}=\frac{N_{i}}{N_{m}}=y_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{V_{i}\left(T_{m},\,P_{m}\right)}{V_{m}}=\frac{\frac{N_{i}R_{u}T_{m}}{P_{m}}}{\frac{N_{m}R_{u}T_{m}}{P_{m}}}=\frac{N_{i}}{N_{m}}=y_{i}
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ E da queste quindi si ottiene: 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{P_{i}}{P_{m}}=\frac{V_{i}}{V_{m}}=\frac{N_{i}}{N_{m}}=y_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Questa equazione è valida solo per le miscele di gas ideali ed è ottenuta
+ ipotizzando un comportamento ideale per ogni gas che compone la miscela
+ e per la miscela stessa.
+\end_layout
+
+\begin_layout Standard
+La quantità 
+\begin_inset Formula $P_{i}=y_{i}P_{m}$
+\end_inset
+
+ è chiamata pressione parziale, e la quantità 
+\begin_inset Formula $V_{i}=y_{i}V_{m}$
+\end_inset
+
+ è chiamata volume parziale.
+\end_layout
+
+\begin_layout Standard
+Da notare che, per la miscela ideale, la frazione molare, il rapporto in
+ pressione e il rapporto in volume sono identici.
+\end_layout
+
+\begin_layout Standard
+La composizione di una miscela ideale è spesso determinata con un'analisi
+ volumetrica.
+ 
+\end_layout
+
+\begin_layout Description
+Le
+\begin_inset space ~
+\end_inset
+
+proprietà
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+una
+\begin_inset space ~
+\end_inset
+
+miscela
+\begin_inset space ~
+\end_inset
+
+per
+\begin_inset space ~
+\end_inset
+
+unità
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+massa Le proprietà per unità di massa coinvolgono le frazioni in massa.
+\end_layout
+
+\begin_layout Description
+
+\size large
+\begin_inset Formula $u_{m}=\sum_{i=1}^{k}mf_{i}u_{i}$
+\end_inset
+
+ 
+\series bold
+
+\begin_inset Formula $\left[\frac{kJ}{kg}\right]$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+
+\size large
+\begin_inset Formula $h_{m}=\sum_{i=1}^{k}mf_{i}h_{i}$
+\end_inset
+
+
+\begin_inset Formula $\left[\frac{kJ}{kg}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\size large
+\begin_inset Formula $s_{m}=\sum_{i=1}^{k}mf_{i}s_{i}$
+\end_inset
+
+ 
+\series bold
+
+\begin_inset Formula $\left[\frac{kJ}{kg\cdot K}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\size large
+\begin_inset Formula $c_{v,m}=\sum_{i=1}^{k}mf_{i}c_{v,i}$
+\end_inset
+
+ 
+\series bold
+
+\begin_inset Formula $\left[\frac{kJ}{kg\cdot K}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\size large
+\begin_inset Formula $c_{p,m}=\sum_{i=1}^{k}mf_{i}c_{p,i}$
+\end_inset
+
+ 
+\series bold
+
+\begin_inset Formula $\left[\frac{kJ}{kg\cdot K}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Le
+\begin_inset space ~
+\end_inset
+
+proprietà
+\begin_inset space ~
+\end_inset
+
+estensive
+\begin_inset space ~
+\end_inset
+
+specifiche
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+una
+\begin_inset space ~
+\end_inset
+
+miscela Le proprietà estensive specifiche di una miscela sono determinate
+ attraverso la media pesata.
+\end_layout
+
+\begin_layout Description
+
+\size large
+\begin_inset Formula $\dot{u}_{m}=\sum_{i=0}^{k}y_{i}\dot{u}_{i}$
+\end_inset
+
+ 
+\series bold
+
+\begin_inset Formula $\left[\frac{kJ}{kmol}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\size large
+\begin_inset Formula $\dot{h}_{m}=\sum_{i=0}^{k}y_{i}\dot{h}_{i}$
+\end_inset
+
+ 
+\series bold
+
+\begin_inset Formula $\left[\frac{kJ}{kmol}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\size large
+\begin_inset Formula $\dot{s}_{m}=\sum_{i=0}^{k}y_{i}\dot{s}_{i}$
+\end_inset
+
+ 
+\series bold
+
+\begin_inset Formula $\left[\frac{kJ}{kmol\cdot K}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\size large
+\begin_inset Formula $\dot{c}_{v,m}=\sum_{i=0}^{k}y_{i}\dot{c}_{v,i}$
+\end_inset
+
+ 
+\series bold
+
+\begin_inset Formula $\left[\frac{kJ}{kmol\cdot K}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\size large
+\begin_inset Formula $\dot{c}_{p,m}=\sum_{i=0}^{k}y_{i}\dot{c}_{p,i}$
+\end_inset
+
+ 
+\series bold
+
+\begin_inset Formula $\left[\frac{kJ}{kmol\cdot K}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Legge di Gibbs-Dalton
+\end_layout
+
+\begin_layout Standard
+Per un gas ideale le proprietà di un componente non sono influenzate dalla
+ presenza di altri gas e tale componente si comporta come se fosse da solo
+ alla 
+\begin_inset Formula $T_{m}$
+\end_inset
+
+ e al volume 
+\begin_inset Formula $V_{m}$
+\end_inset
+
+ della miscela.
+ Inoltre 
+\begin_inset Formula $h$
+\end_inset
+
+, 
+\begin_inset Formula $u$
+\end_inset
+
+, 
+\begin_inset Formula $c_{v}$
+\end_inset
+
+, e 
+\begin_inset Formula $c_{p}$
+\end_inset
+
+ dipendono solo dalla temperatura e sono indipendenti da pressione e volume
+ della miscela.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\Delta s_{i}^{o}=s_{i,2}^{o}-s_{i,1}^{o}-R_{i}\ln\frac{P_{i,2}}{P_{i,1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P_{i,2}=y_{i,2}P_{m,2}$
+\end_inset
+
+ è la pressione parziale del componente i-esimo allo stato 2
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P_{i,1}=y_{i,1}P_{m,1}$
+\end_inset
+
+ è la pressione parziale del componente i-esimo allo stato 1
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\Delta s_{i}=s_{i,2}^{o}-s_{i,1}-R_{i}\ln\frac{P_{i,2}}{P_{i,1}}\backsimeq c_{p,i}\ln\frac{T_{i,2}}{T_{i,1}}-R_{i}\ln\frac{P_{i,2}}{P_{i,1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\Delta\dot{s}_{i}=\dot{s}_{i,2}^{o}-\dot{s}_{i,1}^{o}-R_{i}\ln\frac{P_{i,2}}{P_{i,1}}\backsimeq\dot{c}_{p,i}\ln\frac{T_{i,2}}{T_{i,1}}-R_{i}\ln\frac{P_{i,2}}{P_{i,1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Cicli termodinamici a gas
+\end_layout
+
+\begin_layout Section
+Proprietà dei cicli simmetrici
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Ciclo simmetrico 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/ciclo-simmetrico.png
+	lyxscale 40
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per un ciclo simmetrico si possono scrivere le seguenti equazioni:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $v_{1}v_{3}=v_{2}v_{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P_{1}P_{3}=P_{2}P_{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T_{1}T_{3}=T_{2}T_{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \enskip{}
+\end_inset
+
+Inoltre:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P_{1}v_{1}^{n}=P_{2}v_{2}^{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P_{2}v_{2}^{m}=P_{3}v_{3}^{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P_{3}v_{3}^{n}=P_{4}v_{4}^{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P_{4}v_{4}^{m}=P_{1}v_{1}^{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \enskip{}
+\end_inset
+
+Moltiplicando membro a membro le equazioni di pari indice si ottiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+P_{1}P_{3}\left(v_{1}v_{3}\right)^{n}=P_{2}P_{4}\left(v_{2}v_{4}\right)^{n}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+P_{3}P_{1}\left(v_{3}v_{1}\right)^{m}=P_{2}P_{4}\left(v_{2}v_{4}\right)^{m}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dividendo membro a membro:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $v_{1}v_{3}=v_{2}v_{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+che inserita nella formula 
+\begin_inset Formula $\left(8\right)$
+\end_inset
+
+ e con l'equazione dei gas perfetti si ottiene:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $P_{1}P_{3}=P_{2}P_{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $T_{1}T_{3}=T_{2}T_{4}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section
+Ciclo di Carnot
+\end_layout
+
+\begin_layout Standard
+Il ciclo di Carnot è un ciclo simmetrico costituito da due isoentropiche
+ e due isoterme.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Ciclo di Carnot
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/carnot.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Rendimento
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+ciclo 
+\begin_inset Formula $\eta=\frac{L}{Q_{c}}=1-\frac{Q_{f}}{Q_{c}}=1-\frac{T_{1}}{T_{3}}=1-\frac{T_{1}}{T_{2}}$
+\end_inset
+
+ 
+\begin_inset space ~
+\end_inset
+
+essendo isoterme le trasformazioni lungo le quali si scambia calore.
+\end_layout
+
+\begin_layout Standard
+Possibili fonti di irriversibilità per una macchina termodinamica:
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+irreversibilità esterna
+\emph default
+ 
+\begin_inset Formula $\left(T_{1}>T_{F}\,e\,T_{2}<T_{C}\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\eta_{rev}=1-\frac{T_{F}}{T_{C}}>\eta_{Ciclo}=1-\frac{T_{1}}{T_{3}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Bilancio entropico su tutta la macchina termica
+\series default
+ 
+\begin_inset Formula $-\frac{Q_{C}}{T_{C}}+\frac{Q_{F}}{T_{F}}=S_{irr}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Per il ciclo di Carnot vale
+\series default
+ 
+\begin_inset Formula $\frac{Q_{C}}{T_{3}}=\frac{Q_{F}}{T_{1}}=\Delta S$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+che risolta rispetto a
+\series default
+ 
+\begin_inset Formula $Q_{F}$
+\end_inset
+
+ 
+\begin_inset Formula $Q_{C}\left(\frac{1}{T_{F}}\frac{T_{1}}{T_{3}}-\frac{1}{T_{C}}\right)=S_{irr}$
+\end_inset
+
+ e 
+\begin_inset Formula $Q_{C}\left(\frac{T_{C}T_{1}-T_{F}T_{3}}{T_{3}T_{C}T_{F}}\right)=S_{irr}>0$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+irreversibilità interna
+\emph default
+ 
+\begin_inset Formula $\left(s_{1}<s_{2}\,e\,s_{3}<s_{4}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Bilancio entropico su tutta la macchina termica
+\series default
+ 
+\begin_inset Formula $-\frac{Q_{C}}{T_{C}}+\frac{Q_{F}}{T_{F}}=S_{irr}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{Q_{C}}{T_{C}}=S_{3}-S_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{Q_{F}}{T_{F}}=S_{4}-S_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{2}-S_{3}+S_{4}-S_{1}=S_{irr}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Ciclo Joule-Brayton
+\end_layout
+
+\begin_layout Standard
+Il ciclo Joule-Brayton è un ciclo costituito da due isoentropiche e due
+ isobare.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Joule-Brayton
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/joule-brayton.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nella figura sottostante si può osservare il ciclo di Joule-Brayton che
+ coinvolge una turbina, un compressore e due scambiatori di calore (caldo
+ e freddo).
+\end_layout
+
+\begin_layout Standard
+u
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Ciclo JB
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/ciclo-jb.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Rendimento
+\begin_inset space ~
+\end_inset
+
+termodinamico
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+ciclo
+\begin_inset space ~
+\end_inset
+
+JB
+\begin_inset space ~
+\end_inset
+
+(gas
+\begin_inset space ~
+\end_inset
+
+perfetti,
+\begin_inset space ~
+\end_inset
+
+ciclo
+\begin_inset space ~
+\end_inset
+
+ideale
+\begin_inset space ~
+\end_inset
+
+simmetrico) Il rendimento di JB è inferiore del rendimento di Carnot.
+ Il calore addotto, considerando una trasformazione isobara, vale:
+\end_layout
+
+\begin_layout Description
+
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{in}=\dot{m}\left(h_{3}-h_{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ritenendo costante il calore specifico nel range di temperatura ipotizzabile
+ si ha:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{in}=\dot{m}\left(h_{3}-h_{2}\right)=\dot{m}c_{P}\left(T_{3}-T_{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Analogamente l'espressione del calore sottratto vale:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{in}=\dot{m}\left(h_{4}-h_{1}\right)=\dot{m}c_{P}\left(T_{4}-T_{1}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il rendimento termodinamico del ciclo vale:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\eta_{JB}=\frac{\left(\dot{Q}_{in}-\dot{Q}_{out}\right)}{\dot{Q}_{in}}=1-\frac{\dot{Q}_{out}}{\dot{Q}_{in}}=1-\frac{T_{4}-T_{1}}{T_{3}-T_{2}}=1-\frac{T_{1}\left(\frac{T_{4}}{T_{1}}-1\right)}{T_{2}\left(\frac{T_{\text{3}}}{T_{2}}-1\right)}=1-\frac{T_{1}}{T_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Rendimento
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+ciclo 
+\begin_inset Formula $\eta_{JB}=\frac{\dot{L}}{\dot{Q}_{C}}=1-\frac{\dot{Q}_{F}}{\dot{Q}_{C}}=1-\frac{T_{1}}{T_{2}}$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+(inserendo il bilancio di entropia fra 1 e 2 per i gas perfetti)
+\end_layout
+
+\begin_layout Description
+
+\size large
+\begin_inset Formula 
+\[
+\Delta s_{1-2}=c_{P}\ln\frac{T_{2}}{T_{1}}-R^{*}\ln\frac{P_{2}}{P_{1}}=0
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+
+\size large
+\begin_inset Formula 
+\[
+\left(\frac{T_{2}}{T_{1}}\right)^{c_{P}}=\left(\frac{P_{2}}{P_{1}}\right)^{R^{*}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\size large
+\begin_inset Formula 
+\[
+\left(\frac{T_{2}}{T_{1}}\right)=\left(\frac{P_{2}}{P_{1}}\right)^{\frac{R^{*}}{c_{P}}}=r^{\frac{R^{*}}{c_{P}}}=r^{\frac{k-1}{k}}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+dove r è il rapporto di compressione 
+\begin_inset Formula $\left(\frac{P_{2}}{P_{1}}\right)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+Il rendimento si può esprimere quindi come:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\eta_{JB}=1-\frac{1}{r^{\frac{k-1}{k}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Ciclo Otto
+\end_layout
+
+\begin_layout Section
+Ciclo Diesel
+\end_layout
+
+\begin_layout Section
+Ciclo Stirling
+\end_layout
+
+\begin_layout Section
+Ciclo Ericson
 \end_layout
 
 \end_body
