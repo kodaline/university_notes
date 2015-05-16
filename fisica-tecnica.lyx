@@ -2481,7 +2481,7 @@ name "fig:il-lavoro-termodinamico"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/2015-03-14-152507_455x398_scrot.svg
+	filename Graphics/2015-03-14-152507_455x398_scrot.svg
 	lyxscale 30
 	width 60line%
 
@@ -2668,7 +2668,7 @@ name "fig:espansione-isoterma-reversibile"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/drawing-16.svg
+	filename Graphics/drawing-16.svg
 	width 60line%
 
 \end_inset
@@ -3926,7 +3926,7 @@ Trasformazioni termodinamiche
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/drawing-29.svg
+	filename Graphics/drawing-29.svg
 	width 50line%
 
 \end_inset
@@ -4717,7 +4717,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/entropy2.png
+	filename Graphics/entropy2.png
 	lyxscale 30
 	width 50line%
 
@@ -4819,7 +4819,7 @@ Trasformazione ciclica
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/entropy3.png
+	filename Graphics/entropy3.png
 	lyxscale 30
 	width 50line%
 
@@ -6110,7 +6110,7 @@ Trasferimento di calore
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/entropy1.png
+	filename Graphics/entropy1.png
 	lyxscale 30
 	width 40line%
 
@@ -6491,7 +6491,7 @@ Violazione enunciato di Kelvin
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/2015-03-25_263x218.png
+	filename Graphics/2015-03-25_263x218.png
 	lyxscale 30
 	width 40line%
 
@@ -6604,7 +6604,7 @@ Violazione enunciato di Clausius
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/2015-03-25_260x216.png
+	filename Graphics/2015-03-25_260x216.png
 	lyxscale 30
 	width 40line%
 
@@ -6765,7 +6765,7 @@ name "fig:Macchina-ciclica"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/2015-03-26_782x260.png
+	filename Graphics/2015-03-26_782x260.png
 	lyxscale 30
 	width 80line%
 
@@ -7090,7 +7090,7 @@ name "fig:Macchina-termodinamica"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/macchina_termodinamica.png
+	filename Graphics/macchina_termodinamica.png
 	lyxscale 30
 	width 30page%
 
@@ -7136,7 +7136,7 @@ Serbatoio di Lavoro
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/serbatoio_di_lavoro.png
+	filename Graphics/serbatoio_di_lavoro.png
 	width 30page%
 
 \end_inset
@@ -7191,7 +7191,7 @@ Serbatoio di Calore
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/serbatoio_di_calore.png
+	filename Graphics/serbatoio_di_calore.png
 	width 30page%
 
 \end_inset
@@ -7246,7 +7246,7 @@ Macchina motrice
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/macchina_motrice.png
+	filename Graphics/macchina_motrice.png
 	lyxscale 30
 	width 30page%
 
@@ -7774,7 +7774,7 @@ Macchina Operatrice
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/macchina_operatrice.png
+	filename Graphics/macchina_operatrice.png
 	lyxscale 30
 	width 30page%
 
@@ -8157,7 +8157,7 @@ Sistema aperto
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/sistema-aperto.png
+	filename Graphics/sistema-aperto.png
 	lyxscale 30
 	scale 30
 
@@ -8375,7 +8375,7 @@ Volume di controllo
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/volume_control.png
+	filename Graphics/volume_control.png
 	lyxscale 50
 	scale 30
 
@@ -8748,7 +8748,7 @@ Macchina aperta
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/macchina-aperta.png
+	filename Graphics/macchina-aperta.png
 	lyxscale 30
 	scale 40
 
@@ -9039,7 +9039,7 @@ Andamento rendimento turbina
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/turbina.png
+	filename Graphics/turbina.png
 	lyxscale 30
 	scale 25
 
@@ -9132,7 +9132,7 @@ Compressore
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/compressore.png
+	filename Graphics/compressore.png
 	lyxscale 30
 	scale 35
 
@@ -9174,7 +9174,7 @@ Compressore alternativo ideale
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/compressore-alternativo.png
+	filename Graphics/compressore-alternativo.png
 	lyxscale 30
 	scale 30
 
@@ -9243,7 +9243,7 @@ Diagramma del compressore ideale
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/diagram-compressore-alternativo.png
+	filename Graphics/diagram-compressore-alternativo.png
 	lyxscale 30
 	scale 30
 
@@ -9311,7 +9311,7 @@ Compressione adiabatica e isoterma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/compre.png
+	filename Graphics/compre.png
 	lyxscale 30
 	scale 30
 
@@ -9368,7 +9368,7 @@ Diagramma pompa ideale
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/pompa-ideale.png
+	filename Graphics/pompa-ideale.png
 	lyxscale 30
 	scale 30
 
@@ -10041,7 +10041,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/pvt-1.png
+	filename Graphics/pvt-1.png
 	lyxscale 30
 	scale 30
 
@@ -10089,7 +10089,7 @@ Punto critico
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/pvt2-punto-critico.png
+	filename Graphics/pvt2-punto-critico.png
 	lyxscale 30
 	scale 30
 
@@ -10137,7 +10137,7 @@ Curva di saturazione
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/pvt3-curvasat.png
+	filename Graphics/pvt3-curvasat.png
 	lyxscale 50
 	scale 30
 
@@ -10197,7 +10197,7 @@ Aumento di volume
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/pvt4-h2o.png
+	filename Graphics/pvt4-h2o.png
 	lyxscale 30
 	scale 30
 
@@ -10267,7 +10267,7 @@ Aumento di volume
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/pt.png
+	filename Graphics/pt.png
 	lyxscale 50
 	scale 30
 
@@ -10315,7 +10315,7 @@ Passaggi di stato
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/pt2.png
+	filename Graphics/pt2.png
 	lyxscale 30
 	scale 30
 
@@ -10731,7 +10731,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/PV.png
+	filename Graphics/PV.png
 	lyxscale 30
 	scale 30
 
@@ -10787,7 +10787,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/Tv.png
+	filename Graphics/Tv.png
 	lyxscale 30
 	scale 30
 
@@ -10847,7 +10847,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/hs.png
+	filename Graphics/hs.png
 	lyxscale 50
 	scale 30
 
@@ -10907,7 +10907,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/Ts.png
+	filename Graphics/Ts.png
 	lyxscale 50
 	scale 30
 
@@ -10967,7 +10967,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/Ph.png
+	filename Graphics/Ph.png
 	lyxscale 50
 	scale 30
 
@@ -11015,7 +11015,7 @@ Saturazione dell'acqua
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/saturazioneacqua.png
+	filename Graphics/saturazioneacqua.png
 	lyxscale 50
 	scale 40
 
@@ -11123,7 +11123,7 @@ Espressioni approssimate
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/entropia-entalpia-specifica.png
+	filename Graphics/entropia-entalpia-specifica.png
 	lyxscale 50
 	scale 25
 
@@ -11503,7 +11503,7 @@ Esempi di miscele di gas ideali
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/miscela-ideale.png
+	filename Graphics/miscela-ideale.png
 	lyxscale 50
 	scale 25
 
@@ -11704,7 +11704,7 @@ Frazione molare di idrogeno e ossigeno
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/massa-molare-apparente.png
+	filename Graphics/massa-molare-apparente.png
 	lyxscale 50
 	scale 25
 
@@ -11825,7 +11825,7 @@ Gas mixture
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/gas-mixture.png
+	filename Graphics/gas-mixture.png
 	lyxscale 50
 	scale 30
 
@@ -11869,7 +11869,7 @@ Gas mixture example
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/gas-mixture-example.png
+	filename Graphics/gas-mixture-example.png
 	lyxscale 30
 	scale 30
 
@@ -12355,7 +12355,7 @@ Ciclo simmetrico
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/ciclo-simmetrico.png
+	filename Graphics/ciclo-simmetrico.png
 	lyxscale 40
 	scale 30
 
@@ -12545,7 +12545,7 @@ Ciclo di Carnot
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/carnot.png
+	filename Graphics/carnot.png
 	lyxscale 50
 	scale 30
 
@@ -12753,7 +12753,7 @@ Joule-Brayton
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/joule-brayton.png
+	filename Graphics/joule-brayton.png
 	lyxscale 50
 	scale 30
 
@@ -12772,9 +12772,15 @@ Joule-Brayton
 \end_layout
 
 \begin_layout Standard
-Nella figura sottostante si può osservare il ciclo di Joule-Brayton che
- coinvolge una turbina, un compressore e due scambiatori di calore (caldo
- e freddo).
+Nella Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ciclo-JB"
+
+\end_inset
+
+ si può osservare il ciclo di Joule-Brayton che coinvolge una turbina, un
+ compressore e due scambiatori di calore (caldo e freddo).
 \end_layout
 
 \begin_layout Standard
@@ -12794,6 +12800,13 @@ status open
 
 \emph on
 Ciclo JB
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ciclo-JB"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -12811,7 +12824,7 @@ Ciclo JB
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/ciclo-jb.png
+	filename Graphics/ciclo-jb.png
 	lyxscale 50
 	scale 30
 
@@ -13187,7 +13200,7 @@ JB con Rigenerazione
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/jbr.png
+	filename Graphics/jbr.png
 	lyxscale 50
 	scale 30
 
@@ -13305,7 +13318,7 @@ Rendimento JB
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/rendimentojbr.png
+	filename Graphics/rendimentojbr.png
 	lyxscale 50
 	scale 30
 
@@ -13366,7 +13379,7 @@ Joule-Brayton inverso
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/jbi.png
+	filename Graphics/jbi.png
 	lyxscale 50
 	scale 30
 
@@ -13450,7 +13463,7 @@ Ciclo Otto
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/ciclo-otto.png
+	filename Graphics/ciclo-otto.png
 	lyxscale 50
 	scale 30
 
@@ -13803,7 +13816,7 @@ Ciclo Diesel
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/ciclo-diesel.png
+	filename Graphics/ciclo-diesel.png
 	lyxscale 50
 	scale 30
 
@@ -14088,7 +14101,7 @@ name "fig:Parete-e-contorno"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/es1.png
+	filename Graphics/es1.png
 	lyxscale 50
 	scale 30
 
@@ -14175,7 +14188,7 @@ name "fig:Parete-diatermica"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/es2.png
+	filename Graphics/es2.png
 	lyxscale 50
 	scale 30
 
@@ -14263,7 +14276,7 @@ name "fig:Parete-diatermica-1"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/es3.png
+	filename Graphics/es3.png
 	lyxscale 50
 	scale 30
 
@@ -14619,7 +14632,7 @@ esempio La potenza termica trasmessa per conduzione attraverso una lastra
  piana indefinita di spessore costante è data da:
 \end_layout
 
-\begin_layout Description
+\begin_layout Standard
 \begin_inset Formula 
 \[
 \dot{Q}_{COND}=-kA\frac{\Delta T}{\Delta x}
@@ -14630,7 +14643,6 @@ esempio La potenza termica trasmessa per conduzione attraverso una lastra
 
 \end_layout
 
-\begin_deeper
 \begin_layout Standard
 dove:
 \end_layout
@@ -14646,6 +14658,7 @@ dove:
 
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 \begin_inset Formula $k$
 \end_inset
@@ -14788,7 +14801,7 @@ Convezione
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/convezione.png
+	filename Graphics/convezione.png
 	lyxscale 50
 	scale 30
 
