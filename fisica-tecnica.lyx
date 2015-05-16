@@ -13178,6 +13178,13 @@ JB con Rigenerazione
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ../notes/Graphics/jbr.png
@@ -13289,6 +13296,13 @@ Rendimento JB
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ../notes/Graphics/rendimentojbr.png
@@ -13343,9 +13357,16 @@ Joule-Brayton inverso
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/jbi.png
+	filename ../notes/Graphics/jbi.png
 	lyxscale 50
 	scale 30
 
@@ -13420,9 +13441,16 @@ Ciclo Otto
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/ciclo-otto.png
+	filename ../notes/Graphics/ciclo-otto.png
 	lyxscale 50
 	scale 30
 
@@ -13766,9 +13794,16 @@ Ciclo Diesel
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/ciclo-diesel.png
+	filename ../notes/Graphics/ciclo-diesel.png
 	lyxscale 50
 	scale 30
 
@@ -13933,6 +13968,1123 @@ Ciclo Ericson
 
 \begin_layout Standard
 Il ciclo Ericson è costituito da due isoterme e due isobare.
+\end_layout
+
+\begin_layout Part
+Trasmissione del calore
+\end_layout
+
+\begin_layout Standard
+Il calore 
+\begin_inset Formula $Q$
+\end_inset
+
+ (come del resto il lavoro) non è una proprietà del sistema, ma una forma
+ di energia in transito.
+ Si può quindi dire che un sistema possiede energia (ad esempio energia
+ interna 
+\begin_inset Formula $U$
+\end_inset
+
+, energia cinetica 
+\begin_inset Formula $E_{c}$
+\end_inset
+
+ o energia potenziale 
+\begin_inset Formula $E_{p}$
+\end_inset
+
+), ma si deve dire che un sistema scambia energia sotto forma di calore
+ con un altro sistema.
+ Questa quantità di calore scambiata può essere quantificata.
+\end_layout
+
+\begin_layout Subsubsection*
+Quando avviene uno scambio di calore?
+\end_layout
+
+\begin_layout Standard
+Il passaggio di calore da un sistema ad un altro può avvenire se sono soddisfatt
+e le seguenti condizioni:
+\end_layout
+
+\begin_layout Itemize
+I due sistemi si devono trovare a temperature diverse
+\end_layout
+
+\begin_layout Itemize
+Non devono essere separati da una parete adiabatica
+\end_layout
+
+\begin_layout Subsubsection*
+Come avviene uno scambio di calore?
+\end_layout
+
+\begin_layout Itemize
+Per il primo principio la quantità di calore trasferito ad un sistema (se
+ 
+\begin_inset Formula $L=0$
+\end_inset
+
+) eguaglia l’entità dell’incremento di energia del sistema stesso.
+\end_layout
+
+\begin_layout Itemize
+Per il secondo principio il calore si propaga nella direzione delle temperature
+ decrescenti, da una regione ad alta temperatura ad una regione a bassa
+ temperatura.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Parete e contorno adiabatici
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Esempio 1
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Parete-e-contorno"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/es1.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nella Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Parete-e-contorno"
+
+\end_inset
+
+ il sistema A ed il sistema B rimarranno alla stessa temperatura 
+\begin_inset Formula $Q_{AB}=0$
+\end_inset
+
+.
+ Il sistema A è isolato termicamente dal sistema B.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Parete diatermica
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Esempio 2
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Parete-diatermica"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/es2.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nella Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Parete-diatermica"
+
+\end_inset
+
+ 
+\begin_inset Formula $Q_{AB}=0$
+\end_inset
+
+.
+ I sistemi, pur non essendo termicamente isolati, si trovano alla stessa
+ temperatura.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Parete diatermica 
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Esempio 3
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Parete-diatermica-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/es3.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nella Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Parete-diatermica-1"
+
+\end_inset
+
+ 
+\begin_inset Formula $Q_{AB}>0$
+\end_inset
+
+.
+ Se non interverranno altri fattori, dopo un certo periodo di tempo, 
+\begin_inset Formula $T_{1}=T_{2}$
+\end_inset
+
+, dopo di che 
+\begin_inset Formula $Q_{AB}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La trasmissione del calore focalizza l’indagine sugli scambi sotto forma
+ di Q, si trascurano gli effetti degli scambi energetici in lavoro.
+ Nei problemi pratici quello che interessa maggiormente è 
+\series bold
+la rapidità con cui avviene lo scambio
+\series default
+, piuttosto che la quantità di calore scambiata.
+ 
+\end_layout
+
+\begin_layout Description
+Esempio
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+thermos Dopo quanto tempo il caffè che si trova inizialmente a 90°C raggiunge
+ gli 80 °C?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+L’analisi termodinamica ci consente di valutare la quantità di calore scambiato
+ ma non il tempo
+\end_layout
+
+\begin_layout Itemize
+La trasmissione del calore ci consente di valutarne anche il tempo
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Oggetto
+\begin_inset space ~
+\end_inset
+
+della
+\begin_inset space ~
+\end_inset
+
+trasmissione
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+calore La determinazione della velocità di propagazione del calore verso
+ o da un sistema e quindi i tempi di raffreddamento e di riscaldamento,
+ così come la variazione di temperatura costituiscono l’oggetto della trasmissio
+ne del calore.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Considerando che il calore non si distribuisce istantaneamente in tutti
+ i punti del sistema, può accadere che:
+\end_layout
+
+\begin_layout Itemize
+All’interno di un sistema possono stabilizzarsi condizioni diverse di temperatur
+a da un punto ad un altro e di conseguenza può permanere un flusso di calore
+ da un punto ad un altro
+\end_layout
+
+\begin_layout Itemize
+In un sistema la temperatura in un punto può variare nel tempo o rimanere
+ costante e cioè il sistema può essere in regime variabile o permanente
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Trasmissione
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+calore La trasmissione del calore si occupa dello studio dell’insieme di
+ leggi che governano il passaggio di calore da un sistema ad un altro o
+ da un punto ad un altro di uno stesso sistema, dei dispositivi coinvolti
+ negli scambi di calore e delle leggi che danno la distribuzione di temperatura
+ all’interno di un sistema in funzione dello spazio e del tempo.
+\end_layout
+
+\begin_layout Section
+Trasmissione del calore: generalità
+\end_layout
+
+\begin_layout Standard
+Quando si conosce la potenza scambiata 
+\begin_inset Formula $\dot{Q}$
+\end_inset
+
+, la quantità totale di calore scambiato 
+\begin_inset Formula $Q$
+\end_inset
+
+ durante un intervallo di tempo 
+\begin_inset Formula $\Delta\tau$
+\end_inset
+
+ si può determinare con la relazione:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q=\int_{0}^{\tau}\dot{Q}d\tau
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+
+\color red
+Nel caso particolare in cui 
+\begin_inset Formula $\dot{Q}$
+\end_inset
+
+ sia costante: 
+\begin_inset Formula $Q=\dot{Q}\cdot\Delta\tau$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Flusso
+\begin_inset space ~
+\end_inset
+
+termico Si definisce flusso termico la potenza riferita ad una superficie
+ di aria unitaria.
+ Il flusso termico medio (
+\series bold
+flusso termico areico
+\series default
+) su una superficie si esprime:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Φ}\left[\frac{W}{m^{2}}\right]=\frac{\dot{Q}}{A}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Flusso
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+calore Il flusso di calore può essere definito dalla relazione: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+φ=f\left(parametro,\,\Delta T\right)
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+parametro coefficiente che tiene conto della maggiore o minore facilità,
+ con la quale, a parità di 
+\begin_inset Formula $\Delta T$
+\end_inset
+
+, ha luogo il trasferimento di calore; 
+\begin_inset Formula $\Delta T$
+\end_inset
+
+: differenza di temperatura.
+\end_layout
+
+\begin_layout Subsection
+La conduzione: in breve
+\end_layout
+
+\begin_layout Description
+Conduzione La conduzione è il trasferimento di energia che si verifica per
+ effetto dell’interazione delle particelle di una sostanza dotata di maggiore
+ energia con quelle adiacenti dotate di minore energia.
+ Può avvenire:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+nei liquidi
+\end_layout
+
+\begin_layout Itemize
+nei solidi
+\end_layout
+
+\begin_layout Itemize
+nei gas
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+q^{\rightarrow}=-k\,grad\,T
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Nei liquidi e nei gas la conduzione è dovuta alla collisione delle molecole
+ nel loro moto caotico
+\end_layout
+
+\begin_layout Itemize
+Nei solidi è dovuta alla vibrazione delle molecole all'interno del reticolo
+ e al trasporto di energia da parte degli elettroni liberi
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Conduzione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/conduzione.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Ad
+\begin_inset space ~
+\end_inset
+
+esempio La potenza termica trasmessa per conduzione attraverso una lastra
+ piana indefinita di spessore costante è data da:
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula 
+\[
+\dot{Q}_{COND}=-kA\frac{\Delta T}{\Delta x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\dot{Q}_{COND}$
+\end_inset
+
+ è la potenza termica trasmessa per conduzione 
+\begin_inset Formula $\left[W\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $k$
+\end_inset
+
+ è la costante di proporzionalità o conducibilità termica del materiale
+ 
+\begin_inset Formula $\left[\frac{W}{mK}\right]$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A$
+\end_inset
+
+ è la superficie normale alla direzione di trasmissione del calore 
+\begin_inset Formula $\left[m^{2}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta x$
+\end_inset
+
+ è lo spessore 
+\begin_inset Formula $\left[m\right]$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta T$
+\end_inset
+
+ è la differenza di temperatura 
+\begin_inset Formula $\left[K\right]$
+\end_inset
+
+ o 
+\begin_inset Formula $\text{°C}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+La convezione: in breve
+\end_layout
+
+\begin_layout Description
+La
+\begin_inset space ~
+\end_inset
+
+convezione La convezione è il trasferimento di energia tra una superficie
+ solida e un fluido adiacente in movimento.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Implica gli effetti combinati di conduzione e trasporto di massa
+\end_layout
+
+\begin_layout Itemize
+Il calore trasmesso per convezione aumenta con la velocità del fluido
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Convezione
+\begin_inset space ~
+\end_inset
+
+forzata Avviene quando il fluido è forzato a scorrere su una superficie
+ da mezzi esterni (ad esempio un ventilatore).
+\end_layout
+
+\begin_layout Description
+Convezione
+\begin_inset space ~
+\end_inset
+
+naturale
+\begin_inset space ~
+\end_inset
+
+(
+\begin_inset space ~
+\end_inset
+
+o
+\begin_inset space ~
+\end_inset
+
+libera
+\begin_inset space ~
+\end_inset
+
+) Avviene quando il moto del fluido è causato da forze ascensionali che
+ sono indotte dalle differenze di densità dovute alla variazione di temperatura
+ del fluido in un campo gravitazionale.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Convezione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/convezione.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La potenza termica trasmessa per convezione è espressa dalla relazione (Legge
+ di Newton):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\dot{Q}_{CONV}=hA\left(T_{s}-T_{f}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $h$
+\end_inset
+
+ è il coefficiente di scambio termico convettivo 
+\begin_inset Formula $\left[\frac{W}{m^{2}K}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A$
+\end_inset
+
+ è la superficie normale al flusso 
+\begin_inset Formula $\left[m^{2}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T_{s}$
+\end_inset
+
+ è la temperatura solido 
+\begin_inset Formula $\left[K\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T_{f}$
+\end_inset
+
+ è la temperatura fluido 
+\begin_inset Formula $\left[K\right]$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsection
+L'irraggiamento: in breve
+\end_layout
+
+\begin_layout Description
+Irraggiamento L'irraggiamento è il trasferimento di energia che avviene
+ attraverso le onde elettromagnetiche (o fotoni) prodotte da variazioni
+ nelle configurazioni elettroniche degli atomi e delle molecole.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Non richiede la presenza di un mezzo interposto (quindi avviene anche nel
+ vuoto) 
+\end_layout
+
+\begin_layout Itemize
+Avviene alla velocità della luce 
+\end_layout
+
+\begin_layout Itemize
+Tutti i corpi a temperatura superiore allo zero termico emettono radiazione
+ termica
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+La potenza massima termica trasmessa per irraggiamento da una superficie
+ a temperatura assoluta 
+\begin_inset Formula $T_{s}$
+\end_inset
+
+ è data dalla Legge di 
+\emph on
+Stefan Boltzmann.
+\end_layout
+
+\begin_layout Subsubsection
+Legge di Stefan Boltzmann
+\end_layout
+
+\begin_layout Standard
+La legge di Stefan Boltzmann afferma che la potenza trasmessa da un'area
+ 
+\begin_inset Formula $A$
+\end_inset
+
+ di un corpo ideale (detto 
+\series bold
+corpo nero
+\series default
+) è:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\dot{Q}_{e_{max}}=\sigma A\left(T_{s}\right)^{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Potenza
+\begin_inset space ~
+\end_inset
+
+emessa
+\begin_inset space ~
+\end_inset
+
+per
+\begin_inset space ~
+\end_inset
+
+irraggiamento La potenza emessa per irraggiamento da una qualsiasi superficie
+ reale è invece data dalla relazione:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\dot{Q}_{emiss}=\epsilon\sigma A\left(T_{s}\right)^{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove: 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ è l'emissività della superficie il cui valore, compreso tra 0 e 1, è la
+ misura di quanto il comportamento di una superficie si approssima a quella
+ del corpo nero, per il quale 
+\begin_inset Formula $\epsilon=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Potenza termica netta 
+\end_layout
+
+\begin_layout Description
+Potenza
+\begin_inset space ~
+\end_inset
+
+termica
+\begin_inset space ~
+\end_inset
+
+netta Poiché nei corpi reali non tutta la radiazione elettromagnetica incidente
+ viene riflessa si definisce potenza termica netta per irraggiamento la
+ differenza tra la potenza termica radiante emessa e quella assorbita da
+ una superficie.
+ La determinazione della potenza termica netta scambiata è complessa in
+ quanto dipende da numerosi fattori quali:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Proprietà delle superfici
+\end_layout
+
+\begin_layout Itemize
+Orientamento relativo
+\end_layout
+
+\begin_layout Itemize
+Caratteristiche del mezzo tra le due superfici che irraggiano
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Irraggiamento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/irraggiamento.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il caso di una superficie piccola è semplice:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\dot{Q}_{IRR}=\epsilon\sigma A\left(T_{s}^{4}-T_{c}^{4}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body
