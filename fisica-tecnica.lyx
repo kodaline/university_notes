@@ -17258,9 +17258,10 @@ Quidi si ricava
 
 \size large
 \begin_inset Formula 
-\[
-T=C\cdot\ln\left(r\right)+D=\frac{T_{e}-T_{i}}{\ln\left(\frac{R_{e}}{R_{i}}\right)}\cdot\ln\left(r\right)+T_{i}-\frac{T_{e}-T_{i}}{\ln\left(\frac{R_{e}}{R_{i}}\right)}\cdot\ln\left(R_{i}\right)=T_{i}+\frac{T_{e}-T_{i}}{\ln\left(\frac{R_{e}}{R_{i}}\right)}\cdot\ln\left(\frac{r}{R_{i}}\right)
-\]
+\begin{eqnarray*}
+T & = & C\cdot\ln\left(r\right)+D=\frac{T_{e}-T_{i}}{\ln\left(\frac{R_{e}}{R_{i}}\right)}\cdot\ln\left(r\right)+T_{i}-\frac{T_{e}-T_{i}}{\ln\left(\frac{R_{e}}{R_{i}}\right)}\cdot\ln\left(R_{i}\right)=\\
+ & = & T_{i}+\frac{T_{e}-T_{i}}{\ln\left(\frac{R_{e}}{R_{i}}\right)}\cdot\ln\left(\frac{r}{R_{i}}\right)
+\end{eqnarray*}
 
 \end_inset
 
