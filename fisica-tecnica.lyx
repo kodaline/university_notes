@@ -2481,7 +2481,7 @@ name "fig:il-lavoro-termodinamico"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/2015-03-14-152507_455x398_scrot.svg
+	filename Graphics/2015-03-14-152507_455x398_scrot.svg
 	lyxscale 30
 	width 60line%
 
@@ -2668,7 +2668,7 @@ name "fig:espansione-isoterma-reversibile"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/drawing-16.svg
+	filename Graphics/drawing-16.svg
 	width 60line%
 
 \end_inset
@@ -3926,7 +3926,7 @@ Trasformazioni termodinamiche
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/drawing-29.svg
+	filename Graphics/drawing-29.svg
 	width 50line%
 
 \end_inset
@@ -4717,7 +4717,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/entropy2.png
+	filename Graphics/entropy2.png
 	lyxscale 30
 	width 50line%
 
@@ -4819,7 +4819,7 @@ Trasformazione ciclica
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/entropy3.png
+	filename Graphics/entropy3.png
 	lyxscale 30
 	width 50line%
 
@@ -6110,7 +6110,7 @@ Trasferimento di calore
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/entropy1.png
+	filename Graphics/entropy1.png
 	lyxscale 30
 	width 40line%
 
@@ -6491,7 +6491,7 @@ Violazione enunciato di Kelvin
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/2015-03-25_263x218.png
+	filename Graphics/2015-03-25_263x218.png
 	lyxscale 30
 	width 40line%
 
@@ -6604,7 +6604,7 @@ Violazione enunciato di Clausius
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/2015-03-25_260x216.png
+	filename Graphics/2015-03-25_260x216.png
 	lyxscale 30
 	width 40line%
 
@@ -6765,7 +6765,7 @@ name "fig:Macchina-ciclica"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/2015-03-26_782x260.png
+	filename Graphics/2015-03-26_782x260.png
 	lyxscale 30
 	width 80line%
 
@@ -7090,7 +7090,7 @@ name "fig:Macchina-termodinamica"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/macchina_termodinamica.png
+	filename Graphics/macchina_termodinamica.png
 	lyxscale 30
 	width 30page%
 
@@ -7136,7 +7136,7 @@ Serbatoio di Lavoro
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/serbatoio_di_lavoro.png
+	filename Graphics/serbatoio_di_lavoro.png
 	width 30page%
 
 \end_inset
@@ -7191,7 +7191,7 @@ Serbatoio di Calore
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/serbatoio_di_calore.png
+	filename Graphics/serbatoio_di_calore.png
 	width 30page%
 
 \end_inset
@@ -7246,7 +7246,7 @@ Macchina motrice
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/macchina_motrice.png
+	filename Graphics/macchina_motrice.png
 	lyxscale 30
 	width 30page%
 
@@ -7774,7 +7774,7 @@ Macchina Operatrice
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/macchina_operatrice.png
+	filename Graphics/macchina_operatrice.png
 	lyxscale 30
 	width 30page%
 
@@ -8157,7 +8157,7 @@ Sistema aperto
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/sistema-aperto.png
+	filename Graphics/sistema-aperto.png
 	lyxscale 30
 	scale 30
 
@@ -8375,7 +8375,7 @@ Volume di controllo
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/volume_control.png
+	filename Graphics/volume_control.png
 	lyxscale 50
 	scale 30
 
@@ -8748,7 +8748,7 @@ Macchina aperta
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/macchina-aperta.png
+	filename Graphics/macchina-aperta.png
 	lyxscale 30
 	scale 40
 
@@ -9039,7 +9039,7 @@ Andamento rendimento turbina
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/turbina.png
+	filename Graphics/turbina.png
 	lyxscale 30
 	scale 25
 
@@ -9132,7 +9132,7 @@ Compressore
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/compressore.png
+	filename Graphics/compressore.png
 	lyxscale 30
 	scale 35
 
@@ -9174,7 +9174,7 @@ Compressore alternativo ideale
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/compressore-alternativo.png
+	filename Graphics/compressore-alternativo.png
 	lyxscale 30
 	scale 30
 
@@ -9243,7 +9243,7 @@ Diagramma del compressore ideale
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/diagram-compressore-alternativo.png
+	filename Graphics/diagram-compressore-alternativo.png
 	lyxscale 30
 	scale 30
 
@@ -9311,7 +9311,7 @@ Compressione adiabatica e isoterma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/compre.png
+	filename Graphics/compre.png
 	lyxscale 30
 	scale 30
 
@@ -9368,7 +9368,7 @@ Diagramma pompa ideale
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/pompa-ideale.png
+	filename Graphics/pompa-ideale.png
 	lyxscale 30
 	scale 30
 
@@ -10041,7 +10041,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/pvt-1.png
+	filename Graphics/pvt-1.png
 	lyxscale 30
 	scale 30
 
@@ -10089,7 +10089,7 @@ Punto critico
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/pvt2-punto-critico.png
+	filename Graphics/pvt2-punto-critico.png
 	lyxscale 30
 	scale 30
 
@@ -10137,7 +10137,7 @@ Curva di saturazione
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/pvt3-curvasat.png
+	filename Graphics/pvt3-curvasat.png
 	lyxscale 50
 	scale 30
 
@@ -10197,7 +10197,7 @@ Aumento di volume
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/pvt4-h2o.png
+	filename Graphics/pvt4-h2o.png
 	lyxscale 30
 	scale 30
 
@@ -10267,7 +10267,7 @@ Aumento di volume
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/pt.png
+	filename Graphics/pt.png
 	lyxscale 50
 	scale 30
 
@@ -10315,7 +10315,7 @@ Passaggi di stato
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/pt2.png
+	filename Graphics/pt2.png
 	lyxscale 30
 	scale 30
 
@@ -10618,6 +10618,7 @@ liquido
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -10634,6 +10635,9 @@ Volume specifico
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 v=\left(1-x\right)v_{l}+xv_{v}=v_{l}+xv_{lv}
@@ -10649,6 +10653,9 @@ Energia interna
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 u=\left(1-x\right)u_{l}+xu_{v}=u_{l}+xu_{lv}
@@ -10664,6 +10671,9 @@ Entropia
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 s=\left(1-x\right)s_{l}+xs_{v}=s_{l}+xs_{lv}
@@ -10679,6 +10689,9 @@ Entalpia
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 h=\left(1-x\right)h_{l}+xh_{v}=h_{l}+xh_{lv}
@@ -10731,7 +10744,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/PV.png
+	filename Graphics/PV.png
 	lyxscale 30
 	scale 30
 
@@ -10787,7 +10800,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/Tv.png
+	filename Graphics/Tv.png
 	lyxscale 30
 	scale 30
 
@@ -10847,7 +10860,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/hs.png
+	filename Graphics/hs.png
 	lyxscale 50
 	scale 30
 
@@ -10907,7 +10920,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/Ts.png
+	filename Graphics/Ts.png
 	lyxscale 50
 	scale 30
 
@@ -10967,7 +10980,7 @@ Diagramma
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/Ph.png
+	filename Graphics/Ph.png
 	lyxscale 50
 	scale 30
 
@@ -11015,7 +11028,7 @@ Saturazione dell'acqua
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/saturazioneacqua.png
+	filename Graphics/saturazioneacqua.png
 	lyxscale 50
 	scale 40
 
@@ -11123,7 +11136,7 @@ Espressioni approssimate
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/entropia-entalpia-specifica.png
+	filename Graphics/entropia-entalpia-specifica.png
 	lyxscale 50
 	scale 25
 
@@ -11503,7 +11516,7 @@ Esempi di miscele di gas ideali
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/miscela-ideale.png
+	filename Graphics/miscela-ideale.png
 	lyxscale 50
 	scale 25
 
@@ -11704,7 +11717,7 @@ Frazione molare di idrogeno e ossigeno
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/massa-molare-apparente.png
+	filename Graphics/massa-molare-apparente.png
 	lyxscale 50
 	scale 25
 
@@ -11825,7 +11838,7 @@ Gas mixture
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/gas-mixture.png
+	filename Graphics/gas-mixture.png
 	lyxscale 50
 	scale 30
 
@@ -11869,7 +11882,7 @@ Gas mixture example
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/gas-mixture-example.png
+	filename Graphics/gas-mixture-example.png
 	lyxscale 30
 	scale 30
 
@@ -12040,7 +12053,7 @@ di
 massa Le proprietà per unità di massa coinvolgono le frazioni in massa.
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $u_{m}=\sum_{i=1}^{k}mf_{i}u_{i}$
@@ -12055,7 +12068,7 @@ massa Le proprietà per unità di massa coinvolgono le frazioni in massa.
  
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $h_{m}=\sum_{i=1}^{k}mf_{i}h_{i}$
@@ -12068,7 +12081,7 @@ massa Le proprietà per unità di massa coinvolgono le frazioni in massa.
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $s_{m}=\sum_{i=1}^{k}mf_{i}s_{i}$
@@ -12083,7 +12096,7 @@ massa Le proprietà per unità di massa coinvolgono le frazioni in massa.
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $c_{v,m}=\sum_{i=1}^{k}mf_{i}c_{v,i}$
@@ -12098,7 +12111,7 @@ massa Le proprietà per unità di massa coinvolgono le frazioni in massa.
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $c_{p,m}=\sum_{i=1}^{k}mf_{i}c_{p,i}$
@@ -12142,7 +12155,7 @@ miscela Le proprietà estensive specifiche di una miscela sono determinate
  attraverso la media pesata.
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $\dot{u}_{m}=\sum_{i=0}^{k}y_{i}\dot{u}_{i}$
@@ -12157,7 +12170,7 @@ miscela Le proprietà estensive specifiche di una miscela sono determinate
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $\dot{h}_{m}=\sum_{i=0}^{k}y_{i}\dot{h}_{i}$
@@ -12172,7 +12185,7 @@ miscela Le proprietà estensive specifiche di una miscela sono determinate
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $\dot{s}_{m}=\sum_{i=0}^{k}y_{i}\dot{s}_{i}$
@@ -12187,7 +12200,7 @@ miscela Le proprietà estensive specifiche di una miscela sono determinate
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $\dot{c}_{v,m}=\sum_{i=0}^{k}y_{i}\dot{c}_{v,i}$
@@ -12202,7 +12215,7 @@ miscela Le proprietà estensive specifiche di una miscela sono determinate
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $\dot{c}_{p,m}=\sum_{i=0}^{k}y_{i}\dot{c}_{p,i}$
@@ -12355,7 +12368,7 @@ Ciclo simmetrico
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/ciclo-simmetrico.png
+	filename Graphics/ciclo-simmetrico.png
 	lyxscale 40
 	scale 30
 
@@ -12374,6 +12387,9 @@ Per un ciclo simmetrico si possono scrivere le seguenti equazioni:
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+\size large
 \begin_inset Formula $v_{1}v_{3}=v_{2}v_{4}$
 \end_inset
 
@@ -12381,6 +12397,9 @@ Per un ciclo simmetrico si possono scrivere le seguenti equazioni:
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+\size large
 \begin_inset Formula $P_{1}P_{3}=P_{2}P_{4}$
 \end_inset
 
@@ -12388,6 +12407,9 @@ Per un ciclo simmetrico si possono scrivere le seguenti equazioni:
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+\size large
 \begin_inset Formula $T_{1}T_{3}=T_{2}T_{4}$
 \end_inset
 
@@ -12406,6 +12428,9 @@ Inoltre:
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+\size large
 \begin_inset Formula $P_{1}v_{1}^{n}=P_{2}v_{2}^{n}$
 \end_inset
 
@@ -12413,6 +12438,9 @@ Inoltre:
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+\size large
 \begin_inset Formula $P_{2}v_{2}^{m}=P_{3}v_{3}^{m}$
 \end_inset
 
@@ -12420,6 +12448,9 @@ Inoltre:
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+\size large
 \begin_inset Formula $P_{3}v_{3}^{n}=P_{4}v_{4}^{n}$
 \end_inset
 
@@ -12427,6 +12458,9 @@ Inoltre:
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+\size large
 \begin_inset Formula $P_{4}v_{4}^{m}=P_{1}v_{1}^{m}$
 \end_inset
 
@@ -12445,6 +12479,9 @@ Moltiplicando membro a membro le equazioni di pari indice si ottiene:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \begin{equation}
 P_{1}P_{3}\left(v_{1}v_{3}\right)^{n}=P_{2}P_{4}\left(v_{2}v_{4}\right)^{n}
@@ -12456,6 +12493,9 @@ P_{1}P_{3}\left(v_{1}v_{3}\right)^{n}=P_{2}P_{4}\left(v_{2}v_{4}\right)^{n}
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \begin{equation}
 P_{3}P_{1}\left(v_{3}v_{1}\right)^{m}=P_{2}P_{4}\left(v_{2}v_{4}\right)^{m}
@@ -12472,6 +12512,9 @@ Dividendo membro a membro:
 
 \begin_layout Standard
 \align center
+
+\series bold
+\size large
 \begin_inset Formula $v_{1}v_{3}=v_{2}v_{4}$
 \end_inset
 
@@ -12488,6 +12531,9 @@ che inserita nella formula
 
 \begin_layout Standard
 \align center
+
+\series bold
+\size large
 \begin_inset Formula $P_{1}P_{3}=P_{2}P_{4}$
 \end_inset
 
@@ -12496,6 +12542,9 @@ che inserita nella formula
 
 \begin_layout Standard
 \align center
+
+\series bold
+\size large
 \begin_inset Formula $T_{1}T_{3}=T_{2}T_{4}$
 \end_inset
 
@@ -12545,7 +12594,7 @@ Ciclo di Carnot
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/carnot.png
+	filename Graphics/carnot.png
 	lyxscale 50
 	scale 30
 
@@ -12601,6 +12650,9 @@ irreversibilità esterna
 
 \begin_layout Standard
 \align center
+
+\series bold
+\size large
 \begin_inset Formula $\eta_{rev}=1-\frac{T_{F}}{T_{C}}>\eta_{Ciclo}=1-\frac{T_{1}}{T_{3}}$
 \end_inset
 
@@ -12608,12 +12660,14 @@ irreversibilità esterna
 \end_layout
 
 \begin_layout Standard
-\align center
 
 \series bold
 Bilancio entropico su tutta la macchina termica
 \series default
  
+\series bold
+\size large
+
 \begin_inset Formula $-\frac{Q_{C}}{T_{C}}+\frac{Q_{F}}{T_{F}}=S_{irr}$
 \end_inset
 
@@ -12626,9 +12680,15 @@ Bilancio entropico su tutta la macchina termica
 Per il ciclo di Carnot vale
 \series default
  
+\series bold
+\size large
+
 \begin_inset Formula $\frac{Q_{C}}{T_{3}}=\frac{Q_{F}}{T_{1}}=\Delta S$
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -12665,7 +12725,6 @@ irreversibilità interna
 \end_layout
 
 \begin_layout Standard
-\align center
 
 \series bold
 Bilancio entropico su tutta la macchina termica
@@ -12678,6 +12737,9 @@ Bilancio entropico su tutta la macchina termica
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{Q_{C}}{T_{C}}=S_{3}-S_{2}
@@ -12689,6 +12751,9 @@ Bilancio entropico su tutta la macchina termica
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{Q_{F}}{T_{F}}=S_{4}-S_{1}
@@ -12700,6 +12765,9 @@ Bilancio entropico su tutta la macchina termica
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 S_{2}-S_{3}+S_{4}-S_{1}=S_{irr}>0
@@ -12753,7 +12821,7 @@ Joule-Brayton
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/joule-brayton.png
+	filename Graphics/joule-brayton.png
 	lyxscale 50
 	scale 30
 
@@ -12824,7 +12892,7 @@ name "fig:Ciclo-JB"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/ciclo-jb.png
+	filename Graphics/ciclo-jb.png
 	lyxscale 50
 	scale 30
 
@@ -12885,6 +12953,7 @@ simmetrico) Il rendimento di JB è inferiore del rendimento di Carnot.
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -12977,6 +13046,7 @@ ciclo
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -12990,6 +13060,7 @@ ciclo
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -13003,6 +13074,7 @@ ciclo
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -13011,6 +13083,8 @@ ciclo
 
 \end_inset
 
+
+\series default
  
 \end_layout
 
@@ -13054,6 +13128,9 @@ Il rendimento del ciclo di Joule-Brayton è funzione del solo rapporto di
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 r_{Pmin}=1
@@ -13061,6 +13138,9 @@ r_{Pmin}=1
 
 \end_inset
 
+
+\series default
+\size default
  E un valore massimo quando 
 \begin_inset Formula $T_{2}$
 \end_inset
@@ -13073,6 +13153,9 @@ r_{Pmin}=1
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 r_{Pmax}=\left(\frac{T_{3}}{T_{1}}\right)^{\frac{k}{k-1}}
@@ -13089,6 +13172,9 @@ Anche il lavoro netto prodotto dal ciclo JB ideale è funzione del solo rapporto
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \begin{eqnarray*}
 l & = & l_{T}-l_{C}=c_{P}\left(T_{3}-T_{4}\right)-c_{P}\left(T_{2}-T_{1}\right)=c_{P}T_{3}\left(1-\frac{T_{4}}{T_{3}}\right)-c_{P}T_{1}\left(\frac{T_{2}}{T_{1}}-1\right)=\\
@@ -13105,6 +13191,9 @@ Si ha il massimo lavoro in corrispondenza del rapporto di compressione:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 r_{Popt}=\left(\frac{T_{3}}{T_{1}}\right)^{\frac{k}{2\left(k-1\right)}}=\sqrt{r_{Pmax}}
@@ -13120,6 +13209,9 @@ Ricordando poi che in una turbina isoentropica si ha:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{T_{3}}{T_{4}}=\left(\frac{P_{3}}{P_{4}}\right)^{\frac{R}{c_{P}}}=\left(\frac{P_{3}}{P_{4}}\right)^{\frac{k-1}{k}}
@@ -13147,6 +13239,9 @@ E inserendo in questa espressione al posto di
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 T_{4}=T_{2}=\sqrt{T_{1}T_{3}}
@@ -13200,7 +13295,7 @@ JB con Rigenerazione
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/jbr.png
+	filename Graphics/jbr.png
 	lyxscale 50
 	scale 30
 
@@ -13263,6 +13358,9 @@ simmetrico)
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \eta_{rig}=1-\frac{\dot{L}}{\dot{Q}}=\frac{\dot{L}_{t}-\dot{L}_{c}}{\dot{Q}}=\frac{\left(T_{3}-T_{4}\right)-\left(T_{2}-T_{1}\right)}{\left(T_{3}-T_{4}\right)}1-\frac{T_{2}-T_{1}}{T_{3}-T_{4}}
@@ -13274,6 +13372,9 @@ simmetrico)
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \eta_{rig}=1-\frac{T_{2}}{T_{3}}=1-\frac{T_{2}T_{1}}{T_{3}T_{1}}=1-\frac{T_{1}}{T_{3}}r_{P}^{\frac{k-1}{k}}
@@ -13318,7 +13419,7 @@ Rendimento JB
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/rendimentojbr.png
+	filename Graphics/rendimentojbr.png
 	lyxscale 50
 	scale 30
 
@@ -13379,7 +13480,7 @@ Joule-Brayton inverso
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/jbi.png
+	filename Graphics/jbi.png
 	lyxscale 50
 	scale 30
 
@@ -13410,6 +13511,9 @@ utile solo per cicli simmetrici
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \epsilon=\frac{\dot{Q}_{F}}{\dot{Q}_{C}-\dot{Q}_{F}}=\left(\frac{T_{2}-T_{1}}{\left(T_{3}-T_{4}\right)-\left(T_{2}-T_{1}\right)}\right)=\frac{T_{2}}{T_{3}-T_{2}}=\frac{T_{1}}{T_{4}-T_{1}}=\left(\frac{1}{r^{\frac{k-1}{k}}-1}\right)
@@ -13463,7 +13567,7 @@ Ciclo Otto
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/ciclo-otto.png
+	filename Graphics/ciclo-otto.png
 	lyxscale 50
 	scale 30
 
@@ -13547,6 +13651,9 @@ Il calore addotto, considerando una trasformazione isocora, vale:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 q_{in}=u_{3}-u_{2}
@@ -13563,6 +13670,9 @@ Ritenendo costante il calore specifico nel range di temperatura ipotizzabile
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 q_{in}=u_{3}-u_{2}=c_{v}\left(T_{3}-T_{2}\right)
@@ -13578,6 +13688,9 @@ Analogamente l'espressione del calore sottratto vale:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 q_{out}=u_{4}-u_{1}=c_{v}\left(T_{4}-T_{1}\right)
@@ -13593,6 +13706,9 @@ Il rendimento termodinamico del ciclo vale:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \eta_{th}=\frac{\left(q_{in}-q_{out}\right)}{q_{in}}=1-\frac{q_{out}}{q_{in}}=1-\frac{T_{4}-T_{1}}{T_{3}-T_{2}}=1-\frac{T_{1}\left(\frac{T_{4}}{T_{1}}-1\right)}{T_{2}\left(\frac{T_{3}}{T_{2}}-1\right)}=1-\frac{T_{1}}{T_{2}}
@@ -13604,6 +13720,9 @@ Il rendimento termodinamico del ciclo vale:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \Delta s_{1-2}=c_{v}\ln\frac{T_{2}}{T_{1}}+R^{*}\ln\frac{V_{2}}{V_{1}}=0
@@ -13611,10 +13730,16 @@ Il rendimento termodinamico del ciclo vale:
 
 \end_inset
 
+
+\series default
+\size default
  da cui:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \left(\frac{T_{2}}{T_{1}}\right)^{c_{v}}=\left(\frac{V_{1}}{V_{2}}\right)^{R^{*}}
@@ -13626,6 +13751,9 @@ Il rendimento termodinamico del ciclo vale:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \left(\frac{T_{2}}{T_{1}}\right)=\left(\frac{V_{1}}{V_{2}}\right)^{\frac{R^{*}}{c_{v}}}=r_{vol}^{\frac{R^{*}}{c_{v}}}=r_{vol}^{k-1}
@@ -13637,6 +13765,9 @@ Il rendimento termodinamico del ciclo vale:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \eta_{otto}=1-r_{vol}^{1-k}
@@ -13665,6 +13796,9 @@ Ricordando che sia la compressione sia l'espansione sono assunte isoentropiche,
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{T_{1}}{T_{2}}=\left(\frac{v_{2}}{v_{1}}\right)^{k-1}=\left(\frac{v_{3}}{v_{4}}\right)^{k-1}=\frac{T_{4}}{T_{3}}
@@ -13672,6 +13806,9 @@ Ricordando che sia la compressione sia l'espansione sono assunte isoentropiche,
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -13680,6 +13817,9 @@ quindi:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{T_{4}}{T_{1}}=\frac{T_{3}}{T_{2}}
@@ -13695,6 +13835,9 @@ e infine:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \eta_{th}=1-r^{1-k}
@@ -13735,6 +13878,9 @@ Per quanto riguarda il lavoro specifico prodotto nel ciclo Otto si ha:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 l=c_{v}\left(T_{3}-T_{4}\right)-c_{v}\left(T_{2}-T_{1}\right)
@@ -13746,6 +13892,9 @@ l=c_{v}\left(T_{3}-T_{4}\right)-c_{v}\left(T_{2}-T_{1}\right)
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 l=c_{v}T_{3}\left(1-\frac{T_{4}}{T_{3}}\right)-c_{v}T_{1}\left(\frac{T_{2}}{T_{1}}-1\right)
@@ -13757,6 +13906,9 @@ l=c_{v}T_{3}\left(1-\frac{T_{4}}{T_{3}}\right)-c_{v}T_{1}\left(\frac{T_{2}}{T_{1
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 l=c_{v}T_{3}\left(1-\frac{1}{r_{v}^{k-1}}\right)-c_{v}T_{1}\left(r_{v}^{k-1}-1\right)
@@ -13816,7 +13968,7 @@ Ciclo Diesel
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/ciclo-diesel.png
+	filename Graphics/ciclo-diesel.png
 	lyxscale 50
 	scale 30
 
@@ -13863,6 +14015,9 @@ ideale)
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \eta_{Diesel}=\frac{L}{Q_{C}}=1-\frac{c_{v}\left(T_{4}-T_{1}\right)}{c_{P}\left(T_{3}-T_{2}\right)}=1-\frac{c_{v}T_{1}\left(\frac{T_{4}}{T_{1}}-1\right)}{c_{P}T_{2}\left(\frac{T_{\text{3}}}{T_{2}}-1\right)}
@@ -13886,6 +14041,9 @@ ponendo
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \eta_{Diesel}=1-\frac{1}{r^{k-1}}\frac{1}{k}\frac{\left(z^{k}-1\right)}{z-1}
@@ -13905,6 +14063,9 @@ Durante la trasformazione
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{T_{1}}{T_{2}}=\left(\frac{v_{2}}{v_{1}}\right)^{k-1}=r^{k-1}
@@ -13924,6 +14085,9 @@ Durante la trasformazione
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 z=\frac{V_{3}}{V_{2}}=\frac{T_{3}}{T_{2}}
@@ -13935,6 +14099,9 @@ z=\frac{V_{3}}{V_{2}}=\frac{T_{3}}{T_{2}}
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \left|\Delta s_{2-3}\right|=\left|\Delta s_{4-1}\right|\left(\frac{T_{3}}{T_{2}}\right)^{c_{P}}=\left(\frac{T_{4}}{T_{1}}\right)^{c_{v}}
@@ -13946,6 +14113,9 @@ z=\frac{V_{3}}{V_{2}}=\frac{T_{3}}{T_{2}}
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{T_{4}}{T_{1}}=\left(\frac{T_{3}}{T_{2}}\right)^{\frac{c_{P}}{c_{v}}}=\left(\frac{T_{4}}{T_{1}}\right)^{c_{v}}
@@ -13957,6 +14127,9 @@ z=\frac{V_{3}}{V_{2}}=\frac{T_{3}}{T_{2}}
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{T_{4}}{T_{1}}=\left(\frac{T_{3}}{T_{2}}\right)^{\frac{c_{P}}{c_{v}}}=\left(\frac{V_{3}}{V_{2}}\right)^{\frac{c_{P}}{c_{v}}}=z^{k}
@@ -13964,6 +14137,9 @@ z=\frac{V_{3}}{V_{2}}=\frac{T_{3}}{T_{2}}
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -14080,7 +14256,7 @@ name "fig:Ciclo-di-Carnot"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/cc.png
+	filename Graphics/cc.png
 	lyxscale 50
 	scale 30
 
@@ -14151,7 +14327,7 @@ Ciclo Rankine semplice
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/gcr.png
+	filename Graphics/gcr.png
 	lyxscale 50
 	scale 30
 
@@ -14251,7 +14427,7 @@ Rankine
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/ciclorsemplice.png
+	filename Graphics/ciclorsemplice.png
 	lyxscale 50
 	scale 30
 
@@ -14307,7 +14483,7 @@ Rankine surriscaldamento
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/crs.png
+	filename Graphics/crs.png
 	lyxscale 50
 	scale 30
 
@@ -14405,7 +14581,7 @@ Surriscaldamento
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/ciclorsurr.png
+	filename Graphics/ciclorsurr.png
 	lyxscale 50
 	scale 30
 
@@ -14467,7 +14643,7 @@ Condensazione
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/rankinecond.png
+	filename Graphics/rankinecond.png
 	lyxscale 50
 	scale 30
 
@@ -14541,7 +14717,7 @@ Surriscaldamento
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/rankinesurr.png
+	filename Graphics/rankinesurr.png
 	lyxscale 50
 	scale 30
 
@@ -14617,7 +14793,7 @@ Vaporizzazione
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/rankinevap.png
+	filename Graphics/rankinevap.png
 	lyxscale 50
 	scale 30
 
@@ -14708,7 +14884,7 @@ Surriscaldamenti ripetuti
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/surrripetutir.png
+	filename Graphics/surrripetutir.png
 	lyxscale 50
 	scale 30
 
@@ -14915,6 +15091,9 @@ Effetto Joule-Thomson
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 Q-L=\Delta U
@@ -14926,6 +15105,9 @@ Q-L=\Delta U
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 -\left(-P_{1}V_{1}+P_{2}V_{2}\right)=U_{2}-U_{1}
@@ -14937,6 +15119,9 @@ Q-L=\Delta U
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 U_{1}+P_{1}V_{1}=U_{2}+P_{2}V_{2}
@@ -14948,6 +15133,9 @@ U_{1}+P_{1}V_{1}=U_{2}+P_{2}V_{2}
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 H_{1}=H_{2}
@@ -14959,6 +15147,9 @@ H_{1}=H_{2}
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \delta q+v\,dP=dh
@@ -14970,6 +15161,9 @@ H_{1}=H_{2}
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \delta q_{rev}+Tds_{irr}+v\,dP=dh
@@ -14981,6 +15175,9 @@ H_{1}=H_{2}
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 Tds_{irr}+v\,dP=dh
@@ -14993,6 +15190,9 @@ Tds_{irr}+v\,dP=dh
 
 \begin_layout Standard
 \align center
+
+\series bold
+\size large
 \begin_inset Formula $ds_{irr}>0$
 \end_inset
 
@@ -15022,6 +15222,9 @@ La proprietà misurata nel corso dell'esperimento è il rapporto tra la variazio
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \mu_{JT}=\left(\frac{\partial T}{\partial P}\right)_{H}
@@ -15200,7 +15403,7 @@ name "fig:Parete-e-contorno"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/es1.png
+	filename Graphics/es1.png
 	lyxscale 50
 	scale 30
 
@@ -15287,7 +15490,7 @@ name "fig:Parete-diatermica"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/es2.png
+	filename Graphics/es2.png
 	lyxscale 50
 	scale 30
 
@@ -15375,7 +15578,7 @@ name "fig:Parete-diatermica-1"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/es3.png
+	filename Graphics/es3.png
 	lyxscale 50
 	scale 30
 
@@ -15526,6 +15729,9 @@ Quando si conosce la potenza scambiata
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 Q=\int_{0}^{\tau}\dot{Q}d\tau
@@ -15575,6 +15781,9 @@ flusso termico areico
 
 \begin_deeper
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \text{Φ}\left[\frac{W}{m^{2}}\right]=\frac{\dot{Q}}{A}
@@ -15582,6 +15791,9 @@ flusso termico areico
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -15600,6 +15812,9 @@ calore Il flusso di calore può essere definito dalla relazione:
 
 \begin_deeper
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 φ=f\left(parametro,\,\Delta T\right)
@@ -15607,6 +15822,9 @@ calore Il flusso di calore può essere definito dalla relazione:
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -15650,6 +15868,9 @@ nei gas
 
 \end_deeper
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 q^{\rightarrow}=-k\,grad\,T
@@ -15657,6 +15878,9 @@ q^{\rightarrow}=-k\,grad\,T
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -15732,6 +15956,9 @@ esempio La potenza termica trasmessa per conduzione attraverso una lastra
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{Q}_{COND}=-kA\frac{\Delta T}{\Delta x}
@@ -15900,7 +16127,7 @@ Convezione
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/convezione.png
+	filename Graphics/convezione.png
 	lyxscale 50
 	scale 30
 
@@ -15924,6 +16151,9 @@ La potenza termica trasmessa per convezione è espressa dalla relazione (Legge
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{Q}_{CONV}=hA\left(T_{s}-T_{f}\right)
@@ -16037,6 +16267,9 @@ corpo nero
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{Q}_{e_{max}}=\sigma A\left(T_{s}\right)^{4}
@@ -16065,6 +16298,9 @@ irraggiamento La potenza emessa per irraggiamento da una qualsiasi superficie
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{Q}_{emiss}=\epsilon\sigma A\left(T_{s}\right)^{4}
@@ -16185,6 +16421,9 @@ Il caso di una superficie piccola è semplice:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{Q}_{IRR}=\epsilon\sigma A\left(T_{s}^{4}-T_{c}^{4}\right)
@@ -16960,6 +17199,7 @@ Il flusso termico dipende solo dal flusso radiale:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -16973,6 +17213,7 @@ Il flusso termico dipende solo dal flusso radiale:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \begin{eqnarray*}
@@ -16986,6 +17227,7 @@ Il flusso termico dipende solo dal flusso radiale:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -16995,6 +17237,8 @@ Il flusso termico dipende solo dal flusso radiale:
 \end_inset
 
  
+\series default
+
 \begin_inset Formula 
 \[
 \rightarrow^{\int dx}\,r\cdot\left(\frac{\partial T}{\partial r}\right)=-\frac{\sigma}{2k}\cdot r^{2}+C
@@ -17007,6 +17251,7 @@ Il flusso termico dipende solo dal flusso radiale:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17020,6 +17265,7 @@ Il flusso termico dipende solo dal flusso radiale:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17067,6 +17313,7 @@ Ponendo le seguenti condizioni al contorno:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17075,7 +17322,11 @@ T=-\frac{\sigma}{4k}\cdot r^{2}+C\cdot\ln\left(r\right)+D\,\rightarrow^{\frac{\p
 
 \end_inset
 
+
+\series default
  
+\series bold
+
 \begin_inset Formula 
 \[
 \begin{cases}
@@ -17095,6 +17346,7 @@ Quindi:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17108,6 +17360,7 @@ Quindi:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17121,6 +17374,7 @@ T=-\frac{\sigma}{4k}\cdot\left(R^{2}-r^{2}\right)+T_{2}\,\rightarrow^{\frac{\par
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17142,6 +17396,7 @@ T=-\frac{\sigma}{4k}\cdot\left(R^{2}-r^{2}\right)+T_{2}\,\rightarrow^{\frac{\par
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17151,6 +17406,7 @@ T=-\frac{\sigma}{4k}\cdot\left(R^{2}-r^{2}\right)+T_{2}\,\rightarrow^{\frac{\par
 \end_inset
 
 
+\series default
 \size default
  
 \end_layout
@@ -17187,6 +17443,7 @@ Ponendo le seguenti condizioni al contorno:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17207,6 +17464,7 @@ Quindi si ha:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17235,6 +17493,7 @@ Facendo la differenza tra
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17256,6 +17515,7 @@ Quidi si ricava
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \begin{eqnarray*}
@@ -17278,6 +17538,7 @@ Per
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17299,6 +17560,7 @@ Per
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17316,6 +17578,7 @@ E infine:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17334,6 +17597,7 @@ Coordinate sferiche
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17376,6 +17640,7 @@ cava,
 \begin_deeper
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17393,6 +17658,7 @@ Che in caso di regime stazionario:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17438,6 +17704,7 @@ Pot.
 \begin_deeper
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17457,6 +17724,7 @@ Poiché in condizioni stazionarie la potenza termica accumulata deve essere
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17479,6 +17747,7 @@ In condizioni stazionarie e in assenza di generazione interna, la distribuzione
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17524,7 +17793,7 @@ Conduzione attraverso una parete
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/condparete.png
+	filename Graphics/condparete.png
 	lyxscale 50
 	scale 30
 
@@ -17564,6 +17833,7 @@ Separando le variabili nell’equazione di Fourier e integrando da
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17577,6 +17847,7 @@ Separando le variabili nell’equazione di Fourier e integrando da
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17664,7 +17935,7 @@ Conduzione
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/1.png
+	filename Graphics/1.png
 	lyxscale 50
 	scale 30
 
@@ -17731,7 +18002,7 @@ Conduzione
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/2.png
+	filename Graphics/2.png
 	lyxscale 50
 	scale 30
 
@@ -17785,7 +18056,7 @@ Conduzione
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/3.png
+	filename Graphics/3.png
 	lyxscale 50
 	scale 30
 
@@ -17817,6 +18088,7 @@ La relazione
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17892,6 +18164,7 @@ La quantità di calore che attraversa la parete nell’unità di tempo, (la
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17905,6 +18178,7 @@ La quantità di calore che attraversa la parete nell’unità di tempo, (la
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17918,6 +18192,7 @@ La quantità di calore che attraversa la parete nell’unità di tempo, (la
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17961,6 +18236,7 @@ Ipotizzando che la trasmissione di calore avvenga in direzione radiale e
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -17974,6 +18250,7 @@ Ipotizzando che la trasmissione di calore avvenga in direzione radiale e
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18009,6 +18286,7 @@ Separando le variabili nell’equazione di Fourier, ricordando che l’area
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18022,6 +18300,7 @@ Separando le variabili nell’equazione di Fourier, ricordando che l’area
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18035,6 +18314,7 @@ Separando le variabili nell’equazione di Fourier, ricordando che l’area
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18048,6 +18328,7 @@ Separando le variabili nell’equazione di Fourier, ricordando che l’area
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18056,7 +18337,11 @@ Separando le variabili nell’equazione di Fourier, ricordando che l’area
 
 \end_inset
 
+
+\series default
  
+\series bold
+
 \begin_inset Formula 
 \[
 R_{cilindro}=\frac{\ln\frac{r_{2}}{r_{1}}}{2\pi Lk}
@@ -18081,6 +18366,7 @@ Con procedimento analogo ai cilindri, per le sfere
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18159,9 +18445,9 @@ Convezione
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/conv.png
+	filename Graphics/conv.png
 	lyxscale 20
-	scale 30
+	scale 20
 
 \end_inset
 
@@ -18239,7 +18525,7 @@ Trasmittanza
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/trasmittanza.png
+	filename Graphics/trasmittanza.png
 	lyxscale 50
 	scale 30
 
@@ -18316,7 +18602,7 @@ Trasmittanza
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/trasmittanza2.png
+	filename Graphics/trasmittanza2.png
 	lyxscale 50
 	scale 30
 
@@ -18336,6 +18622,7 @@ Trasmittanza
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18349,6 +18636,7 @@ R_{tot}=R_{conv\,i}+R_{cond}+R_{conv\,e}
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18380,6 +18668,7 @@ status open
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18468,7 +18757,7 @@ Raggio d'isolamento
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/raggioci.png
+	filename Graphics/raggioci.png
 	lyxscale 50
 	scale 40
 
@@ -18495,6 +18784,7 @@ Consideriamo la parete di un corpo solido lambita da un fluido in moto.
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18721,6 +19011,7 @@ N.B.
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18747,6 +19038,7 @@ La soluzione del problema si riduce alla valutazione del coefficiente convettivo
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18764,6 +19056,7 @@ Convezione forzata
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18815,6 +19108,7 @@ Gruppi adimensionali per convezione forzata: Numero di Nusselt
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18834,6 +19128,7 @@ Può essere interpretato come rapporto tra la potenza termica scambiata con
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18843,6 +19138,7 @@ Nu=\frac{h\Delta T}{\frac{k}{D}\Delta T}
 \end_inset
 
 
+\series default
 \size default
 Si può ottenere dividendo il flusso di calore per convezione 
 \begin_inset Formula $\left(h\Delta T\right)$
@@ -18857,6 +19153,7 @@ Si può ottenere dividendo il flusso di calore per convezione
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18874,6 +19171,7 @@ Gruppi adimensionali per convezione forzata: Numero di Reynolds
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18896,6 +19194,7 @@ Indica se il moto è in regime laminare o turbolento.
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18913,6 +19212,7 @@ Gruppi adimensionali per convezione forzata: Numero di Prandtl
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -18932,6 +19232,7 @@ Può essere interpretato come rapporto tra la viscosità cinematica ν (da
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19137,7 +19438,7 @@ Flusso su lastra piana
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/flussolp.png
+	filename Graphics/flussolp.png
 	lyxscale 50
 	scale 30
 
@@ -19197,6 +19498,7 @@ La velocità media si determina col principio di conservazione della massa
 \begin_deeper
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19210,6 +19512,7 @@ La velocità media si determina col principio di conservazione della massa
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19229,6 +19532,7 @@ La temperatura media si determina col principio di conservazione dell’energia
 \begin_deeper
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19249,6 +19553,7 @@ Le condizioni termiche sulla superficie di un tubo possono essere approssimate
 \begin_layout Standard
 \align center
 
+\series bold
 \size large
 \begin_inset Formula $T=cost$
 \end_inset
@@ -19262,6 +19567,7 @@ Oppure il flusso termico superficiale:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19279,6 +19585,7 @@ Non possono essere contemporaneamente presenti ambedue le condizioni:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19356,6 +19663,7 @@ Flusso all'interno di tubi
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19369,6 +19677,7 @@ Flusso all'interno di tubi
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19382,6 +19691,7 @@ T_{u}=T_{i}+\frac{\dot{q_{s}}A}{\dot{m}c_{p}}
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19468,6 +19778,7 @@ T_{s}=cost
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19481,6 +19792,7 @@ T_{s}=cost
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19495,6 +19807,7 @@ T_{s}=cost
 \begin_layout Standard
 \align center
 
+\series bold
 \size large
 \begin_inset Formula $\begin{cases}
 dA=pdx\\
@@ -19507,6 +19820,7 @@ dT_{m}=-d\left(T_{s}-T_{m}\right)
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19540,6 +19854,7 @@ Integrando da
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19553,6 +19868,7 @@ Integrando da
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19566,6 +19882,7 @@ Integrando da
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19579,6 +19896,7 @@ Integrando da
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19592,6 +19910,7 @@ Integrando da
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19620,6 +19939,7 @@ Convezione forzata
 \begin_deeper
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19639,6 +19959,7 @@ Convezione naturale
 \begin_deeper
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19668,6 +19989,7 @@ Convezione forzata
 \begin_deeper
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19687,6 +20009,7 @@ Convezione naturale
 \begin_deeper
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19787,6 +20110,7 @@ Temperatura asintotica
 \begin_deeper
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19800,6 +20124,7 @@ J=h\left(T_{p}-T_{f}\right)
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19819,6 +20144,7 @@ Temperatura di film
 \begin_deeper
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19842,6 +20168,7 @@ Temperatura di miscelamento adiabatico
 \begin_deeper
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19855,6 +20182,7 @@ Temperatura di miscelamento adiabatico
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19873,6 +20201,7 @@ Convezione naturale
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19924,6 +20253,7 @@ Gruppi adimensionali per convezione naturale: Numero di Nusselt
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19941,6 +20271,7 @@ Gruppi adimensionali per convezione naturale: Numero di Grashoff
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -19959,6 +20290,7 @@ nto ed il quadrato della risultante delle forze viscose:
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -20070,6 +20402,7 @@ Gruppi adimensionali per convezione naturale: Numero di Prandtl
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -20090,6 +20423,9 @@ Convezione forzata: Peclet
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 Pe=Re\cdot Pr=\frac{wD}{a}
@@ -20105,6 +20441,9 @@ Convezione naturale: Rayleigh
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 Ra=Gr\cdot Pr=\frac{g\beta\Delta TD^{3}}{av}
@@ -20168,6 +20507,9 @@ Analisi dimensionale
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{hD}{k}=cost\cdot\left(\frac{D^{3}\rho\left(\rho g\alpha\left(T_{p}-T_{f}\right)\right)}{\mu^{2}}\right)^{c}\cdot\left(\frac{c_{p}\mu}{k}\right)^{d}
@@ -20192,6 +20534,9 @@ Analisi dimensionale
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 N_{Nu}=cost\cdot N_{Gr}^{c}\cdot N_{Pr}^{d}
@@ -20199,6 +20544,9 @@ N_{Nu}=cost\cdot N_{Gr}^{c}\cdot N_{Pr}^{d}
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -20489,7 +20837,7 @@ Fenomeno volumetrico
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/fenomenovolumetrico.png
+	filename Graphics/fenomenovolumetrico.png
 	lyxscale 50
 	scale 30
 
@@ -20550,7 +20898,7 @@ Fenomeno superficiale
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/fenomenosuperficiale.png
+	filename Graphics/fenomenosuperficiale.png
 	lyxscale 50
 	scale 30
 
@@ -20647,6 +20995,9 @@ visibile Si tratta della componente visibile dello spettro elettromagnetico
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 0,40\mu m<\lambda<0,76\mu m
@@ -20654,6 +21005,9 @@ visibile Si tratta della componente visibile dello spettro elettromagnetico
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -20667,6 +21021,9 @@ infrarossa Si tratta della componente di radiazione termica dei corpi a
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 0,76\mu m<\lambda<100\mu m
@@ -20674,6 +21031,9 @@ infrarossa Si tratta della componente di radiazione termica dei corpi a
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -20687,6 +21047,9 @@ ultravioletta Si tratta della componente di radiazione a bassa lunghezza
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 0,01\mu m<\lambda<0,40\mu m
@@ -20694,6 +21057,9 @@ ultravioletta Si tratta della componente di radiazione a bassa lunghezza
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -20960,7 +21326,7 @@ Corpo nero
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/approxcorponero.png
+	filename Graphics/approxcorponero.png
 	lyxscale 50
 	scale 30
 
@@ -21003,6 +21369,9 @@ e è detta anche potere emissivo del corpo nero ed è espressa dalla relazione
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 E_{n}=\sigma T^{4}\left[\frac{W}{m^{2}}\right]
@@ -21212,7 +21581,7 @@ name "fig:Potere-emissivo"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/vartempirr.png
+	filename Graphics/vartempirr.png
 	lyxscale 50
 	scale 30
 
@@ -21232,6 +21601,9 @@ Legge della distribuzione di Planck
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 E_{n\lambda}=\frac{C_{1}}{\lambda^{5}\left[\exp\left(\frac{C_{2}}{\lambda T}\right)-1\right]}\,\,\,\left[\frac{W}{m^{2}\cdot\mu m}\right]
@@ -21239,6 +21611,9 @@ E_{n\lambda}=\frac{C_{1}}{\lambda^{5}\left[\exp\left(\frac{C_{2}}{\lambda T}\rig
 
 \end_inset
 
+
+\series default
+\size default
  dove:
 \end_layout
 
@@ -21293,6 +21668,9 @@ L'integrale della potenza radiante emessa per una lunghezza d'onda da zero
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \int_{\lambda=0}^{\infty}E_{n\lambda}\left(T\right)=E_{n}=\sigma T^{4}
@@ -21300,6 +21678,9 @@ L'integrale della potenza radiante emessa per una lunghezza d'onda da zero
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -21329,6 +21710,9 @@ La legge che regola i picchi di potere emissivo di un corpo nero è la legge
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \left(\lambda T\right)_{max\,potenza}=2897,8\,\left[\mu m\cdot K\right]
@@ -21336,6 +21720,9 @@ La legge che regola i picchi di potere emissivo di un corpo nero è la legge
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -21349,6 +21736,9 @@ L'emissività di una superficie è il rapporto tra la radiazione emessa dalla
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \epsilon\left(T\right)=\frac{E\left(T\right)}{E_{n}\left(T\right)}=\frac{E\left(T\right)}{\sigma\cdot T^{4}}
@@ -21356,6 +21746,9 @@ L'emissività di una superficie è il rapporto tra la radiazione emessa dalla
 
 \end_inset
 
+
+\series default
+\size default
 dalla quale ovviamente segue che 
 \begin_inset Formula $E\left(T\right)=\epsilon\left(T\right)\cdot\sigma T^{4}$
 \end_inset
@@ -21405,7 +21798,7 @@ Emissività
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/emissività.png
+	filename Graphics/emissività.png
 	lyxscale 50
 	scale 30
 
@@ -21456,7 +21849,7 @@ Emissività
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/emissività2.png
+	filename Graphics/emissività2.png
 	lyxscale 50
 	scale 30
 
@@ -21528,9 +21921,9 @@ Emissività superfici reali
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/emissivitàreali.png
+	filename Graphics/emissivitàreali.png
 	lyxscale 50
-	scale 30
+	scale 25
 
 \end_inset
 
@@ -21580,7 +21973,7 @@ Emissività superfici reali
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/emissivitàreali2.png
+	filename Graphics/emissivitàreali2.png
 	lyxscale 50
 	scale 30
 
@@ -21654,7 +22047,7 @@ Coefficienti
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/irrcoeff.png
+	filename Graphics/irrcoeff.png
 	lyxscale 50
 	scale 30
 
@@ -21670,6 +22063,9 @@ Coefficienti
 
 \begin_layout Itemize
 Coefficiente di assorbimento 
+\series bold
+\size large
+
 \begin_inset Formula $\alpha=\frac{I_{assorbita}}{I_{incidente}}=\frac{I_{ass}}{I}$
 \end_inset
 
@@ -21678,6 +22074,9 @@ Coefficiente di assorbimento
 
 \begin_layout Itemize
 Coefficiente di riflessione 
+\series bold
+\size large
+
 \begin_inset Formula $\rho=\frac{I_{riflessa}}{I_{incidente}}=\frac{I_{rifl}}{I}$
 \end_inset
 
@@ -21686,6 +22085,9 @@ Coefficiente di riflessione
 
 \begin_layout Itemize
 Coefficiente di trasmissione 
+\series bold
+\size large
+
 \begin_inset Formula $\tau=\frac{I_{trasmessa}}{I_{incidente}}=\frac{I_{ass}}{I}$
 \end_inset
 
@@ -21748,7 +22150,7 @@ Superficie esposta
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/supespostairr.png
+	filename Graphics/supespostairr.png
 	lyxscale 50
 	scale 30
 
@@ -21763,6 +22165,9 @@ Superficie esposta
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \begin{cases}
@@ -21845,7 +22250,7 @@ Coefficiente di assorbimento
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/assorbimentoirr.png
+	filename Graphics/assorbimentoirr.png
 	lyxscale 50
 	scale 30
 
@@ -21879,6 +22284,9 @@ Kirchoff Coefficiente di assorbimento ed emissività tendono a uguagliarsi
 
 \begin_deeper
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \alpha=\epsilon
@@ -21943,7 +22351,7 @@ Effetto serra
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/effettoserra.png
+	filename Graphics/effettoserra.png
 	lyxscale 50
 	scale 30
 
@@ -22083,7 +22491,7 @@ Radiazione solare atmosferica
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/radiazionesolare.png
+	filename Graphics/radiazionesolare.png
 	lyxscale 50
 	scale 30
 
@@ -22148,7 +22556,7 @@ Radiazione solare atmosferica
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/radsolare2.png
+	filename Graphics/radsolare2.png
 	lyxscale 50
 	scale 30
 
@@ -22167,6 +22575,9 @@ Radiazione solare atmosferica
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{q}_{netta,irr}=\alpha_{s}\cdot G_{solare}+\alpha_{s}\cdot G_{cielo}-\epsilon\cdot\sigma\cdot T_{s}^{4}
@@ -22178,6 +22589,9 @@ Radiazione solare atmosferica
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{q}_{netta,irr}=\alpha_{s}\cdot G_{solare}+\epsilon\cdot\sigma\cdot\left(T_{cielo}^{4}-T_{s}^{4}\right)
@@ -22239,7 +22653,7 @@ Confronto tra
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/radsolare3.png
+	filename Graphics/radsolare3.png
 	lyxscale 50
 	scale 30
 
@@ -22315,7 +22729,7 @@ Scambio termico per irraggiamento
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/scambioirr.png
+	filename Graphics/scambioirr.png
 	lyxscale 50
 	scale 30
 
@@ -22459,6 +22873,9 @@ per il principio di conservazione dell’energia, poiché tutta la radiazione
 
 \begin_deeper
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \sum_{j=1}^{n}F_{i\rightarrow j}=1
@@ -22606,7 +23023,7 @@ Caso A
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/casoa.png
+	filename Graphics/casoa.png
 	lyxscale 50
 	scale 30
 
@@ -22674,7 +23091,7 @@ Caso B
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/casob.png
+	filename Graphics/casob.png
 	lyxscale 50
 	scale 30
 
@@ -22746,7 +23163,7 @@ Caso C
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/casoc.png
+	filename Graphics/casoc.png
 	lyxscale 50
 	scale 30
 
@@ -22818,7 +23235,7 @@ Caso D
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/casod.png
+	filename Graphics/casod.png
 	lyxscale 50
 	scale 30
 
@@ -22866,6 +23283,9 @@ Bilancio termico di superficie grigia opaca
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 J_{i}=E_{i}+\rho I_{i}
@@ -22874,6 +23294,8 @@ J_{i}=E_{i}+\rho I_{i}
 \end_inset
 
  
+\series default
+
 \begin_inset Formula 
 \[
 J_{i}=\epsilon_{i}E_{in}+\left(1-\epsilon_{i}\right)I_{i}
@@ -22936,6 +23358,9 @@ Potenza termica netta uscente dalla superficie
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{Q}_{i}=A_{i}\left(J_{i}-I_{i}\right)
@@ -22977,6 +23402,9 @@ Bilancio termico di superficie grigia
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{Q}_{i}=A_{i}\left(J_{i}-\frac{J_{i}-\epsilon_{i}E_{in}}{1-\epsilon_{i}}\right)=\frac{E_{in}-J_{i}}{\frac{1-\epsilon_{i}}{\epsilon_{i}A_{i}}}
@@ -22984,6 +23412,9 @@ Bilancio termico di superficie grigia
 
 \end_inset
 
+
+\series default
+\size default
  
 \begin_inset Float figure
 wide false
@@ -23018,7 +23449,7 @@ Bilancio superficie grigia
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/bilanciogrigia.png
+	filename Graphics/bilanciogrigia.png
 	lyxscale 50
 	scale 30
 
@@ -23033,10 +23464,14 @@ Bilancio superficie grigia
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 \begin_inset Formula $\frac{1-\epsilon_{i}}{\epsilon_{i}A_{i}}$
 \end_inset
 
- resistenza 
+ 
+\series default
+resistenza 
 \emph on
 superficiale 
 \emph default
@@ -23081,7 +23516,7 @@ Superfici grigie formanti una cavità
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/cavità.png
+	filename Graphics/cavità.png
 	lyxscale 50
 	scale 30
 
@@ -23100,6 +23535,9 @@ Superfici grigie formanti una cavità
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{Q}_{1,2}=\frac{\sigma_{0}\left(T_{1}^{4}-T_{2}^{4}\right)}{\frac{1-\epsilon_{1}}{\epsilon_{1}A_{1}}+\frac{1}{A_{1}F_{12}}+\frac{1-\epsilon_{2}}{\epsilon_{2}A_{2}}}
@@ -23111,10 +23549,14 @@ Superfici grigie formanti una cavità
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 \begin_inset Formula $\frac{1}{A_{i}F_{12}}$
 \end_inset
 
- resistenza 
+ 
+\series default
+resistenza 
 \emph on
 spaziale 
 \emph default
@@ -23159,7 +23601,7 @@ Elettricità
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/elet.png
+	filename Graphics/elet.png
 	lyxscale 50
 	scale 30
 
@@ -23178,6 +23620,8 @@ Elettricità
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 \begin_inset Formula $\frac{1-\epsilon_{1}}{\epsilon_{1}A_{1}}$
 \end_inset
 
@@ -23185,6 +23629,8 @@ Elettricità
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 \begin_inset Formula $\frac{1}{A_{1}F_{12}}$
 \end_inset
 
@@ -23192,7 +23638,16 @@ Elettricità
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 \begin_inset Formula $\frac{1-\epsilon_{2}}{\epsilon_{2}A_{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -23233,7 +23688,7 @@ Esempio
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../notes/Graphics/eselettricità.png
+	filename Graphics/eselettricità.png
 	lyxscale 50
 	scale 30
 
@@ -23252,6 +23707,9 @@ Esempio
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{Q}_{1,2}=\frac{\sigma_{0}\left(T_{1}^{4}-T_{2}^{4}\right)}{\frac{1-\epsilon_{1}}{\epsilon_{1}A_{1}}+\frac{1}{A_{1}F_{1s}}+\frac{1-\epsilon_{s1}}{\epsilon_{s1}A_{s1}}+\frac{1-\epsilon_{s2}}{\epsilon_{s2}A_{s2}}+\frac{1}{A_{s2}F_{s2}}+\frac{1-\epsilon_{2}}{\epsilon_{2}A_{2}}}
@@ -23259,6 +23717,9 @@ Esempio
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 

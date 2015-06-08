@@ -10618,6 +10618,7 @@ liquido
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -10634,6 +10635,9 @@ Volume specifico
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 v=\left(1-x\right)v_{l}+xv_{v}=v_{l}+xv_{lv}
@@ -10649,6 +10653,9 @@ Energia interna
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 u=\left(1-x\right)u_{l}+xu_{v}=u_{l}+xu_{lv}
@@ -10664,6 +10671,9 @@ Entropia
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 s=\left(1-x\right)s_{l}+xs_{v}=s_{l}+xs_{lv}
@@ -10679,6 +10689,9 @@ Entalpia
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 h=\left(1-x\right)h_{l}+xh_{v}=h_{l}+xh_{lv}
@@ -12040,7 +12053,7 @@ di
 massa Le proprietà per unità di massa coinvolgono le frazioni in massa.
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $u_{m}=\sum_{i=1}^{k}mf_{i}u_{i}$
@@ -12055,7 +12068,7 @@ massa Le proprietà per unità di massa coinvolgono le frazioni in massa.
  
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $h_{m}=\sum_{i=1}^{k}mf_{i}h_{i}$
@@ -12068,7 +12081,7 @@ massa Le proprietà per unità di massa coinvolgono le frazioni in massa.
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $s_{m}=\sum_{i=1}^{k}mf_{i}s_{i}$
@@ -12083,7 +12096,7 @@ massa Le proprietà per unità di massa coinvolgono le frazioni in massa.
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $c_{v,m}=\sum_{i=1}^{k}mf_{i}c_{v,i}$
@@ -12098,7 +12111,7 @@ massa Le proprietà per unità di massa coinvolgono le frazioni in massa.
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $c_{p,m}=\sum_{i=1}^{k}mf_{i}c_{p,i}$
@@ -12142,7 +12155,7 @@ miscela Le proprietà estensive specifiche di una miscela sono determinate
  attraverso la media pesata.
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $\dot{u}_{m}=\sum_{i=0}^{k}y_{i}\dot{u}_{i}$
@@ -12157,7 +12170,7 @@ miscela Le proprietà estensive specifiche di una miscela sono determinate
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $\dot{h}_{m}=\sum_{i=0}^{k}y_{i}\dot{h}_{i}$
@@ -12172,7 +12185,7 @@ miscela Le proprietà estensive specifiche di una miscela sono determinate
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $\dot{s}_{m}=\sum_{i=0}^{k}y_{i}\dot{s}_{i}$
@@ -12187,7 +12200,7 @@ miscela Le proprietà estensive specifiche di una miscela sono determinate
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $\dot{c}_{v,m}=\sum_{i=0}^{k}y_{i}\dot{c}_{v,i}$
@@ -12202,7 +12215,7 @@ miscela Le proprietà estensive specifiche di una miscela sono determinate
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \size large
 \begin_inset Formula $\dot{c}_{p,m}=\sum_{i=0}^{k}y_{i}\dot{c}_{p,i}$
@@ -12374,6 +12387,9 @@ Per un ciclo simmetrico si possono scrivere le seguenti equazioni:
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+\size large
 \begin_inset Formula $v_{1}v_{3}=v_{2}v_{4}$
 \end_inset
 
@@ -12381,6 +12397,9 @@ Per un ciclo simmetrico si possono scrivere le seguenti equazioni:
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+\size large
 \begin_inset Formula $P_{1}P_{3}=P_{2}P_{4}$
 \end_inset
 
@@ -12388,6 +12407,9 @@ Per un ciclo simmetrico si possono scrivere le seguenti equazioni:
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+\size large
 \begin_inset Formula $T_{1}T_{3}=T_{2}T_{4}$
 \end_inset
 
@@ -12406,6 +12428,9 @@ Inoltre:
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+\size large
 \begin_inset Formula $P_{1}v_{1}^{n}=P_{2}v_{2}^{n}$
 \end_inset
 
@@ -12413,6 +12438,9 @@ Inoltre:
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+\size large
 \begin_inset Formula $P_{2}v_{2}^{m}=P_{3}v_{3}^{m}$
 \end_inset
 
@@ -12420,6 +12448,9 @@ Inoltre:
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+\size large
 \begin_inset Formula $P_{3}v_{3}^{n}=P_{4}v_{4}^{n}$
 \end_inset
 
@@ -12427,6 +12458,9 @@ Inoltre:
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
+\size large
 \begin_inset Formula $P_{4}v_{4}^{m}=P_{1}v_{1}^{m}$
 \end_inset
 
@@ -12445,6 +12479,9 @@ Moltiplicando membro a membro le equazioni di pari indice si ottiene:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \begin{equation}
 P_{1}P_{3}\left(v_{1}v_{3}\right)^{n}=P_{2}P_{4}\left(v_{2}v_{4}\right)^{n}
@@ -12456,6 +12493,9 @@ P_{1}P_{3}\left(v_{1}v_{3}\right)^{n}=P_{2}P_{4}\left(v_{2}v_{4}\right)^{n}
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \begin{equation}
 P_{3}P_{1}\left(v_{3}v_{1}\right)^{m}=P_{2}P_{4}\left(v_{2}v_{4}\right)^{m}
@@ -12472,6 +12512,9 @@ Dividendo membro a membro:
 
 \begin_layout Standard
 \align center
+
+\series bold
+\size large
 \begin_inset Formula $v_{1}v_{3}=v_{2}v_{4}$
 \end_inset
 
@@ -12488,6 +12531,9 @@ che inserita nella formula
 
 \begin_layout Standard
 \align center
+
+\series bold
+\size large
 \begin_inset Formula $P_{1}P_{3}=P_{2}P_{4}$
 \end_inset
 
@@ -12496,6 +12542,9 @@ che inserita nella formula
 
 \begin_layout Standard
 \align center
+
+\series bold
+\size large
 \begin_inset Formula $T_{1}T_{3}=T_{2}T_{4}$
 \end_inset
 
@@ -12601,6 +12650,9 @@ irreversibilità esterna
 
 \begin_layout Standard
 \align center
+
+\series bold
+\size large
 \begin_inset Formula $\eta_{rev}=1-\frac{T_{F}}{T_{C}}>\eta_{Ciclo}=1-\frac{T_{1}}{T_{3}}$
 \end_inset
 
@@ -12608,12 +12660,14 @@ irreversibilità esterna
 \end_layout
 
 \begin_layout Standard
-\align center
 
 \series bold
 Bilancio entropico su tutta la macchina termica
 \series default
  
+\series bold
+\size large
+
 \begin_inset Formula $-\frac{Q_{C}}{T_{C}}+\frac{Q_{F}}{T_{F}}=S_{irr}$
 \end_inset
 
@@ -12626,9 +12680,15 @@ Bilancio entropico su tutta la macchina termica
 Per il ciclo di Carnot vale
 \series default
  
+\series bold
+\size large
+
 \begin_inset Formula $\frac{Q_{C}}{T_{3}}=\frac{Q_{F}}{T_{1}}=\Delta S$
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -12665,7 +12725,6 @@ irreversibilità interna
 \end_layout
 
 \begin_layout Standard
-\align center
 
 \series bold
 Bilancio entropico su tutta la macchina termica
@@ -12678,6 +12737,9 @@ Bilancio entropico su tutta la macchina termica
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{Q_{C}}{T_{C}}=S_{3}-S_{2}
@@ -12689,6 +12751,9 @@ Bilancio entropico su tutta la macchina termica
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{Q_{F}}{T_{F}}=S_{4}-S_{1}
@@ -12700,6 +12765,9 @@ Bilancio entropico su tutta la macchina termica
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 S_{2}-S_{3}+S_{4}-S_{1}=S_{irr}>0
@@ -12772,9 +12840,15 @@ Joule-Brayton
 \end_layout
 
 \begin_layout Standard
-Nella figura sottostante si può osservare il ciclo di Joule-Brayton che
- coinvolge una turbina, un compressore e due scambiatori di calore (caldo
- e freddo).
+Nella Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ciclo-JB"
+
+\end_inset
+
+ si può osservare il ciclo di Joule-Brayton che coinvolge una turbina, un
+ compressore e due scambiatori di calore (caldo e freddo).
 \end_layout
 
 \begin_layout Standard
@@ -12794,6 +12868,13 @@ status open
 
 \emph on
 Ciclo JB
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ciclo-JB"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -12813,7 +12894,7 @@ Ciclo JB
 \begin_inset Graphics
 	filename Graphics/ciclo-jb.png
 	lyxscale 50
-	scale 20
+	scale 30
 
 \end_inset
 
@@ -12872,6 +12953,7 @@ simmetrico) Il rendimento di JB è inferiore del rendimento di Carnot.
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -12964,6 +13046,7 @@ ciclo
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -12977,6 +13060,7 @@ ciclo
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -12990,6 +13074,7 @@ ciclo
 
 \begin_layout Standard
 
+\series bold
 \size large
 \begin_inset Formula 
 \[
@@ -12998,6 +13083,8 @@ ciclo
 
 \end_inset
 
+
+\series default
  
 \end_layout
 
@@ -13041,6 +13128,9 @@ Il rendimento del ciclo di Joule-Brayton è funzione del solo rapporto di
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 r_{Pmin}=1
@@ -13048,6 +13138,9 @@ r_{Pmin}=1
 
 \end_inset
 
+
+\series default
+\size default
  E un valore massimo quando 
 \begin_inset Formula $T_{2}$
 \end_inset
@@ -13060,6 +13153,9 @@ r_{Pmin}=1
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 r_{Pmax}=\left(\frac{T_{3}}{T_{1}}\right)^{\frac{k}{k-1}}
@@ -13076,6 +13172,9 @@ Anche il lavoro netto prodotto dal ciclo JB ideale è funzione del solo rapporto
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \begin{eqnarray*}
 l & = & l_{T}-l_{C}=c_{P}\left(T_{3}-T_{4}\right)-c_{P}\left(T_{2}-T_{1}\right)=c_{P}T_{3}\left(1-\frac{T_{4}}{T_{3}}\right)-c_{P}T_{1}\left(\frac{T_{2}}{T_{1}}-1\right)=\\
@@ -13092,6 +13191,9 @@ Si ha il massimo lavoro in corrispondenza del rapporto di compressione:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 r_{Popt}=\left(\frac{T_{3}}{T_{1}}\right)^{\frac{k}{2\left(k-1\right)}}=\sqrt{r_{Pmax}}
@@ -13107,6 +13209,9 @@ Ricordando poi che in una turbina isoentropica si ha:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{T_{3}}{T_{4}}=\left(\frac{P_{3}}{P_{4}}\right)^{\frac{R}{c_{P}}}=\left(\frac{P_{3}}{P_{4}}\right)^{\frac{k-1}{k}}
@@ -13134,6 +13239,9 @@ E inserendo in questa espressione al posto di
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 T_{4}=T_{2}=\sqrt{T_{1}T_{3}}
@@ -13189,7 +13297,7 @@ JB con Rigenerazione
 \begin_inset Graphics
 	filename Graphics/jbr.png
 	lyxscale 50
-	scale 20
+	scale 30
 
 \end_inset
 
@@ -13250,6 +13358,9 @@ simmetrico)
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \eta_{rig}=1-\frac{\dot{L}}{\dot{Q}}=\frac{\dot{L}_{t}-\dot{L}_{c}}{\dot{Q}}=\frac{\left(T_{3}-T_{4}\right)-\left(T_{2}-T_{1}\right)}{\left(T_{3}-T_{4}\right)}1-\frac{T_{2}-T_{1}}{T_{3}-T_{4}}
@@ -13261,6 +13372,9 @@ simmetrico)
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \eta_{rig}=1-\frac{T_{2}}{T_{3}}=1-\frac{T_{2}T_{1}}{T_{3}T_{1}}=1-\frac{T_{1}}{T_{3}}r_{P}^{\frac{k-1}{k}}
@@ -13397,6 +13511,9 @@ utile solo per cicli simmetrici
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \epsilon=\frac{\dot{Q}_{F}}{\dot{Q}_{C}-\dot{Q}_{F}}=\left(\frac{T_{2}-T_{1}}{\left(T_{3}-T_{4}\right)-\left(T_{2}-T_{1}\right)}\right)=\frac{T_{2}}{T_{3}-T_{2}}=\frac{T_{1}}{T_{4}-T_{1}}=\left(\frac{1}{r^{\frac{k-1}{k}}-1}\right)
@@ -13534,6 +13651,9 @@ Il calore addotto, considerando una trasformazione isocora, vale:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 q_{in}=u_{3}-u_{2}
@@ -13550,6 +13670,9 @@ Ritenendo costante il calore specifico nel range di temperatura ipotizzabile
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 q_{in}=u_{3}-u_{2}=c_{v}\left(T_{3}-T_{2}\right)
@@ -13565,6 +13688,9 @@ Analogamente l'espressione del calore sottratto vale:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 q_{out}=u_{4}-u_{1}=c_{v}\left(T_{4}-T_{1}\right)
@@ -13580,6 +13706,9 @@ Il rendimento termodinamico del ciclo vale:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \eta_{th}=\frac{\left(q_{in}-q_{out}\right)}{q_{in}}=1-\frac{q_{out}}{q_{in}}=1-\frac{T_{4}-T_{1}}{T_{3}-T_{2}}=1-\frac{T_{1}\left(\frac{T_{4}}{T_{1}}-1\right)}{T_{2}\left(\frac{T_{3}}{T_{2}}-1\right)}=1-\frac{T_{1}}{T_{2}}
@@ -13591,6 +13720,9 @@ Il rendimento termodinamico del ciclo vale:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \Delta s_{1-2}=c_{v}\ln\frac{T_{2}}{T_{1}}+R^{*}\ln\frac{V_{2}}{V_{1}}=0
@@ -13598,10 +13730,16 @@ Il rendimento termodinamico del ciclo vale:
 
 \end_inset
 
+
+\series default
+\size default
  da cui:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \left(\frac{T_{2}}{T_{1}}\right)^{c_{v}}=\left(\frac{V_{1}}{V_{2}}\right)^{R^{*}}
@@ -13613,6 +13751,9 @@ Il rendimento termodinamico del ciclo vale:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \left(\frac{T_{2}}{T_{1}}\right)=\left(\frac{V_{1}}{V_{2}}\right)^{\frac{R^{*}}{c_{v}}}=r_{vol}^{\frac{R^{*}}{c_{v}}}=r_{vol}^{k-1}
@@ -13624,6 +13765,9 @@ Il rendimento termodinamico del ciclo vale:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \eta_{otto}=1-r_{vol}^{1-k}
@@ -13652,6 +13796,9 @@ Ricordando che sia la compressione sia l'espansione sono assunte isoentropiche,
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{T_{1}}{T_{2}}=\left(\frac{v_{2}}{v_{1}}\right)^{k-1}=\left(\frac{v_{3}}{v_{4}}\right)^{k-1}=\frac{T_{4}}{T_{3}}
@@ -13659,6 +13806,9 @@ Ricordando che sia la compressione sia l'espansione sono assunte isoentropiche,
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -13667,6 +13817,9 @@ quindi:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{T_{4}}{T_{1}}=\frac{T_{3}}{T_{2}}
@@ -13682,6 +13835,9 @@ e infine:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \eta_{th}=1-r^{1-k}
@@ -13722,6 +13878,9 @@ Per quanto riguarda il lavoro specifico prodotto nel ciclo Otto si ha:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 l=c_{v}\left(T_{3}-T_{4}\right)-c_{v}\left(T_{2}-T_{1}\right)
@@ -13733,6 +13892,9 @@ l=c_{v}\left(T_{3}-T_{4}\right)-c_{v}\left(T_{2}-T_{1}\right)
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 l=c_{v}T_{3}\left(1-\frac{T_{4}}{T_{3}}\right)-c_{v}T_{1}\left(\frac{T_{2}}{T_{1}}-1\right)
@@ -13744,6 +13906,9 @@ l=c_{v}T_{3}\left(1-\frac{T_{4}}{T_{3}}\right)-c_{v}T_{1}\left(\frac{T_{2}}{T_{1
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 l=c_{v}T_{3}\left(1-\frac{1}{r_{v}^{k-1}}\right)-c_{v}T_{1}\left(r_{v}^{k-1}-1\right)
@@ -13850,6 +14015,9 @@ ideale)
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \eta_{Diesel}=\frac{L}{Q_{C}}=1-\frac{c_{v}\left(T_{4}-T_{1}\right)}{c_{P}\left(T_{3}-T_{2}\right)}=1-\frac{c_{v}T_{1}\left(\frac{T_{4}}{T_{1}}-1\right)}{c_{P}T_{2}\left(\frac{T_{\text{3}}}{T_{2}}-1\right)}
@@ -13873,6 +14041,9 @@ ponendo
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \eta_{Diesel}=1-\frac{1}{r^{k-1}}\frac{1}{k}\frac{\left(z^{k}-1\right)}{z-1}
@@ -13892,6 +14063,9 @@ Durante la trasformazione
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{T_{1}}{T_{2}}=\left(\frac{v_{2}}{v_{1}}\right)^{k-1}=r^{k-1}
@@ -13911,6 +14085,9 @@ Durante la trasformazione
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 z=\frac{V_{3}}{V_{2}}=\frac{T_{3}}{T_{2}}
@@ -13922,6 +14099,9 @@ z=\frac{V_{3}}{V_{2}}=\frac{T_{3}}{T_{2}}
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \left|\Delta s_{2-3}\right|=\left|\Delta s_{4-1}\right|\left(\frac{T_{3}}{T_{2}}\right)^{c_{P}}=\left(\frac{T_{4}}{T_{1}}\right)^{c_{v}}
@@ -13933,6 +14113,9 @@ z=\frac{V_{3}}{V_{2}}=\frac{T_{3}}{T_{2}}
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{T_{4}}{T_{1}}=\left(\frac{T_{3}}{T_{2}}\right)^{\frac{c_{P}}{c_{v}}}=\left(\frac{T_{4}}{T_{1}}\right)^{c_{v}}
@@ -13944,6 +14127,9 @@ z=\frac{V_{3}}{V_{2}}=\frac{T_{3}}{T_{2}}
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \frac{T_{4}}{T_{1}}=\left(\frac{T_{3}}{T_{2}}\right)^{\frac{c_{P}}{c_{v}}}=\left(\frac{V_{3}}{V_{2}}\right)^{\frac{c_{P}}{c_{v}}}=z^{k}
@@ -13951,6 +14137,9 @@ z=\frac{V_{3}}{V_{2}}=\frac{T_{3}}{T_{2}}
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -13970,6 +14159,1132 @@ Ciclo Ericson
 Il ciclo Ericson è costituito da due isoterme e due isobare.
 \end_layout
 
+\begin_layout Part
+Cicli termodinamici a vapore
+\end_layout
+
+\begin_layout Section
+Caratteristiche del fluido di lavoro
+\end_layout
+
+\begin_layout Itemize
+Elevata massa volumica
+\end_layout
+
+\begin_layout Itemize
+Elevata entalpia di transizione di fase
+\end_layout
+
+\begin_layout Itemize
+Elevata temperatura critica
+\end_layout
+
+\begin_layout Itemize
+Temperatura dello stato triplo inferiore alla temperatura minima del ciclo
+\end_layout
+
+\begin_layout Itemize
+Fluido non corrosivo e non tossico
+\end_layout
+
+\begin_layout Itemize
+Fluido chimicamente stabile
+\end_layout
+
+\begin_layout Itemize
+Fluido facilmente reperibile e di basso costo
+\end_layout
+
+\begin_layout Itemize
+Elevata pendenza nel piano 
+\begin_inset Formula $T-S$
+\end_inset
+
+ della curva limite superiore
+\end_layout
+
+\begin_layout Itemize
+Pressione di condensazione superiore alla pressione atmosferica
+\end_layout
+
+\begin_layout Subsection
+Ciclo Motore a Vapore
+\end_layout
+
+\begin_layout Subsubsection
+Ciclo di Carnot
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Ciclo di Carnot 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ciclo-di-Carnot"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/cc.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si potrebbe pensare di realizzare un ciclo di Carnot all'interno della curva
+ di saturazione, il problema è però sulle isoentropiche.
+ Le turbine che si potrebbe utilizzare si deteriorerebbero velocemente,
+ questo per via dell'alta percentuale di vapore, ad esempio nel punto 4
+ in Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ciclo-di-Carnot"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Ciclo Rankine semplice
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Ciclo Rankine semplice
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/gcr.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $1\rightarrow2$
+\end_inset
+
+: applico una 
+\series bold
+pompa 
+\series default
+e porto in pressione il liquido
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $2\rightarrow3$
+\end_inset
+
+: 
+\series bold
+scaldo 
+\series default
+il materiale per passare da liquido sottorafreddato a liquido saturo
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $3\rightarrow4$
+\end_inset
+
+: continuando a fornire 
+\series bold
+calore 
+\series default
+raggiungo le condizioni di calore saturo
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $4\rightarrow5$
+\end_inset
+
+: in questo modo arrivo al punto 
+\begin_inset Formula $5$
+\end_inset
+
+ con il titolo molto minore del 
+\begin_inset Formula $100\%$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Rankine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/ciclorsemplice.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ciclo Rankine con surriscaldamento
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Rankine surriscaldamento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/crs.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nel Rankine con surriscaldamento i punti interessanti sono 
+\begin_inset Formula $1,\,2,\,5,\,6$
+\end_inset
+
+.
+ I punti 
+\begin_inset Formula $3$
+\end_inset
+
+ e 
+\begin_inset Formula $4$
+\end_inset
+
+ sono discontinuità grafiche ma in realtà fanno parte del processo di riscaldame
+nto dal punto 
+\begin_inset Formula $2$
+\end_inset
+
+ al punto 
+\begin_inset Formula $5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+nel tratto 
+\begin_inset Formula $4\rightarrow5$
+\end_inset
+
+ continuo a scaldare e porto il sistema in condizioni di vapore surriscaldato
+\end_layout
+
+\begin_layout Itemize
+nel tratto 
+\begin_inset Formula $5\rightarrow6$
+\end_inset
+
+ espando (turbina) e riesco ad avvicinarmi ad un titolo del 
+\begin_inset Formula $100\%$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Surriscaldamento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/ciclorsurr.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Soluzioni per il miglioramento termodinamico del ciclo Rankine
+\end_layout
+
+\begin_layout Itemize
+Riduzione della pressione di condensazione
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Riduzione della pressione di condensazione
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Condensazione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/rankinecond.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per migliorare il rendimento del ciclo bisogna aumentare l'area.
+ Non bisogna scendere sotto la pressione atmosferica altrimenti entra aria.
+ Inoltre si avrebbe un titolo più basso.
+\end_layout
+
+\begin_layout Itemize
+Aumento della temperatura finale di surriscaldamento
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Aumento della temperatura finale di surriscaldamento
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Surriscaldamento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/rankinesurr.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In questo caso surriscaldando fino al tratto in rosso da 
+\begin_inset Formula $5\rightarrow6$
+\end_inset
+
+ si rischia di rovinare i materiali.
+\end_layout
+
+\begin_layout Itemize
+Aumento della pressione di vaporizzazione
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Aumento della pressione di vaporizzazione
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Vaporizzazione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/rankinevap.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Poiché i riscaldamenti sono isobari:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $P_{2}=P_{3}=P_{5}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $P_{4}=P_{5^{'}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Al punto 
+\begin_inset Formula $5$
+\end_inset
+
+ si raggiunge la temperatura massima poi si espande fino ad una certa pressione
+ ma anziché raggiungere la pressione di condensazione ricomincio a scaldare.
+\end_layout
+
+\begin_layout Standard
+In realtà al punto 
+\begin_inset Formula $6$
+\end_inset
+
+ si espande fino a raggiungere la curva di saturazione.
+\end_layout
+
+\begin_layout Itemize
+Surriscaldamenti ripetuti
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Surriscaldamenti ripetuti 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/surrripetutir.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ciclo frigorifero a vapore
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Ciclo frigorifero a vapore
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/frigvap.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $1\rightarrow2$
+\end_inset
+
+ processo isoentralpico
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $2\rightarrow3$
+\end_inset
+
+ evaporazione dino a raggiungere vapor saturo
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $3\rightarrow4$
+\end_inset
+
+ compressione fino a vapore surriscaldato
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $5\rightarrow1$
+\end_inset
+
+ raffreddamento
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Schematizzazione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/cfv.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Effetto Joule Thomson
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Effetto Joule-Thomson
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/joule-thomson.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Q-L=\Delta U
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+-\left(-P_{1}V_{1}+P_{2}V_{2}\right)=U_{2}-U_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+U_{1}+P_{1}V_{1}=U_{2}+P_{2}V_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+H_{1}=H_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\delta q+v\,dP=dh
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\delta q_{rev}+Tds_{irr}+v\,dP=dh
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Tds_{irr}+v\,dP=dh
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $ds_{irr}>0$
+\end_inset
+
+, 
+\begin_inset Formula $dP<0$
+\end_inset
+
+, 
+\begin_inset Formula $P_{2}<P_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La proprietà misurata nel corso dell'esperimento è il rapporto tra la variazione
+ di temperatura e quella della pressione, ad 
+\begin_inset Formula $H$
+\end_inset
+
+ costante.
+ Se passiamo al limite 
+\begin_inset Formula $\Delta P$
+\end_inset
+
+ che tende a zero otteniamo il coefficiente di Joule Thomson.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\mu_{JT}=\left(\frac{\partial T}{\partial P}\right)_{H}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ossia la derivata parziale della temperatura in funzione della pressione
+ in condizioni isentalpiche.
+ Per il gas perfetto 
+\begin_inset Formula $μ=0$
+\end_inset
+
+ ciò vuol dire che l'espansione secondo Joule-Thomson non ne modifica la
+ temperatura.
+ I gas reali presentano coefficienti di Joule-Thomson non nulli.
+ Il coefficiente di Joule Thomson è positivo quando si osserva il raffreddamento
+ del gas infatti dP è sempre negativa.
+ E' negativo quando il gas si scalda a seguito dell'espansione poichè dT
+ diviene una quantità positiva.
+ I gas presentano una temperatura di inversione alla quale μ cambia segno.
+\end_layout
+
+\begin_layout Description
+Spiegazione
+\begin_inset space ~
+\end_inset
+
+fisica
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Quando un gas si espande la distanza media tra le sue molecole aumenta.
+ Data la presenza di forze attrattive intermolecolari, l'espansione causa
+ un aumento di energia potenziale del gas.
+ Se non viene estratto lavoro dal sistema durante il processo di espansione
+ ("espansione libera") e non viene trasferito calore, l'energia totale del
+ gas rimane la stessa per la conservazione dell'energia.
+ L'aumento di energia potenziale produce quindi una diminuzione dell'energia
+ cinetica e quindi una diminuzione di temperatura del gas.
+ Un altro meccanismo ha invece effetti opposti: durante le collisioni tra
+ le molecole del gas, l'energia cinetica viene temporaneamente convertita
+ in energia potenziale.
+ Mentre la distanza intermolecolare media aumenta, c'è una diminuzione del
+ numero di collisioni per unità di tempo, che causa a sua volta una diminuzione
+ dell'energia potenziale media.
+ Dato che l'energia totale viene conservata questo comporta un aumento dell'ener
+gia cinetica (e quindi della temperatura).
+ Se domina il primo effetto (lavoro interno fatto contro le forze attrattive
+ intermolecolari) l'espansione libera causa una diminuzione della temperatura.
+ Se domina il secondo effetto (diminuzione dell'energia potenziale associata
+ alle collisioni) l'espansione libera provoca un aumento di temperatura.
+\end_layout
+
+\end_deeper
 \begin_layout Part
 Trasmissione del calore
 \end_layout
@@ -14414,6 +15729,9 @@ Quando si conosce la potenza scambiata
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 Q=\int_{0}^{\tau}\dot{Q}d\tau
@@ -14463,6 +15781,9 @@ flusso termico areico
 
 \begin_deeper
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \text{Φ}\left[\frac{W}{m^{2}}\right]=\frac{\dot{Q}}{A}
@@ -14470,6 +15791,9 @@ flusso termico areico
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -14488,6 +15812,9 @@ calore Il flusso di calore può essere definito dalla relazione:
 
 \begin_deeper
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 φ=f\left(parametro,\,\Delta T\right)
@@ -14495,6 +15822,9 @@ calore Il flusso di calore può essere definito dalla relazione:
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -14538,6 +15868,9 @@ nei gas
 
 \end_deeper
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 q^{\rightarrow}=-k\,grad\,T
@@ -14545,6 +15878,9 @@ q^{\rightarrow}=-k\,grad\,T
 
 \end_inset
 
+
+\series default
+\size default
  
 \end_layout
 
@@ -14620,6 +15956,9 @@ esempio La potenza termica trasmessa per conduzione attraverso una lastra
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{Q}_{COND}=-kA\frac{\Delta T}{\Delta x}
@@ -14812,6 +16151,9 @@ La potenza termica trasmessa per convezione è espressa dalla relazione (Legge
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{Q}_{CONV}=hA\left(T_{s}-T_{f}\right)
@@ -14925,6 +16267,9 @@ corpo nero
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{Q}_{e_{max}}=\sigma A\left(T_{s}\right)^{4}
@@ -14953,6 +16298,9 @@ irraggiamento La potenza emessa per irraggiamento da una qualsiasi superficie
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{Q}_{emiss}=\epsilon\sigma A\left(T_{s}\right)^{4}
@@ -15073,6 +16421,9 @@ Il caso di una superficie piccola è semplice:
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size large
 \begin_inset Formula 
 \[
 \dot{Q}_{IRR}=\epsilon\sigma A\left(T_{s}^{4}-T_{c}^{4}\right)
@@ -15083,7 +16434,7290 @@ Il caso di una superficie piccola è semplice:
 
 \end_layout
 
+\begin_layout Section
+Conduzione
+\end_layout
+
+\begin_layout Description
+Definizione Per conduzione termica si intende la trasmissione di calore
+ per contatto molecolare diretto.
+ Il principio alla base della conduzione è diverso a seconda della struttura
+ fisica del corpo: se la conduzione termica avviene nei gas è dovuta alla
+ diffusione atomica e molecolare, se invece avviene nei liquidi e nei solidi
+ è a causa di onde elastiche; nei materiali metallici il fenomeno è principalmen
+te dovuto alla diffusione degli elettroni liberi dato che è trascurabile
+ il contributo dell'oscillazione elastica del reticolo cristallino.
+\end_layout
+
+\begin_layout Subsection
+Equazione di Fourier
+\end_layout
+
 \begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\bar{\nabla}=\overrightarrow{i}\frac{\partial}{\partial x}+\overrightarrow{j}\frac{\partial}{\partial y}+\overrightarrow{k}\frac{\partial}{\partial z}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\bar{\nabla T}=gradT=\overrightarrow{i}\frac{\partial T}{\partial x}+\overrightarrow{j}\frac{\partial T}{\partial y}+\overrightarrow{k}\frac{\partial T}{\partial z}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\bar{\nabla}\cdot\overrightarrow{v}=div\,\overrightarrow{v}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\bar{\nabla}\times\overrightarrow{v}=rot\,\overrightarrow{v}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\begin{eqnarray*}
+\left(\bar{\nabla}\cdot\bar{\nabla}\right)T & = & laplaciano\,di\,T=\\
+ & = & \left(\overrightarrow{i}\frac{\partial}{\partial x}+\overrightarrow{j}\frac{\partial}{\partial y}+\overrightarrow{k}\frac{\partial}{\partial z}\right)\cdot\left(\overrightarrow{i}\frac{\partial T}{\partial x}+\overrightarrow{j}\frac{\partial T}{\partial y}+\overrightarrow{k}\frac{\partial T}{\partial z}\right)=\\
+ & = & \frac{\partial^{2}T}{\partial x^{2}}+\frac{\partial^{2}T}{\partial y^{2}}+\frac{\partial^{2}T}{\partial z^{2}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\begin_layout Standard
+Definendo:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\overrightarrow{q}=$
+\end_inset
+
+ vettore flusso di calore 
+\begin_inset Formula $\left[\frac{W}{m^{2}}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $k=$
+\end_inset
+
+ conduttività termica 
+\begin_inset Formula $\left[\frac{W}{mK}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\sigma=$
+\end_inset
+
+ potenza generata nell'unità di volume 
+\begin_inset Formula $\left[\frac{W}{m^{3}}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si può scrivere: 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{d}{dt}\int_{v}u\,dm & = & \sum\dot{Q}^{\leftarrow}+\dot{Q}_{gen}=\\
+ & = & \frac{d}{dt}\int_{v}c_{v}T\rho dV=\\
+ & = & -\int_{S}\overrightarrow{q}\cdot\overrightarrow{n}dS+\int_{v}\sigma dV
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per il teorema della divergenza:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{d}{dt}\int_{v}c_{v}T\rho dV=-\int_{v}div\,\overrightarrow{q}dV+\int_{v}\sigma dV
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ed essendo, per il postulato di Fourier:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\overrightarrow{q}=-kgradT
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{d}{dt}\int_{v}c_{v}T\rho dV=-\int_{v}div\left(-kgradT\right)dV+\int_{v}\sigma dV
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Poiché 
+\begin_inset Formula $V$
+\end_inset
+
+ non è funzione di 
+\begin_inset Formula $T$
+\end_inset
+
+ e ipotizzando che 
+\begin_inset Formula $k$
+\end_inset
+
+ non dipenda dalla posizione:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\int_{v}\frac{\partial}{\partial t}c_{v}\rho TdV-\int_{v}k\nabla^{2}TdV-\int_{v}\sigma dV=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\int_{v}\left(\frac{\partial}{\partial t}c_{v}\rho T-k\nabla^{2}T-\sigma\right)dV=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Deve valere per ogni 
+\begin_inset Formula $dV$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{\partial}{\partial t}\left(c_{v}\rho T\right)=k\nabla^{2}T+\sigma
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ed infine si ricava l'
+\series bold
+equazione di Fourier
+\series default
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{\rho c_{v}}{k}\frac{\partial T}{\partial t}=\nabla^{2}T+\frac{\sigma}{k}
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\begin_layout Standard
+L’equazione di bilancio energetico (equazione di Fourier) è una equazione
+ differenziale alle derivate parziali, lineare in 
+\begin_inset Formula $T=\left(x,y,z,t\right)$
+\end_inset
+
+ del 
+\begin_inset Formula $2\text{°}$
+\end_inset
+
+ ordine rispetto a 
+\begin_inset Formula $x,y,z$
+\end_inset
+
+ e del 
+\begin_inset Formula $1\text{°}$
+\end_inset
+
+ ordine rispetto a 
+\begin_inset Formula $t$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Casi particolari dell'equazione di Fourier
+\end_layout
+
+\begin_layout Enumerate
+Assenza di generazione di potenza
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\sigma=0\rightarrow\nabla^{2}T=\frac{\rho c_{v}}{k}\frac{\partial T}{\partial t}
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Regime stazionario (e prende il nome di 
+\series bold
+equazione di Poisson
+\series default
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{\partial T}{\partial t}=0\rightarrow\nabla^{2}T+\frac{\sigma}{k}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Equazione di Laplace
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\sigma=0\,;\,\frac{\partial T}{\partial t}=0\rightarrow\nabla^{2}T=0
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Sistemi di coordinate
+\end_layout
+
+\begin_layout Standard
+Nell'impostare il problema differenziale è importante scegliere il sistema
+ di coordinate che permetta di eliminare una o più variabili indipendenti.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Coordinate cartesiane
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{\partial^{2}T}{\partial x^{2}}+\frac{\partial^{2}T}{\partial y^{2}}+\frac{\partial^{2}T}{\partial z^{2}}+\frac{\sigma\left(x,y,z,t\right)}{k}=\frac{\rho c_{v}}{k}\frac{\partial T}{\partial t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+Caso particolare dotato di simmetria (geometria + condizioni al contorno)
+\end_layout
+
+\begin_layout Description
+Parete
+\begin_inset space ~
+\end_inset
+
+piana
+\begin_inset space ~
+\end_inset
+
+infinita
+\begin_inset space ~
+\end_inset
+
+secondo
+\begin_inset space ~
+\end_inset
+
+le
+\begin_inset space ~
+\end_inset
+
+direzioni
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $y$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+e
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $z$
+\end_inset
+
+,
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $T=T\left(x\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{\partial^{2}T}{\partial x^{2}}+\frac{\sigma\left(x,t\right)}{k}=\frac{\rho c_{v}}{k}\frac{\partial T}{\partial t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Che in caso di regime stazionario diventa:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\frac{\partial^{2}T}{\partial x^{2}}+\frac{\sigma}{k}=0\,\rightarrow^{\int dx}\,\frac{\partial T}{\partial x}=-\frac{\sigma}{k}\cdot x+A
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+T=-\frac{\sigma}{2k}x^{2}+Ax+B
+\]
+
+\end_inset
+
+
+\size default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\dot{q}=-k\cdot\frac{\partial T}{\partial x}=-k\left(-\frac{\sigma}{k}\cdot x-A\right)=\sigma\cdot x-A\cdot k
+\]
+
+\end_inset
+
+
+\size default
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Lastra piana monostrato senza generazione di potenza
+\end_layout
+
+\begin_layout Standard
+In assenza di generazione di potenza, ponendo le seguenti condizioni al
+ contorno:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+T=T_{1} & x=0\\
+T=T_{2} & x=s
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quindi:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T_{1}=B
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T_{2}=A\cdot s+T_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ricavando
+\series bold
+\size large
+ 
+\series default
+\size default
+
+\begin_inset Formula $A$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+A=\frac{T_{2}-T_{1}}{s}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si ottiene:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T=A\cdot x+B=\frac{T_{2}-T_{1}}{s}\cdot x+T_{1}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{q}=-k\cdot\frac{\partial T}{\partial x}=-k\cdot\left(\frac{T_{2}-T_{1}}{s}\right)=-\frac{\Delta T}{R}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Coordinate cilindriche
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{\partial^{2}T}{\partial r^{2}}+\frac{1}{r}\frac{\partial T}{\partial r}+\frac{1}{r^{2}}\frac{\partial^{2}T}{\partial\phi^{2}}+\frac{\partial^{2}T}{\partial z^{2}}+\frac{\sigma\left(r,\phi,z,t\right)}{k}=\frac{\rho c_{v}}{k}\frac{\partial T}{\partial t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Caso particolare dotato di simmetria (geometria + condizioni al contorno)
+\end_layout
+
+\begin_layout Description
+Cilindro
+\begin_inset space ~
+\end_inset
+
+pieno
+\begin_inset space ~
+\end_inset
+
+o
+\begin_inset space ~
+\end_inset
+
+cavo
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+altezza
+\begin_inset space ~
+\end_inset
+
+infinita,
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $T=T\left(r\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{\partial^{2}T}{\partial r^{2}}+\frac{1}{r}\frac{\partial T}{\partial r}+\frac{\sigma\left(r,t\right)}{k}=\frac{\rho c_{V}}{k}\frac{\partial T}{\partial t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Che in caso di regime stazionario diventa:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T=-\frac{\sigma}{4k}r^{2}+A\ln\frac{r}{B}=-\frac{\sigma}{4k}r^{2}+A\ln r+C
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Cilindro
+\begin_inset space ~
+\end_inset
+
+indefinito
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Il flusso termico dipende solo dal flusso radiale:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{\partial^{2}T}{\partial r^{2}}+\frac{1}{r}\cdot\frac{\partial T}{\partial r}+\frac{\sigma}{k}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{1}{r}\cdot\frac{\partial\left(\frac{\partial T}{\partial r}\cdot r\right)}{\partial r} & = & -\frac{\sigma}{k}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\rightarrow\frac{\partial\left(\frac{\partial T}{\partial r}\cdot r\right)}{\partial r}=-\frac{\sigma}{k}\cdot r
+\]
+
+\end_inset
+
+ 
+\series default
+
+\begin_inset Formula 
+\[
+\rightarrow^{\int dx}\,r\cdot\left(\frac{\partial T}{\partial r}\right)=-\frac{\sigma}{2k}\cdot r^{2}+C
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\left(\frac{\partial T}{\partial r}\right)=-\frac{\sigma}{2k}\cdot r+\frac{C}{r}\,\rightarrow^{\int dx}\,T=-\frac{\sigma}{4k}\cdot r^{2}+C\cdot\ln\left(r\right)+D
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{q}=-k\frac{\partial T}{\partial r}=-k\left(-\frac{\sigma}{2k}\cdot r+\frac{C}{r}\right)=\frac{\sigma}{2}\cdot r-\frac{k}{r}\cdot C
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Barra
+\begin_inset space ~
+\end_inset
+
+cilindrica
+\begin_inset space ~
+\end_inset
+
+piena
+\begin_inset space ~
+\end_inset
+
+(con
+\begin_inset space ~
+\end_inset
+
+generazione
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+potenza)
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Ponendo le seguenti condizioni al contorno:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T=-\frac{\sigma}{4k}\cdot r^{2}+C\cdot\ln\left(r\right)+D\,\rightarrow^{\frac{\partial}{\partial r}}\,\frac{\partial T}{\partial r}=-\frac{\sigma}{2k}\cdot r+\frac{C}{r}
+\]
+
+\end_inset
+
+
+\series default
+ 
+\series bold
+
+\begin_inset Formula 
+\[
+\begin{cases}
+\frac{\partial T}{\partial r}=0 & r=0\\
+T=T_{2} & r=R
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quindi:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{\partial T}{\partial r}\mid_{_{_{r=0}}}=0\,\rightarrow\,C=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T=-\frac{\sigma}{4k}\cdot\left(R^{2}-r^{2}\right)+T_{2}\,\rightarrow^{\frac{\partial}{\partial r}}\,\frac{\partial T}{\partial r}=-\frac{\sigma}{2k}\cdot r
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{q}_{areico}=-k\frac{\partial T}{\partial r}=\frac{\sigma}{2}\cdot r
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\dot{q}_{per\,unità\,di\,lunghezza}=\pi r^{2}\sigma
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}=\dot{q}\cdot area\,scambio\,termico=\frac{\sigma}{2}r\cdot2\pi rL=\pi r^{2}L\sigma=V\sigma
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Cilindro
+\begin_inset space ~
+\end_inset
+
+cavo
+\begin_inset space ~
+\end_inset
+
+(senza
+\begin_inset space ~
+\end_inset
+
+generazione
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+potenza) 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Ponendo le seguenti condizioni al contorno:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+T=T_{i} & r=R_{i}\\
+T=T_{e} & r=R_{e}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quindi si ha:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+T_{i}=C\ln\left(R_{i}\right)+D\\
+T_{e}=C\ln\left(R_{e}\right)+D
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Facendo la differenza tra 
+\begin_inset Formula $T_{e}$
+\end_inset
+
+ e 
+\begin_inset Formula $T_{i}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T_{e}-T_{i}=C\left(\ln\left(R_{e}\right)-\ln\left(R_{i}\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quidi si ricava 
+\begin_inset Formula $T$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\begin{eqnarray*}
+T & = & C\cdot\ln\left(r\right)+D=\frac{T_{e}-T_{i}}{\ln\left(\frac{R_{e}}{R_{i}}\right)}\cdot\ln\left(r\right)+T_{i}-\frac{T_{e}-T_{i}}{\ln\left(\frac{R_{e}}{R_{i}}\right)}\cdot\ln\left(R_{i}\right)=\\
+ & = & T_{i}+\frac{T_{e}-T_{i}}{\ln\left(\frac{R_{e}}{R_{i}}\right)}\cdot\ln\left(\frac{r}{R_{i}}\right)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per 
+\begin_inset Formula $\dot{q}_{areico}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{q}_{areico}=-k\frac{\partial T}{\partial r}=k\frac{\left(T_{i}-T_{e}\right)}{\ln\frac{R_{e}}{R_{i}}}\cdot\frac{1}{r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per 
+\begin_inset Formula $\dot{q}_{per}unità\,di\,lunghezza$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{q}_{per}unit\grave{a}\,di\,lunghezza=\frac{2\pi k}{\ln\frac{R_{e}}{R_{i}}}\left(T_{i}-T_{e}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+E infine:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}=k\frac{T_{i}-T_{e}}{\ln\frac{R_{e}}{R_{i}}}\cdot\frac{1}{r}\cdot2\pi rL=k\frac{T_{i}-T_{e}}{\ln\frac{R_{e}}{R_{i}}}2\pi L=cost
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Coordinate sferiche
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{\partial T}{\partial r^{2}}+\frac{2}{r}\frac{\partial T}{\partial r}+\frac{1}{r^{2}}\frac{\partial^{2}T}{\partial\theta^{2}}+\frac{\coth\theta}{r^{2}}\frac{\partial T}{\partial\theta}+\frac{1}{r^{2}\sin^{2}\theta}\frac{\partial^{2}T}{\partial\phi^{2}}+\frac{\sigma\left(r,\theta,\phi,t\right)}{k}=\frac{\rho c_{v}}{k}\frac{\partial T}{\partial t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Caso particolare dotato di simmetria (geometria + condizioni al contorno)
+\end_layout
+
+\begin_layout Description
+Sfera
+\begin_inset space ~
+\end_inset
+
+piena
+\begin_inset space ~
+\end_inset
+
+o
+\begin_inset space ~
+\end_inset
+
+cava,
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $T=T\left(r\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{\partial T}{\partial r^{2}}+\frac{2}{r}\frac{\partial T}{\partial r}+\frac{\sigma\left(r,t\right)}{k}=\frac{\rho c_{v}}{k}\frac{\partial T}{\partial t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Che in caso di regime stazionario:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T=-\frac{\sigma}{6k}r^{2}+\frac{A}{r}+B
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Conduzione attraverso una parete
+\end_layout
+
+\begin_layout Standard
+Considerando costanti le temperature dell’aria all’interno e all’esterno
+ dell’edificio, la trasmissione del calore per Conduzione attraverso una
+ parete di un edificio può essere considerata:
+\end_layout
+
+\begin_layout Itemize
+Stazionaria
+\end_layout
+
+\begin_layout Itemize
+Mono dimensionale
+\end_layout
+
+\begin_layout Standard
+Se non vi è alcuna generazione interna di calore, per il primo principio:
+ 
+\end_layout
+
+\begin_layout Itemize
+Pot.
+ Termica entrante - Pot.
+ Termica Uscente = Pot.
+ Termica acc ovvero:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{e}-\dot{Q}_{u}=\frac{dE_{parete}}{dt}\,\,Condizione\,al\,contorno
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Poiché in condizioni stazionarie la potenza termica accumulata deve essere
+ nulla, il flusso termico attraverso la parete deve essere costante.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{cond}=cost
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+in quanto il flusso termico entrante deve uguagliare il flusso termico uscente.
+\end_layout
+
+\begin_layout Standard
+In condizioni stazionarie e in assenza di generazione interna, la distribuzione
+ di temperatura in una parete piana è una linea retta:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T=Ax+B
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Conduzione attraverso una parete
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/condparete.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Separando le variabili nell’equazione di Fourier e integrando da 
+\begin_inset Formula $x=0$
+\end_inset
+
+ dove 
+\begin_inset Formula $T\left(0\right)=T_{1}$
+\end_inset
+
+ a 
+\begin_inset Formula $x=s$
+\end_inset
+
+ dove 
+\begin_inset Formula $T\left(s\right)=T_{2}$
+\end_inset
+
+, si ottiene:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\int_{x=0}^{s}\dot{Q}_{cond}dx=-\int_{T=T_{1}}^{T_{2}}kAdT
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{cond}=-\frac{kA}{s}\Delta T
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{k}{s}=conduttanza$
+\end_inset
+
+ della parete 
+\begin_inset Formula $\left[\frac{W}{m^{2}K}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{s}{k}=resistenza\,termica\,specifica$
+\end_inset
+
+ della parete al passaggio del calore 
+\begin_inset Formula $\left[\frac{m^{2}K}{W}\right]$
+\end_inset
+
+ (resistenza termica specifica=resistenza termica, d'ora in avanti)
+\end_layout
+
+\begin_layout Standard
+La proporzionalità diretta tra la quantità di calore e l’incremento di temperatu
+ra a parità di spessore è dimostrabile dalla seguente esperienza.
+\end_layout
+
+\begin_layout Standard
+Si porta istantaneamente la faccia destra di una lastra ad una temperatura
+ 
+\begin_inset Formula $T_{1}>T_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Conduzione 
+\begin_inset Formula $\left(1\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/1.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Durante il transitorio 
+\begin_inset Formula $T$
+\end_inset
+
+ è funzione, oltre che della coordinata s anche del tempo 
+\begin_inset Formula $τ$
+\end_inset
+
+ .
+ Non si è quindi in regime stazionario o permanente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Conduzione 
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/2.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nella condizione a regime l’andamento del profilo delle temperature è lineare
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Conduzione 
+\begin_inset Formula $\left(3\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/3.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La relazione 
+\begin_inset Formula $\dot{Q}_{cond}=-\frac{kA}{s}\Delta T$
+\end_inset
+
+, avendo posto 
+\begin_inset Formula $\frac{s}{k}=R_{c}$
+\end_inset
+
+ resistenza termica, può anche essere espressa nella forma:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{cond}=-\frac{1}{R_{c}}A\Delta T
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dalla quale si evidenzia come 
+\begin_inset Formula $\dot{Q}_{cond}$
+\end_inset
+
+ sia inversamente proporzionale alla resistenza termica del materiale.
+\end_layout
+
+\begin_layout Standard
+La resistenza termica a sua volta è:
+\end_layout
+
+\begin_layout Itemize
+direttamente proporzionale allo spessore della parete
+\end_layout
+
+\begin_layout Itemize
+inversamente proporzionale alla conducibilità 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ della parete
+\end_layout
+
+\begin_layout Standard
+A parità di spessore, offriranno una maggiore resistenza termica al passaggio
+ di calore le pareti costituite da materiali con 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ più piccola.
+\end_layout
+
+\begin_layout Subsubsection
+Parete piana monostrato
+\end_layout
+
+\begin_layout Standard
+Abbiamo esaminato il fenomeno della trasmissione del calore per Conduzione
+ ed abbiamo appreso che, considerando che in una parete piana:
+\end_layout
+
+\begin_layout Itemize
+il flusso di calore sia mono direzionale, ossia normale alla superficie
+ della parete
+\end_layout
+
+\begin_layout Itemize
+non vi sia alcuna generazione interna di calore
+\end_layout
+
+\begin_layout Itemize
+il regime sia stazionario, ossia che sia superata la fase transitoria e
+ che la distribuzione delle temperature all’interno della parete non risenta
+ del tempo t.
+\end_layout
+
+\begin_layout Standard
+La quantità di calore che attraversa la parete nell’unità di tempo, (la
+ potenza termica) integrando la relazione di Fourier, risulta:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{cond}=-\frac{kA}{s}\Delta T
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{cond}=-\frac{1}{R_{tot}}A\Delta T
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+R_{tot}=\sum\frac{s_{n}}{k_{n}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R_{T}$
+\end_inset
+
+ è la resistenza termica totale, ossia la sommatoria delle resistenze di
+ ogni singolo strato di materiale considerato isotropo.
+\end_layout
+
+\begin_layout Standard
+La resistenza al passaggio di calore per conduzione è direttamente proporzionale
+ allo spessore 
+\begin_inset Formula $S$
+\end_inset
+
+ ed inversamente proporzionale alla conducibilità termica 
+\begin_inset Formula $k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Modellizzazione parete cilindrica Indefinita
+\end_layout
+
+\begin_layout Standard
+Ipotizzando che la trasmissione di calore avvenga in direzione radiale e
+ stazionariamente
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}=-kA\frac{dT}{dr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\vec{q}=-kgradT
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Separando le variabili nell’equazione di Fourier, ricordando che l’area
+ attraverso la quale viene scambiato il calore è quella laterale del cilindro,
+ e integrando da 
+\begin_inset Formula $r=r_{1}$
+\end_inset
+
+ dove 
+\begin_inset Formula $T\left(r_{1}\right)=T_{1}$
+\end_inset
+
+ a 
+\begin_inset Formula $r=r_{2}$
+\end_inset
+
+ dove 
+\begin_inset Formula $T\left(r_{2}\right)=T_{2}$
+\end_inset
+
+, si ottiene:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\int_{r_{1}}^{r_{2}}\frac{\dot{Q}}{A}=-\int_{T_{1}}^{T_{2}}k\frac{dT}{dr}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{\dot{Q}}{2\pi L}\int_{r_{1}}^{r_{2}}\frac{dr}{r}=-k\int_{T_{1}}^{T_{2}}dT
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}=\frac{-2\pi Lk}{\ln\frac{r_{2}}{r_{1}}}\Delta T
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{cond}=-\frac{1}{R_{tot}}\Delta T
+\]
+
+\end_inset
+
+
+\series default
+ 
+\series bold
+
+\begin_inset Formula 
+\[
+R_{cilindro}=\frac{\ln\frac{r_{2}}{r_{1}}}{2\pi Lk}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Modellizzazione per sfere
+\end_layout
+
+\begin_layout Standard
+Con procedimento analogo ai cilindri, per le sfere 
+\begin_inset Formula $\left(A=4\pi r^{2}\right)$
+\end_inset
+
+ si ottiene:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}=4\pi r_{1}r_{2}k\frac{\left(T_{1}-T_{2}\right)}{\left(r_{2}-r_{1}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Convezione
+\end_layout
+
+\begin_layout Description
+Definizione
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+La convezione identifica il trasporto di energia associato al moto macroscopico
+ del sistema: è quindi un processo che si verifica tra la superficie di
+ un corpo ed un fluido in moto relativo.
+ SI può classificare in due tipologie:
+\end_layout
+
+\begin_layout Itemize
+CONVEZIONE FORZATA: il moto del fluido è imposto da un agente esterno
+\end_layout
+
+\begin_layout Itemize
+CONVEZIONE NATURALE: il moto del fluido è causato dal processo di trasmissione
+ del calore
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+In una parete piana che separa due ambienti nei quali sono presenti due
+ fluidi (ad esempio aria - aria, aria - acqua, acqua - acqua) la trasmissione
+ del calore deve tenere conto non solo della conduzione, ma anche della
+ convezione.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Convezione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/conv.png
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Trasmittanza
+\end_layout
+
+\begin_layout Standard
+In una parete edilizia è necessario eseguire una analisi completa della
+ trasmissione del calore e quindi tenere conto che il calore si trasmette:
+ 
+\end_layout
+
+\begin_layout Itemize
+per CONVEZIONE tra l’aria interna del locale e la superficie interna della
+ parete 
+\end_layout
+
+\begin_layout Itemize
+per CONDUZIONE attraverso la parete costituita da uno o più strati 
+\end_layout
+
+\begin_layout Itemize
+per CONVEZIONE tra la faccia esterna della parete e l’aria esterna
+\end_layout
+
+\begin_layout Standard
+In una parete costituita da un solo strato le resistenze termiche non sono
+ una, ma tre (2 per la convezione e 1 per la conduzione).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Trasmittanza 
+\begin_inset Formula $\left(1\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/trasmittanza.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T_{i}=$
+\end_inset
+
+ temperatura interna
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T_{pi}=$
+\end_inset
+
+ temperatura parete interna
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T_{pe}=$
+\end_inset
+
+ temperatura parete esterna
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T_{e}=$
+\end_inset
+
+ temperatura esterna
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Trasmittanza 
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/trasmittanza2.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+R_{tot}=R_{conv\,i}+R_{cond}+R_{conv\,e}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+R_{tot}=\frac{1}{h_{i}}+\frac{s}{k}+\frac{1}{h_{e}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+
+\color red
+\begin_inset Formula $\frac{1}{R_{tot}}$
+\end_inset
+
+ è la trasmittanza della parete
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{tot}=\frac{1}{R_{tot}}A\left(T_{i}-T_{e}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le resistenze 
+\begin_inset Formula $R_{conv\,i}$
+\end_inset
+
+ e 
+\begin_inset Formula $R_{conv\,e}$
+\end_inset
+
+ si calcolano, noti i coefficienti 
+\begin_inset Formula $h_{i}$
+\end_inset
+
+ e 
+\begin_inset Formula $h_{e}$
+\end_inset
+
+ dal loro reciproco.
+ L'analisi del fenomeno convettivo si riduce alla definizione di 
+\begin_inset Formula $h_{i}$
+\end_inset
+
+ e 
+\begin_inset Formula $h_{e}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Raggio critico di isolamento
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Raggio critico di isolamento 
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Raggio d'isolamento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/raggioci.png
+	lyxscale 50
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Esempio di convezione
+\end_layout
+
+\begin_layout Standard
+Consideriamo la parete di un corpo solido lambita da un fluido in moto.
+ Se tra la temperatura della superficie del corpo Ts e quella del fluido
+ Tf vi è una differenza tra parete e fluido si instaura un flusso di potenza
+ termica secondo la già citata legge:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{q}=h\left(T_{s}-T_{f}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove 
+\begin_inset Formula $h$
+\end_inset
+
+ è un coefficiente di proporzionalità che prende il nome di coefficiente
+ convettivo o conduttanza convettiva e dipende da:
+\end_layout
+
+\begin_layout Itemize
+proprietà fisiche del liquido
+\end_layout
+
+\begin_layout Itemize
+dinamica del flusso
+\end_layout
+
+\begin_layout Itemize
+geometria della superficie della parete
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Convezione esempio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/esconv.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Convezione: note
+\end_layout
+
+\begin_layout Standard
+La trasmissione del calore per convezione viene trattata diversamente secondo
+ che questa sia forzata o naturale.
+ Il flusso del fluido può essere laminare o turbolento.
+ Nel primo caso, non essendovi rimescolamento, lo scambio di calore avviene
+ per conduzione.
+ Nel secondo caso si verifica, in prossimità della parete, una situazione
+ come quella schematizzata:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Convezione bis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/convnote.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In prossimità della parete si incontra uno strato in moto laminare (strato
+ limite) attraverso il quale il calore passa per conduzione.
+ Allontanandosi dalla parete si incontra il moto turbolento, forte rimescolament
+o del fluido ed elevato trasporto di calore.
+ La maggiore resistenza al passaggio di calore è offerta dallo strato limite.
+\end_layout
+
+\begin_layout Subsection
+Il coefficiente convettivo 
+\begin_inset Formula $h$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Il coefficiente di proporzionalità h dipende:
+\end_layout
+
+\begin_layout Itemize
+dalle caratteristiche del fluido: densità 
+\begin_inset Formula $\left(\rho\right)$
+\end_inset
+
+, viscosità 
+\begin_inset Formula $\left(\mu\right)$
+\end_inset
+
+, calore specifico a pressione costante 
+\begin_inset Formula $\left(c_{p}\right)$
+\end_inset
+
+, conduttività 
+\begin_inset Formula $\left(k\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+dalle condizioni di moto del fluido 
+\begin_inset Formula $\left(v\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+dalla geometria della parete: diametro equivalente 
+\begin_inset Formula $\left(D\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+
+\size normal
+\color red
+N.B.
+ 
+\begin_inset Formula $h$
+\end_inset
+
+ non è una proprietà della materia
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+h_{f}=h\left(\rho,\mu,k,c_{p},v,D\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Legge di Newton
+\end_layout
+
+\begin_layout Standard
+La soluzione del problema si riduce alla valutazione del coefficiente convettivo
+ 
+\begin_inset Formula $h$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{q}=h\left(T_{s}-T_{f}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Convezione forzata
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+h=h\left(D,\rho,w,m,c_{p},k\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si hanno:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $n=7$
+\end_inset
+
+ grandezze fisiche 
+\begin_inset Formula $\left(h,D,\rho,w,\mu,c_{p},k\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $m=4$
+\end_inset
+
+ grandezze fondamentali 
+\begin_inset Formula $\left(L,M,t,T\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si dovrà avere un legame tra 
+\begin_inset Formula $k=n-m=3$
+\end_inset
+
+ gruppi adimensionali.
+\end_layout
+
+\begin_layout Subsubsection
+Gruppi adimensionali per convezione forzata: Numero di Nusselt
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Nu=\frac{hD}{k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Può essere interpretato come rapporto tra la potenza termica scambiata con
+ moti macroscopici (convezione) e la potenza termica scambiata per conduzione
+ nello strato limite:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Nu=\frac{h\Delta T}{\frac{k}{D}\Delta T}
+\]
+
+\end_inset
+
+
+\series default
+\size default
+Si può ottenere dividendo il flusso di calore per convezione 
+\begin_inset Formula $\left(h\Delta T\right)$
+\end_inset
+
+ per il flusso di calore per conduzione 
+\begin_inset Formula $\left(\frac{k}{D}\Delta T\right)$
+\end_inset
+
+; esso confronta i due sistemi di trasporto del calore.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+N_{Nu}=cost\cdot N_{Re}^{3}\cdot N_{Pr}^{b}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Gruppi adimensionali per convezione forzata: Numero di Reynolds
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Re=\frac{\rho Dw}{\mu}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Può essere interpretato come rapporto tra la risultante delle forze di inerzia
+ e la risultante delle forze viscose.
+\end_layout
+
+\begin_layout Standard
+Indica se il moto è in regime laminare o turbolento.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Re=\frac{\rho w\frac{dw}{dx}}{\mu\frac{d^{2}w}{dx^{2}}}=\frac{f_{inerzia}}{f_{viscose}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Gruppi adimensionali per convezione forzata: Numero di Prandtl
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Pr=\frac{c_{p}\mu}{k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Può essere interpretato come rapporto tra la viscosità cinematica ν (da
+ cui dipende la diffusione della quantità di moto) e la diffusività termica
+ del fluido a (da cui dipende la diffusione molecolare della potenza termica).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Pr=\frac{\rho c_{p}}{k}\frac{\mu}{\rho}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+si ottiene dividendo 
+\begin_inset Formula $\frac{\mu}{\rho}$
+\end_inset
+
+ per 
+\begin_inset Formula $\frac{k}{\rho c_{p}}$
+\end_inset
+
+, ossia il coefficiente di diffusione della quantità di moto per il coefficiente
+ di diffusione del calore; esso confronta le due diffusività molecolari.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Valori di 
+\begin_inset Formula $Pr$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="50line%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+mezzo di trasmissione
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+valore
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+gas ideali
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+acqua
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2-10$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+metalli liquidi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.005-0.03$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Flusso su lastra piana
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Flusso su lastra piana
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/flussolp.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Flusso all'interno di tubi
+\end_layout
+
+\begin_layout Itemize
+In ogni sezione 
+\begin_inset Formula $w$
+\end_inset
+
+ varia da una valore pari a zero sulla parete a un valore massimo sull'asse
+ del tubo
+\end_layout
+
+\begin_layout Itemize
+In ogni sezione 
+\begin_inset Formula $T$
+\end_inset
+
+ varia da una valore paria a quello che si rileva sulla parete a un valore
+ maggiore o inferiore (a seconda che il processo sia di raffreddamento o
+ di riscaldamento) sull’asse del tubo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T$
+\end_inset
+
+ e 
+\begin_inset Formula $w$
+\end_inset
+
+ si assumono comunque costanti per ogni sezione e pari al loro valor medio.
+ Ovviamente questi valori medi possono variare lungo l'asse del tubo.
+\end_layout
+
+\begin_layout Itemize
+La velocità media si determina col principio di conservazione della massa
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{m}=\rho\cdot w_{m}\cdot A_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+A_{t}=\pi\frac{D^{2}}{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+La temperatura media si determina col principio di conservazione dell’energia
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{E}=\dot{m}c_{p}T_{m}=\int_{\dot{m}}c_{p}T\partial\dot{m}=\int_{A_{t}}c_{p}T\left(\rho wdA_{t}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Le condizioni termiche sulla superficie di un tubo possono essere approssimate
+ con buona precisione ritenendo costante la temperatura superficiale:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $T=cost$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Oppure il flusso termico superficiale:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{q}=cost
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Non possono essere contemporaneamente presenti ambedue le condizioni:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{q}=h\left(T_{s}-T_{m}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Flusso termico superficiale costante
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Flusso all'interno di tubi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/flussotubi.png
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}=\dot{q}_{s}A=\dot{m}c_{p}\left(T_{u}-T_{i}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T_{u}=T_{i}+\frac{\dot{q_{s}}A}{\dot{m}c_{p}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{q}=h\left(T_{s}-T_{m}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Temperatura superficiale costante
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Flusso all'interno di tubi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/flussotubi2.png
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+T_{s}=cost
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}=hA\Delta T_{media}=hA\left(T_{s}-T_{m}\right)_{media}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{m}c_{p}dT_{m}=h\left(T_{s}-T_{m}\right)dA
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\begin_inset Formula $\begin{cases}
+dA=pdx\\
+dT_{m}=-d\left(T_{s}-T_{m}\right)
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{d\left(T_{s}-T_{m}\right)}{T_{s}-T_{m}}=-\frac{hp}{\dot{m}c_{p}}dx
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Integrando da 
+\begin_inset Formula $x=0$
+\end_inset
+
+ 
+\begin_inset Formula $\left(T_{m}=T_{i}\right)$
+\end_inset
+
+ a 
+\begin_inset Formula $x=L$
+\end_inset
+
+ 
+\begin_inset Formula $\left(T_{m}=T_{u}\right)$
+\end_inset
+
+ si ottiene:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\ln\frac{T_{s}-T_{u}}{T_{s}-T_{i}}=-\frac{hA}{\dot{m}c_{p}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{m}c_{p}=-\frac{hA}{\ln\frac{T_{s}-T_{u}}{T_{s}-T_{i}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}=\dot{m}c_{p}\left(T_{u}-T_{i}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}=hA\Delta T_{\ln}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\Delta T_{\ln}=-\frac{T_{u}-T_{i}}{\ln\frac{T_{s}-T_{u}}{T_{s}-T_{i}}}=\frac{\Delta T_{u}-\Delta T_{i}}{\ln\left(\frac{\Delta T_{u}}{\Delta T_{i}}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Deduzione dei gruppi dimensionali
+\end_layout
+
+\begin_layout Standard
+Dall’analisi dimensionale si deducono i gruppi adimensionali che consentono
+ di descrivere compiutamente un fenomeno.
+ Nel caso della convezione forzata e naturale si avranno pertanto:
+\end_layout
+
+\begin_layout Itemize
+Convezione forzata
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Nu=Nu\left(Re,Pr\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Convezione naturale
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Nu=Nu\left(Gr,Pr\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+La forma assunta da queste relazioni è ben approssimata da una forma 
+\series bold
+monomia.
+\end_layout
+
+\begin_layout Subsection
+Forme monomie
+\end_layout
+
+\begin_layout Itemize
+Convezione forzata
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Nu=A\cdot Re^{\alpha}Pr^{\beta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Convezione naturale
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Nu=B\cdot Gr^{\gamma}Pr^{\delta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+I coefficienti 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $B$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, 
+\begin_inset Formula $\beta$
+\end_inset
+
+, 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ e 
+\begin_inset Formula $\delta$
+\end_inset
+
+ devono essere determinati attraverso l'interpolazione di risultati di prove
+ sperimentali.
+\end_layout
+
+\begin_layout Standard
+I numeri adimensionali dipendono da parametri termofisici che normalmente
+ a loro volta dipendono dalla temperatura (e talvolta anche dalla pressione)
+ alla quale avviene il fenomeno di convezione.
+ Diventa quindi importante stabilire a quale temperatura devono essere valutati
+ i suddetti parametri.
+\end_layout
+
+\begin_layout Subsection
+Proprietà termofisiche
+\end_layout
+
+\begin_layout Standard
+Le proprietà termofisiche si possono valutare in condizioni differenti:
+\end_layout
+
+\begin_layout Itemize
+alla temperatura di parete 
+\begin_inset Formula $T_{p}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+alla temperatura asintotica 
+\begin_inset Formula $T_{\infty}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+alla temperatura di film 
+\begin_inset Formula $T_{film}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+alla temperatura di miscelamento adiabatico 
+\begin_inset Formula $T_{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Convezione in un corpo immerso
+\end_layout
+
+\begin_layout Itemize
+Temperatura asintotica
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+J=h\left(T_{p}-T_{f}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T_{f}=T_{\infty}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Temperatura di film
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T_{film}=\frac{T_{p}+T_{\infty}}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Convezione forzata in un condotto
+\end_layout
+
+\begin_layout Itemize
+Temperatura di miscelamento adiabatico
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{q}=h\left(T_{p}-T_{f}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+T_{f}=\frac{\int_{A}\rho wc_{p}TdA}{\int_{A}\rho wc_{p}dA}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Convezione naturale
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+h=h\left(D,\rho,g\beta DT,m,C_{p},k\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si hanno:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $n=7$
+\end_inset
+
+ grandezze fisiche 
+\begin_inset Formula $\left(h,D,\rho,g\beta\Delta T,\mu,c_{p},k\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $m=4$
+\end_inset
+
+ grandezze fondamentali 
+\begin_inset Formula $\left(L,M,t,T\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si dovrà avere un legame tra 
+\begin_inset Formula $k=n-m=3$
+\end_inset
+
+ gruppi adimensionali.
+\end_layout
+
+\begin_layout Subsubsection
+Gruppi adimensionali per convezione naturale: Numero di Nusselt
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Nu=\frac{hD}{k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Gruppi adimensionali per convezione naturale: Numero di Grashoff 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Gr=\frac{\rho^{2}g\beta\Delta TD^{3}}{\mu^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Può essere interpretato come rapporto tra il prodotto delle forze di galleggiame
+nto ed il quadrato della risultante delle forze viscose:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Gr=\frac{\left(\rho g\beta\Delta T\right)\left(\rho w\frac{dw}{dx}\right)}{\left(\mu\frac{d^{2}w}{dx^{2}}\right)^{2}}=\frac{f_{galleggiamento}f_{inerzia}}{\left(f_{viscose}\right)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="50line%">
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Moto lungo una superficie verticale 
+\begin_inset Formula $\left(lung=L\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Gr_{L}<10^{9}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+moto laminare
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Gr_{L}>10^{9}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+moto turbolento
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Gruppi adimensionali per convezione naturale: Numero di Prandtl
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Pr=\frac{c_{p}\mu}{k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Altri gruppi adimensionali
+\end_layout
+
+\begin_layout Subsubsection
+Convezione forzata: Peclet
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Pe=Re\cdot Pr=\frac{wD}{a}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Convezione naturale: Rayleigh 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+Ra=Gr\cdot Pr=\frac{g\beta\Delta TD^{3}}{av}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Considerazioni sul coefficiente 
+\begin_inset Formula $h$
+\end_inset
+
+ per la convezione naturale
+\end_layout
+
+\begin_layout Standard
+Il coefficiente 
+\begin_inset Formula $h$
+\end_inset
+
+ dipende:
+\end_layout
+
+\begin_layout Itemize
+dalle caratteristiche del fluido: come nel caso della convezione forzata,
+ ma in più: il coefficiente di dilatazione isobara 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ da cui dipende il cambiamento di densità
+\end_layout
+
+\begin_layout Itemize
+dalle condizioni di moto del fluido: queste, non essendo più il moto imposto,
+ dipendono ancora da 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, dalla densità media 
+\begin_inset Formula $\rho$
+\end_inset
+
+, dalla differenza di temperatura tra parete e fluido e dall’accelerazione
+ di gravità, ossia da 
+\begin_inset Formula $\rho g\alpha\left(T_{p}-T_{f}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+dalla geometria della parete: come nel caso precedente ma con la necessità
+ di conoscere la posizione della parete rispetto al campo gravitazionale
+\end_layout
+
+\begin_layout Subsubsection
+Analisi dimensionale
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\frac{hD}{k}=cost\cdot\left(\frac{D^{3}\rho\left(\rho g\alpha\left(T_{p}-T_{f}\right)\right)}{\mu^{2}}\right)^{c}\cdot\left(\frac{c_{p}\mu}{k}\right)^{d}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $N_{Gr}$
+\end_inset
+
+ è un indice del contributo dei moti convettivi allo scambio termico.
+ 
+\begin_inset Formula $D$
+\end_inset
+
+ è una dimensione lineare caratteristica del corpo.
+ Anche in questo caso la relazione generale può essere semplificata:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+N_{Nu}=cost\cdot N_{Gr}^{c}\cdot N_{Pr}^{d}
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none" width="50line%">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Parete piana verticale
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Nu_{L}=0,59Ra^{0.25}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+moto laminare 
+\begin_inset Formula $Ra<10^{9}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Nu_{L}=0,10Ra^{0.33}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+moto turbolento 
+\begin_inset Formula $Ra>10^{9}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="1">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Cilindro indefinito orizzontale
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Formula $Nu_{D}=\left\{ 0,60+\frac{0,387Ra^{\frac{1}{6}}}{\left[1+\left(\frac{0,559}{Pr}\right)^{\frac{9}{16}}\right]^{\frac{8}{27}}}\right\} ^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Relazione di Churchill-Chu: 
+\begin_inset Formula $10^{-5}<Ra<10^{12}$
+\end_inset
+
+.
+ Le proprietà termofisiche sono valutate alla temperatura di film.
+\end_layout
+
+\begin_layout Section
+Irraggiamento 
+\end_layout
+
+\begin_layout Description
+Definizione L'irraggiamento è il trasferimento di energia che avviene mediante
+ onde elettromagnetiche (o fotoni) prodotte da variazioni nelle configurazioni
+ elettroniche degli atomi e delle molecole.
+\end_layout
+
+\begin_layout Subsection
+Notazioni varie
+\end_layout
+
+\begin_layout Itemize
+Nel 1887 H.
+ Hertz dimostrò sperimentalmente l'esistenza delle onde elettromagnetiche.
+\end_layout
+
+\begin_layout Itemize
+La radiazione si propaga nel vuoto o in un mezzo di trasmissione trasparente
+ alla radiazione alla velocità della luce.
+\end_layout
+
+\begin_layout Itemize
+Le onde elettromagnetiche sono caratterizzate da:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Frequenza 
+\begin_inset Formula $u$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Numero di oscillazioni al secondo
+\end_layout
+
+\begin_layout Itemize
+Dipende solo dalla sorgente
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Lunghezza d'onda 
+\begin_inset Formula $l=\frac{\underline{c}}{u}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\underline{c}$
+\end_inset
+
+ è la velocità della luce nel mezzo di trasmissione
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $l$
+\end_inset
+
+ dipende dalla sorgente e dal mezzo di propagazione
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Fenomeno volumetrico (es.
+ gas, vetro, mezzi trasparenti) 
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Fenomeno volumetrico
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/fenomenovolumetrico.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Fenomeno superficiale (es.
+ solidi, mezzi non trasparenti)
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Fenomeno superficiale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/fenomenosuperficiale.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+È possibile una doppia interpretazione:
+\end_layout
+
+\begin_layout Itemize
+Radiazione come propagazione di onde elettromagnetiche 
+\end_layout
+
+\begin_layout Itemize
+Radiazione come propagazione di quanti di energia (fotoni)
+\end_layout
+
+\begin_layout Subsection
+Radiazione termica e trasmissione del calore
+\end_layout
+
+\begin_layout Itemize
+Nello studio della trasmissione del calore, poiché interessa solo l'energia
+ emessa dai corpi a causa della loro temperatura, si considera esclusivamente
+ la componente di radiazione responsabile di questo fenomeno
+\end_layout
+
+\begin_layout Itemize
+La parte di radiazione responsabile delle variazioni di temperatura prende
+ il nome di “radiazione termica”.
+ La sua componente spettrale è compresa tra 
+\begin_inset Formula $0,1\mu m<\lambda<100\mu m$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+La radiazione termica è dovuta ai moti vibratori e rotatori delle molecole,
+ atomi ed elettroni che compongono le diverse sostanze
+\end_layout
+
+\begin_layout Itemize
+Per la sua natura fisica la radiazione termica è caratterizzabile per una
+ distribuzione spettrale ed una distribuzione direzionale
+\end_layout
+
+\begin_layout Itemize
+Poiché la temperatura è una misura dell'intensità di questi processi, all'aument
+are della temperatura, aumenta l'emissione di radiazione termica
+\end_layout
+
+\begin_layout Itemize
+La radiazione termica è emessa continuamente da tutta la materia che si
+ trova a temperatura superiore allo zero assoluto
+\end_layout
+
+\begin_layout Description
+Le
+\begin_inset space ~
+\end_inset
+
+componenti
+\begin_inset space ~
+\end_inset
+
+della
+\begin_inset space ~
+\end_inset
+
+radiazione
+\begin_inset space ~
+\end_inset
+
+termica
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Radiazione
+\begin_inset space ~
+\end_inset
+
+visibile Si tratta della componente visibile dello spettro elettromagnetico
+ ed è compresa tra:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+0,40\mu m<\lambda<0,76\mu m
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\begin_layout Description
+Radiazione
+\begin_inset space ~
+\end_inset
+
+infrarossa Si tratta della componente di radiazione termica dei corpi a
+ bassa temperatura e ricopre lo spettro compreso tra:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+0,76\mu m<\lambda<100\mu m
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\begin_layout Description
+Radiazione
+\begin_inset space ~
+\end_inset
+
+ultravioletta Si tratta della componente di radiazione a bassa lunghezza
+ d'onda della radiazione termica ed è compresa tra:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+0,01\mu m<\lambda<0,40\mu m
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Radiazione visibile
+\end_layout
+
+\begin_layout Standard
+La radiazione visibile è completamente inglobata dalla radiazione termica.
+\end_layout
+
+\begin_layout Itemize
+Spettro compreso tra 
+\begin_inset Formula $0,1\mu m<\lambda<0,76\mu m$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+La radiazione visibile viene emessa dai corpi ad alta temperatura e viene
+ in parte assorbita ed in parte riflessa dalla superficie sulla quale incide.
+ A seconda della componente spettrale che viene riflessa l'occhio umano
+ percepisce i colori:
+\end_layout
+
+\begin_layout Itemize
+Violetto: componente spettrale riflessa compresa tra 
+\begin_inset Formula $0,40-0,44\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Blu: componente spettrale riflessa compresa tra 
+\begin_inset Formula $0,44-0,49\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Verde: componente spettrale riflessa compresa tra 
+\begin_inset Formula $0,49-0,54\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Giallo: componente spettrale riflessa compresa tra 
+\begin_inset Formula $0,54-0,60\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Arancio: componente spettrale riflessa compresa tra 
+\begin_inset Formula $0,60-0,63\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Rosso: componente spettrale riflessa compresa tra 
+\begin_inset Formula $0,63-0,76\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Nero: luce incidente completamente assorbita
+\end_layout
+
+\begin_layout Itemize
+Bianco: luce incidente completamente riflessa
+\end_layout
+
+\begin_layout Subsection
+Radiazione infrarossa
+\end_layout
+
+\begin_layout Standard
+La radiazione infrarossa è completamente inglobata dalla radiazione termica.
+\end_layout
+
+\begin_layout Itemize
+Spettro compreso tra 
+\begin_inset Formula $0,76\mu m<\lambda<100\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+La radiazione infrarossa è la radiazione emessa dai corpi che si trovano
+ a bassa temperatura.
+ Solo a temperature superiori agli 
+\begin_inset Formula $800K$
+\end_inset
+
+ i corpi iniziano ad emettere radiazione visibile apprezzabile.
+ Nella lampadina ad incandescenza, il filamento di tungsteno, per diventare
+ luminoso, deve essere riscaldato a 
+\begin_inset Formula $2000K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+L'occhio umano non è in grado di percepirla ma quello di altre specie animali
+ è in grado di farlo (ad es.
+ alcuni serpenti).
+\end_layout
+
+\begin_layout Subsection
+Radiazione ultravioletta
+\end_layout
+
+\begin_layout Standard
+La radiazione ultravioletta è parzialmente inglobata dalla radiazione termica.
+\end_layout
+
+\begin_layout Itemize
+Spettro compreso tra 
+\begin_inset Formula $0,01\mu m<\lambda<0,40\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+I raggi ultravioletti sono da evitare perché dannosi agli organismi viventi.
+ 
+\end_layout
+
+\begin_layout Itemize
+Circa il 
+\begin_inset Formula $12\%$
+\end_inset
+
+ della radiazione solare al di fuori dell'atmosfera è nel campo ultravioletto.
+\end_layout
+
+\begin_layout Itemize
+Lo strato di ozono 
+\begin_inset Formula $O_{3}$
+\end_inset
+
+ dell'atmosfera fa da scudo protettivo assorbendo la maggior parte della
+ radiazione ultravioletta extratmosferica.
+\end_layout
+
+\begin_layout Itemize
+La relativa recente scoperta di 
+\begin_inset Quotes eld
+\end_inset
+
+buchi
+\begin_inset Quotes erd
+\end_inset
+
+ nello strato di ozono hanno costretto la comunità internazionale a bandire
+ l'uso di sostanze chimiche che distruggono l'ozono (CFC, refrigerante freon
+ 12, ecc.).
+\end_layout
+
+\begin_layout Itemize
+L'occhio umano non è in grado di percepirla.
+ Quello di altre specie animali è in grado di farlo (es.
+ Api)
+\end_layout
+
+\begin_layout Subsubsection
+Corpo nero
+\end_layout
+
+\begin_layout Description
+Definizione:
+\begin_inset space ~
+\end_inset
+
+Corpo
+\begin_inset space ~
+\end_inset
+
+nero Il corpo nero è un perfetto emettitore di radiazioni poiché emette
+ la massima radiazione ad ogni temperatura e lunghezza d'onda e assorbe
+ tutta la radiazione incidente indipendentemente da direzione e lunghezza
+ d'onda.
+\end_layout
+
+\begin_layout Description
+Approssimazione
+\begin_inset space ~
+\end_inset
+
+reale
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+corpo
+\begin_inset space ~
+\end_inset
+
+nero Poiché la radiazione termica occupa una banda molto ristretta dello
+ spettro, non si può giudicare se una superficie approssima il comportamento
+ del corpo nero sulla base della sola osservazione visiva.
+ Un corpo che approssima il comportamento del corpo nero è una cavità con
+ una piccola apertura.
+\begin_inset Newline newline
+\end_inset
+
+L'energia che giunge sull'apertura entra nella cavità.
+ Se le pareti di questa non sono nere, un raggio incidente verrà in parte
+ assorbito e in parte riflesso.
+ Attraverso riflessioni multiple, la frazione riflessa si attenuerà, così
+ da permettere che tutta l'energia venga assorbita, salvo una quantità inapprezz
+abile.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Corpo nero
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/approxcorponero.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Potenza
+\begin_inset space ~
+\end_inset
+
+radiante
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+corpo
+\begin_inset space ~
+\end_inset
+
+nero
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+La potenza radiante totale emessa da un corpo nero per unità di area superficial
+e è detta anche potere emissivo del corpo nero ed è espressa dalla relazione
+ di Stefan- Boltzmann:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+E_{n}=\sigma T^{4}\left[\frac{W}{m^{2}}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\sigma=5,67\cdot10^{-8}\left[\frac{W}{m^{2}K^{4}}\right]$
+\end_inset
+
+ è la costante di Stefan-Boltzmann
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Il potere emissivo del corpo nero è proporzionale alla quarta potenza della
+ temperatura assoluta
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Description
+Potere
+\begin_inset space ~
+\end_inset
+
+emissivo
+\begin_inset space ~
+\end_inset
+
+monocromatico
+\begin_inset space ~
+\end_inset
+
+o
+\begin_inset space ~
+\end_inset
+
+spettrale
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+corpo
+\begin_inset space ~
+\end_inset
+
+nero
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Il potere emissivo monocromatico o spettrale del corpo nero fornisce la
+ potenza emessa, in funzione della temperatura e della lunghezza d'onda
+ e si definisce come:
+\end_layout
+
+\begin_layout Itemize
+Potenza radiante emessa dal corpo nero alla temperatura assoluta 
+\begin_inset Formula $T$
+\end_inset
+
+, per unità di area superficiale e per unità di lunghezza d'onda, nell'intorno
+ della lunghezza d'onda 
+\begin_inset Formula $\lambda$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Per effettuare un calcolo quantitativo è necessario ricorrere ad una relazione
+ note come “legge della distribuzione di Planck”.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Variazione
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+potere
+\begin_inset space ~
+\end_inset
+
+emissivo
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+un
+\begin_inset space ~
+\end_inset
+
+corpo
+\begin_inset space ~
+\end_inset
+
+nero
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Variazione
+\begin_inset space ~
+\end_inset
+
+in
+\begin_inset space ~
+\end_inset
+
+funzione
+\begin_inset space ~
+\end_inset
+
+della
+\begin_inset space ~
+\end_inset
+
+temperatura
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+La radiazione emessa è funzione continua della lunghezza d'onda
+\end_layout
+
+\begin_layout Itemize
+La radiazione emessa dal sole, considerato un corpo nero, raggiunge il suo
+ picco nella zona visibile
+\end_layout
+
+\begin_layout Itemize
+Superfici a 
+\begin_inset Formula $T<800K$
+\end_inset
+
+ emettono invece qualsiasi radiazione interamente nella regione infrarossa
+ e pertanto non sono visibili all'occhio umano
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Potere emissivo
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Potere-emissivo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/vartempirr.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Legge della distribuzione di Planck
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+E_{n\lambda}=\frac{C_{1}}{\lambda^{5}\left[\exp\left(\frac{C_{2}}{\lambda T}\right)-1\right]}\,\,\,\left[\frac{W}{m^{2}\cdot\mu m}\right]
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $C_{1}=3,742$
+\end_inset
+
+ 
+\begin_inset Formula $\left[\frac{W\cdot\mu m^{4}}{m^{2}}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $C_{2}=1,439\cdot10^{4}$
+\end_inset
+
+ 
+\begin_inset Formula $\left[\mu m\cdot K\right]$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T=$
+\end_inset
+
+ temperatura assoluta 
+\begin_inset Formula $\left[K\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\lambda=$
+\end_inset
+
+ lunghezza d'onda della radiazione emessa
+\end_layout
+
+\begin_layout Standard
+L'integrale della potenza radiante emessa per una lunghezza d'onda da zero
+ ad infinito definisce il potere emissivo del corpo nero alla temperatura
+ 
+\begin_inset Formula $T$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\int_{\lambda=0}^{\infty}E_{n\lambda}\left(T\right)=E_{n}=\sigma T^{4}
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\begin_layout Subsection
+Legge dello spostamento o di Wien
+\end_layout
+
+\begin_layout Standard
+Osservando il grafico in Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Potere-emissivo"
+
+\end_inset
+
+, si può notare che i picchi corrispondenti al massimo valore di 
+\begin_inset Formula $E$
+\end_inset
+
+ giacciono in un particolare intorno di lunghezze d'onda.
+ 
+\end_layout
+
+\begin_layout Standard
+La legge che regola i picchi di potere emissivo di un corpo nero è la legge
+ di Wien (detta anche legge dello spostamento) ed afferma che:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\left(\lambda T\right)_{max\,potenza}=2897,8\,\left[\mu m\cdot K\right]
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\begin_layout Subsection
+Emissività
+\end_layout
+
+\begin_layout Standard
+L'emissività di una superficie è il rapporto tra la radiazione emessa dalla
+ superficie stessa e la radiazione del corpo nero alla medesima temperatura
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\epsilon\left(T\right)=\frac{E\left(T\right)}{E_{n}\left(T\right)}=\frac{E\left(T\right)}{\sigma\cdot T^{4}}
+\]
+
+\end_inset
+
+
+\series default
+\size default
+dalla quale ovviamente segue che 
+\begin_inset Formula $E\left(T\right)=\epsilon\left(T\right)\cdot\sigma T^{4}$
+\end_inset
+
+ 
+\begin_inset Formula $\left[\frac{W}{m^{2}}\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Grafici emissività
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Emissività
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/emissività.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Approssimazione con una funzione a gradino della variazione dell'emissività
+ con la lunghezza d'onda:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Emissività
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/emissività2.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Superfici emissive particolari
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Superficie diffondente: 
+\emph default
+Le sue proprietà risultano indipendenti dalla direzione
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Superficie grigia: 
+\emph default
+Le sue proprietà risultano indipendenti dalla lunghezza d'onda
+\end_layout
+
+\begin_layout Subsubsection
+Emissività di superfici reali
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Emissività superfici reali
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/emissivitàreali.png
+	lyxscale 50
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Emissività superfici reali
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/emissivitàreali2.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Coefficienti
+\end_layout
+
+\begin_layout Standard
+Tutti i corpi emettono continuamente radiazione in relazione alla loro emissivit
+à.
+\end_layout
+
+\begin_layout Standard
+Quando la radiazione colpisce una superficie, parte di essa è 
+\series bold
+assorbita
+\series default
+, parte è 
+\series bold
+riflessa 
+\series default
+e la restante parte, se presente, viene 
+\series bold
+trasmessa
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Coefficienti
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/irrcoeff.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Coefficiente di assorbimento 
+\series bold
+\size large
+
+\begin_inset Formula $\alpha=\frac{I_{assorbita}}{I_{incidente}}=\frac{I_{ass}}{I}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Coefficiente di riflessione 
+\series bold
+\size large
+
+\begin_inset Formula $\rho=\frac{I_{riflessa}}{I_{incidente}}=\frac{I_{rifl}}{I}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Coefficiente di trasmissione 
+\series bold
+\size large
+
+\begin_inset Formula $\tau=\frac{I_{trasmessa}}{I_{incidente}}=\frac{I_{ass}}{I}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Sussistono inoltre le seguenti relazioni:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\alpha+\rho+\tau=1$
+\end_inset
+
+ per superfici trasparenti
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\alpha+\rho=1$
+\end_inset
+
+ per superfici opache
+\end_layout
+
+\begin_layout Subsubsection
+Analisi di una superficie esposta 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Superficie esposta
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/supespostairr.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\begin{cases}
+I=I\rho+I\tau+I\alpha\\
+1=\frac{I\rho}{I}+\frac{I\tau}{I}+\frac{I\alpha}{I}\\
+1=\rho+\tau+\alpha
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+corpo opaco: 
+\begin_inset Formula $\tau=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+corpo trasparente: 
+\begin_inset Formula $\tau=1$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+superficie speculare: 
+\begin_inset Formula $\rho=1$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Coefficiente di assorbimento
+\end_layout
+
+\begin_layout Standard
+Contrariamente all’emissività, il coefficiente di assorbimento di un materiale
+ risulta praticamente indipendente dalla temperatura della superficie, ma
+ dipendente dalla temperatura della sorgente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Coefficiente di assorbimento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/assorbimentoirr.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Legge
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+Kirchoff Coefficiente di assorbimento ed emissività tendono a uguagliarsi
+ quando la differenza di temperatura fra emettitore e ricevente tende ad
+ annullarsi 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\alpha=\epsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+da ritenersi valida quando la differenza di temperatura non supera i 
+\begin_inset Formula $100K$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Coefficiente di trasmissione ad effetto serra
+\end_layout
+
+\begin_layout Standard
+All’interno di una serra, in presenza di una radiazione solare diretta,
+ in inverno si raggiungono delle temperature superiori rispetto a quelle
+ dell’ambiente esterno.
+ La serra si comporta come una trappola di calore.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Effetto serra
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/effettoserra.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La spiegazione di questo fenomeno, meglio noto come “effetto serra”, sta
+ nell’andamento della curva del coefficiente di trasmissione del vetro.
+ Il vetro trasmette il 
+\begin_inset Formula $90\%$
+\end_inset
+
+ di radiazione nel campo del visibile e risulta praticamente opaco alla
+ radiazione nella regione infrarossa dello spettro elettromagnetico.
+ L’effetto serra si verifica pure su scala più vasta sulla terra.
+\end_layout
+
+\begin_layout Subsubsection
+Radiazione solare atmosferica
+\end_layout
+
+\begin_layout Standard
+Il sole è la sorgente primaria di energia.
+ L’energia proveniente dal sole, detta energia solare, raggiunge il suolo
+ sotto forma di onde elettromagnetiche dopo aver attraversato l’atmosfera
+ che funge da filtro.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Formula $T$
+\end_inset
+
+ superficie solare
+\series default
+: 
+\begin_inset Formula $6000K$
+\end_inset
+
+ (considerando il sole un corpo nero)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Costante solare
+\series default
+: Rappresenta la potenza della radiazione solare che incide su di una superficie
+ normale ai raggi solari all’esterno dell’atmosfera quando la terra è alla
+ sua distanza media dal sole 
+\begin_inset Formula $I_{s}$
+\end_inset
+
+: 
+\begin_inset Formula $1353\frac{W}{m^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Nota
+\begin_inset space ~
+\end_inset
+
+Bene
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+La radiazione solare disponibile al suolo in una giornata serena si riduce
+ a meno di 
+\begin_inset Formula $1000\frac{W}{m^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+L'energia solare che raggiunge la terra (superficie terrestre) ha lunghezza
+ d'onda quasi tutta compresa tra 
+\begin_inset Formula $0,3$
+\end_inset
+
+ e 
+\begin_inset Formula $2,5\mu m$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Radiazione solare atmosferica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/radiazionesolare.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Passando attraverso l'atmosfera, la radiazione solare si attenua, si 
+\series bold
+diffonde 
+\series default
+ed è parzialmente 
+\series bold
+riflessa
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Sia la radiazione diretta che quella diffusa quando incidono sulla superficie
+ di un corpo vengono in parte riflesse, in parte assorbite e in parte trasmesse.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Radiazione solare atmosferica
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/radsolare2.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{q}_{netta,irr}=\alpha_{s}\cdot G_{solare}+\alpha_{s}\cdot G_{cielo}-\epsilon\cdot\sigma\cdot T_{s}^{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{q}_{netta,irr}=\alpha_{s}\cdot G_{solare}+\epsilon\cdot\sigma\cdot\left(T_{cielo}^{4}-T_{s}^{4}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+Confronto tra il coefficiente di assorbimento solare 
+\begin_inset Formula $\alpha_{s}$
+\end_inset
+
+ e l’emissivita’ 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ a temperatura ambiente:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Confronto tra 
+\begin_inset Formula $\alpha_{s}$
+\end_inset
+
+ e 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/radsolare3.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Il fattore di vista
+\end_layout
+
+\begin_layout Standard
+La trasmissione di calore per irraggiamento tra superfici dipende dall’orientazi
+one relativa delle superfici, dalle loro proprietà radiative, dalle loro
+ temperature.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Scambio termico per irraggiamento tra superfici, in funzione del fattore
+ di vista che tiene conto dell’orientamento reciproco delle superfici
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Scambio termico per irraggiamento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/scambioirr.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per tenere conto dell’orientamento si definisce un nuovo parametro detto
+ fattore di vista (o di forma, o di configurazione o di angolo).
+ Il fattore di vista tra una superficie 
+\begin_inset Formula $i$
+\end_inset
+
+ e una superficie 
+\begin_inset Formula $j$
+\end_inset
+
+ si indica 
+\begin_inset Formula $F_{i\rightarrow j}$
+\end_inset
+
+ e si definisce “Frazione della radiazione emessa dalla superficie i che
+ incide direttamente sulla superficie 
+\begin_inset Formula $j$
+\end_inset
+
+”.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $F_{i\rightarrow j}=0$
+\end_inset
+
+ le superfici 
+\begin_inset Formula $i$
+\end_inset
+
+ e 
+\begin_inset Formula $j$
+\end_inset
+
+ non sono in vista tra loro
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $F_{i\rightarrow j}=1$
+\end_inset
+
+ la superficie 
+\begin_inset Formula $j$
+\end_inset
+
+ circonda completamente la 
+\begin_inset Formula $i$
+\end_inset
+
+, per cui tutta la radiazione emessa da 
+\begin_inset Formula $i$
+\end_inset
+
+ è intercettata da 
+\begin_inset Formula $j$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Regole del fattore di vista
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Regola di reciprocità: 
+\emph default
+i fattori di vista 
+\begin_inset Formula $F_{i\rightarrow j}$
+\end_inset
+
+ e 
+\begin_inset Formula $F_{j\rightarrow i}$
+\end_inset
+
+ sono uguali solo se le aree delle superfici cui si riferiscono sono uguali
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $F_{i\rightarrow j}=F_{j\rightarrow i}$
+\end_inset
+
+ quando 
+\begin_inset Formula $A_{i}=A_{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $F_{i\rightarrow j}\neq F_{j\rightarrow i}$
+\end_inset
+
+ quando 
+\begin_inset Formula $A_{i}\neq A_{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A_{i}F_{i\rightarrow j}=A_{j}F_{j\rightarrow i}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\emph on
+Regola della somma: 
+\emph default
+per il principio di conservazione dell’energia, poiché tutta la radiazione
+ emessa dalla superficie i di una cavità deve essere intercettata dalle
+ superfici della cavità stessa, si ha che la somma dei fattori di vista
+ della superficie i di una cavità verso tutte le superfici della cavità
+ è uguale a 
+\begin_inset Formula $1$
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\sum_{j=1}^{n}F_{i\rightarrow j}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Scambio termico tra superfici
+\end_layout
+
+\begin_layout Itemize
+Ipotesi adottate
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+radiatori diffusi
+\end_layout
+
+\begin_layout Itemize
+radiazione incidente diffusa
+\end_layout
+
+\begin_layout Itemize
+corpi neri o grigi
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Convenzioni addottate
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $q_{1\rightarrow2}$
+\end_inset
+
+ potenza termica per unità di superficie emessa dalla superficie 
+\begin_inset Formula $1$
+\end_inset
+
+ che incide sulla superficie 
+\begin_inset Formula $2$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $q_{1-2}$
+\end_inset
+
+ potenza termica per unità di superficie emessa dalla superficie 
+\begin_inset Formula $1$
+\end_inset
+
+ che viene assorbita dalla superficie 
+\begin_inset Formula $2$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $q_{1,2}$
+\end_inset
+
+ potenza termica netta per unità di superficie scambiata tra la superficie
+ 
+\begin_inset Formula $1$
+\end_inset
+
+ e la superficie 
+\begin_inset Formula $2$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $q_{1-2}=\alpha\cdot q_{1\rightarrow2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $q_{1,2}=q_{1-2}-q_{2-1}=-q_{2,1}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Irraggiamento
+\end_layout
+
+\begin_layout Standard
+L'irraggiamento è lo scambio termico tra superfici.
+\end_layout
+
+\begin_layout Subsubsection
+Caso A: superfici piane parallele indefinite nere
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Caso A
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/casoa.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $q_{1,2}=\sigma_{0}\left(T_{1}^{4}-T_{2}^{4}\right)$
+\end_inset
+
+ potenza termica netta per unità di superficie scambiata tra la superficie
+ 
+\begin_inset Formula $1$
+\end_inset
+
+ e la superficie 
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Caso B: superfici piane parallele indefinite nera-grigia
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Caso B
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/casob.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $q_{1,2}=\epsilon_{2}\sigma_{0}\left(T_{1}^{4}-T_{2}^{4}\right)$
+\end_inset
+
+ potenza termica netta per unità di superficie scambiata tra la superficie
+ 
+\begin_inset Formula $1$
+\end_inset
+
+ e la superficie 
+\begin_inset Formula $2$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Caso C: superfici piane parallele indefinite grigia-grigia
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Caso C
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/casoc.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $q_{1,2}=\frac{\sigma_{0}\left(T_{1}^{4}-T_{2}^{4}\right)}{\frac{1}{\epsilon_{1}}+\frac{1}{\epsilon_{2}}-1}$
+\end_inset
+
+ potenza termica netta per unità di superficie scambiata tra la superficie
+ 
+\begin_inset Formula $1$
+\end_inset
+
+ e la superficie 
+\begin_inset Formula $2$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Caso D: superfici nere
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Caso D
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/casod.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\dot{Q}_{1,2}=A_{1}F_{12}\sigma_{0}\left(T_{1}^{4}-T_{2}^{4}\right)$
+\end_inset
+
+ potenza termica netta scambiata tra la superficie 
+\begin_inset Formula $1$
+\end_inset
+
+ e la superficie 
+\begin_inset Formula $2$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\dot{Q}_{1,2}=A_{1}F_{12}\sigma_{0}T_{1}^{4}-A_{2}F_{21}\sigma_{0}T_{2}^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A_{1}F_{12}=A_{2}F_{21}$
+\end_inset
+
+ (regola di reciprocità)
+\end_layout
+
+\begin_layout Subsubsection
+Bilancio termico di superficie grigia opaca
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+J_{i}=E_{i}+\rho I_{i}
+\]
+
+\end_inset
+
+ 
+\series default
+
+\begin_inset Formula 
+\[
+J_{i}=\epsilon_{i}E_{in}+\left(1-\epsilon_{i}\right)I_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $J_{i}$
+\end_inset
+
+ è la radiosità
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $E_{i}$
+\end_inset
+
+ è la radiazione emessa
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $I_{i}$
+\end_inset
+
+ è la radiazione riflessa
+\end_layout
+
+\begin_layout Standard
+inoltre:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\epsilon=\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\alpha+\rho=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Potenza termica netta uscente dalla superficie 
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{i}=A_{i}\left(J_{i}-I_{i}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $J_{i}$
+\end_inset
+
+ è la radiazione che abbandona 
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $I_{i}$
+\end_inset
+
+ è la radiazione incidente su 
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Bilancio termico di superficie grigia
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{i}=A_{i}\left(J_{i}-\frac{J_{i}-\epsilon_{i}E_{in}}{1-\epsilon_{i}}\right)=\frac{E_{in}-J_{i}}{\frac{1-\epsilon_{i}}{\epsilon_{i}A_{i}}}
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Bilancio superficie grigia
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/bilanciogrigia.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Formula $\frac{1-\epsilon_{i}}{\epsilon_{i}A_{i}}$
+\end_inset
+
+ 
+\series default
+resistenza 
+\emph on
+superficiale 
+\emph default
+all'irraggiamento
+\end_layout
+
+\begin_layout Subsubsection
+Superfici grigie formanti una cavità
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Superfici grigie formanti una cavità
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/cavità.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{1,2}=\frac{\sigma_{0}\left(T_{1}^{4}-T_{2}^{4}\right)}{\frac{1-\epsilon_{1}}{\epsilon_{1}A_{1}}+\frac{1}{A_{1}F_{12}}+\frac{1-\epsilon_{2}}{\epsilon_{2}A_{2}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Formula $\frac{1}{A_{i}F_{12}}$
+\end_inset
+
+ 
+\series default
+resistenza 
+\emph on
+spaziale 
+\emph default
+alla radiazione
+\end_layout
+
+\begin_layout Subsubsection
+Analogia elettricità
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Elettricità
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/elet.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Formula $\frac{1-\epsilon_{1}}{\epsilon_{1}A_{1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Formula $\frac{1}{A_{1}F_{12}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Formula $\frac{1-\epsilon_{2}}{\epsilon_{2}A_{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Esempio
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Esempio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Graphics/eselettricità.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\begin_inset Formula 
+\[
+\dot{Q}_{1,2}=\frac{\sigma_{0}\left(T_{1}^{4}-T_{2}^{4}\right)}{\frac{1-\epsilon_{1}}{\epsilon_{1}A_{1}}+\frac{1}{A_{1}F_{1s}}+\frac{1-\epsilon_{s1}}{\epsilon_{s1}A_{s1}}+\frac{1-\epsilon_{s2}}{\epsilon_{s2}A_{s2}}+\frac{1}{A_{s2}F_{s2}}+\frac{1-\epsilon_{2}}{\epsilon_{2}A_{2}}}
+\]
+
+\end_inset
+
+
+\series default
+\size default
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Description
 
 \end_layout
 
