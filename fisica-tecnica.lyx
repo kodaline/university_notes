@@ -20236,7 +20236,7 @@ Parete piana verticale
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $Nu_{L}=0.59Ra^{0.25}$
+\begin_inset Formula $Nu_{L}=0,59Ra^{0.25}$
 \end_inset
 
 
@@ -20263,7 +20263,7 @@ moto laminare
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $Nu_{L}=0.10Ra^{0.33}$
+\begin_inset Formula $Nu_{L}=0,10Ra^{0.33}$
 \end_inset
 
 
@@ -20325,7 +20325,7 @@ Cilindro indefinito orizzontale
 \begin_layout Plain Layout
 
 \size large
-\begin_inset Formula $Nu_{D}=\left\{ 0.60+\frac{0.387Ra^{\frac{1}{6}}}{\left[1+\left(\frac{0.559}{Pr}\right)^{\frac{9}{16}}\right]^{\frac{8}{27}}}\right\} ^{2}$
+\begin_inset Formula $Nu_{D}=\left\{ 0,60+\frac{0,387Ra^{\frac{1}{6}}}{\left[1+\left(\frac{0,559}{Pr}\right)^{\frac{9}{16}}\right]^{\frac{8}{27}}}\right\} ^{2}$
 \end_inset
 
 
@@ -20370,6 +20370,2901 @@ Relazione di Churchill-Chu:
 
 .
  Le proprietà termofisiche sono valutate alla temperatura di film.
+\end_layout
+
+\begin_layout Section
+Irraggiamento 
+\end_layout
+
+\begin_layout Description
+Definizione L'irraggiamento è il trasferimento di energia che avviene mediante
+ onde elettromagnetiche (o fotoni) prodotte da variazioni nelle configurazioni
+ elettroniche degli atomi e delle molecole.
+\end_layout
+
+\begin_layout Subsection
+Notazioni varie
+\end_layout
+
+\begin_layout Itemize
+Nel 1887 H.
+ Hertz dimostrò sperimentalmente l'esistenza delle onde elettromagnetiche.
+\end_layout
+
+\begin_layout Itemize
+La radiazione si propaga nel vuoto o in un mezzo di trasmissione trasparente
+ alla radiazione alla velocità della luce.
+\end_layout
+
+\begin_layout Itemize
+Le onde elettromagnetiche sono caratterizzate da:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Frequenza 
+\begin_inset Formula $u$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Numero di oscillazioni al secondo
+\end_layout
+
+\begin_layout Itemize
+Dipende solo dalla sorgente
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Lunghezza d'onda 
+\begin_inset Formula $l=\frac{\underline{c}}{u}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\underline{c}$
+\end_inset
+
+ è la velocità della luce nel mezzo di trasmissione
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $l$
+\end_inset
+
+ dipende dalla sorgente e dal mezzo di propagazione
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Fenomeno volumetrico (es.
+ gas, vetro, mezzi trasparenti) 
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Fenomeno volumetrico
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/fenomenovolumetrico.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Fenomeno superficiale (es.
+ solidi, mezzi non trasparenti)
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Fenomeno superficiale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/fenomenosuperficiale.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+È possibile una doppia interpretazione:
+\end_layout
+
+\begin_layout Itemize
+Radiazione come propagazione di onde elettromagnetiche 
+\end_layout
+
+\begin_layout Itemize
+Radiazione come propagazione di quanti di energia (fotoni)
+\end_layout
+
+\begin_layout Subsection
+Radiazione termica e trasmissione del calore
+\end_layout
+
+\begin_layout Itemize
+Nello studio della trasmissione del calore, poiché interessa solo l'energia
+ emessa dai corpi a causa della loro temperatura, si considera esclusivamente
+ la componente di radiazione responsabile di questo fenomeno
+\end_layout
+
+\begin_layout Itemize
+La parte di radiazione responsabile delle variazioni di temperatura prende
+ il nome di “radiazione termica”.
+ La sua componente spettrale è compresa tra 
+\begin_inset Formula $0,1\mu m<\lambda<100\mu m$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+La radiazione termica è dovuta ai moti vibratori e rotatori delle molecole,
+ atomi ed elettroni che compongono le diverse sostanze
+\end_layout
+
+\begin_layout Itemize
+Per la sua natura fisica la radiazione termica è caratterizzabile per una
+ distribuzione spettrale ed una distribuzione direzionale
+\end_layout
+
+\begin_layout Itemize
+Poiché la temperatura è una misura dell'intensità di questi processi, all'aument
+are della temperatura, aumenta l'emissione di radiazione termica
+\end_layout
+
+\begin_layout Itemize
+La radiazione termica è emessa continuamente da tutta la materia che si
+ trova a temperatura superiore allo zero assoluto
+\end_layout
+
+\begin_layout Description
+Le
+\begin_inset space ~
+\end_inset
+
+componenti
+\begin_inset space ~
+\end_inset
+
+della
+\begin_inset space ~
+\end_inset
+
+radiazione
+\begin_inset space ~
+\end_inset
+
+termica
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Radiazione
+\begin_inset space ~
+\end_inset
+
+visibile Si tratta della componente visibile dello spettro elettromagnetico
+ ed è compresa tra:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0,40\mu m<\lambda<0,76\mu m
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+Radiazione
+\begin_inset space ~
+\end_inset
+
+infrarossa Si tratta della componente di radiazione termica dei corpi a
+ bassa temperatura e ricopre lo spettro compreso tra:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0,76\mu m<\lambda<100\mu m
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+Radiazione
+\begin_inset space ~
+\end_inset
+
+ultravioletta Si tratta della componente di radiazione a bassa lunghezza
+ d'onda della radiazione termica ed è compresa tra:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0,01\mu m<\lambda<0,40\mu m
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Radiazione visibile
+\end_layout
+
+\begin_layout Standard
+La radiazione visibile è completamente inglobata dalla radiazione termica.
+\end_layout
+
+\begin_layout Itemize
+Spettro compreso tra 
+\begin_inset Formula $0,1\mu m<\lambda<0,76\mu m$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+La radiazione visibile viene emessa dai corpi ad alta temperatura e viene
+ in parte assorbita ed in parte riflessa dalla superficie sulla quale incide.
+ A seconda della componente spettrale che viene riflessa l'occhio umano
+ percepisce i colori:
+\end_layout
+
+\begin_layout Itemize
+Violetto: componente spettrale riflessa compresa tra 
+\begin_inset Formula $0,40-0,44\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Blu: componente spettrale riflessa compresa tra 
+\begin_inset Formula $0,44-0,49\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Verde: componente spettrale riflessa compresa tra 
+\begin_inset Formula $0,49-0,54\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Giallo: componente spettrale riflessa compresa tra 
+\begin_inset Formula $0,54-0,60\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Arancio: componente spettrale riflessa compresa tra 
+\begin_inset Formula $0,60-0,63\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Rosso: componente spettrale riflessa compresa tra 
+\begin_inset Formula $0,63-0,76\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Nero: luce incidente completamente assorbita
+\end_layout
+
+\begin_layout Itemize
+Bianco: luce incidente completamente riflessa
+\end_layout
+
+\begin_layout Subsection
+Radiazione infrarossa
+\end_layout
+
+\begin_layout Standard
+La radiazione infrarossa è completamente inglobata dalla radiazione termica.
+\end_layout
+
+\begin_layout Itemize
+Spettro compreso tra 
+\begin_inset Formula $0,76\mu m<\lambda<100\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+La radiazione infrarossa è la radiazione emessa dai corpi che si trovano
+ a bassa temperatura.
+ Solo a temperature superiori agli 
+\begin_inset Formula $800K$
+\end_inset
+
+ i corpi iniziano ad emettere radiazione visibile apprezzabile.
+ Nella lampadina ad incandescenza, il filamento di tungsteno, per diventare
+ luminoso, deve essere riscaldato a 
+\begin_inset Formula $2000K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+L'occhio umano non è in grado di percepirla ma quello di altre specie animali
+ è in grado di farlo (ad es.
+ alcuni serpenti).
+\end_layout
+
+\begin_layout Subsection
+Radiazione ultravioletta
+\end_layout
+
+\begin_layout Standard
+La radiazione ultravioletta è parzialmente inglobata dalla radiazione termica.
+\end_layout
+
+\begin_layout Itemize
+Spettro compreso tra 
+\begin_inset Formula $0,01\mu m<\lambda<0,40\mu m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+I raggi ultravioletti sono da evitare perché dannosi agli organismi viventi.
+ 
+\end_layout
+
+\begin_layout Itemize
+Circa il 
+\begin_inset Formula $12\%$
+\end_inset
+
+ della radiazione solare al di fuori dell'atmosfera è nel campo ultravioletto.
+\end_layout
+
+\begin_layout Itemize
+Lo strato di ozono 
+\begin_inset Formula $O_{3}$
+\end_inset
+
+ dell'atmosfera fa da scudo protettivo assorbendo la maggior parte della
+ radiazione ultravioletta extratmosferica.
+\end_layout
+
+\begin_layout Itemize
+La relativa recente scoperta di 
+\begin_inset Quotes eld
+\end_inset
+
+buchi
+\begin_inset Quotes erd
+\end_inset
+
+ nello strato di ozono hanno costretto la comunità internazionale a bandire
+ l'uso di sostanze chimiche che distruggono l'ozono (CFC, refrigerante freon
+ 12, ecc.).
+\end_layout
+
+\begin_layout Itemize
+L'occhio umano non è in grado di percepirla.
+ Quello di altre specie animali è in grado di farlo (es.
+ Api)
+\end_layout
+
+\begin_layout Subsubsection
+Corpo nero
+\end_layout
+
+\begin_layout Description
+Definizione:
+\begin_inset space ~
+\end_inset
+
+Corpo
+\begin_inset space ~
+\end_inset
+
+nero Il corpo nero è un perfetto emettitore di radiazioni poiché emette
+ la massima radiazione ad ogni temperatura e lunghezza d'onda e assorbe
+ tutta la radiazione incidente indipendentemente da direzione e lunghezza
+ d'onda.
+\end_layout
+
+\begin_layout Description
+Approssimazione
+\begin_inset space ~
+\end_inset
+
+reale
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+corpo
+\begin_inset space ~
+\end_inset
+
+nero Poiché la radiazione termica occupa una banda molto ristretta dello
+ spettro, non si può giudicare se una superficie approssima il comportamento
+ del corpo nero sulla base della sola osservazione visiva.
+ Un corpo che approssima il comportamento del corpo nero è una cavità con
+ una piccola apertura.
+\begin_inset Newline newline
+\end_inset
+
+L'energia che giunge sull'apertura entra nella cavità.
+ Se le pareti di questa non sono nere, un raggio incidente verrà in parte
+ assorbito e in parte riflesso.
+ Attraverso riflessioni multiple, la frazione riflessa si attenuerà, così
+ da permettere che tutta l'energia venga assorbita, salvo una quantità inapprezz
+abile.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Corpo nero
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/approxcorponero.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Potenza
+\begin_inset space ~
+\end_inset
+
+radiante
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+corpo
+\begin_inset space ~
+\end_inset
+
+nero
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+La potenza radiante totale emessa da un corpo nero per unità di area superficial
+e è detta anche potere emissivo del corpo nero ed è espressa dalla relazione
+ di Stefan- Boltzmann:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E_{n}=\sigma T^{4}\left[\frac{W}{m^{2}}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\sigma=5,67\cdot10^{-8}\left[\frac{W}{m^{2}K^{4}}\right]$
+\end_inset
+
+ è la costante di Stefan-Boltzmann
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Il potere emissivo del corpo nero è proporzionale alla quarta potenza della
+ temperatura assoluta
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Description
+Potere
+\begin_inset space ~
+\end_inset
+
+emissivo
+\begin_inset space ~
+\end_inset
+
+monocromatico
+\begin_inset space ~
+\end_inset
+
+o
+\begin_inset space ~
+\end_inset
+
+spettrale
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+corpo
+\begin_inset space ~
+\end_inset
+
+nero
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Il potere emissivo monocromatico o spettrale del corpo nero fornisce la
+ potenza emessa, in funzione della temperatura e della lunghezza d'onda
+ e si definisce come:
+\end_layout
+
+\begin_layout Itemize
+Potenza radiante emessa dal corpo nero alla temperatura assoluta 
+\begin_inset Formula $T$
+\end_inset
+
+, per unità di area superficiale e per unità di lunghezza d'onda, nell'intorno
+ della lunghezza d'onda 
+\begin_inset Formula $\lambda$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Per effettuare un calcolo quantitativo è necessario ricorrere ad una relazione
+ note come “legge della distribuzione di Planck”.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Variazione
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+potere
+\begin_inset space ~
+\end_inset
+
+emissivo
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+un
+\begin_inset space ~
+\end_inset
+
+corpo
+\begin_inset space ~
+\end_inset
+
+nero
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Variazione
+\begin_inset space ~
+\end_inset
+
+in
+\begin_inset space ~
+\end_inset
+
+funzione
+\begin_inset space ~
+\end_inset
+
+della
+\begin_inset space ~
+\end_inset
+
+temperatura
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+La radiazione emessa è funzione continua della lunghezza d'onda
+\end_layout
+
+\begin_layout Itemize
+La radiazione emessa dal sole, considerato un corpo nero, raggiunge il suo
+ picco nella zona visibile
+\end_layout
+
+\begin_layout Itemize
+Superfici a 
+\begin_inset Formula $T<800K$
+\end_inset
+
+ emettono invece qualsiasi radiazione interamente nella regione infrarossa
+ e pertanto non sono visibili all'occhio umano
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Potere emissivo
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Potere-emissivo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/vartempirr.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Legge della distribuzione di Planck
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E_{n\lambda}=\frac{C_{1}}{\lambda^{5}\left[\exp\left(\frac{C_{2}}{\lambda T}\right)-1\right]}\,\,\,\left[\frac{W}{m^{2}\cdot\mu m}\right]
+\]
+
+\end_inset
+
+ dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $C_{1}=3,742$
+\end_inset
+
+ 
+\begin_inset Formula $\left[\frac{W\cdot\mu m^{4}}{m^{2}}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $C_{2}=1,439\cdot10^{4}$
+\end_inset
+
+ 
+\begin_inset Formula $\left[\mu m\cdot K\right]$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T=$
+\end_inset
+
+ temperatura assoluta 
+\begin_inset Formula $\left[K\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\lambda=$
+\end_inset
+
+ lunghezza d'onda della radiazione emessa
+\end_layout
+
+\begin_layout Standard
+L'integrale della potenza radiante emessa per una lunghezza d'onda da zero
+ ad infinito definisce il potere emissivo del corpo nero alla temperatura
+ 
+\begin_inset Formula $T$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\int_{\lambda=0}^{\infty}E_{n\lambda}\left(T\right)=E_{n}=\sigma T^{4}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsection
+Legge dello spostamento o di Wien
+\end_layout
+
+\begin_layout Standard
+Osservando il grafico in Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Potere-emissivo"
+
+\end_inset
+
+, si può notare che i picchi corrispondenti al massimo valore di 
+\begin_inset Formula $E$
+\end_inset
+
+ giacciono in un particolare intorno di lunghezze d'onda.
+ 
+\end_layout
+
+\begin_layout Standard
+La legge che regola i picchi di potere emissivo di un corpo nero è la legge
+ di Wien (detta anche legge dello spostamento) ed afferma che:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\lambda T\right)_{max\,potenza}=2897,8\,\left[\mu m\cdot K\right]
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsection
+Emissività
+\end_layout
+
+\begin_layout Standard
+L'emissività di una superficie è il rapporto tra la radiazione emessa dalla
+ superficie stessa e la radiazione del corpo nero alla medesima temperatura
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\epsilon\left(T\right)=\frac{E\left(T\right)}{E_{n}\left(T\right)}=\frac{E\left(T\right)}{\sigma\cdot T^{4}}
+\]
+
+\end_inset
+
+dalla quale ovviamente segue che 
+\begin_inset Formula $E\left(T\right)=\epsilon\left(T\right)\cdot\sigma T^{4}$
+\end_inset
+
+ 
+\begin_inset Formula $\left[\frac{W}{m^{2}}\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Grafici emissività
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Emissività
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/emissività.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Approssimazione con una funzione a gradino della variazione dell'emissività
+ con la lunghezza d'onda:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Emissività
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/emissività2.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Superfici emissive particolari
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Superficie diffondente: 
+\emph default
+Le sue proprietà risultano indipendenti dalla direzione
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Superficie grigia: 
+\emph default
+Le sue proprietà risultano indipendenti dalla lunghezza d'onda
+\end_layout
+
+\begin_layout Subsubsection
+Emissività di superfici reali
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Emissività superfici reali
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/emissivitàreali.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Emissività superfici reali
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/emissivitàreali2.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Coefficienti
+\end_layout
+
+\begin_layout Standard
+Tutti i corpi emettono continuamente radiazione in relazione alla loro emissivit
+à.
+\end_layout
+
+\begin_layout Standard
+Quando la radiazione colpisce una superficie, parte di essa è 
+\series bold
+assorbita
+\series default
+, parte è 
+\series bold
+riflessa 
+\series default
+e la restante parte, se presente, viene 
+\series bold
+trasmessa
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Coefficienti
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/irrcoeff.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Coefficiente di assorbimento 
+\begin_inset Formula $\alpha=\frac{I_{assorbita}}{I_{incidente}}=\frac{I_{ass}}{I}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Coefficiente di riflessione 
+\begin_inset Formula $\rho=\frac{I_{riflessa}}{I_{incidente}}=\frac{I_{rifl}}{I}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Coefficiente di trasmissione 
+\begin_inset Formula $\tau=\frac{I_{trasmessa}}{I_{incidente}}=\frac{I_{ass}}{I}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Sussistono inoltre le seguenti relazioni:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\alpha+\rho+\tau=1$
+\end_inset
+
+ per superfici trasparenti
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\alpha+\rho=1$
+\end_inset
+
+ per superfici opache
+\end_layout
+
+\begin_layout Subsubsection
+Analisi di una superficie esposta 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Superficie esposta
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/supespostairr.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+I=I\rho+I\tau+I\alpha\\
+1=\frac{I\rho}{I}+\frac{I\tau}{I}+\frac{I\alpha}{I}\\
+1=\rho+\tau+\alpha
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+corpo opaco: 
+\begin_inset Formula $\tau=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+corpo trasparente: 
+\begin_inset Formula $\tau=1$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+superficie speculare: 
+\begin_inset Formula $\rho=1$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Coefficiente di assorbimento
+\end_layout
+
+\begin_layout Standard
+Contrariamente all’emissività, il coefficiente di assorbimento di un materiale
+ risulta praticamente indipendente dalla temperatura della superficie, ma
+ dipendente dalla temperatura della sorgente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Coefficiente di assorbimento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/assorbimentoirr.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Legge
+\begin_inset space ~
+\end_inset
+
+di
+\begin_inset space ~
+\end_inset
+
+Kirchoff Coefficiente di assorbimento ed emissività tendono a uguagliarsi
+ quando la differenza di temperatura fra emettitore e ricevente tende ad
+ annullarsi 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\alpha=\epsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+da ritenersi valida quando la differenza di temperatura non supera i 
+\begin_inset Formula $100K$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Coefficiente di trasmissione ad effetto serra
+\end_layout
+
+\begin_layout Standard
+All’interno di una serra, in presenza di una radiazione solare diretta,
+ in inverno si raggiungono delle temperature superiori rispetto a quelle
+ dell’ambiente esterno.
+ La serra si comporta come una trappola di calore.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Effetto serra
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/effettoserra.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La spiegazione di questo fenomeno, meglio noto come “effetto serra”, sta
+ nell’andamento della curva del coefficiente di trasmissione del vetro.
+ Il vetro trasmette il 
+\begin_inset Formula $90\%$
+\end_inset
+
+ di radiazione nel campo del visibile e risulta praticamente opaco alla
+ radiazione nella regione infrarossa dello spettro elettromagnetico.
+ L’effetto serra si verifica pure su scala più vasta sulla terra.
+\end_layout
+
+\begin_layout Subsubsection
+Radiazione solare atmosferica
+\end_layout
+
+\begin_layout Standard
+Il sole è la sorgente primaria di energia.
+ L’energia proveniente dal sole, detta energia solare, raggiunge il suolo
+ sotto forma di onde elettromagnetiche dopo aver attraversato l’atmosfera
+ che funge da filtro.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Formula $T$
+\end_inset
+
+ superficie solare
+\series default
+: 
+\begin_inset Formula $6000K$
+\end_inset
+
+ (considerando il sole un corpo nero)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Costante solare
+\series default
+: Rappresenta la potenza della radiazione solare che incide su di una superficie
+ normale ai raggi solari all’esterno dell’atmosfera quando la terra è alla
+ sua distanza media dal sole 
+\begin_inset Formula $I_{s}$
+\end_inset
+
+: 
+\begin_inset Formula $1353\frac{W}{m^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Nota
+\begin_inset space ~
+\end_inset
+
+Bene
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+La radiazione solare disponibile al suolo in una giornata serena si riduce
+ a meno di 
+\begin_inset Formula $1000\frac{W}{m^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+L'energia solare che raggiunge la terra (superficie terrestre) ha lunghezza
+ d'onda quasi tutta compresa tra 
+\begin_inset Formula $0,3$
+\end_inset
+
+ e 
+\begin_inset Formula $2,5\mu m$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Radiazione solare atmosferica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/radiazionesolare.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Passando attraverso l'atmosfera, la radiazione solare si attenua, si 
+\series bold
+diffonde 
+\series default
+ed è parzialmente 
+\series bold
+riflessa
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Sia la radiazione diretta che quella diffusa quando incidono sulla superficie
+ di un corpo vengono in parte riflesse, in parte assorbite e in parte trasmesse.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Radiazione solare atmosferica
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/radsolare2.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\dot{q}_{netta,irr}=\alpha_{s}\cdot G_{solare}+\alpha_{s}\cdot G_{cielo}-\epsilon\cdot\sigma\cdot T_{s}^{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\dot{q}_{netta,irr}=\alpha_{s}\cdot G_{solare}+\epsilon\cdot\sigma\cdot\left(T_{cielo}^{4}-T_{s}^{4}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+Confronto tra il coefficiente di assorbimento solare 
+\begin_inset Formula $\alpha_{s}$
+\end_inset
+
+ e l’emissivita’ 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ a temperatura ambiente:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Confronto tra 
+\begin_inset Formula $\alpha_{s}$
+\end_inset
+
+ e 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/radsolare3.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Il fattore di vista
+\end_layout
+
+\begin_layout Standard
+La trasmissione di calore per irraggiamento tra superfici dipende dall’orientazi
+one relativa delle superfici, dalle loro proprietà radiative, dalle loro
+ temperature.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Scambio termico per irraggiamento tra superfici, in funzione del fattore
+ di vista che tiene conto dell’orientamento reciproco delle superfici
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Scambio termico per irraggiamento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/scambioirr.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per tenere conto dell’orientamento si definisce un nuovo parametro detto
+ fattore di vista (o di forma, o di configurazione o di angolo).
+ Il fattore di vista tra una superficie 
+\begin_inset Formula $i$
+\end_inset
+
+ e una superficie 
+\begin_inset Formula $j$
+\end_inset
+
+ si indica 
+\begin_inset Formula $F_{i\rightarrow j}$
+\end_inset
+
+ e si definisce “Frazione della radiazione emessa dalla superficie i che
+ incide direttamente sulla superficie 
+\begin_inset Formula $j$
+\end_inset
+
+”.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $F_{i\rightarrow j}=0$
+\end_inset
+
+ le superfici 
+\begin_inset Formula $i$
+\end_inset
+
+ e 
+\begin_inset Formula $j$
+\end_inset
+
+ non sono in vista tra loro
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $F_{i\rightarrow j}=1$
+\end_inset
+
+ la superficie 
+\begin_inset Formula $j$
+\end_inset
+
+ circonda completamente la 
+\begin_inset Formula $i$
+\end_inset
+
+, per cui tutta la radiazione emessa da 
+\begin_inset Formula $i$
+\end_inset
+
+ è intercettata da 
+\begin_inset Formula $j$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Regole del fattore di vista
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Regola di reciprocità: 
+\emph default
+i fattori di vista 
+\begin_inset Formula $F_{i\rightarrow j}$
+\end_inset
+
+ e 
+\begin_inset Formula $F_{j\rightarrow i}$
+\end_inset
+
+ sono uguali solo se le aree delle superfici cui si riferiscono sono uguali
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $F_{i\rightarrow j}=F_{j\rightarrow i}$
+\end_inset
+
+ quando 
+\begin_inset Formula $A_{i}=A_{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $F_{i\rightarrow j}\neq F_{j\rightarrow i}$
+\end_inset
+
+ quando 
+\begin_inset Formula $A_{i}\neq A_{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A_{i}F_{i\rightarrow j}=A_{j}F_{j\rightarrow i}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\emph on
+Regola della somma: 
+\emph default
+per il principio di conservazione dell’energia, poiché tutta la radiazione
+ emessa dalla superficie i di una cavità deve essere intercettata dalle
+ superfici della cavità stessa, si ha che la somma dei fattori di vista
+ della superficie i di una cavità verso tutte le superfici della cavità
+ è uguale a 
+\begin_inset Formula $1$
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sum_{j=1}^{n}F_{i\rightarrow j}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Scambio termico tra superfici
+\end_layout
+
+\begin_layout Itemize
+Ipotesi adottate
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+radiatori diffusi
+\end_layout
+
+\begin_layout Itemize
+radiazione incidente diffusa
+\end_layout
+
+\begin_layout Itemize
+corpi neri o grigi
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Convenzioni addottate
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $q_{1\rightarrow2}$
+\end_inset
+
+ potenza termica per unità di superficie emessa dalla superficie 
+\begin_inset Formula $1$
+\end_inset
+
+ che incide sulla superficie 
+\begin_inset Formula $2$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $q_{1-2}$
+\end_inset
+
+ potenza termica per unità di superficie emessa dalla superficie 
+\begin_inset Formula $1$
+\end_inset
+
+ che viene assorbita dalla superficie 
+\begin_inset Formula $2$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $q_{1,2}$
+\end_inset
+
+ potenza termica netta per unità di superficie scambiata tra la superficie
+ 
+\begin_inset Formula $1$
+\end_inset
+
+ e la superficie 
+\begin_inset Formula $2$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $q_{1-2}=\alpha\cdot q_{1\rightarrow2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $q_{1,2}=q_{1-2}-q_{2-1}=-q_{2,1}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Irraggiamento
+\end_layout
+
+\begin_layout Standard
+L'irraggiamento è lo scambio termico tra superfici.
+\end_layout
+
+\begin_layout Subsubsection
+Caso A: superfici piane parallele indefinite nere
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Caso A
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/casoa.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $q_{1,2}=\sigma_{0}\left(T_{1}^{4}-T_{2}^{4}\right)$
+\end_inset
+
+ potenza termica netta per unità di superficie scambiata tra la superficie
+ 
+\begin_inset Formula $1$
+\end_inset
+
+ e la superficie 
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Caso B: superfici piane parallele indefinite nera-grigia
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Caso B
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/casob.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $q_{1,2}=\epsilon_{2}\sigma_{0}\left(T_{1}^{4}-T_{2}^{4}\right)$
+\end_inset
+
+ potenza termica netta per unità di superficie scambiata tra la superficie
+ 
+\begin_inset Formula $1$
+\end_inset
+
+ e la superficie 
+\begin_inset Formula $2$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Caso C: superfici piane parallele indefinite grigia-grigia
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Caso C
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/casoc.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $q_{1,2}=\frac{\sigma_{0}\left(T_{1}^{4}-T_{2}^{4}\right)}{\frac{1}{\epsilon_{1}}+\frac{1}{\epsilon_{2}}-1}$
+\end_inset
+
+ potenza termica netta per unità di superficie scambiata tra la superficie
+ 
+\begin_inset Formula $1$
+\end_inset
+
+ e la superficie 
+\begin_inset Formula $2$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Caso D: superfici nere
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Caso D
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/casod.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\dot{Q}_{1,2}=A_{1}F_{12}\sigma_{0}\left(T_{1}^{4}-T_{2}^{4}\right)$
+\end_inset
+
+ potenza termica netta scambiata tra la superficie 
+\begin_inset Formula $1$
+\end_inset
+
+ e la superficie 
+\begin_inset Formula $2$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\dot{Q}_{1,2}=A_{1}F_{12}\sigma_{0}T_{1}^{4}-A_{2}F_{21}\sigma_{0}T_{2}^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $A_{1}F_{12}=A_{2}F_{21}$
+\end_inset
+
+ (regola di reciprocità)
+\end_layout
+
+\begin_layout Subsubsection
+Bilancio termico di superficie grigia opaca
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+J_{i}=E_{i}+\rho I_{i}
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+J_{i}=\epsilon_{i}E_{in}+\left(1-\epsilon_{i}\right)I_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $J_{i}$
+\end_inset
+
+ è la radiosità
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $E_{i}$
+\end_inset
+
+ è la radiazione emessa
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $I_{i}$
+\end_inset
+
+ è la radiazione riflessa
+\end_layout
+
+\begin_layout Standard
+inoltre:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\epsilon=\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\alpha+\rho=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Potenza termica netta uscente dalla superficie 
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\dot{Q}_{i}=A_{i}\left(J_{i}-I_{i}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $J_{i}$
+\end_inset
+
+ è la radiazione che abbandona 
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $I_{i}$
+\end_inset
+
+ è la radiazione incidente su 
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Bilancio termico di superficie grigia
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\dot{Q}_{i}=A_{i}\left(J_{i}-\frac{J_{i}-\epsilon_{i}E_{in}}{1-\epsilon_{i}}\right)=\frac{E_{in}-J_{i}}{\frac{1-\epsilon_{i}}{\epsilon_{i}A_{i}}}
+\]
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Bilancio superficie grigia
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/bilanciogrigia.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{1-\epsilon_{i}}{\epsilon_{i}A_{i}}$
+\end_inset
+
+ resistenza 
+\emph on
+superficiale 
+\emph default
+all'irraggiamento
+\end_layout
+
+\begin_layout Subsubsection
+Superfici grigie formanti una cavità
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Superfici grigie formanti una cavità
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/cavità.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\dot{Q}_{1,2}=\frac{\sigma_{0}\left(T_{1}^{4}-T_{2}^{4}\right)}{\frac{1-\epsilon_{1}}{\epsilon_{1}A_{1}}+\frac{1}{A_{1}F_{12}}+\frac{1-\epsilon_{2}}{\epsilon_{2}A_{2}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{1}{A_{i}F_{12}}$
+\end_inset
+
+ resistenza 
+\emph on
+spaziale 
+\emph default
+alla radiazione
+\end_layout
+
+\begin_layout Subsubsection
+Analogia elettricità
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Elettricità
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/elet.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{1-\epsilon_{1}}{\epsilon_{1}A_{1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{1}{A_{1}F_{12}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{1-\epsilon_{2}}{\epsilon_{2}A_{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Esempio
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Esempio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../notes/Graphics/eselettricità.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\dot{Q}_{1,2}=\frac{\sigma_{0}\left(T_{1}^{4}-T_{2}^{4}\right)}{\frac{1-\epsilon_{1}}{\epsilon_{1}A_{1}}+\frac{1}{A_{1}F_{1s}}+\frac{1-\epsilon_{s1}}{\epsilon_{s1}A_{s1}}+\frac{1-\epsilon_{s2}}{\epsilon_{s2}A_{s2}}+\frac{1}{A_{s2}F_{s2}}+\frac{1-\epsilon_{2}}{\epsilon_{2}A_{2}}}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
 \end_layout
 
 \end_body
