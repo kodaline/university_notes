@@ -1,0 +1,1173 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language british
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\boxbgcolor #00aa7f
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+Meccanica-Guida agli esercizi
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Esercizio 1 - Dinamica dei sistemi, Principio di conservazione dell'energia
+ cinetica
+\end_layout
+
+\begin_layout Subsection
+Prima
+\begin_inset space ~
+\end_inset
+
+richiesta
+\begin_inset space ~
+\end_inset
+
+dell'esercizio
+\end_layout
+
+\begin_layout Itemize
+Primo passo importante per svolgerlo è quello di trovare l'equazione di
+ chiusura del sistema.
+ Non è importante coinvolgere tutti i punti presenti, bensì riuscire a coinvolge
+re il punto di cui ti interessa determinare la velocità e l'accelerazione
+ e avere a disposizione lunghezze e angoli il più possibile costanti
+\end_layout
+
+\begin_layout Itemize
+Ricorda che se hai delle cerniere ti conviene, se tornano utili, usarle
+ sempre nell'equazione di chiusura perché ti forniscono sia lunghezza che
+ angolo constanti, rispetto ai quali quindi avrai derivata nulla e semplifichera
+i le tue equazioni (meno sbatta insomma)
+\end_layout
+
+\begin_layout Itemize
+Nel caso in cui hai tre variabili, una delle tre devi poterla assegnare
+ alla velocità (solitamente angolare) di una delle aste, che ti viene fornita
+ nei dati
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analizza bene quali sono le incognite nei sistemi
+\end_layout
+
+\begin_layout Itemize
+Quando ti chiede la velocità e l’accelerazio- ne di un qualche punto/componente
+ tieni presente che hai vari modi per rappresen- tarle, in genere se ti
+ viene richiesta la veloci- tà/accelerazione angolare è meglio usare la
+ rappresentazione polare, altrimenti quella cartesiana
+\end_layout
+
+\begin_layout Itemize
+Ricorda: 
+\begin_inset Formula $v^{2}=v_{x}^{2}+v_{y}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Seconda
+\begin_inset space ~
+\end_inset
+
+richiesta
+\begin_inset space ~
+\end_inset
+
+dell'esercizio
+\end_layout
+
+\begin_layout Standard
+Solitamente devi applicare il teorema dell'energia cinetica per determinare
+ la coppia necessaria per garantire le condizioni di moto assegnate al punto
+ uno dell'esercizio
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $W=\frac{dE_{C}}{dt}$
+\end_inset
+
+ teorema dell'energia cinetica
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $E_{C}=\frac{1}{2}mv_{G}^{2}$
+\end_inset
+
++
+\begin_inset Formula $\frac{1}{2}J_{G}\omega^{2}>0$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+N.B.
+ 
+\begin_inset Formula $\frac{dv_{G}^{2}}{dt}=\frac{d\left(v_{G}\times v_{G}\right)}{dt}=2\left(a_{G}\times v_{G}\right)=2v_{G}a_{G_{tangenziale}}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $W=\sum_{i}\overrightarrow{F}_{i}\times\vec{v}_{P_{i}}+\sum_{j}\overrightarrow{C}_{j}\times\vec{\omega}_{j}$
+\end_inset
+
+ calcolo della potenza in cui:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\times$
+\end_inset
+
+ è il prodotto 
+\series bold
+scalare
+\series default
+ (non vettoriale, come potrebbe far pensare il simbolo che hanno usato per
+ indicarlo, che io ho sempre saputo indicasse il prodotto vettoriale) quindi
+ come valore avrai 
+\begin_inset Formula $\left|F\right|\left|v_{P}\right|cos\left(\alpha\right)$
+\end_inset
+
+ e 
+\begin_inset Formula $\left|C\right|\left|\omega\right|cos\left(\alpha\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\vec{v}_{P_{i}}$
+\end_inset
+
+: velocità del punto di applicazione della forza 
+\begin_inset Formula $\overrightarrow{F}_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Per la potenza si considerano:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+forze e coppie esterne (indicate sul disegno)
+\end_layout
+
+\begin_layout Itemize
+forza peso
+\end_layout
+
+\begin_layout Itemize
+attriti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+non vanno considerate le forze e coppie di inerzia in quanto sono già considerat
+e nell'energia cinetica
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Quando usi il lavoro (in particolare nel teo- rema dell’energia cinetica)
+ o più in gene- rale il prodotto scalare, ricordati che si- gnifica prendere
+ i due vettori e moltiplica- re il modulo del primo per il modulo del- la
+ componente parallela al primo del se- condo; questo risulta particolarmente
+ utile quando uno dei due vettori è l’accelerazio- ne gravitazionale, poiché
+ in questo caso è sovente possibile riutilizzare la componente verticale
+ dell’altro vettore
+\end_layout
+
+\begin_layout Itemize
+Attenzione quando calcoli l’energia cinetica perché la velocità angolare
+ per cui è mol- tiplicato il momento d’inerzia baricentrico non deve riguardare
+ il punto G ma l’intero corpo rigido
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Esercizio 2 - Statica
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Vincoli elementari
+\series default
+ I vincoli elementari sopprimono direttamente uno o più gradi di libertà
+ del corpo rigido: può essere soppresso rispetto alla terra o rispetto ad
+ un secondo corpo.
+ Sono di 4 tipi:
+\end_layout
+
+\begin_layout Enumerate
+vincolo di incastro, Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vincolo-di-incastro"
+
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+vincolo di cerniera, Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vincolo-di-cerniera"
+
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+vincolo di pattino/manicotto, Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vincolo-di-pattino/manicotto"
+
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+vincolo di carrello (composizione di cerniera e di pattino), Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vincolo-di-carrello"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Vincolo di incastro
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vincolo-di-incastro"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/drawing-12.svg
+	lyxscale 30
+	width 30line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\begin{cases}
+x_{A} & =0\\
+y_{A} & =0\\
+φ & =0
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quindi, per il vincolo di incastro si introducono due reazioni vincolari,
+ una orizzontale, una verticale, e in più il momento.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Vincolo di cerniera
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vincolo-di-cerniera"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/drawing-13.svg
+	lyxscale 30
+	width 30line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\begin{cases}
+x_{A} & =0\\
+y_{A} & =0\\
+φ & \neq0
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per il vincolo di cerniera si introducono due reazioni vincolari, una verticale
+ e una orizzontale.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Vincolo di pattino/manicotto
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vincolo-di-pattino/manicotto"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/drawing-14.svg
+	lyxscale 30
+	width 40line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\begin{cases}
+x_{A} & \neq0\\
+y_{A} & =0\\
+φ & =0
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per il manicotto/pattino si introduce il momento e una reazione vincolare
+ verticale, oppure orizzontale, dipende da come è posizionato, comunque
+ la reazione va diretta lungo l'asse su cui il manicotto/pattino impedisce
+ il moto.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Vincolo di carrello
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vincolo-di-carrello"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename /home/aline/Documents/polimi_2014-2015/secondSemester/notes/Graphics/drawing-15.svg
+	lyxscale 30
+	width 25line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\begin{cases}
+x_{A} & \neq0\\
+y_{A} & =0\\
+φ & \neq0
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per il carrello si introduce solo un vincolo che ha direzione come quella
+ del carrello, lungo l'asse su cui il carrello impedisce il moto.
+\end_layout
+
+\begin_layout Subsubsection*
+Per lo studio delle azioni interne:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Azioni interne
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../drawing-93.svg
+	lyxscale 20
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Esercizio 3 - Macchine
+\end_layout
+
+\begin_layout Standard
+Nel caso dei motori si ha che:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{m}+W_{u}+W_{p}=\frac{dE_{C}}{dt}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Solitamente chiede l'analisi a regime e quella generale.
+ 
+\end_layout
+
+\begin_layout Standard
+Se la richiesta ti dice 
+\series bold
+
+\begin_inset Quotes eld
+\end_inset
+
+allo spunto
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series default
+vuol dire che 
+\begin_inset Formula $\omega_{m},\dot{\omega}_{m}>0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Analisi nel caso di moto generico (ovvero, con energia cinetica diversa
+ da zero)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{m}+W_{u}+W_{p}=\frac{dE_{C}}{dt}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si introducono due potenze:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $W_{1}=W_{m}-\frac{dE_{C_{m}}}{dt}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $W_{2}=W_{u}-\frac{dE_{C_{u}}}{dt}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Per determinare l'energia cinetica del sistema si considerano le forze e
+ coppie di inerzia (quindi le 
+\begin_inset Formula $J$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E_{C}=\sum\frac{1}{2}Mv^{2}+\sum\frac{1}{2}J\omega^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+La potenza del motore è pari a 
+\begin_inset Formula $W_{m}=C_{m}\cdot\omega_{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Per l'utilizzatore: 
+\begin_inset Formula $W_{u}=\sum\overrightarrow{F}\times\vec{v}+\sum\overrightarrow{C}\times\vec{\omega}$
+\end_inset
+
+.
+ Vanno presi con segno positivo le forze che favoriscono il moto, con segno
+ negativo quelle che lo sfavoriscono.
+ Nota che sono le forze e coppie attive coinvolte nel sistema:
+\end_layout
+
+\begin_layout Itemize
+Per la potenza si considerano:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+forze e coppie esterne (indicate sul disegno)
+\end_layout
+
+\begin_layout Itemize
+forza peso
+\end_layout
+
+\begin_layout Itemize
+attriti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+non vanno considerate le forze e coppie di inerzia in quanto sono già considerat
+e nell'energia cinetica
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Per quanto riguarda la 
+\begin_inset Formula $W_{p}$
+\end_inset
+
+, potenza persa, essa dipende dal tipo di moto:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Se la 
+\begin_inset Formula $W_{2}<0$
+\end_inset
+
+ e quindi 
+\begin_inset Formula $W_{1}>0$
+\end_inset
+
+, allora il moto è
+\series bold
+ diretto 
+\series default
+
+\begin_inset Formula $W_{p}=-\left(1-\eta_{D}\right)W_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Se la 
+\begin_inset Formula $W_{2}>0$
+\end_inset
+
+ e quindi 
+\begin_inset Formula $W_{1}<0$
+\end_inset
+
+, allora il moto è
+\series bold
+ retrogrado 
+\begin_inset Formula $W_{p}-\left(1-\eta_{R}\right)W_{2}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $\eta_{D}$
+\end_inset
+
+ e 
+\begin_inset Formula $\eta_{R}$
+\end_inset
+
+ sono delle costanti presenti nel caso di moto diretto e rispettivamente
+ moto retrogrado, dette 
+\emph on
+rendimento di moto diretto
+\emph default
+ e 
+\emph on
+rendimento di moto retrogrado
+\emph default
+, fornite dai dati del problema
+\end_layout
+
+\begin_layout Standard
+Solitamente nel caso di moto generico ti chiede la coppia necessaria per
+ il moto, con una determinata accelerazione dell'utilizzatore che ti viene
+ data, quindi applichi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{m}+W_{p}+W_{u}=\frac{dE_{C}}{dt}
+\]
+
+\end_inset
+
+ Nota che anche se viene un'equazione molto lunga, dei termini si semplificano,
+ quasi sempre gli stessi, quindi se fai tanti esercizi vai a macchinetta
+ ;) .
+\end_layout
+
+\begin_layout Subsection
+Analisi a REGIME (velocità costante, quindi accelerazione nulla)
+\end_layout
+
+\begin_layout Standard
+Nel caso di moto a regime si ha che:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+W_{1}=W_{m}\\
+W_{2}=W_{u}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nel caso a regime si ha che 
+\begin_inset Formula $E_{C}=0$
+\end_inset
+
+ quindi anche la sua derivata, perciò:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{m}+W_{u}+W_{p}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Per il motore si ha che: 
+\begin_inset Formula $W_{m}=C_{m}\cdot\omega_{m}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Per l'utilizzatore: 
+\begin_inset Formula $W_{u}=\sum\overrightarrow{F}\times\vec{v}+\sum\overrightarrow{C}\times\vec{\omega}$
+\end_inset
+
+.
+ Vanno presi con segno positivo le forze che favoriscono il moto, con segno
+ negativo quelle che lo sfavoriscono.
+ Nota che sono le forze e coppie attive coinvolte nel sistema:
+\end_layout
+
+\begin_layout Itemize
+Per la potenza si considerano:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+forze e coppie esterne (indicate sul disegno)
+\end_layout
+
+\begin_layout Itemize
+forza peso
+\end_layout
+
+\begin_layout Itemize
+attriti
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+non vanno considerate le forze e coppie di inerzia in quanto sono già considerat
+e nell'energia cinetica
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Per quanto riguarda la 
+\begin_inset Formula $W_{p}$
+\end_inset
+
+, potenza persa, essa dipende dal tipo di moto:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Nel caso di 
+\series bold
+moto diretto 
+\series default
+
+\begin_inset Formula $W_{p}=-\left(1-\eta_{D}\right)W_{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Nel caso di 
+\series bold
+moto retrogrado 
+\begin_inset Formula $W_{p}-\left(1-\eta_{R}\right)W_{u}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Nel caso di analisi a regime solitamente ti chiede la coppia motrice necessaria
+ per un certo moto; per determinarla, dopo aver svolto l'analisi delle singole
+ potenze, usi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{m}+W_{u}+W_{p}=0
+\]
+
+\end_inset
+
+ e ricavi la 
+\begin_inset Formula $C_{m}$
+\end_inset
+
+ necessaria.
+ Di solito nell'equazione hai anche la 
+\begin_inset Formula $\omega_{m}$
+\end_inset
+
+ ma quella, anche se non conosci il valore, si elide poiché moltiplica tutti
+ i termini.
+\end_layout
+
+\begin_layout Subsection
+Legame tra le velocità angolari 
+\end_layout
+
+\begin_layout Standard
+Il legame presente è:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\omega_{r}=\tau\omega_{m}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $w_{r}$
+\end_inset
+
+ è la velocità angolare del lato utilizzatore (solitamente una ruota, per
+ questo il pedice 
+\begin_inset Formula $r$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\omega_{m}$
+\end_inset
+
+ è la velocità angolare dell'albero motore
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\tau$
+\end_inset
+
+ è una costante fornita dai dati del problema che rappresenta il 
+\emph on
+rapporto in trasmissione
+\end_layout
+
+\begin_layout Standard
+Solitamente nell'esercizio ti si chiede la velocità 
+\begin_inset Formula $v$
+\end_inset
+
+ del tuo utilizzatore, quindi bisogna legarla alla 
+\begin_inset Formula $\omega_{r}$
+\end_inset
+
+ e poi ad 
+\begin_inset Formula $\omega_{m}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Se hai dei dischi, hai che:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v=\omega_{r}\cdot R=\tau\omega_{m}\cdot R
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\omega_{r}$
+\end_inset
+
+ velocità angolare del disco
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $R$
+\end_inset
+
+ raggio del disco
+\end_layout
+
+\begin_layout Standard
+Per l'accelerazione:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a=\dot{\omega}_{r}\cdot R=\tau\dot{\omega}_{m}\cdot R
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'accelerazione potrebbe venirti fornita in una delle richieste, quella
+ di moto generico, quindi tramite quella puoi determinare la 
+\begin_inset Formula $\dot{\omega}_{m}$
+\end_inset
+
+ e andare con la solita analisi per determinare la coppia nel caso di moto
+ di tipo generico.
+\end_layout
+
+\begin_layout Standard
+Nelle varie richieste dell'esercizio 
+\series bold
+ricorda che devi esprimere tutte le velocità in funzione della velocità
+ angolare dell'albero motore 
+\begin_inset Formula $\omega_{m}$
+\end_inset
+
+
+\series default
+.
+\end_layout
+
+\end_body
+\end_document
