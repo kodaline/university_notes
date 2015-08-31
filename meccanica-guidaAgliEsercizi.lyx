@@ -150,10 +150,10 @@ Analizza bene quali sono le incognite nei sistemi
 \end_layout
 
 \begin_layout Itemize
-Quando ti chiede la velocità e l’accelerazio- ne di un qualche punto/componente
- tieni presente che hai vari modi per rappresen- tarle, in genere se ti
- viene richiesta la veloci- tà/accelerazione angolare è meglio usare la
- rappresentazione polare, altrimenti quella cartesiana
+Quando ti chiede la velocità e l’accelerazione di un qualche punto/componente
+ tieni presente che hai vari modi per rappresentarle, in genere se ti viene
+ richiesta la velocità/accelerazione angolare è meglio usare la rappresentazione
+ polare, altrimenti quella cartesiana
 \end_layout
 
 \begin_layout Itemize
@@ -276,18 +276,18 @@ e nell'energia cinetica
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-Quando usi il lavoro (in particolare nel teo- rema dell’energia cinetica)
- o più in gene- rale il prodotto scalare, ricordati che si- gnifica prendere
- i due vettori e moltiplica- re il modulo del primo per il modulo del- la
- componente parallela al primo del se- condo; questo risulta particolarmente
- utile quando uno dei due vettori è l’accelerazio- ne gravitazionale, poiché
- in questo caso è sovente possibile riutilizzare la componente verticale
- dell’altro vettore
+Quando usi il lavoro (in particolare nel teorema dell’energia cinetica)
+ o più in generale il prodotto scalare, ricordati che significa prendere
+ i due vettori e moltiplicare il modulo del primo per il modulo della componente
+ parallela al primo del secondo; questo risulta particolarmente utile quando
+ uno dei due vettori è l’accelerazione gravitazionale, poiché in questo
+ caso è sovente possibile riutilizzare la componente verticale dell’altro
+ vettore
 \end_layout
 
 \begin_layout Itemize
 Attenzione quando calcoli l’energia cinetica perché la velocità angolare
- per cui è mol- tiplicato il momento d’inerzia baricentrico non deve riguardare
+ per cui è moltiplicato il momento d’inerzia baricentrico non deve riguardare
  il punto G ma l’intero corpo rigido
 \end_layout
 
@@ -640,7 +640,7 @@ Azioni interne
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../drawing-93.svg
+	filename drawing-93.svg
 	lyxscale 20
 	scale 40
 
@@ -844,7 +844,7 @@ Se la
 , allora il moto è
 \series bold
  retrogrado 
-\begin_inset Formula $W_{p}-\left(1-\eta_{R}\right)W_{2}$
+\begin_inset Formula $W_{p}=-\left(1-\eta_{R}\right)W_{2}$
 \end_inset
 
  
