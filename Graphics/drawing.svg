@@ -89,28 +89,6 @@
     <text
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-weight:500;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Chorus;-inkscape-font-specification:TeX Gyre Chorus Medium;font-stretch:normal;font-variant:normal"
-       x="158.57143"
-       y="1033.3622"
-       id="text3819"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3821"
-         x="158.57143"
-         y="1033.3622">j</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:32px;font-style:normal;font-weight:500;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Chorus;-inkscape-font-specification:TeX Gyre Chorus Medium;font-stretch:normal;font-variant:normal"
-       x="37.571419"
-       y="935.21936"
-       id="text3823"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3825"
-         x="37.571419"
-         y="935.21936">i</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:32px;font-style:normal;font-weight:500;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Chorus;-inkscape-font-specification:TeX Gyre Chorus Medium;font-stretch:normal;font-variant:normal"
        x="138.42856"
        y="969.07648"
        id="text3835"
@@ -119,18 +97,6 @@
          id="tspan3837"
          x="138.42856"
          y="969.07648"> ϑ</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="M 156.85715,1009.6479 174,1009.505"
-       id="path3839"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 35.714287,911.6479 17.14285,-0.14286"
-       id="path3839-8"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.96164382;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:7.69315069, 0.96164384;stroke-dashoffset:0"
        d="M 309.73347,792.26317 59.98082,794.4612"
@@ -236,5 +202,39 @@
        inkscape:connector-curvature="0"
        inkscape:transform-center-x="-7.6078351"
        inkscape:transform-center-y="-6.6236556" />
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Chorus;-inkscape-font-specification:TeX Gyre Chorus Medium"
+       x="29.394053"
+       y="940.50562"
+       id="text3819"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3821"
+         x="29.394053"
+         y="940.50562">j</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 27.679776,916.79133 17.142851,-0.1429"
+       id="path3839"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Chorus;-inkscape-font-specification:TeX Gyre Chorus Medium"
+       x="133.69691"
+       y="1034.0978"
+       id="text3823"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3825"
+         x="133.69691"
+         y="1034.0978">i</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 131.83978,1010.5263 17.14285,-0.1428"
+       id="path3839-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
