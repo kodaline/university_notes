@@ -434,7 +434,7 @@ name "fig:vincolo-di-incastro"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Current/Meccanica/Notes/Graphics/drawing-12.svg
+	filename Graphics/drawing-12.svg
 	lyxscale 30
 	width 30line%
 
@@ -495,7 +495,7 @@ name "fig:vincolo-di-cerniera"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Current/Meccanica/Notes/Graphics/drawing-13.svg
+	filename Graphics/drawing-13.svg
 	lyxscale 30
 	width 30line%
 
@@ -560,7 +560,7 @@ name "fig:vincolo-di-pattino/manicotto"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Current/Meccanica/Notes/Graphics/drawing-14.svg
+	filename Graphics/drawing-14.svg
 	lyxscale 30
 	width 40line%
 
@@ -627,7 +627,7 @@ name "fig:vincolo-di-carrello"
 
 \lang english
 \begin_inset Graphics
-	filename ../Current/Meccanica/Notes/Graphics/drawing-15.svg
+	filename Graphics/drawing-15.svg
 	lyxscale 30
 	width 25line%
 
@@ -685,7 +685,7 @@ Azioni interne
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Current/Meccanica/Notes/Graphics/drawing-93.svg
+	filename Graphics/drawing-93.svg
 	lyxscale 40
 	scale 30
 
