@@ -124,29 +124,54 @@ dell'esercizio
 
 \begin_layout Itemize
 Primo passo importante per svolgerlo è quello di trovare l'equazione di
- chiusura del sistema.
- Non è importante coinvolgere tutti i punti presenti, bensì riuscire a coinvolge
-re il punto di cui ti interessa determinare la velocità e l'accelerazione
- e avere a disposizione lunghezze e angoli il più possibile costanti
+ chiusura del sistema, cioè individuare una somma vettoriale che si 
+\begin_inset Quotes eld
+\end_inset
+
+chiuda
+\begin_inset Quotes erd
+\end_inset
+
+ nella figura rappresentata nel testo.
+ Non è necessario coinvolgere tutti i punti presenti, anzi spesso in presenza
+ di più di 4 è indice che bisogna scartarne qualcuno
 \end_layout
 
 \begin_layout Itemize
-Ricorda che se hai delle cerniere ti conviene, se tornano utili, usarle
- sempre nell'equazione di chiusura perché ti forniscono sia lunghezza che
- angolo constanti, rispetto ai quali quindi avrai derivata nulla e semplifichera
-i le tue equazioni (meno sbatta insomma)
+Il vettore AB si traccia a partire dal un punto A, con punta in B e l'angolo
+ di tale vettore è quello descritto in A con l'orizzontale (per convenzione).
 \end_layout
 
 \begin_layout Itemize
-Nel caso in cui hai tre variabili, una delle tre devi poterla assegnare
- alla velocità (solitamente angolare) di una delle aste, che ti viene fornita
- nei dati
-\end_layout
-
-\begin_layout Itemize
-
+Alla fine è importante tenere a mente che il problema si risolve tramite
+ sistemi lineari, quindi ho due equazioni possibili, che per essere risolvibili
+ implicano la presenza di 
 \series bold
-Analizza bene quali sono le incognite nei sistemi
+massimo due incognite:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Incognita del problema
+\end_layout
+
+\begin_layout Enumerate
+Incognita2
+\end_layout
+
+\begin_layout Enumerate
+Termine non costante ma noto dalla traccia del problema
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ProTips
+\end_layout
+
+\begin_layout Itemize
+Se hai delle cerniere ti conviene, se tornano utili, usarle sempre nell'equazion
+e di chiusura perché forniscono lunghezza e angolo constanti, rispetto ai
+ quali quindi avrai derivata nulla e semplificherai le tue equazioni.
 \end_layout
 
 \begin_layout Itemize
@@ -157,13 +182,22 @@ Quando ti chiede la velocità e l’accelerazione di un qualche punto/componente
 \end_layout
 
 \begin_layout Itemize
-Ricorda: 
+Ricorda le basi:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
 \begin_inset Formula $v^{2}=v_{x}^{2}+v_{y}^{2}$
 \end_inset
 
 
 \end_layout
 
+\begin_layout Itemize
+Ripassati la trigonometria di base
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 Seconda
 \begin_inset space ~
@@ -179,7 +213,7 @@ dell'esercizio
 \begin_layout Standard
 Solitamente devi applicare il teorema dell'energia cinetica per determinare
  la coppia necessaria per garantire le condizioni di moto assegnate al punto
- uno dell'esercizio
+ uno dell'esercizio.
 \end_layout
 
 \begin_layout Itemize
@@ -190,11 +224,11 @@ Solitamente devi applicare il teorema dell'energia cinetica per determinare
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $E_{C}=\frac{1}{2}mv_{G}^{2}$
+\begin_inset Formula $E_{C}=\sum\frac{1}{2}mv_{G}^{2}$
 \end_inset
 
 +
-\begin_inset Formula $\frac{1}{2}J_{G}\omega^{2}>0$
+\begin_inset Formula $\sum\frac{1}{2}J_{G}\omega^{2}>0$
 \end_inset
 
  
@@ -221,13 +255,11 @@ N.B.
 \begin_inset Formula $\times$
 \end_inset
 
- è il prodotto 
+ in questo caso sta per prodotto 
 \series bold
 scalare
 \series default
- (non vettoriale, come potrebbe far pensare il simbolo che hanno usato per
- indicarlo, che io ho sempre saputo indicasse il prodotto vettoriale) quindi
- come valore avrai 
+ quindi come valore avrai 
 \begin_inset Formula $\left|F\right|\left|v_{P}\right|cos\left(\alpha\right)$
 \end_inset
 
@@ -242,7 +274,7 @@ scalare
 \begin_inset Formula $\vec{v}_{P_{i}}$
 \end_inset
 
-: velocità del punto di applicazione della forza 
+velocità del punto di applicazione della forza 
 \begin_inset Formula $\overrightarrow{F}_{i}$
 \end_inset
 
@@ -255,7 +287,7 @@ Per la potenza si considerano:
 
 \begin_deeper
 \begin_layout Itemize
-forze e coppie esterne (indicate sul disegno)
+forze esterne e coppie motrici (indicate sul disegno)
 \end_layout
 
 \begin_layout Itemize
@@ -266,6 +298,7 @@ forza peso
 attriti
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
 
 \series bold
@@ -273,7 +306,6 @@ non vanno considerate le forze e coppie di inerzia in quanto sono già considera
 e nell'energia cinetica
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Itemize
 Quando usi il lavoro (in particolare nel teorema dell’energia cinetica)
@@ -286,9 +318,14 @@ Quando usi il lavoro (in particolare nel teorema dell’energia cinetica)
 \end_layout
 
 \begin_layout Itemize
-Attenzione quando calcoli l’energia cinetica perché la velocità angolare
- per cui è moltiplicato il momento d’inerzia baricentrico non deve riguardare
- il punto G ma l’intero corpo rigido
+Attenzione quando calcoli l’energia cinetica perché le velocità scalare
+ e vettoriale di un corpo rigido sono riferite al centro di massa, che in
+ qualche caso particolare potrebbe differire dal centro della figura, in
+ questi casi si applica il Teorema di Rivals (Coriolis) per cui: 
+\begin_inset Formula $v'=v+\omega r$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -308,9 +345,19 @@ Esercizio 2 - Statica
 Vincoli elementari
 \series default
  I vincoli elementari sopprimono direttamente uno o più gradi di libertà
- del corpo rigido: può essere soppresso rispetto alla terra o rispetto ad
- un secondo corpo.
- Sono di 4 tipi:
+ del corpo rigido: 
+\end_layout
+
+\begin_layout Itemize
+rispetto alla terra
+\end_layout
+
+\begin_layout Itemize
+rispetto ad un secondo corpo
+\end_layout
+
+\begin_layout Standard
+Sono di 4 tipi:
 \end_layout
 
 \begin_layout Enumerate
@@ -347,7 +394,7 @@ reference "fig:vincolo-di-pattino/manicotto"
 \end_layout
 
 \begin_layout Enumerate
-vincolo di carrello (composizione di cerniera e di pattino), Figura 
+vincolo di carrello, Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:vincolo-di-carrello"
@@ -541,9 +588,7 @@ y_{A} & =0\\
 
 \begin_layout Standard
 Per il manicotto/pattino si introduce il momento e una reazione vincolare
- verticale, oppure orizzontale, dipende da come è posizionato, comunque
- la reazione va diretta lungo l'asse su cui il manicotto/pattino impedisce
- il moto.
+ perpendicolare al senso di movimento.
 \end_layout
 
 \begin_layout Standard
@@ -609,8 +654,8 @@ y_{A} & =0\\
 \end_layout
 
 \begin_layout Standard
-Per il carrello si introduce solo un vincolo che ha direzione come quella
- del carrello, lungo l'asse su cui il carrello impedisce il moto.
+Per il carrello si introduce solo un vincolo che ha direzione perpendicolare
+ al senso di movimento.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -662,7 +707,7 @@ Azioni interne
 \end_layout
 
 \begin_layout Section
-Esercizio 3 - Macchine
+Esercizio 3 - Macchine e Motori
 \end_layout
 
 \begin_layout Standard
